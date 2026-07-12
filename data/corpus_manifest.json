@@ -1,0 +1,680 @@
+{
+  "dataset": "kurry/sp500_earnings_transcripts",
+  "revision": "f3ded372da8d18dc6ad98955c4558e34b5fe6d45",
+  "hash_algorithm": "sha256",
+  "generated": "2026-08-27",
+  "selection": {
+    "tickers": [
+      "AXP",
+      "BAC",
+      "BK",
+      "BLK",
+      "C",
+      "COF",
+      "FITB",
+      "GS",
+      "HBAN",
+      "JPM",
+      "MS",
+      "MTB",
+      "PNC",
+      "STT",
+      "USB",
+      "WFC"
+    ],
+    "years": [
+      2023,
+      2024
+    ],
+    "quarters": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "min_content_chars": 1000
+  },
+  "n_transcripts": 128,
+  "transcripts": [
+    {
+      "transcript_id": "AXP_2023_Q1",
+      "content_sha256": "7e31175f8984164de58af2070630e30f0692aa9d4d50f5cfa492cb1027447a20",
+      "structured_content_sha256": "6b4f424f6001ff27970ee149b78ec1a0b7b6e64d7745d48cdb6864cad5c0e99a"
+    },
+    {
+      "transcript_id": "AXP_2023_Q2",
+      "content_sha256": "95ca9f02cbdeb230b20215261a1545eed60402360ba3990f73996967f2ba0d08",
+      "structured_content_sha256": "3479aeb20dd1a72269295d233b2bea8b4922756e8ce6fbae5e955ee77ee0a6ba"
+    },
+    {
+      "transcript_id": "AXP_2023_Q3",
+      "content_sha256": "5846df04f7948345c46f630e3b5b2f12ed0b4b2c5033ca1e019ce4e700e9e6e7",
+      "structured_content_sha256": "35100dc64f4e70ccc441895dd2d9a09ac66ad4c280e458aa0ef2f1db009762af"
+    },
+    {
+      "transcript_id": "AXP_2023_Q4",
+      "content_sha256": "6b22081762582ae4987acef80ce50b68b53ae6e8d42ba963185f501d7c92dc57",
+      "structured_content_sha256": "e8e5e543f6ad275a5fb9bddcc835853dcfdaa366af5f71d097390ba59c1cf075"
+    },
+    {
+      "transcript_id": "AXP_2024_Q1",
+      "content_sha256": "b19e8eb4f95ec118643fbfa5d7de382fafcee7b4e1769bd8942af96ff291843b",
+      "structured_content_sha256": "1420c42dc174efb30262d251309d1f8689d21eb405584138ce55e5bf30c54efc"
+    },
+    {
+      "transcript_id": "AXP_2024_Q2",
+      "content_sha256": "174d78246367925a4c6340700bd043895bc1f41c9a6a32c3dd1e4aaf19c2d361",
+      "structured_content_sha256": "d6c9c3f020a7bd601a77af7fa49beb30d50c9a007b1d63b7a66a561d6c4d9e78"
+    },
+    {
+      "transcript_id": "AXP_2024_Q3",
+      "content_sha256": "ad68724c861a4d09e858e339a3ca3c32a2e60d0d326d10671d9c67aaf830b3fa",
+      "structured_content_sha256": "baa4d6ac8bbd24462979ea3cac5046fd6e3d1e5b6d60fb1cca700c41f79d2e8a"
+    },
+    {
+      "transcript_id": "AXP_2024_Q4",
+      "content_sha256": "df89d372aa90eb945f153fc921ae3e7bc4449f12d78500339d8c2b0d9f4f76f9",
+      "structured_content_sha256": "fdfce4d36f6ee211c62bdc27b704589ee51a268e674af4e0dbfd4d85fc4fefae"
+    },
+    {
+      "transcript_id": "BAC_2023_Q1",
+      "content_sha256": "09499bc02cbdb26c62f95b0d27c81c3c9723000f3fee6765ae39f9874b228f90",
+      "structured_content_sha256": "35365ed425859eb835412cc027d25c99c1c6e4459d0f55eb7e002df7b3c1cfaf"
+    },
+    {
+      "transcript_id": "BAC_2023_Q2",
+      "content_sha256": "f62dfe6be47da6d3fb3772c723cb921a35ed33f0c6f7aea43ac1b695ac97147d",
+      "structured_content_sha256": "a1b4c09fcd29f76dad4b33aee791a85671e5e98a8ebadaf3c3a20be291b8cb51"
+    },
+    {
+      "transcript_id": "BAC_2023_Q3",
+      "content_sha256": "a5dd2f083978a25a431099888c0d35a9a620abcf0ba7020561dca73fdf24a444",
+      "structured_content_sha256": "3ac6296b36bfeaaf7ec7e793f2a026e0fdd2c45f19a01d09b5e97a97c1b1a5ec"
+    },
+    {
+      "transcript_id": "BAC_2023_Q4",
+      "content_sha256": "9e117744a71aedaebea999c58398937fa0187e125a10f3225d7e8fc814e3e9b5",
+      "structured_content_sha256": "ba6eaf221949e6163cf0b4170a6860379cc58c2355f2047fa39a4a794b08ca21"
+    },
+    {
+      "transcript_id": "BAC_2024_Q1",
+      "content_sha256": "96bd2f388c275f05de53aa700cda93c20a9e171fa68c0fe1bb5d6f049a73fbd5",
+      "structured_content_sha256": "9b41d578f1517d2e76e83e98aecb8a83bd545fe14d164eb52e566a9b7cb9c68d"
+    },
+    {
+      "transcript_id": "BAC_2024_Q2",
+      "content_sha256": "7e4c123fa0b781370a059c8d33daeabb2c6000df2936f4864a8b8f75a6efeec5",
+      "structured_content_sha256": "8fca51714496491cb078321f12bc83d1b4759bc72a4c43f9be6e208805e6f8af"
+    },
+    {
+      "transcript_id": "BAC_2024_Q3",
+      "content_sha256": "36ce193e53d68e421824118b3648007ceae490d3fa66534f2ef1dc9ed5897dcf",
+      "structured_content_sha256": "3dc7199731bd1e439ee1bf1f759b6bcb173b0d31f472941c0a369c536682dcbb"
+    },
+    {
+      "transcript_id": "BAC_2024_Q4",
+      "content_sha256": "a43129a3b52a7e7d89b9ac2a4c4a080e22625afc0a735bad6aa9f535370bd1f1",
+      "structured_content_sha256": "fb2f4b18327b029810bf0ebc5db4d1e440bc65354d23a76d7707a8efeb95b1e1"
+    },
+    {
+      "transcript_id": "BK_2023_Q1",
+      "content_sha256": "7d3200076e4ba96d0ae19e4f55f4119d13f4fe7c6c95322b326f56435df237eb",
+      "structured_content_sha256": "063f416e42338ee5260e5f97431a410585633d72e9c64eeec60f0ffd1d53c0b9"
+    },
+    {
+      "transcript_id": "BK_2023_Q2",
+      "content_sha256": "701a7ceaeed146272e7f44b3d44676db59bf5ab41f677f75bac190593a1eece5",
+      "structured_content_sha256": "d2707ffabd191a6f0e95fce94a31102bb3bbb15cb85274b86439e08e52492578"
+    },
+    {
+      "transcript_id": "BK_2023_Q3",
+      "content_sha256": "75ec778f903d9b5539240965e19033a13e5b9f1b2fbbe2ea63040a28dca27f8a",
+      "structured_content_sha256": "5562f58b10e5535a117a9d7c89b40484708caf3d08043bc0931fc885e54b2c00"
+    },
+    {
+      "transcript_id": "BK_2023_Q4",
+      "content_sha256": "535e2bd8e287797d9d1de6610def8f6b40932da735d681fce7335158d7a6d391",
+      "structured_content_sha256": "6e19baf255e267dcba04a3ab868131166fe85e29ef81c1ddb30748fc31a38ef1"
+    },
+    {
+      "transcript_id": "BK_2024_Q1",
+      "content_sha256": "5db7b39ac8fc2655ab9102d0976d42e8354cd5ec0b90b3a7047615f8f2c916f6",
+      "structured_content_sha256": "de9d69d53fe9051a891eda85e6663dcf614f5f3300217e2119b219b9ea94500d"
+    },
+    {
+      "transcript_id": "BK_2024_Q2",
+      "content_sha256": "e9e8531d9be224fc6bdf2ddc2ce6fe4013ba64fa7885e5d8a744b9cd2148bca8",
+      "structured_content_sha256": "d851c128142c8d28db12471cf42cd9bbaefc7104c1d4b75df892f731b62be654"
+    },
+    {
+      "transcript_id": "BK_2024_Q3",
+      "content_sha256": "534d77611a0418a686ab8435ac02c10d4c5c0b5bb76c91ef3c258f8591fb76ab",
+      "structured_content_sha256": "8e14ad4e0fb7a6ab513aa83f904c07a4e80ab7962b1cf58492d11b087ee9ade9"
+    },
+    {
+      "transcript_id": "BK_2024_Q4",
+      "content_sha256": "efea24bb4d8d25f87de9bf9acdb1691dcfa90b45d639e147bc7d42e122077155",
+      "structured_content_sha256": "b8ec88535fc5026ce318d16a850b9b88cab66135415f25f88bce0ed8e7fbcffc"
+    },
+    {
+      "transcript_id": "BLK_2023_Q1",
+      "content_sha256": "f4f130692d6352b6c7481589476613e45b79a8acfc112804fe948ab4fc72f957",
+      "structured_content_sha256": "3c8c77e929a776a16706cddaa9818d0846bbf9e3e81deee8f28510e12c84a3c3"
+    },
+    {
+      "transcript_id": "BLK_2023_Q2",
+      "content_sha256": "77df4f3449656dba6e880467af4d0a4b563c16bfc0e8cc63edc78dac8a85af21",
+      "structured_content_sha256": "c34087a9230a349995ae95834f9d0831bc3d6c3e17fd3c59d50978805628ed43"
+    },
+    {
+      "transcript_id": "BLK_2023_Q3",
+      "content_sha256": "edaf385cad50461aec425dfeabb6696b8a128a83bfbf3393aa26ea14f350f410",
+      "structured_content_sha256": "648acfa313a606f001b06ecb52d496e8204b6ec46126fa8ca1e120fcabdbd579"
+    },
+    {
+      "transcript_id": "BLK_2023_Q4",
+      "content_sha256": "c998ec48f0b40698cf9b199a02021d04b8b980c1f4345a515c1d4a114895db45",
+      "structured_content_sha256": "1a928eb5c1cf35cad840dd4afb2d2d24291b09b97a7e05235eb8ce71f7f3a00d"
+    },
+    {
+      "transcript_id": "BLK_2024_Q1",
+      "content_sha256": "50e9c4eba46681eea7f5148033f2cbba9e314dfd5b86f09c3cc6fbf242012caa",
+      "structured_content_sha256": "283b810e00b6e6c0818418e3f982ca6ac4e7c4118096d17fcb561f64cf599ed3"
+    },
+    {
+      "transcript_id": "BLK_2024_Q2",
+      "content_sha256": "b4304b1bd2a9a6f0b85d3500a153b1bdac8320762d5c20b78066ae382e8f885b",
+      "structured_content_sha256": "c3ced569a3b09a7f31a2ea4d7a1e0255bff8cd406ea78a7f755db8e78df7b1c5"
+    },
+    {
+      "transcript_id": "BLK_2024_Q3",
+      "content_sha256": "a02d3ece851bbad1c6acc5b1c7bf91e60a512aa116ffb6dacfafe1641b3d0b7c",
+      "structured_content_sha256": "6b3b08eebe1ff7b00d12c22da4b0b1d15f73c0ab3cbb121d0f97bfd5f27fd307"
+    },
+    {
+      "transcript_id": "BLK_2024_Q4",
+      "content_sha256": "444f6978338a26be4fb907fa7f30851c27a62de6e0ef7d1fffb912b69cc5edc6",
+      "structured_content_sha256": "7fb8b94e666e8598929fab1641b7e5c7380fee65bba47d3df3429c677b19557c"
+    },
+    {
+      "transcript_id": "COF_2023_Q1",
+      "content_sha256": "26b244535950d380c920b667d79f99066e548c8dbad02f03daee8836d5b5bb67",
+      "structured_content_sha256": "c11bef0bfa8b2a50415281b68fd9240e90d285d4cb68cd37b8211b207c7369c8"
+    },
+    {
+      "transcript_id": "COF_2023_Q2",
+      "content_sha256": "ecd4fab9b67a0834e32bbaa3b87e5476b4cb951eb60fec4256541661a9f19f83",
+      "structured_content_sha256": "bfacea0a16aac5f3c84b27a91df43250d0fb439f109fa5f3e43889f936f7fca9"
+    },
+    {
+      "transcript_id": "COF_2023_Q3",
+      "content_sha256": "eb5f3aa1aa78afd250c24031add3fa6746c3b0a80bb5d64c286b1af67a363f02",
+      "structured_content_sha256": "34539569f54c653302663408390b859f3d57402f9d8470e8c5cae4958076f4c4"
+    },
+    {
+      "transcript_id": "COF_2023_Q4",
+      "content_sha256": "65296ca903ad4fc96a2f006121672718455ded9fb665c93ad23fec0adc944e56",
+      "structured_content_sha256": "b733de23925b0ac6dd4114cb76c3d8dc2ee67bfec1b24cf2e7d1e96fc4506b0a"
+    },
+    {
+      "transcript_id": "COF_2024_Q1",
+      "content_sha256": "071bb84cc0179a7a2adace4073d069fbeaa871697b2bfcb49c8fbe6654910d26",
+      "structured_content_sha256": "153e52d6ac2b270fd460a209b044606833f2f4fa4de74ead42cd3d7ec7721bc0"
+    },
+    {
+      "transcript_id": "COF_2024_Q2",
+      "content_sha256": "8aeb10367913af0f73ecfe664915fa10811a333cb2be6b62f41877a6b366f438",
+      "structured_content_sha256": "00a649de8833c6cd6de5a4656c5081933911abe7bc99d5b23502396aa47e262d"
+    },
+    {
+      "transcript_id": "COF_2024_Q3",
+      "content_sha256": "fda6ce41d94cd092f1938bfc08242efa9d288f8b9a742a22dd349ccdcbfa1288",
+      "structured_content_sha256": "5ff9d0531948c8788cd16034e3d413b172e48435f0b65c59beac84efff54a12e"
+    },
+    {
+      "transcript_id": "COF_2024_Q4",
+      "content_sha256": "ddeb945418a8b15bc9c1d4c3f4add6435aea78962d71a625eb3dfd751ee38ec8",
+      "structured_content_sha256": "533a1e19f3f6e07f7589b8046e08776b400cf9ffa1ff748774a9f3fde8919493"
+    },
+    {
+      "transcript_id": "C_2023_Q1",
+      "content_sha256": "4809cc84ecacfdb6b07f86c214017ca1bfa87ff4c83e92934847e885295da2bf",
+      "structured_content_sha256": "e6dbe1afc1c8d161e4a4547cf41db4486909d3ac8e6caf892516f8c01747a353"
+    },
+    {
+      "transcript_id": "C_2023_Q2",
+      "content_sha256": "1e35058c4b05a7e4fc497d0c61c16dcd0a0f671b1b980f45e71d94a87a205990",
+      "structured_content_sha256": "a7d805bbbf22d4d262e098ee0995771d0882fc0583ac7fdf920a4ff773a84fe0"
+    },
+    {
+      "transcript_id": "C_2023_Q3",
+      "content_sha256": "43a96dbf47f49ab0e23b4c66ae9fc4950113b1ec3a15823eab07b3cef393e926",
+      "structured_content_sha256": "80c08aa9bc8004137d10013abe16ffb84d1a2fbd6fdd5f5e8d00729213f4c84c"
+    },
+    {
+      "transcript_id": "C_2023_Q4",
+      "content_sha256": "ddf18127c98e02e447bd3c40fc0db521e9aae7b94c650b8a62c206cfe6790a1b",
+      "structured_content_sha256": "930f19149b1ef91b64eadc9db79f5c0f3eee374661cf00027dac1e74db1da45f"
+    },
+    {
+      "transcript_id": "C_2024_Q1",
+      "content_sha256": "9266d187568aa9de906d53319634793f34fee5dbe185184a15e255a979f9c493",
+      "structured_content_sha256": "e80096a81a2df814a983b9ea1dcf5a809b84f67d0006aea69f16a782040979f1"
+    },
+    {
+      "transcript_id": "C_2024_Q2",
+      "content_sha256": "b8f3fc6b167ee22a5b323afb751979b2d8f23a7dde85d0173b4199ad38f3ed5a",
+      "structured_content_sha256": "703b4ad5f54cf6062fbd5229de38bc78c62cb12de589d65567b5928033902804"
+    },
+    {
+      "transcript_id": "C_2024_Q3",
+      "content_sha256": "f3e3e95f71a471ff37c4bf22215b4bb2da4110cf9fe2b4453bd25ca239a6578f",
+      "structured_content_sha256": "857339495f266bfba5064d8f8fa186e938bbdb369adf48d3038cf4a2cb1f7959"
+    },
+    {
+      "transcript_id": "C_2024_Q4",
+      "content_sha256": "01ad8ee09d6b77b35977f237375d691b8e93dd92029eeda8721469c72f649202",
+      "structured_content_sha256": "17595942c673daa0f45069cd69b0e910df08fc9c471e4bdcd95fc992b42c724b"
+    },
+    {
+      "transcript_id": "FITB_2023_Q1",
+      "content_sha256": "e84ae9a94e2f70dd83b1144f0e8ce39434eadbec6a1735e5577aedcace29b87b",
+      "structured_content_sha256": "6c62c454ca4cbd6078549bc40798884084b5db896ffc45ff94c23ea3902ff42a"
+    },
+    {
+      "transcript_id": "FITB_2023_Q2",
+      "content_sha256": "73927e6e36a8ae8c805f188508d13259c9df40f9755c5b253f2b8754f4340c8a",
+      "structured_content_sha256": "52e492ef53c11b9109e74c70fbacceb7263923e299e56818068fce86025feeb2"
+    },
+    {
+      "transcript_id": "FITB_2023_Q3",
+      "content_sha256": "9a5cdfc49105b8b9a40722e6bdccdf0bb918aa95f9394d3b27bb2f2706eb64e1",
+      "structured_content_sha256": "c099aee74d60577df49f5e96bfbd5fd1a0975841c2428b18e59c31f0c554776d"
+    },
+    {
+      "transcript_id": "FITB_2023_Q4",
+      "content_sha256": "fcdeb488b764a1f5481c1617e9af0a3c1e47648c8a5e31636e3df066679fc132",
+      "structured_content_sha256": "bcebe0948ddc1fab7599a36bc17756a78317ae218d597a80140d290aa03d9585"
+    },
+    {
+      "transcript_id": "FITB_2024_Q1",
+      "content_sha256": "74230d84b490b5848cf532bde9fff2b80fdf8e4db42c8c68734804b12c95f91d",
+      "structured_content_sha256": "2d167355b965cbd0ff4bdfd46823dfa9d97b32418a1ca9ad50c5393f5d06aabc"
+    },
+    {
+      "transcript_id": "FITB_2024_Q2",
+      "content_sha256": "98f65030bf560d5e2cb272189333d39912a4f03054efe21501f19a28d6fcf5d8",
+      "structured_content_sha256": "289ec7108654d5af1bc068b25148cb80cfef5daa2f964f2ed964f3409fdd6e83"
+    },
+    {
+      "transcript_id": "FITB_2024_Q3",
+      "content_sha256": "0111352f4ca5a7cb7d8ba97309bf8d0b62f80d61b9e7065e036f9ac1fef4fdba",
+      "structured_content_sha256": "47f2f23f8eb773bc0657b927b61593ea23ddf55d5241a19b5b3a6d4e25bc0c13"
+    },
+    {
+      "transcript_id": "FITB_2024_Q4",
+      "content_sha256": "74890d2da13a439bd07efa269a8801402c4fd6436344bd4fe15a3146d073ef2e",
+      "structured_content_sha256": "6fec2375e23fee4d6f68c72dd2a02f42cf4b32a32646589195de402b396bccef"
+    },
+    {
+      "transcript_id": "GS_2023_Q1",
+      "content_sha256": "f8a0232423c93078be6956e343c15bd37cb1c7869cab7504d0a67bdd2937e14f",
+      "structured_content_sha256": "4070f21c4b2c42f48f78073c26245a792f21428a3e8bd168bb129b5689172b32"
+    },
+    {
+      "transcript_id": "GS_2023_Q2",
+      "content_sha256": "24bcd131a9990a272e2ed3005991e4c85c081b17aa291e2bdcf7068d3660caca",
+      "structured_content_sha256": "c04cf9c7ccb4f6f82c9ee42bbfa3ed8f1ad53561f0ce4438db718e645dfa360e"
+    },
+    {
+      "transcript_id": "GS_2023_Q3",
+      "content_sha256": "0b190a4b5cc5ea114bf5a13957da0d058736317eb2dd14d5968ae92a09c4ec94",
+      "structured_content_sha256": "333f1e29f5abf05ccf07ab050b97af038d0203ce6462fa98c6420b0296ab7a30"
+    },
+    {
+      "transcript_id": "GS_2023_Q4",
+      "content_sha256": "e9d37e88215ff2d93c2bef5b846bdd471f23799e83b0519d3bc9cdbd8fc1d18d",
+      "structured_content_sha256": "dfdbd2a1eefdc856d1bd03a0dc7abfd69d87ce827a205c30110eb12b923f293f"
+    },
+    {
+      "transcript_id": "GS_2024_Q1",
+      "content_sha256": "783155e1624c5d1d8b317fc5d09a534336a879e6ba12aafece20430d9c7694f4",
+      "structured_content_sha256": "e9d6011a9e76470d1d9481c113cdabd82c2ecfb792689e27ccda4d152ebee0b0"
+    },
+    {
+      "transcript_id": "GS_2024_Q2",
+      "content_sha256": "01a4c0a9abf0e56c35b9fc7aa7d9cd34c961d372d181a418d7a603ed02d3493e",
+      "structured_content_sha256": "542b7937a840811bb7d75dd50a8233217a6166fff174ad0bf5164704fe501129"
+    },
+    {
+      "transcript_id": "GS_2024_Q3",
+      "content_sha256": "ac73bdd92254bea8559e70ac9f71f3c7d2bef0ce75531af1c056d553618899a8",
+      "structured_content_sha256": "2981620199014fb576a09a30e8f28821a312edeeb658b99165048b790efc152d"
+    },
+    {
+      "transcript_id": "GS_2024_Q4",
+      "content_sha256": "980bb95c1156cf58941fc7e6f67db91f913fc6a16678381abee2f72d16a5ea84",
+      "structured_content_sha256": "048bd2e16160b461e5c330e1df4afe112eb7e62674ae8ed4084c0e0f4ea0bd3e"
+    },
+    {
+      "transcript_id": "HBAN_2023_Q1",
+      "content_sha256": "3b50bea6a69baa5236b3c247193708707b2d35d70134343b2bfb74821b79697f",
+      "structured_content_sha256": "ea24db3becc53c821e43e9dafc834022252b584910851bc6578f4736e7382702"
+    },
+    {
+      "transcript_id": "HBAN_2023_Q2",
+      "content_sha256": "931f7cceabd8f45c0bd35cf318b3cda278105cf5fc5d88b4f911ac9dae543ab2",
+      "structured_content_sha256": "7336bc2b134a05961d043e47e06d6b6366aeb2ef4faabab8eca9648af8d8388b"
+    },
+    {
+      "transcript_id": "HBAN_2023_Q3",
+      "content_sha256": "9fce563f70df788a080aa9407d6ad58be7caff5ae057e4eb825bfa7b53b5d9c6",
+      "structured_content_sha256": "d84bff93cae5735386922c850a12ef928260ad3a9415abc58e32efff167d272f"
+    },
+    {
+      "transcript_id": "HBAN_2023_Q4",
+      "content_sha256": "bbbbd5f2681098b682f469a0bcb69b11be0fd17997797eaa9d4f34ec5ce0ec39",
+      "structured_content_sha256": "3ee2d8bfad6c2d70440950ff9ae4bef369e5ecf3e8e154b91af3f3a8d6f3e5c3"
+    },
+    {
+      "transcript_id": "HBAN_2024_Q1",
+      "content_sha256": "fdea5d94b47fc5640b91fca7b4489de55470de6d613f8528b2738f74b893b74d",
+      "structured_content_sha256": "0ca60279b6095bfe8deb4762a54a846eb119917b2c7f97ee3fa1c21964143d6f"
+    },
+    {
+      "transcript_id": "HBAN_2024_Q2",
+      "content_sha256": "30ac731c821ab2e66fe939dc9c03324fedadf2d4659a42a6684ff9790163abfd",
+      "structured_content_sha256": "825310439fa0d17b3bfe3609b940182c50525983f41634f92fa9bbc7def7a644"
+    },
+    {
+      "transcript_id": "HBAN_2024_Q3",
+      "content_sha256": "0fdf6585dd9b6352966ccd5bbbedb5a3bac8db0b3e0fd4fc081f11505a43bcc0",
+      "structured_content_sha256": "16df4fbabed10d62e0a820ec8f1558e0301ef88474518c9b573da4878143e3e0"
+    },
+    {
+      "transcript_id": "HBAN_2024_Q4",
+      "content_sha256": "5669e7c3b01bd99e530de1d8fa49cc7c8b2d82fb33b6773c9bc18f099b2e71ba",
+      "structured_content_sha256": "886579fe708cf369a0f82286c0094048c58ce2cf6313724a0e99b014391926d3"
+    },
+    {
+      "transcript_id": "JPM_2023_Q1",
+      "content_sha256": "42dc69104213fcc2be2adad48da9aa8e18c8ccf84fed12ffc055318e039b13b7",
+      "structured_content_sha256": "a2f6d2253673b645d5e68e415912bea0656c1890c628b7525e932a003b6a85e8"
+    },
+    {
+      "transcript_id": "JPM_2023_Q2",
+      "content_sha256": "6ba672091271ae6d0a78e8e47d15856a66358954dbae6422b097046d09eddafe",
+      "structured_content_sha256": "badb5a90e8d806f7a5cec3b1d32f11c6bb2072069df8a4e60785600ceba85512"
+    },
+    {
+      "transcript_id": "JPM_2023_Q3",
+      "content_sha256": "109d45fb50170da10f752ac0c2ea9a3f583be775a8370702f28f7c8dc4eb1a34",
+      "structured_content_sha256": "afdd2a18c2ebb1d8e3ea51c3ddd2b58dc1b8e6e98dc24f6014324ea8e66776bb"
+    },
+    {
+      "transcript_id": "JPM_2023_Q4",
+      "content_sha256": "45bc46d3485e79e24c5eaabe7361cbaacb8e527061646c557b267b92c4f44add",
+      "structured_content_sha256": "f8d4ac41f647633cced6d75a4150ca924c20323548c7b7c7d75303d98a5e8708"
+    },
+    {
+      "transcript_id": "JPM_2024_Q1",
+      "content_sha256": "91c4b86d2deb55a126e09d4e65dc7f6fc6a0674414f444f566ceb6a475c25583",
+      "structured_content_sha256": "1a8fb09181c4c5e0183e4725eb9f28afd9586ea4da61a6fc6c7ec9863ae47449"
+    },
+    {
+      "transcript_id": "JPM_2024_Q2",
+      "content_sha256": "221bb7d4ef6fcc6f588d90c7b48d2cc8a1968c396013cebb84110a01e2d3ba80",
+      "structured_content_sha256": "f7986f4828f18bc6804b5bf85de666beb9448719a5aa5f90292ea20a70e9fc23"
+    },
+    {
+      "transcript_id": "JPM_2024_Q3",
+      "content_sha256": "b4c12b865ce76763fc2f119a0871c97a8720423fc96dc2081aee3183e1242349",
+      "structured_content_sha256": "c83ab2f880e13eb9dce5d296eb2c1f814fbf3556cf1edd11deae726cd8a8eed6"
+    },
+    {
+      "transcript_id": "JPM_2024_Q4",
+      "content_sha256": "e36feb8359a6e4a3a35918d128b79b9989a619caf29d637ae5e810dbc5a477a8",
+      "structured_content_sha256": "8359dc7cbed9bdece1f5b832afa2c4e4b4b1a705cd045aa9c8b334fbb5d86ba7"
+    },
+    {
+      "transcript_id": "MS_2023_Q1",
+      "content_sha256": "54cbfe86078f5acc3eb6c621a870dc81f32cbdf639c33968584a93cd2d3abd5a",
+      "structured_content_sha256": "dcbd2102a0c508aa8d7433b69518e4b0385a863c3e3af4b0c8c657262cf90989"
+    },
+    {
+      "transcript_id": "MS_2023_Q2",
+      "content_sha256": "09a95d10768a736cc70651793e5c87060b59e8109d359ba3bd4604a2f13d8629",
+      "structured_content_sha256": "d069c43f49641f2a6bfbabbc740cac277159136cbf4b3384fed8160621b5d5eb"
+    },
+    {
+      "transcript_id": "MS_2023_Q3",
+      "content_sha256": "45f1f4596aaa72715147aa0b7ad474f0b3e0094f8a0167416393778316d509be",
+      "structured_content_sha256": "869dd2f4f2a4ce040587b89eb28fa25077bf21b3f38e49a5399a1d602dd51ec0"
+    },
+    {
+      "transcript_id": "MS_2023_Q4",
+      "content_sha256": "06dd9eed8381e038971099df2d6811303f03f1502487b9f90b98b57c15be24a8",
+      "structured_content_sha256": "d652d102ff886a7772c79cf5573ace9606f75511dcf84ab460d8e3e8efae4c17"
+    },
+    {
+      "transcript_id": "MS_2024_Q1",
+      "content_sha256": "0f234c8c0ebda861d742761cd80cb11959e7b3d03a227acc81312717ed8a35a8",
+      "structured_content_sha256": "bdf114b0ec24621ab34fd87987c5288df5e5eececd97c3e129837bd9d87f7c67"
+    },
+    {
+      "transcript_id": "MS_2024_Q2",
+      "content_sha256": "6c800920eebde3255caf8d82720a0794e7986a59dc6dcb591f11a0bb5d335672",
+      "structured_content_sha256": "d8fd72cb2c366cb73bee240804aac1197e65315975318ed4c9c381fea6295196"
+    },
+    {
+      "transcript_id": "MS_2024_Q3",
+      "content_sha256": "d080e4cedf4c08bb390f898012f8caa2c8c415a2a8ec455d5d3f70eee5bc0a0d",
+      "structured_content_sha256": "2d1522bcff8966210ab8400b9df51f17fea8d012c7632c63fc5ce167c6e6af03"
+    },
+    {
+      "transcript_id": "MS_2024_Q4",
+      "content_sha256": "22ddc0021bfccf6d6a2c4d9ce0b1b1687eb76b1b8b900d07e2c526b034d66af8",
+      "structured_content_sha256": "372be84c82f4f80b2036c5821c421858bff7947386269aa3a0afb45213982798"
+    },
+    {
+      "transcript_id": "MTB_2023_Q1",
+      "content_sha256": "591c0010e210148ab31ece0fe53182bc1aa8a12b50c0b7feba3da046f2243a4d",
+      "structured_content_sha256": "7a0d3bb8a6bb657b35ee2a77c6f1d0588c00009c8cbf02ca1d326fb7dc5287d0"
+    },
+    {
+      "transcript_id": "MTB_2023_Q2",
+      "content_sha256": "e98906907cdc2c55968186dac2ca80b70c27a382099f957e61340c715185af74",
+      "structured_content_sha256": "fc14d2e64e36534d2d395f53058f173100c67553ce0f5b29ce2cd4744c2afdd0"
+    },
+    {
+      "transcript_id": "MTB_2023_Q3",
+      "content_sha256": "0410b569420b9539ee58cbc01c0d09723646314d3b0c5b5dfee96f9a95e43134",
+      "structured_content_sha256": "483cbfcc095b6f1911d611e690b4117e632eb02d90f7edc1115cb8a7539adec8"
+    },
+    {
+      "transcript_id": "MTB_2023_Q4",
+      "content_sha256": "bdb4001b547456f3d990895e9402c4f1e6d6a5cb07634f5318bc979f71eaf6fc",
+      "structured_content_sha256": "baab6d89c94825c75e96928b27b4319f9e827b4e8a8108ba332e5f816603e4a3"
+    },
+    {
+      "transcript_id": "MTB_2024_Q1",
+      "content_sha256": "ee96bb19b368fb5008413329e380fe965f73a194a9bf0a3c167f965887db273c",
+      "structured_content_sha256": "f8ec4bfb231faefc124d9ab0c75ed736b6c0b4cb8408726d2dc00139eb358e36"
+    },
+    {
+      "transcript_id": "MTB_2024_Q2",
+      "content_sha256": "65f3a2e221d242ebd1e71ee1fcc4500bf94b6ea15f5818ff5480f7ab61705d0b",
+      "structured_content_sha256": "644108e0c42acd2fe75bbad11ac2cdaf4cf0ef329d195a9bf74eb12a01ef40e8"
+    },
+    {
+      "transcript_id": "MTB_2024_Q3",
+      "content_sha256": "3815e28169713e39afc97659619846c2b1014e7c30f60f56b720b3048dff6ca4",
+      "structured_content_sha256": "1bd8465d59d72ee7404904c41ded1ebcbfd51bed527d46be2c5bceba98771a53"
+    },
+    {
+      "transcript_id": "MTB_2024_Q4",
+      "content_sha256": "df51ed48cee2e9b0062f9c8cf1e53dc1b1fc581d1fff3497dbb9745b2a2db827",
+      "structured_content_sha256": "e50b04bf64458edcfd0af4a601311a65146196dbb02d10d94ab7cbe349631d5f"
+    },
+    {
+      "transcript_id": "PNC_2023_Q1",
+      "content_sha256": "6272b6d1d3739416f7d9ff0effea1d36645f3f6e70673a2629bc4ba8205b429d",
+      "structured_content_sha256": "282b638959ea53a1ca7f685a44b874ffde54a214524bda2bcbab840f35f928b2"
+    },
+    {
+      "transcript_id": "PNC_2023_Q2",
+      "content_sha256": "105ee087463a932993322677f99c9ff6e8966121b8b5a650d77557cb7a0f931f",
+      "structured_content_sha256": "00a847618245064648712ae6b12af3cdc4c868f063b968d6822547ca90df0e72"
+    },
+    {
+      "transcript_id": "PNC_2023_Q3",
+      "content_sha256": "4fbf1bae1a20e8c14cc12fd1dfc56be350d0bc2f402bcbbcb28bffa982fae7f1",
+      "structured_content_sha256": "f96ac1111ff858a32616890e9ee295211158b87bbec0f9278a0940cdcd8e1a6c"
+    },
+    {
+      "transcript_id": "PNC_2023_Q4",
+      "content_sha256": "4b6b8239b04475c1f52a4975e925f4bd361f48ae33dd70364d0c836117652496",
+      "structured_content_sha256": "7d6b105a3239b64b560be09b7181e8418cf6c65fbf55e2973d682de1933a58db"
+    },
+    {
+      "transcript_id": "PNC_2024_Q1",
+      "content_sha256": "b2b20c3b82d28ef5739f489f76fa0855b07b3985647f1e7ffe6c4ed96e57c1c3",
+      "structured_content_sha256": "dfc683d8b3e9e55716d15966e81414806fe86bf2ba3e0a1778d0fe6a6f327acd"
+    },
+    {
+      "transcript_id": "PNC_2024_Q2",
+      "content_sha256": "8a12f89b4a534436518266015e439ddbfcba02414e634f5d2543259a4dececec",
+      "structured_content_sha256": "b12d0cf3bdcda499874323fc794c55382084d8502263b3223dcc5b0490dcfdf3"
+    },
+    {
+      "transcript_id": "PNC_2024_Q3",
+      "content_sha256": "a05b64e7910227925d3e09b3c9cecf9a5481f1220660fb095e41b163b8ab2e5e",
+      "structured_content_sha256": "cf07ff306105e08ba436bc6b447ec1f67484b2216431951329e46c85b283235d"
+    },
+    {
+      "transcript_id": "PNC_2024_Q4",
+      "content_sha256": "d4e50aae5272af93da36eda665a56385ba10f918cbf479f46765bdff74ba3dbb",
+      "structured_content_sha256": "2f51e52e83501a12d4b6f9d96cc350392789315292e218d6182f730e7eb1d391"
+    },
+    {
+      "transcript_id": "STT_2023_Q1",
+      "content_sha256": "461e8db5fa975a5ef1f4dbca93807481248a3a000b53ed6c480fa086c850be56",
+      "structured_content_sha256": "42c9d3dd36198e332c98af0516e1bb8c8f7f1a7f2834f6088d71c42a44ad2cbf"
+    },
+    {
+      "transcript_id": "STT_2023_Q2",
+      "content_sha256": "52bb540f7313ea060a0d9d47f61c33d0fee568a4019b26e92261a524c52b166c",
+      "structured_content_sha256": "e2628c6915b422fa70a3abe216ce0df11a7523d18e505cfb9a1837cf94ed8046"
+    },
+    {
+      "transcript_id": "STT_2023_Q3",
+      "content_sha256": "bc20043bbc0234318cdc8104cefecb6a71f39d685e83e01cd938d6013543ad62",
+      "structured_content_sha256": "4007e10ce20294b36c5f5dc915bcf77cb36e6edc7de732bbbf4af2602cd4c55d"
+    },
+    {
+      "transcript_id": "STT_2023_Q4",
+      "content_sha256": "f7f30a9047319452db7918b45f34786a81bdb1478fc546d05678c632d31c5a4b",
+      "structured_content_sha256": "ec0cc33bc58193e6027d5731b09b2ea943bba55c119a7ca62b50f334314f17c2"
+    },
+    {
+      "transcript_id": "STT_2024_Q1",
+      "content_sha256": "9f08c261c322c5e230bab4b4e19606554796f46db539c0cba8205b6df2a5b04b",
+      "structured_content_sha256": "aa09b0f03731b2fdbd5e150cf6ddacdbefa3b25c1553e7781cd741484832060d"
+    },
+    {
+      "transcript_id": "STT_2024_Q2",
+      "content_sha256": "fccf465b78df8c64e663b6227ee6efaee8b43f96dd28707e6cae99a1cd4f699c",
+      "structured_content_sha256": "f1342ee965c61bb875cbaf39ceeea5d035ca954742bff6e9962094130685e28c"
+    },
+    {
+      "transcript_id": "STT_2024_Q3",
+      "content_sha256": "44fb7c5434ca06269abc17cafbc29a56b3f66dd4c8bb9f3855588513747f9cb3",
+      "structured_content_sha256": "d5d22a3a9e744106bd803044adf31fed03c7b3b35b7142a9353e6382748413f1"
+    },
+    {
+      "transcript_id": "STT_2024_Q4",
+      "content_sha256": "7cca329f35c1353b5e120c2405040eb215540d54b8a9337f2ddbcd031b80ad16",
+      "structured_content_sha256": "a20283e6c35c1ce50d0e465fabdd4d78a147bd81f35642089c450c181585a505"
+    },
+    {
+      "transcript_id": "USB_2023_Q1",
+      "content_sha256": "ba08976045decff4b395a50fc72a26b0d88e0852be715162487f0515385ad400",
+      "structured_content_sha256": "e7c76fc4a54ea4b247fc41916942e11a687a20b67991d444435ce35e7d4a7221"
+    },
+    {
+      "transcript_id": "USB_2023_Q2",
+      "content_sha256": "155ad224449e667ec98f63a8424ec624a7835e7c6f870812aadb102fe9446d49",
+      "structured_content_sha256": "4bd7c10d0c5a82544883a278c87eab54ecbb218eae9c65d7accfadf738c9cd6d"
+    },
+    {
+      "transcript_id": "USB_2023_Q3",
+      "content_sha256": "56bd9f6f6139d1627d66d7d0b234d680d80314e8cfd673689aee6eba39196136",
+      "structured_content_sha256": "6a7f7e5ceb1fbe90d1235d93428daaec8a28426af40f29ba173b7454cc5a3811"
+    },
+    {
+      "transcript_id": "USB_2023_Q4",
+      "content_sha256": "76b8da635898f34293df75d7f108c88799ebee67907bee2d0fa2da2fc7929fb2",
+      "structured_content_sha256": "53e068eefec83c54a3ec6a8b35bafae674ef4c464539b61256d7e885ac4216eb"
+    },
+    {
+      "transcript_id": "USB_2024_Q1",
+      "content_sha256": "b45e023089cf576dbb309fad76655d84c4e768ec25af12559df07699de811a93",
+      "structured_content_sha256": "34241472af78ad70e1b8fef0e6cdbc90ac84665c9ed46f07698d0fd8c27038d9"
+    },
+    {
+      "transcript_id": "USB_2024_Q2",
+      "content_sha256": "398a5f42e884a9e7e5630fb458bcbf80126977d190d7e056f8e9cf06dfe08417",
+      "structured_content_sha256": "9729fec24e63e953266d350f15d806ca7fd19194f4cbe69df102048f54831109"
+    },
+    {
+      "transcript_id": "USB_2024_Q3",
+      "content_sha256": "536f26a9717f9de8802220a6d29b4dc9eaf805034ed0924d8164808bbaebce79",
+      "structured_content_sha256": "8ec6832509507354b5f2183fd229ae09afe1cce70d52171357a0d6a207f4b041"
+    },
+    {
+      "transcript_id": "USB_2024_Q4",
+      "content_sha256": "e30cb0e3009b6be9a615e381f03db06b9cae74fa5889a3f9791977150700f7dd",
+      "structured_content_sha256": "f79da0e850c273a850abfb5ee99acd1405a02297ece2a82d8a1e9bd6cd604600"
+    },
+    {
+      "transcript_id": "WFC_2023_Q1",
+      "content_sha256": "d6b228a301619e488f47e58fc70fa9f9a5da6e4a3f91f61d88b593d057fa541a",
+      "structured_content_sha256": "07ce814bd32dbdde95f6c278ec752d34546a541acd0e9660e6383186e5da166e"
+    },
+    {
+      "transcript_id": "WFC_2023_Q2",
+      "content_sha256": "e813edb11aedaa91856b95c06e812cd6f22823f331a5261397bea018c6d352b4",
+      "structured_content_sha256": "83564b656c1820376f0dad0ec16e064b2f930c9c60b3736b0032ee864679d07c"
+    },
+    {
+      "transcript_id": "WFC_2023_Q3",
+      "content_sha256": "96cd62a0e9880321355406ae17cfc01c32ca7c2d608b697c6223006557210bca",
+      "structured_content_sha256": "8b963be505e9cb1562e950a44bcbbca081cfb74cab4d0b40c743b80bc330ae6b"
+    },
+    {
+      "transcript_id": "WFC_2023_Q4",
+      "content_sha256": "bbde176eefd637b2c26c126e8a214c9f1444b27c8566f09a08fd46a8a77dd372",
+      "structured_content_sha256": "5da58d6412d1d0d234fb313af041367de53bb66adfba4aaab8f1ee46c1f248ce"
+    },
+    {
+      "transcript_id": "WFC_2024_Q1",
+      "content_sha256": "ecfc8d92e3bf58bc665172c02693bdc790c62c6eae4333fe94634170304e8416",
+      "structured_content_sha256": "f27b26374c71a0d874a19ba8f7b5a8fdcda9dad6499cb11a4694d2bf6ddaadd9"
+    },
+    {
+      "transcript_id": "WFC_2024_Q2",
+      "content_sha256": "a9e7330c98e5fade3019c7baae78db5f16b7b6a33a3127e8416593d33793932e",
+      "structured_content_sha256": "1f3bf407e773e3ad796bf673ce44161afc724d7a6b4aa4c432a9974e613d890f"
+    },
+    {
+      "transcript_id": "WFC_2024_Q3",
+      "content_sha256": "0a4e34aa1d2c058224760e28434c685398b9242e70468515cb1ce433d63bbcc8",
+      "structured_content_sha256": "ae175547372b226d39aa3806bb2fdd45f89cf3b0d42057610a15b35f64be7410"
+    },
+    {
+      "transcript_id": "WFC_2024_Q4",
+      "content_sha256": "9c605cb801f5f6ad6e5719342637a934f2166673e74474d01dde21f19263877e",
+      "structured_content_sha256": "cfce81500ce0fd74fa2a01f401dce29cf7de946e1a84f0241f44407a7edeb9ea"
+    }
+  ]
+}
