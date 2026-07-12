@@ -1,0 +1,34 @@
+# Python 3.11+
+# Pinned for reproducibility.
+
+# Ingest
+datasets==3.2.0
+pandas==2.2.3
+pyarrow==25.0.0
+
+# Dense retrieval
+numpy==2.5.1  # directly imported at src/index.py:43, not merely transitive
+sentence-transformers==3.3.1
+faiss-cpu==1.9.0
+transformers==4.57.6
+
+# Sparse retrieval
+rank_bm25==0.2.2
+
+# Generation
+openai==3.3.1  # the LM Studio client in src/generate.py (OpenAI-compatible endpoint)
+python-dotenv==1.2.3
+
+# Analysis / statistics
+# Required by the tracked generators under analysis/ (rebuild_statistics.py,
+# fix_attribution.py). Stage 1 Part 6's own aside noted scipy was unpinned and
+# that this would need fixing "if Wilcoxon-style testing becomes a permanent
+# part of the analysis pipeline rather than a diagnostic one-off" -- tracked
+# generators are exactly that condition.
+scipy==1.18.0
+
+# Thesis figures only (analysis/figures.py -> thesis/generated/figure_*.pdf).
+# Pinned like everything else: a figure is a reported number in visual form, so
+# a silent renderer change is a silent change to the thesis. Nothing in src/
+# imports it -- the pipeline runs without it.
+matplotlib==3.11.1

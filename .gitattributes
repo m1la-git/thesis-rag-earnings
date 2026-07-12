@@ -1,0 +1,2 @@
+# Store text files with LF regardless of the committer's autocrlf setting.
+* text=auto
