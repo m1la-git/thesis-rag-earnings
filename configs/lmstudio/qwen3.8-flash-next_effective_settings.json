@@ -1,0 +1,120 @@
+{
+  "_meta": {
+    "recorded": "2026-09-07",
+    "purpose": "Self-contained record of ALL effective LM Studio settings for thesis generation runs. LM Studio's own per-model JSON stores only overrides; this file consolidates overrides + defaults.",
+    "sources": {
+      "override": "LM Studio per-model config JSON (~/.lmstudio/.internal/user-concrete-model-default-config/unsloth/...)",
+      "ui_default": "value read from LM Studio Load/Inference panels on 2026-09-07; not stored by LM Studio because it equals the app or GGUF-metadata default",
+      "model_info": "LM Studio Info panel"
+    },
+    "resolved": [
+      "pipeline.request_overrides: RESOLVED 2026-09-07 by wire capture of the real request body (not inferred from source)."
+    ]
+  },
+  "model": {
+    "repo": "unsloth/Qwen3.8-Flash-Next-GGUF",
+    "file": "Qwen3.8-Flash-Next-Q8_0-00001-of-00006.gguf (6 shards)",
+    "quantization": "Q8_0",
+    "architecture_llamacpp": "qwen4exp (MoE; Gated DeltaNet + Qwen Sparse Attention; n-gram embedding table)",
+    "parameters": "125B total, ~6B active per token, +51B n-gram table",
+    "size_on_disk_gb": 188.23,
+    "capabilities": [
+      "tool",
+      "reasoning"
+    ],
+    "role": "ROBUSTNESS CHECK ONLY -- a third arm, not a replacement and not an A/B cell. Runs the full 12 conditions x 45 questions = 540 generations, scored with the same pipeline, to test whether the Stage 2 conclusions survive a maximally different generator. Reports outcome-label agreement vs q8, Case C conversion, and the coverage split. No manual review, no new failure modes, and Stage 1 is never re-run (retrieval is generator-independent). Nothing is attributed to size or architecture: the two models differ on too many axes to isolate one."
+  },
+  "runtime": {
+    "lm_studio_app_version": "not recorded",
+    "gguf_runtime": "Metal llama.cpp v2.33.0 (LM Studio runtime extension pack)",
+    "runtime_auto_update": false,
+    "hardware": "Mac Studio, M3 Ultra, 512 GB unified memory",
+    "api": "LM Studio local server, OpenAI-compatible /v1/chat/completions"
+  },
+  "load": {
+    "context_length": 131072,
+    "model_max_context": 262144,
+    "cpu_thread_pool_size": 24,
+    "evaluation_batch_size": 2048,
+    "physical_batch_size": 512,
+    "max_concurrent_requests": 4,
+    "unified_kv_cache": true,
+    "context_checkpoints": 32,
+    "rope_frequency_base": "auto",
+    "rope_frequency_scale": "auto",
+    "offload_kv_cache_to_gpu": true,
+    "keep_model_in_memory": true,
+    "try_mmap": true,
+    "seed": 67,
+    "flash_attention": true,
+    "speculative_decoding": {
+      "enabled": false,
+      "draft_mtp": false,
+      "draft_simple": false,
+      "draft_model": "",
+      "draft_max_tokens": 2,
+      "draft_min_tokens": 0,
+      "draft_min_continue_probability": 0.75
+    },
+    "gpu_offload_layers": "48/48 (full)",
+    "number_of_experts": 10,
+    "_experts_note": "model default (expert_used_count); not tuned",
+    "k_cache_quantization": "f16",
+    "v_cache_quantization": "f16",
+    "_kv_note": "quantized KV unsupported for qwen4exp on this runtime (llama.cpp #27742: Hadamard rotation auto-enabled by q8_0 K is incompatible with the sparse-attention path). f16 is the only unmodified option."
+  },
+  "inference": {
+    "temperature": 0.1,
+    "top_k": 40,
+    "top_p": 0.95,
+    "min_p": 0.05,
+    "repeat_penalty": 1.1,
+    "presence_penalty": null,
+    "limit_response_length": false,
+    "max_tokens": null,
+    "context_overflow_policy": "truncateMiddle",
+    "stop_strings": [],
+    "structured_output": false,
+    "enable_thinking": false,
+    "reasoning_budget": null,
+    "reasoning_budget_message": ""
+  },
+  "pipeline": {
+    "request_overrides": {
+      "_measured": "Captured 2026-09-07 from the actual /v1/chat/completions request body via an httpx event hook on the client run_generation._call_local_seeded uses. These are the wire values, not a reading of the source.",
+      "reasoning_effort": "none  -- sent as a TOP-LEVEL body key (extra_body flattens on the wire). NOT \"off\": the LM Studio server rejects \"off\"; valid values are none/minimal/low/medium/high/xhigh. Verified suppressing: usage.completion_tokens_details.reasoning_tokens == 0 and no reasoning_content on both models.",
+      "seed": 20260831,
+      "temperature": 0,
+      "max_tokens": "ABSENT from the request body. This repo sends no token cap at all, so output length is bounded only by this file's inference.max_tokens (null) and the model's own end token. Measured clean: finish_reason == \"stop\" on all probed items, never \"length\".",
+      "_body_keys_sent": [
+        "messages",
+        "model",
+        "reasoning_effort",
+        "seed",
+        "temperature"
+      ],
+      "_overrides_the_panel": "IMPORTANT: the request body's temperature 0 and seed 20260831 OVERRIDE this file's inference.temperature (0.1) and load.seed (67). The panel values are what LM Studio would apply to a request that omitted them; every thesis generation sends both, so 0.1 and 67 are NOT what ran. Sampling is greedy at temperature 0.",
+      "_not_sent_left_to_this_file": "top_k, top_p, min_p, repeat_penalty are never sent by this repo and come entirely from inference.* below. Verified identical across both models on 2026-09-07 (top_k 40, top_p 0.95, min_p 0.05, repeat_penalty 1.1), so they are held constant across arms rather than being an uncontrolled difference. repeat_penalty is the one that still bites at temperature 0, and it matches."
+    },
+    "concurrency": 4,
+    "note": "Thinking is disabled twice: model config enable_thinking=false AND per-request reasoning_effort=\"none\" (measured, see request_overrides)."
+  },
+  "chat_template": {
+    "source": "Unsloth stock template, unmodified",
+    "edits": [],
+    "known_stock_quirks_irrelevant_under_thinking_off": [
+      "silent high->xhigh remap",
+      "medium emits no reasoning instruction"
+    ],
+    "sha256": "12827f24b742ea4e80cdc12dbcf9622227056b9f797252a3149263d4f9aaadce",
+    "jinja": "{%- set image_count = namespace(value=0) %}\n{%- set video_count = namespace(value=0) %}\n{%- macro render_content(content, do_vision_count, is_system_content=false) %}\n    {%- if content is string %}\n        {{- content }}\n    {%- elif content is iterable and content is not mapping %}\n        {%- for item in content %}\n            {%- if 'image' in item or 'image_url' in item or item.type == 'image' %}\n                {%- if is_system_content %}\n                    {{- raise_exception('System message cannot contain images.') }}\n                {%- endif %}\n                {%- if do_vision_count %}\n                    {%- set image_count.value = image_count.value + 1 %}\n                {%- endif %}\n                {%- if add_vision_id %}\n                    {{- 'Picture ' ~ image_count.value ~ ': ' }}\n                {%- endif %}\n                {{- '<|vision_start|><|image_pad|><|vision_end|>' }}\n            {%- elif 'video' in item or item.type == 'video' %}\n                {%- if is_system_content %}\n                    {{- raise_exception('System message cannot contain videos.') }}\n                {%- endif %}\n                {%- if do_vision_count %}\n                    {%- set video_count.value = video_count.value + 1 %}\n                {%- endif %}\n                {%- if add_vision_id %}\n                    {{- 'Video ' ~ video_count.value ~ ': ' }}\n                {%- endif %}\n                {{- '<|vision_start|><|video_pad|><|vision_end|>' }}\n            {%- elif 'text' in item %}\n                {{- item.text }}\n            {%- else %}\n                {{- raise_exception('Unexpected item type in content.') }}\n            {%- endif %}\n        {%- endfor %}\n    {%- elif content is none or content is undefined %}\n        {{- '' }}\n    {%- else %}\n        {{- raise_exception('Unexpected content type.') }}\n    {%- endif %}\n{%- endmacro %}\n{%- if not messages %}\n    {{- raise_exception('No messages provided.') }}\n{%- endif %}\n{%- set sysns = namespace(count=0, text='') %}\n{%- for message in messages %}\n    {%- if sysns.count == loop.index0 and (message.role == 'system' or message.role == 'developer') %}\n        {%- set sys_content = render_content(message.content, false, true)|trim %}\n        {%- if sys_content %}\n            {%- set sysns.text = sysns.text + ('\\n' if sysns.text else '') + sys_content %}\n        {%- endif %}\n        {%- set sysns.count = sysns.count + 1 %}\n    {%- endif %}\n{%- endfor %}\n{%- set num_sys = sysns.count %}\n{%- set merged_system = sysns.text %}\n{%- set reasoning_instructions = '' %}\n{%- if enable_thinking is undefined or enable_thinking is true %}\n    {%- set resolved_reasoning_effort = reasoning_effort|default('xhigh') %}\n    {%- if resolved_reasoning_effort == 'high' %}\n        {%- set resolved_reasoning_effort = 'xhigh' %}\n    {%- endif %}\n    {%- if resolved_reasoning_effort not in ('xhigh', 'medium', 'low') %}\n        {{- raise_exception('Unexpected reasoning effort ' ~ reasoning_effort ~ '. Supported types are xhigh (default), medium, and low.') }}\n    {%- endif %}\n    {%- if resolved_reasoning_effort == 'xhigh' %}\n        {%- set reasoning_instructions = 'Reasoning effort is set to xhigh. Please think carefully through the task, validate key assumptions, consider plausible alternatives, and prioritize correctness, consistency, and clarity in the final answer.' %}\n    {%- elif resolved_reasoning_effort == 'low' %}\n        {%- set reasoning_instructions = 'Reasoning effort is set to low. Keep your thinking brief and focused, moving directly to the conclusion without unnecessary elaboration.' %}\n    {%- endif %}\n{%- endif %}\n{%- if tools and tools is iterable and tools is not mapping %}\n    {{- '<|im_start|>system\\n' }}\n    {%- if reasoning_instructions %}\n        {{- reasoning_instructions + '\\n\\n' }}\n    {%- endif %}\n    {{- \"# Tools\\n\\nYou have access to the following functions:\\n\\n<tools>\" }}\n    {%- for tool in tools %}\n        {{- \"\\n\" }}\n        {{- tool | tojson }}\n    {%- endfor %}\n    {{- \"\\n</tools>\" }}\n    {{- '\\n\\nIf you choose to call a function ONLY reply in the following format with NO suffix:\\n\\n<tool_call>\\n<function=example_function_name>\\n<parameter=example_parameter_1>\\nvalue_1\\n</parameter>\\n<parameter=example_parameter_2>\\nThis is the value for the second parameter\\nthat can span\\nmultiple lines\\n</parameter>\\n</function>\\n</tool_call>\\n\\n<IMPORTANT>\\nReminder:\\n- Function calls MUST follow the specified format: an inner <function=...></function> block must be nested within <tool_call></tool_call> XML tags\\n- Required parameters MUST be specified\\n- You may provide optional reasoning for your function call in natural language BEFORE the function call, but NOT after\\n- If there is no function call available, answer the question like normal with your current knowledge and do not tell the user about function calls\\n</IMPORTANT>' }}\n    {%- if merged_system %}\n        {{- '\\n\\n' + merged_system }}\n    {%- endif %}\n    {{- '<|im_end|>\\n' }}\n{%- else %}\n    {%- if merged_system %}\n        {{- '<|im_start|>system\\n' + (reasoning_instructions + '\\n\\n' if reasoning_instructions else '')  + merged_system + '<|im_end|>\\n' }}\n    {%- elif reasoning_instructions %}\n        {{- '<|im_start|>system\\n' + reasoning_instructions + '<|im_end|>\\n' }}\n    {%- endif %}\n{%- endif %}\n{%- set ns = namespace(multi_step_tool=true, last_query_index=messages|length - 1) %}\n{%- for message in messages[::-1] %}\n    {%- set index = (messages|length - 1) - loop.index0 %}\n    {%- if ns.multi_step_tool and message.role == \"user\" %}\n        {%- set content = render_content(message.content, false)|trim %}\n        {%- if not(content.startswith('<tool_response>') and content.endswith('</tool_response>')) %}\n            {%- set ns.multi_step_tool = false %}\n            {%- set ns.last_query_index = index %}\n        {%- endif %}\n    {%- endif %}\n{%- endfor %}\n{%- for message in messages %}\n    {%- if loop.index0 >= num_sys %}\n    {%- set content = render_content(message.content, true)|trim %}\n    {%- if message.role == \"system\" or message.role == \"developer\" %}\n        {{- raise_exception('System message must be at the beginning.') }}\n    {%- elif message.role == \"user\" %}\n        {{- '<|im_start|>' + message.role + '\\n' + content + '<|im_end|>' + '\\n' }}\n    {%- elif message.role == \"assistant\" %}\n        {%- set reasoning_content = '' %}\n        {%- if message.reasoning_content is string %}\n            {%- set reasoning_content = message.reasoning_content %}\n        {%- endif %}\n        {%- set reasoning_content = reasoning_content|trim %}\n        {%- if preserve_thinking is undefined or preserve_thinking is true or loop.index0 > ns.last_query_index %}\n            {{- '<|im_start|>' + message.role + '\\n<think>\\n' + reasoning_content + '\\n</think>\\n\\n' + content }}\n        {%- else %}\n            {{- '<|im_start|>' + message.role + '\\n' + content }}\n        {%- endif %}\n        {%- if message.tool_calls and message.tool_calls is iterable and message.tool_calls is not mapping %}\n            {%- for tool_call in message.tool_calls %}\n                {%- if tool_call.function is defined %}\n                    {%- set tool_call = tool_call.function %}\n                {%- endif %}\n                {%- if tool_call.name is not defined or tool_call.name is none %}\n                    {{- raise_exception('Tool call is missing a function name.') }}\n                {%- endif %}\n                {%- if loop.first %}\n                    {%- if content|trim %}\n                        {{- '\\n\\n<tool_call>\\n<function=' + tool_call.name + '>\\n' }}\n                    {%- else %}\n                        {{- '<tool_call>\\n<function=' + tool_call.name + '>\\n' }}\n                    {%- endif %}\n                {%- else %}\n                    {{- '\\n<tool_call>\\n<function=' + tool_call.name + '>\\n' }}\n                {%- endif %}\n                {%- if tool_call.arguments is mapping %}\n                    {%- for args_name, args_value in tool_call.arguments|items %}\n                        {{- '<parameter=' + args_name + '>\\n' }}\n                        {%- set args_value = args_value | string if args_value is string else args_value | tojson | safe %}\n                        {{- args_value }}\n                        {{- '\\n</parameter>\\n' }}\n                    {%- endfor %}\n                {%- elif tool_call.arguments is string %}\n                    {%- if tool_call.arguments|trim %}\n                        {{- raise_exception('Tool call arguments for function \"' + (tool_call.name | string) + '\" were passed as a JSON string. Parse them into an object before calling apply_chat_template.') }}\n                    {%- endif %}\n                {%- elif tool_call.arguments is defined and tool_call.arguments is not none %}\n                    {{- raise_exception('Tool call arguments for function \"' + (tool_call.name | string) + '\" must be an object/mapping or a JSON string.') }}\n                {%- endif %}\n                {{- '</function>\\n</tool_call>' }}\n            {%- endfor %}\n        {%- endif %}\n        {{- '<|im_end|>\\n' }}\n    {%- elif message.role == \"tool\" %}\n        {%- if loop.previtem and loop.previtem.role != \"tool\" %}\n            {{- '<|im_start|>user' }}\n        {%- endif %}\n        {{- '\\n<tool_response>\\n' }}\n        {{- content }}\n        {{- '\\n</tool_response>' }}\n        {%- if not loop.last and loop.nextitem.role != \"tool\" %}\n            {{- '<|im_end|>\\n' }}\n        {%- elif loop.last %}\n            {{- '<|im_end|>\\n' }}\n        {%- endif %}\n    {%- else %}\n        {{- raise_exception('Unexpected message role.') }}\n    {%- endif %}\n    {%- endif %}\n{%- endfor %}\n{%- if add_generation_prompt %}\n    {{- '<|im_start|>assistant\\n' }}\n    {%- if enable_thinking is defined and enable_thinking is false %}\n        {{- '<think>\\n\\n</think>\\n\\n' }}\n    {%- else %}\n        {{- '<think>\\n' }}\n    {%- endif %}\n{%- endif %}\n{#- Unsloth fixes - developer role, merged system messages, tool calling #}"
+  },
+  "lm_studio_explicit_overrides": [
+    "llm.prediction.temperature=0.1 (GGUF default is 0.8)",
+    "llm.prediction.reasoning.enableThinking=false",
+    "llm.load.contextLength=131072",
+    "llm.load.llama.kCacheQuantizationType=f16",
+    "llm.load.llama.vCacheQuantizationType=f16",
+    "llm.load.seed=67"
+  ]
+}

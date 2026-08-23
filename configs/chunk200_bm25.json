@@ -1,0 +1,9 @@
+{
+  "extends": "base.json",
+
+  "condition_id": "chunk200_bm25",
+
+  "chunk_size": 200,
+  "retrieval_strategy": "bm25",
+  "indexing_representation": "text_only"
+}

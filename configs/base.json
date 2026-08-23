@@ -1,0 +1,37 @@
+{
+  "_comment": [
+    "Everything HELD CONSTANT across all twelve conditions of the grid lives",
+    "here, and only here. The twelve condition files extend this one and override",
+    "exactly three keys: chunk_size, retrieval_strategy and",
+    "indexing_representation. That is the vary-one-thing-at-a-time rule enforced",
+    "by the file layout rather than by discipline -- a value that ought to be",
+    "constant has literally one place to be written.",
+    "JSON, not YAML, so no dependency is added: every library is pinned in",
+    "requirements.txt and PyYAML is not among them."
+  ],
+
+  "benchmark_path": "benchmark/questions.jsonl",
+  "transcripts_path": "data/processed/transcripts.parquet",
+  "corpus_manifest_path": "data/corpus_manifest.json",
+
+  "top_k": 5,
+  "retrieval_scope": "corpus",
+  "_retrieval_scope_note": "'corpus' = every chunk of all 128 transcripts is a candidate. The alternative, scoping candidates to each question's own transcript_ids, would make retrieval trivially easy and would measure nothing about retrieval design. Recorded explicitly because it changes every number in the results.",
+
+  "embedding_model": "BAAI/bge-small-en-v1.5",
+  "query_prefix": "Represent this sentence for searching relevant passages: ",
+  "rrf_k": 60,
+
+  "_indexing_representation_note": "The THIRD independent variable is indexing_representation, set per condition file. Everything below is the FROZEN definition of what 'metadata_enriched' means -- format 'P2', signed off 2026-09-05 before any enriched run, per README.md invariant 2. Each value is cross-checked against its module constant in src/index.py by run_experiment.validate_config_matches_code, exactly the way query_prefix is: the config and the code that implements it cannot drift apart silently. Do not revise any of it after seeing results.",
+  "indexing_enrichment_prefix_template": "{company} ({ticker}) {quarter_prose} {year} Q{quarter} {year} {section}",
+  "indexing_enrichment_joiner": "\n\n",
+  "indexing_quarter_prose": {"1": "first quarter", "2": "second quarter", "3": "third quarter", "4": "fourth quarter"},
+  "indexing_section_labels": {"prepared_remarks": "prepared remarks", "qa": "question and answer"},
+  "max_content_tokens": 510,
+  "_max_content_tokens_note": "bge-small-en-v1.5's max_seq_length is 512 (measured, and asserted against the loaded model in index.get_embedding_model), minus [CLS] and [SEP]. The enriched index_text is truncated to this budget at BUILD time, not left to the encoder: the encoder silently drops the overflow while BM25 has no length limit, so an untruncated enriched string would hand the two retrievers identical bytes but feed them different content -- confounding indexing representation with retrieval strategy in the 500-token enriched cell. Truncation reduces retrievability only: anchor matching runs against raw chunk['text'], which is never truncated.",
+
+  "similarity_metric": "cosine_bge_small",
+  "_similarity_metric_note": "The design leaves this as 'cosine over embeddings, or BERTScore'. Cosine over the retrieval embedding model is what evaluate.answer_similarity implements; see its docstring for why. Held constant across the grid either way.",
+
+  "seed": 20260831
+}

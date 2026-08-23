@@ -1,0 +1,9 @@
+{
+  "extends": "base.json",
+
+  "condition_id": "chunk500_hybrid_enriched",
+
+  "chunk_size": 500,
+  "retrieval_strategy": "hybrid",
+  "indexing_representation": "metadata_enriched"
+}

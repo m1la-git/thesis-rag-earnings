@@ -1,0 +1,9 @@
+{
+  "extends": "base.json",
+
+  "condition_id": "chunk500_dense",
+
+  "chunk_size": 500,
+  "retrieval_strategy": "dense",
+  "indexing_representation": "text_only"
+}
