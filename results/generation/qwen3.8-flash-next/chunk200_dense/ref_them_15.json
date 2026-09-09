@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense",
+ "question_id": "ref_them_15",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BLK_2024_Q1_prepared_remarks_200_007",
+  "WFC_2023_Q4_prepared_remarks_200_025",
+  "C_2023_Q2_prepared_remarks_200_012",
+  "BAC_2023_Q4_prepared_remarks_200_027",
+  "C_2023_Q4_prepared_remarks_200_010"
+ ],
+ "raw_response": "Based on the provided context, here are the details regarding technology spending and related expenses for the mentioned banks:\n\n**Citigroup (C)**\n*   **Technology Spend:** In Q2 2023, technology spend was $3 billion in the quarter, up 13% year-over-year. This increase was primarily driven by \"change the bank\" spend. The company noted a shift in investments from third-party consulting to technology and full-time employees.\n*   **G&A Expense:** The context does not provide specific G&A expense figures for Citigroup, but notes that higher expenses were partially offset by productivity savings and expense reductions from exits and wind downs.\n\n**BlackRock (BLK)**\n*   **Technology Spend:** Technology is identified as one of the primary areas of investment within G&A.\n*   **G&A Expense:** Total G&A expense increased 6% year-over-year due to the timing of technology investment spend in the prior year. Sequentially, G&A expense decreased 12%, reflecting the timing of technology investment spend and seasonally higher marketing/promotional expenses in the fourth quarter.\n\n**Wells Fargo (WFC)**\n*   **Technology Spend:** For 2024, Wells Fargo expects approximately $1.1 billion of incremental technology and equipment expense. This reflects higher costs related to the amortization of investments made in prior years as well as new investments planned for 2024.\n\n**Bank of America (BAC)**\n*   **Technology Spend:** The context mentions that continued digital transformation and adoption will help reduce quarterly expenses through 2024, but it does not provide specific dollar amounts for technology spending or changes in G&A expense related to technology.",
+ "latency_seconds": 163.62,
+ "generated_at": "2026-09-07T11:09:10Z"
+}

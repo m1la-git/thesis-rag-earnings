@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25_enriched",
+ "question_id": "ref_them_14",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BAC_2024_Q1_prepared_remarks_200_028",
+  "GS_2023_Q4_prepared_remarks_200_003",
+  "JPM_2024_Q3_prepared_remarks_200_001",
+  "BAC_2024_Q4_prepared_remarks_200_026",
+  "JPM_2023_Q1_qa_200_025"
+ ],
+ "raw_response": "Based on the provided context, banks reported the following regarding investment banking (IB) revenue and fees:\n\n*   **Goldman Sachs (2023):** The firm maintained and strengthened its leadership positions in investment banking.\n*   **JPMorgan Chase (Q3 2024):** IB fees were notably up year-over-year, reflecting strength across the franchise. This growth contributed to a 17% increase in non-interest revenue ex-markets (or 10% excluding prior year securities losses).\n*   **Bank of America:**\n    *   **Q1 2024:** Global Banking results showed improved investment banking fees, though these were overcome by lower net interest income and higher provision expense.\n    *   **Full Year 2024/Q4 2024:** The business saw a \"nice rebound\" in IB fees for the full year of 2024. In Q4 2024 specifically, IB fees were $1.7 billion, growing 44% year-over-year, led by mergers and acquisitions, debt capital markets (mostly leverage finance), and equity capital markets.",
+ "latency_seconds": 191.48,
+ "generated_at": "2026-09-07T10:50:56Z"
+}

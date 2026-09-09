@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense",
+ "question_id": "ref_them_14",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "WFC_2023_Q4_prepared_remarks_500_009",
+  "C_2023_Q4_prepared_remarks_500_004",
+  "FITB_2023_Q2_prepared_remarks_500_007",
+  "MS_2024_Q4_prepared_remarks_500_006",
+  "COF_2023_Q4_prepared_remarks_500_006"
+ ],
+ "raw_response": "Based on the provided context, Morgan Stanley reported that fourth quarter investment banking revenues were $1.6 billion in 2024, driven by accelerating strength in equity underwriting and improved advisory revenues from higher completed M&A transactions. The firm noted that 2024 commenced with strong debt underwriting activity, followed by increased M&A announcements in the second half, and ended with increased equity underwriting as IPO volumes reached their highest levels since 2021. Additionally, Fifth Third Bancorp stated it expected full-year adjusted noninterest income to be stable in 2023, noting that stronger gross treasury management, capital markets, wealth, asset management, and mortgage servicing revenue would be offset by higher earnings credit rates on treasury management, subdued leasing remarketing revenue, and a reduction in other fees due to lower TRA and private equity income.",
+ "latency_seconds": 762.56,
+ "generated_at": "2026-09-03T12:34:58Z"
+}

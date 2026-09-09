@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid",
+ "question_id": "ref_them_08",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BLK_2023_Q4_prepared_remarks_500_006",
+  "BLK_2024_Q3_prepared_remarks_500_007",
+  "BLK_2023_Q3_prepared_remarks_500_001",
+  "MS_2023_Q1_prepared_remarks_500_004",
+  "BLK_2023_Q4_prepared_remarks_500_012"
+ ],
+ "raw_response": "Based on the provided context, BlackRock described its 2023 performance as follows:\n\n*   **Net Inflows:** Clients awarded BlackRock with $289 billion of net new assets in 2023. The firm noted that flows and organic base fee growth accelerated at the end of the year, generating $96 billion of total net inflows in the fourth quarter alone. Specific segments included $32 billion in institutional net inflows (led by active strategies), $79 billion in cash management net inflows, and $14 billion in private markets net inflows. Retail clients saw net outflows of $8 billion for the full year, primarily due to allocations into rising rate-sensitive strategies like liquid alternatives and flexible bond funds, though this was partially offset by record $12 billion in net inflows for Aperio.\n*   **AUM:** BlackRock’s cash and liquidity business AUM grew 14% (over $90 billion) year-over-year to end the year. Additionally, Aperio’s AUM grew 95% since its acquisition to reach $80 billion. The firm emphasized that it maintained positive organic base fee growth despite a market backdrop where most of the industry experienced outflows.\n*   **Client Investment Assets:** BlackRock described client momentum as strong, noting that clients were actively engaging to do more with the firm and consolidating business with fewer managers. The company stated that its differentiated business model allowed it to grow regardless of the market environment, leveraging its scale and integrated offerings to help clients manage liquidity and earn returns.\n\nThe provided context does not contain enough information to answer this question regarding Morgan Stanley’s specific descriptions of momentum in net inflows, AUM, or client investment assets for the full year 2023, as it only provides data for Q1 2023 (e.g., $22 billion in fee-based flows and $1.4 trillion total AUM).",
+ "latency_seconds": 628.11,
+ "generated_at": "2026-09-03T12:47:17Z"
+}

@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25",
+ "question_id": "ref_them_04",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "FITB_2023_Q1_prepared_remarks_500_000",
+  "BK_2023_Q4_prepared_remarks_500_001",
+  "STT_2024_Q1_prepared_remarks_500_001",
+  "USB_2024_Q4_prepared_remarks_500_003",
+  "BK_2023_Q1_prepared_remarks_500_002"
+ ],
+ "raw_response": "Based on the provided context, banks described their progress on positive operating leverage as follows:\n\n*   **Bank of New York Mellon (BNY Mellon):** In Q1 2023, they reported delivering positive operating leverage year-over-year. For full-year 2023, they stated that excluding notable items, they generated approximately 180 basis points of positive operating leverage, which contributed to improved pre-tax margins and return on tangible common equity.\n*   **State Street (STT):** In Q1 2024, the bank reported delivering both positive fee and total operating leverage relative to the year-ago period. They noted that underlying expenses were well-controlled, with first-quarter expenses increasing just 1% year-over-year excluding notable items, despite increased investments in the business.\n*   **U.S. Bancorp (USB):** In Q4 2024, they highlighted their delivery of 190 basis points of positive operating leverage as a showcase of their commitment to execution and financial discipline. For Q1 2025 guidance, they expected to deliver at least 200 basis points of positive operating leverage year-over-year.",
+ "latency_seconds": 147.14,
+ "generated_at": "2026-09-03T12:14:43Z"
+}

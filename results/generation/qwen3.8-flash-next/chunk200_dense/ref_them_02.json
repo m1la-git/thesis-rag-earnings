@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense",
+ "question_id": "ref_them_02",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "JPM_2023_Q3_prepared_remarks_200_017",
+  "USB_2024_Q3_qa_200_015",
+  "MS_2023_Q2_qa_200_001",
+  "GS_2023_Q3_qa_200_011",
+  "JPM_2023_Q3_prepared_remarks_200_007"
+ ],
+ "raw_response": "Banks characterized the uncertainty around the Basel III endgame proposal as a prominent factor in the economic outlook and rate environment, noting that the actual rules had not yet been seen and that the situation remained fluid. They highlighted concerns that the U.S. proposal would mandate a 25% increase in capital requirements—exceeding what is required for Basel compliance—and criticized flaws in the framework's design regarding scale and diversification.\n\nRegarding capital actions, banks indicated they were preparing for a range of scenarios while continuing to advocate against the current proposal during the comment period. Specifically, one bank noted it would proceed with modest buybacks but expected to build upon them only once there was more clarity on Basel III and other capital rules. Another bank emphasized that implementing the proposal as written could significantly impact pricing and credit availability, leading them to forcefully advocate for changes consistent with European implementations to avoid unnecessary capital increases.",
+ "latency_seconds": 61.95,
+ "generated_at": "2026-09-07T11:07:29Z"
+}

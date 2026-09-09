@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense_enriched",
+ "question_id": "ref_them_08",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "MS_2023_Q3_prepared_remarks_500_004",
+  "MS_2023_Q4_prepared_remarks_500_009",
+  "BLK_2023_Q4_prepared_remarks_500_006",
+  "MS_2023_Q1_prepared_remarks_500_004",
+  "MS_2023_Q3_qa_500_000"
+ ],
+ "raw_response": "Based on the provided context, Morgan Stanley (MS) and BlackRock (BLK) described momentum in net inflows, AUM, and client investment assets during 2023 as follows:\n\n**Morgan Stanley:**\n*   **Net Inflows/Flows:** The firm reported strong fee-based flows of $22.5 billion in Q3 alone and noted that year-to-date long-term flows across the franchise were slightly positive despite segment-specific outflows. Workplace assets migrating to the advisor-led channel increased by 25% year-over-year, with over 600,000 new client relationships added for the full year.\n*   **AUM:** Investment Management AUM ended Q3 at $1.4 trillion and rose to $1.5 trillion by the end of the fourth quarter, supported by higher asset values.\n*   **Client Assets/Sentiment:** The firm observed consistent positive monthly inflows into equity markets from sweep balances in Q3, citing improved retail client sentiment. However, they also noted a shift in deposit mix as clients allocated cash to higher-yielding alternatives and active equity growth strategies faced headwinds leading to net outflows (approximately $7 billion in both Q3 and Q4).\n\n**BlackRock:**\n*   **Net Inflows/Flows:** The firm experienced mixed flows. Institutional business generated $32 billion in net inflows for 2023, driven by active strategies ($87 billion) and cash management ($79 billion), while index strategies saw $55 billion in outflows due to redemptions from low-fee equity strategies. Retail saw net outflows of $8 billion for the full year (and $9 billion in Q4) primarily from rate-sensitive strategies, though this was partially offset by record inflows into Aperio ($12 billion). Private markets saw strong demand with $14 billion in net inflows.\n*   **AUM:** Cash and liquidity business AUM grew 14% (over $90 billion) year-on-year. Aperio’s AUM grew 95% since acquisition to reach $80 billion.",
+ "latency_seconds": 293.17,
+ "generated_at": "2026-09-07T11:27:13Z"
+}

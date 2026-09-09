@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense",
+ "question_id": "ref_them_08",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BLK_2023_Q4_prepared_remarks_500_006",
+  "MS_2023_Q4_prepared_remarks_500_009",
+  "MS_2023_Q3_prepared_remarks_500_004",
+  "MS_2023_Q1_prepared_remarks_500_004",
+  "BK_2023_Q4_prepared_remarks_500_007"
+ ],
+ "raw_response": "Based on the provided context, firms described momentum in net inflows, AUM, and client investment assets during 2023 as follows:\n\n**BlackRock (BLK)**\n*   **Net Inflows:** The firm reported $32 billion in institutional net inflows for 2023, led by active strategies. Cash management saw $79 billion in net inflows for the year, while private markets attracted $14 billion in net inflows driven by infrastructure and private credit. Retail clients experienced net outflows of $8 billion for the full year, primarily due to allocations away from rate-sensitive strategies, though this was partially offset by record $12 billion in net inflows into Aperio.\n*   **AUM:** Cash and liquidity AUM grew 14% (over $90 billion) year-over-year. Aperio’s AUM grew 95% since acquisition to reach $80 billion. The planned acquisition of GIP is expected to triple BlackRock’s infrastructure client assets to a pro forma $150 billion platform.\n\n**Morgan Stanley (MS)**\n*   **Net Inflows:** Long-term net outflows were approximately $7 billion for the full year, driven by headwinds in active equity growth strategies. However, fee-based flows remained strong, with adviser-led flows originating from workplace relationships reaching $28 billion in Q1 alone (double the prior year). The combined Parametric brand saw net inflows of over $5 billion in Q4.\n*   **AUM:** Total AUM increased to $1.5 trillion by the end of 2023, supported by higher asset values. In Q1, total AUM was reported at $1.4 trillion.\n\n**Bank of America (BK)**\n*   **Net Inflows/Outflows:** The firm noted cumulative net outflows in its investment management segment for the year, which were partially offset by higher market values and a weaker dollar. In Q4 specifically, there were $7 billion in net inflows into short-term strategies and $4 billion into long-term active strategies, while index strategies saw $10 billion in net outflows.\n*   **AUM/Client Assets:** Investment management AUM of $2 trillion increased by 8% year-over-year. Wealth management client assets grew 16% year-over-year to $312 billion, reflecting higher equity market values and cumulative net inflows.",
+ "latency_seconds": 543.56,
+ "generated_at": "2026-09-05T23:48:01Z"
+}

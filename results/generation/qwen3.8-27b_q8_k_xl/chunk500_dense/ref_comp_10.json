@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense",
+ "question_id": "ref_comp_10",
+ "category": "comparative",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "FITB_2023_Q4_prepared_remarks_500_001",
+  "PNC_2023_Q4_prepared_remarks_500_003",
+  "FITB_2023_Q2_prepared_remarks_500_002",
+  "FITB_2024_Q3_prepared_remarks_500_006",
+  "PNC_2023_Q2_prepared_remarks_500_003"
+ ],
+ "raw_response": "Based on the provided context, here is how PNC and Fifth Third treated Accumulated Other Comprehensive Income (AOCI) regarding capital and tangible book value per share in 2023:\n\n**PNC Financial Services Group**\n*   **Q4 2023:** PNC noted that AOCI improved by $2.6 billion due to lower interest rates. The company stated that as lower-rate securities and swaps roll off, they expect a \"continued meaningful improvement to tangible book value from AOCI accretion.\"\n*   **Q2 2023:** PNC reported that its accumulated other comprehensive loss increased by $400 million due to higher-than-expected rates. Despite this negative impact, tangible book value still increased by 1% compared to the previous quarter. The company reiterated its expectation for \"meaningful improvement to tangible book value from AOCI accretion\" as lower-rate securities and swaps roll off.\n\n**Fifth Third Bancorp**\n*   **Q4 2023:** Fifth Third highlighted that a significant rally in interest rates in December contributed to tangible book value per share growing nearly 30% during the quarter. To manage future volatility, the bank moved $12.6 billion of securities to held-to-maturity, an action expected to \"de-risk potential AOCI volatility to capital by about 30%\" if market rates rise again.\n*   **Q2 2023:** The provided text for Fifth Third’s Q2 2023 does not explicitly detail the treatment of AOCI in relation to tangible book value per share, focusing instead on capital priorities, liquidity actions, and economic outlooks.",
+ "latency_seconds": 658.72,
+ "generated_at": "2026-09-05T23:49:56Z"
+}

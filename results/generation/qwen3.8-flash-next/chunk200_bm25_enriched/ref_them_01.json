@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25_enriched",
+ "question_id": "ref_them_01",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "MTB_2024_Q2_prepared_remarks_200_011",
+  "C_2024_Q4_prepared_remarks_200_010",
+  "JPM_2024_Q4_prepared_remarks_200_009",
+  "C_2024_Q1_prepared_remarks_200_011",
+  "WFC_2024_Q2_prepared_remarks_200_024"
+ ],
+ "raw_response": "Banks reported that the FDIC special assessment significantly increased expenses during this period, with specific impacts including:\n\n*   **M&T Bank:** Recorded $5 million in Q2 2024 (down from $29 million in Q1 2024).\n*   **Citigroup:** Incurred an incremental assessment of roughly $250 million in Q1 2024, which contributed to a reported expense increase; this absence in the prior year helped drive an 18% decrease in total expenses for Citi in Q4 2024.\n*   **JPMorgan Chase:** Recorded a $2.9 billion FDIC Special Assessment in the prior year (late 2023), which was absent in Q4 2024, contributing to a $3 billion year-over-year decrease in expenses.\n*   **Wells Fargo:** Incurred $336 million of expense for the assessment in the first half of 2024, which was included in their updated guidance.",
+ "latency_seconds": 70.02,
+ "generated_at": "2026-09-07T10:48:55Z"
+}

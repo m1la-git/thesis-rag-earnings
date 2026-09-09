@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid_enriched",
+ "question_id": "ref_them_07",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "FITB_2023_Q2_prepared_remarks_500_001",
+  "FITB_2023_Q3_qa_500_000",
+  "FITB_2023_Q1_prepared_remarks_500_005",
+  "WFC_2023_Q3_prepared_remarks_500_006",
+  "FITB_2023_Q1_prepared_remarks_500_001"
+ ],
+ "raw_response": "In the second quarter of 2023, Fifth Third Bank reported that total period-end deposits increased by 1% sequentially and 2% year-over-year, outperforming the broader banking sector which saw a 5% decline. This growth was driven by deliberate multiyear strategies to expand distribution in Southeast markets, the launch of innovative deposit-oriented solutions like Momentum Banking and treasury management offerings, and sustained focus on primary household growth. Fifth Third noted that its commercial banking segments generated period-end deposit growth, with new quality middle-market relationships up 30% from 2022. Additionally, the bank’s embedded payments business, Newline, served as a strong catalyst for deposit growth.",
+ "latency_seconds": 280.24,
+ "generated_at": "2026-09-05T15:05:45Z"
+}

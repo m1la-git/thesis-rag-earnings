@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25_enriched",
+ "question_id": "ref_fact_14",
+ "category": "factual",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BLK_2023_Q3_qa_200_014",
+  "BLK_2023_Q3_prepared_remarks_200_005",
+  "BLK_2023_Q3_prepared_remarks_200_011",
+  "BLK_2024_Q2_prepared_remarks_200_012",
+  "BLK_2023_Q4_prepared_remarks_200_033"
+ ],
+ "raw_response": "BlackRock reported over $30 billion in active equity net inflows over the last three years as of the third-quarter 2023 call.",
+ "latency_seconds": 123.5,
+ "generated_at": "2026-09-07T10:49:48Z"
+}

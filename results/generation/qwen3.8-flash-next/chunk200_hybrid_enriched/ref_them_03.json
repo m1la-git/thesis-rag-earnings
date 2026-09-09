@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid_enriched",
+ "question_id": "ref_them_03",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "WFC_2023_Q3_prepared_remarks_200_014",
+  "WFC_2023_Q4_prepared_remarks_200_012",
+  "BAC_2023_Q2_prepared_remarks_200_032",
+  "WFC_2023_Q1_prepared_remarks_200_013",
+  "BAC_2023_Q3_prepared_remarks_200_032"
+ ],
+ "raw_response": "Based on the provided context, here is what Wells Fargo (WFC) and Bank of America (BAC) stated regarding their office and commercial real estate (CRE) credit exposure and allowances during 2023:\n\n**Wells Fargo (WFC)**\n*   **Allowance Increases:** WFC increased its allowance for credit losses in Q1, Q3, and Q4 primarily due to commercial real estate office loans. Specifically, the allowance increased by $643 million in Q1 and $333 million in Q3, with a slight increase in Q4 driven by CRE and credit card loans (partially offset by lower auto allowances).\n*   **Nonaccrual Loans:** Nonperforming assets increased in Q1, Q3, and Q4. In Q3, CRE nonaccrual loans rose due to a $1.3 billion increase in office nonaccrual loans. In Q4, this trend continued with a $567 million increase in office nonaccrual loans.\n*   **Portfolio Composition:** As of Q1, WFC had $154.7 billion in CRE loans outstanding, with 35.7% classified as office loans. The bank noted that the composition of its office portfolio remained relatively consistent across quarters.\n\n**Bank of America (BAC)**\n*   **Exposure Levels:** BAC stated that commercial real estate credit exposure represented less than 2% of total loans in Q2, and 7% of total loans in Q3 (including office exposure). Office exposure specifically represented less than 2% of total loans.\n*   **Charge-offs:** In Q2, BAC recorded $70 million in charge-offs on office exposures to write down properties with deteriorated loan-to-value ratios, up from $15 million in Q1. By Q3, commercial net charge-offs declined, driven mostly by a reduction in office write-downs.\n*   **Risk Management:** BAC emphasized that it has been intentional regarding client selection, portfolio concentration, and deal structure for many years, resulting in low nonperforming loans (NPLs) and realized losses in the office portfolio. The bank believed the portfolio was well-positioned and adequately reserved against current conditions.",
+ "latency_seconds": 143.67,
+ "generated_at": "2026-09-07T10:56:50Z"
+}

@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid_enriched",
+ "question_id": "ref_them_12",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "MS_2023_Q4_qa_500_014",
+  "GS_2023_Q4_prepared_remarks_500_001",
+  "BK_2023_Q4_prepared_remarks_500_002",
+  "MS_2023_Q4_prepared_remarks_500_001",
+  "BK_2023_Q3_prepared_remarks_500_003"
+ ],
+ "raw_response": "Based on the provided context, the firms discussed the following regarding their wealth management businesses in 2023:\n\n**Morgan Stanley**\n*   **Performance:** Wealth and investment management generated 60% of the firm’s top line and pre-tax profit. Client assets more than tripled since 2010 to $6.6 trillion, with a goal to reach $10 trillion. The business generated $1 trillion in net new assets over the past three years.\n*   **Strategy & Investment:** The firm expanded its model across three channels: advisor-led, self-directed, and workplace. Management emphasized that the wealth business is \"differentiated\" and has been a key part of the firm's strategy for 15 years, noting that integrating Smith Barney created significant barriers to entry. They described the business as having a \"full funnel\" approach where different channels work as one.\n\n**Goldman Sachs**\n*   **Performance:** The unified Asset & Wealth Management business holds over $2.8 trillion in assets under supervision. In 2023, the firm drove solid investment performance and consistent growth in management fees, other fees, and private banking/lending revenues. They surpassed their five-year alternatives fundraising target one year ahead of schedule.\n*   **Strategy & Investment:** The firm described this as a \"scaled business\" with significant opportunity for further growth. It includes a top-five alternative business and a premier ultra-high net worth wealth management franchise.\n\n**BNY Mellon**\n*   **Performance:** In Q3 2023, the firm saw healthy underlying growth in Pershing (wealth advisory/custody) despite softness in investment management fees.\n*   **Strategy & Investment:** The firm launched Wove, a new open-architecture wealth management platform by Pershing, to deepen relationships and attract new clients. They cited early client wins, such as Integrity selecting the Wove platform. BNY Mellon also hired its first Chief Commercial Officer to operationalize a \"one BNY Mellon\" initiative, aiming to connect adjacent services (like investment management and broker-dealer clearing) through platforms like Wove to provide multi-line-of-business solutions.",
+ "latency_seconds": 769.03,
+ "generated_at": "2026-09-05T23:25:47Z"
+}

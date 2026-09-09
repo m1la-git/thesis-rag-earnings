@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25",
+ "question_id": "ref_them_14",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "GS_2023_Q4_prepared_remarks_200_003",
+  "BAC_2024_Q4_prepared_remarks_200_026",
+  "BAC_2024_Q1_prepared_remarks_200_028",
+  "BK_2024_Q4_prepared_remarks_200_014",
+  "GS_2024_Q4_prepared_remarks_200_016"
+ ],
+ "raw_response": "Based on the provided context, here is what was reported regarding investment banking revenue and fees for 2023 and 2024:\n\n**Goldman Sachs (GS)**\n*   **2023:** The bank generated record total financing revenues across its Global Banking & Markets businesses. It also maintained and strengthened leadership positions in investment banking and improved standing with top clients in FICC and equities.\n*   **2024:** Financing revenues across FICC and Equities rose 17% to a record $9.1 billion.\n\n**Bank of America (BAC)**\n*   **2023:** The context does not provide specific figures for 2023, but notes that investment banking fees rebounded in 2024.\n*   **2024:** Global Banking generated $8.1 billion in earnings, representing 30% of the company's total earnings. Investment banking fees were expected to continue growing from a \"nice rebound\" seen in 2024. In Q4 2024 specifically, investment banking fees were $1.7 billion, up 44% year-over-year, led by mergers and acquisitions, with strength also noted in debt capital markets (particularly leverage finance) and equity capital markets.",
+ "latency_seconds": 261.33,
+ "generated_at": "2026-09-03T11:58:54Z"
+}

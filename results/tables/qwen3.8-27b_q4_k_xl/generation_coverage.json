@@ -1,0 +1,37 @@
+{
+ "model": "qwen3.8-27b@q4_k_xl",
+ "requested": [
+  "chunk200_bm25",
+  "chunk200_bm25_enriched",
+  "chunk200_dense",
+  "chunk200_dense_enriched",
+  "chunk200_hybrid",
+  "chunk200_hybrid_enriched",
+  "chunk500_bm25",
+  "chunk500_bm25_enriched",
+  "chunk500_dense",
+  "chunk500_dense_enriched",
+  "chunk500_hybrid",
+  "chunk500_hybrid_enriched"
+ ],
+ "scored": [
+  "chunk200_bm25",
+  "chunk200_bm25_enriched",
+  "chunk200_dense",
+  "chunk200_dense_enriched",
+  "chunk200_hybrid",
+  "chunk200_hybrid_enriched",
+  "chunk500_bm25",
+  "chunk500_bm25_enriched",
+  "chunk500_dense",
+  "chunk500_dense_enriched",
+  "chunk500_hybrid",
+  "chunk500_hybrid_enriched"
+ ],
+ "skipped": [],
+ "n_rows": 540,
+ "subset_label": null,
+ "n_requested": 12,
+ "n_scored": 12,
+ "n_skipped": 0
+}

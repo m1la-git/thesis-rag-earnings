@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense",
+ "question_id": "ref_them_15",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BLK_2024_Q1_prepared_remarks_200_007",
+  "WFC_2023_Q4_prepared_remarks_200_025",
+  "C_2023_Q2_prepared_remarks_200_012",
+  "BAC_2023_Q4_prepared_remarks_200_027",
+  "C_2023_Q4_prepared_remarks_200_010"
+ ],
+ "raw_response": "Based on the provided context, here is the information regarding technology spending and General & Administrative (G&A) expenses for the specified periods:\n\n*   **Citigroup (C):** In Q2 2023, technology spend was $3 billion, which represented a 13% increase. The company noted a shift in investments from third-party consulting to technology and full-time employees.\n*   **Wells Fargo (WFC):** For 2024, the bank expects approximately $1.1 billion of incremental technology and equipment expense. This reflects higher costs related to the amortization of prior-year investments and new investments planned for 2024. The total expected non-insurance expense for 2024 is approximately $52.6 billion.\n*   **BlackRock (BLK):** In Q1 2024, G&A expense increased 6% year-over-year due to the timing of technology investment spend in the prior year. However, sequentially, G&A expense decreased by 12%, reflecting the timing of that same technology investment spend and seasonally higher marketing expenses in the fourth quarter. The company stated it expects technology to be a primary area of investment within G&A.\n\nThe context does not provide specific total dollar amounts for technology spending across all of 2023 or 2024 for BlackRock, nor does it provide detailed G&A changes for Citigroup or Wells Fargo beyond the incremental tech expense and total non-insurance expense outlooks mentioned above.",
+ "latency_seconds": 454.48,
+ "generated_at": "2026-09-03T12:06:29Z"
+}

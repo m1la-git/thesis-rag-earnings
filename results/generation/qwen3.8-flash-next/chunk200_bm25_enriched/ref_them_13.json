@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25_enriched",
+ "question_id": "ref_them_13",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BK_2024_Q2_prepared_remarks_200_005",
+  "BK_2024_Q4_prepared_remarks_200_020",
+  "BK_2024_Q3_qa_200_000",
+  "STT_2024_Q1_qa_200_006",
+  "BK_2024_Q4_prepared_remarks_200_004"
+ ],
+ "raw_response": "BNY Mellon described the growth in its ETF servicing business as validating multiyear investments into these platforms, noting that ETF assets under custody (AUCA) were up over 60% year-over-year with inflows on their platform outpacing the market. The company also highlighted a \"particular strength\" in ETF and alternative servicing and noted the development of new capabilities such as a NextGen ETF servicing platform.",
+ "latency_seconds": 158.2,
+ "generated_at": "2026-09-07T10:50:23Z"
+}

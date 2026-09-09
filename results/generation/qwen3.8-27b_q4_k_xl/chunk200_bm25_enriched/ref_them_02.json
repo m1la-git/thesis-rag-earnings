@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25_enriched",
+ "question_id": "ref_them_02",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "GS_2024_Q2_qa_200_020",
+  "JPM_2023_Q3_prepared_remarks_200_006",
+  "MS_2023_Q2_qa_200_001",
+  "JPM_2023_Q3_prepared_remarks_200_003",
+  "JPM_2023_Q3_prepared_remarks_200_007"
+ ],
+ "raw_response": "Based on the provided context, banks characterized the uncertainty surrounding the Basel III endgame as significant, noting that while there was favorable momentum and regulatory engagement in 2024, substantial questions remained regarding both the quantum (magnitude) and timing of its resolution. In 2023, the proposal was described as \"overcalibrated,\" with concerns raised about procyclicality, the compounding effects of GSIB surcharges and stress capital buffers, and potential negative impacts on credit pricing and availability for businesses and consumers.\n\nThis uncertainty directly affected capital actions in the following ways:\n*   **Goldman Sachs** operated at the wider end of its CET1 ratio range (running with 90 bps of cushion above normal) to signal flexibility and address the remaining uncertainties regarding the proposal's resolution.\n*   **JPMorgan Chase** maintained a modest pace for share repurchases, explicitly citing the Basel III endgame proposal as a factor in keeping buybacks restrained while continuing to reassess its capital trajectory based on evolving circumstances.",
+ "latency_seconds": 72.92,
+ "generated_at": "2026-09-05T14:11:44Z"
+}

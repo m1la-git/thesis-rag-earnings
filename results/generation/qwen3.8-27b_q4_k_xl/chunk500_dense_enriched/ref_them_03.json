@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense_enriched",
+ "question_id": "ref_them_03",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BAC_2023_Q2_prepared_remarks_500_012",
+  "USB_2023_Q3_prepared_remarks_500_003",
+  "BAC_2024_Q1_prepared_remarks_500_009",
+  "WFC_2023_Q1_prepared_remarks_500_005",
+  "COF_2023_Q3_prepared_remarks_500_001"
+ ],
+ "raw_response": "Based on the provided transcripts, banks discussed their commercial real estate (CRE) office exposure and allowances as follows:\n\n*   **Bank of America:** In Q2 2023, CRE office credit exposure represented less than 2% of total loans. The bank noted it had been intentional regarding client selection, portfolio concentration, and deal structure. By Q1 2024 (referencing trends from late 2023), roughly one-third of the office exposure was categorized as reservable criticized, with losses described as front-loaded and largely reserved.\n*   **U.S. Bancorp:** In Q3 2023, the bank increased its reserve ratio for commercial real estate office loans to 10% due to higher interest rates and other portfolio considerations. Asset quality metrics in this segment were trending in line with expectations but remained below pre-pandemic levels.\n*   **Wells Fargo:** In Q1 2023, the bank reported $154.7 billion in total CRE loans, of which 35.7% were office loans (representing 4% of total loans). The allowance for credit losses increased by $643 million in the quarter, primarily driven by an increase for commercial real estate office loans. The bank noted that while it had not yet seen meaningful loss content, it expected more stress over time and was derisking the portfolio through commitments declines and working with borrowers on structural enhancements and paydowns.\n*   **Capital One:** In Q3 2023, the allowance for its Commercial Banking business increased by $97 million, reflecting the impact of rising interest rates and other factors on certain commercial real estate and corporate borrowers, including the commercial office portfolio. The bank also completed the sale of approximately $900 million in loans from its commercial office portfolio that had been previously marked as held for sale.",
+ "latency_seconds": 270.23,
+ "generated_at": "2026-09-05T14:53:17Z"
+}

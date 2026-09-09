@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid_enriched",
+ "question_id": "ref_them_11",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BAC_2024_Q4_prepared_remarks_200_021",
+  "USB_2023_Q4_qa_200_013",
+  "BAC_2024_Q2_prepared_remarks_200_024",
+  "COF_2023_Q4_qa_200_021",
+  "BAC_2023_Q2_prepared_remarks_200_031"
+ ],
+ "raw_response": "Based on the provided context, banks characterized their net charge-off (NCO) levels and direction as follows:\n\n**Bank of America (BAC)**\n*   **2023:** In Q2 2023, NCOs increased by $62 million from Q1 to $869 million, driven primarily by credit card losses due to higher late-stage delinquencies. The credit card NCO rate was 2.6%, which remained below the pre-pandemic level of 3.03%.\n*   **2024:** In Q2 2024, consumer NCOs increased modestly by $31 million compared to Q1 due to higher late-stage credit card delinquencies, while commercial NCOs were relatively flat as lower commercial real estate losses offset small increases in other loans. For the full year 2025 (projected from late 2024 data), BAC expected the overall NCO ratio to remain stable in the range of 50 to 60 basis points, assuming no significant changes in GDP or employment.\n\n**U.S. Bancorp (USB)**\n*   **2023:** In Q4 2023, non-performing assets were generally stable, with only a few idiosyncratic legacy credits moving into non-performing status that were well-collateralized and not expected to generate significant charge-offs.\n*   **2024:** For full-year 2024, USB expected NCOs to continue normalizing, projecting the ratio to be in the \"mid-50s\" (basis points). They noted that credit card NCOs were approaching pre-pandemic levels but would continue to move up slightly.\n\n**Capital One Financial (COF)**\n*   **2023:** In Q4 2023, net charge-offs were approximately 15% above the stable 2018/2019 benchmark levels.\n*   **2024:** Looking ahead to 2024, COF concluded that NCOs were stabilizing at about 15% above 2019 levels, with typical month-to-month volatility and seasonality expected.",
+ "latency_seconds": 372.22,
+ "generated_at": "2026-09-05T22:23:07Z"
+}

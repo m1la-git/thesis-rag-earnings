@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25",
+ "question_id": "ref_them_06",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "MS_2024_Q4_qa_500_014",
+  "GS_2023_Q4_qa_500_009",
+  "USB_2024_Q2_qa_500_005",
+  "COF_2024_Q2_prepared_remarks_500_004",
+  "WFC_2024_Q1_prepared_remarks_500_001"
+ ],
+ "raw_response": "Based on the provided context, the following efficiency ratio levels and targets were discussed by various financial institutions:\n\n*   **Morgan Stanley (MS):** Management referenced a long-term goal of a **70% efficiency ratio**. They noted that they manage expenses holistically rather than providing specific full-year guidance for individual expense lines like compensation.\n*   **Goldman Sachs (GS):** The firm stated it is orienting toward a **60% efficiency ratio target**. For 2023, the fully reported efficiency ratio was higher due to selected items, but excluding those impacts, the ratio would have been approximately **65%**.\n*   **Capital One Financial (COF):** The company guided that its 2024 annual operating efficiency ratio (net of adjustments) would be flat to modestly down compared to 2023. However, including the impact of ending the Walmart relationship in Q2 2024, they expect the full-year 2024 operating efficiency ratio to be **modestly down** compared to 2023.\n*   **U.S. Bancorp (USB):** While specific percentage targets for an \"efficiency ratio\" were not explicitly cited in the text, management discussed capital accretion of 20 to 25 basis points per quarter and noted that their priorities remain investing in the business, dividends, and buybacks.\n*   **Wells Fargo (WFC):** The transcript mentions continued execution on efficiency initiatives, including headcount reductions, but does not specify a numerical efficiency ratio target or level for 2023 or 2024.",
+ "latency_seconds": 299.62,
+ "generated_at": "2026-09-05T23:36:28Z"
+}

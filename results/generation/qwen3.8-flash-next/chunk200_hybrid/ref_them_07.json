@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid",
+ "question_id": "ref_them_07",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "WFC_2023_Q3_prepared_remarks_200_016",
+  "FITB_2024_Q2_prepared_remarks_200_015",
+  "FITB_2023_Q4_prepared_remarks_200_001",
+  "BAC_2023_Q4_qa_200_005",
+  "MTB_2023_Q2_prepared_remarks_200_017"
+ ],
+ "raw_response": "Based on the provided context, Wells Fargo described its average deposit costs as continuing to increase (up 23 basis points from the second quarter) and noted that the percentage of average noninterest-bearing deposits decreased modestly from the second quarter. Fifth Third Bank reported that for full-year 2023, deposits grew 5%. M&T Bank expected continued intense competition for deposits in the face of industry-wide outflows.",
+ "latency_seconds": 64.38,
+ "generated_at": "2026-09-07T11:10:17Z"
+}

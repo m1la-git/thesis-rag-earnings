@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense",
+ "question_id": "ref_them_08",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BLK_2023_Q4_prepared_remarks_500_006",
+  "MS_2023_Q4_prepared_remarks_500_009",
+  "MS_2023_Q3_prepared_remarks_500_004",
+  "MS_2023_Q1_prepared_remarks_500_004",
+  "BK_2023_Q4_prepared_remarks_500_007"
+ ],
+ "raw_response": "Based on the provided context, the firms described momentum in net inflows, AUM, and client investment assets as follows:\n\n**BlackRock (BLK)**\n*   **Net Inflows:** Institutional business generated $32 billion in net inflows for 2023, led by active strategies ($87 billion) despite index outflows. The cash management platform saw $79 billion in net inflows for the year and $33 billion in Q4. Retail experienced net outflows of $8 billion for the full year due to rising rate-sensitive strategies, though Aperio saw record net inflows of $12 billion. Private markets saw $14 billion in net inflows driven by infrastructure and private credit.\n*   **AUM:** Cash and liquidity AUM grew 14% (over $90 billion) year-on-year. Aperio’s AUM grew 95% since acquisition to reach $80 billion.\n\n**Morgan Stanley (MS)**\n*   **Net Inflows/Outflows:** Investment management reported long-term net outflows of approximately $7 billion in both Q3 and full-year results, driven by headwinds in active equity growth strategies. However, fee-based flows were strong ($22.5 billion in Q3; $22 billion in Q1). Workplace-to-advisor channel migration increased 25% year-over-year.\n*   **AUM:** Investment management AUM ended at $1.4 trillion in Q1 and Q3, increasing to $1.5 trillion by the full year (Q4), supported by higher asset values despite outflows.\n\n**BNY Mellon (BK)**\n*   **Net Inflows/Outflows:** In Q4, there were net inflows of $7 billion into short-term strategies and $4 billion into long-term active strategies, offset by $10 billion in net outflows from index strategies. Cumulative net outflows impacted overall AUM growth.\n*   **AUM & Client Assets:** Assets under management (AUM) increased 8% year-over-year to $2 trillion, reflecting higher market values and a weaker dollar partially offsetting cumulative net outflows. Wealth management client assets increased 16% year-over-year to $312 billion, driven by higher equity market values and cumulative net inflows.",
+ "latency_seconds": 296.28,
+ "generated_at": "2026-09-07T11:52:04Z"
+}

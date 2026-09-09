@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense",
+ "question_id": "ref_them_04",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BAC_2023_Q4_prepared_remarks_500_002",
+  "HBAN_2023_Q4_prepared_remarks_500_001",
+  "FITB_2023_Q4_prepared_remarks_500_002",
+  "C_2023_Q4_prepared_remarks_500_004",
+  "BK_2024_Q2_prepared_remarks_500_008"
+ ],
+ "raw_response": "Banks described their progress on positive operating leverage as follows:\n\n*   **Bank of America** achieved 170 basis points of operating leverage in 2023, driven by good expense discipline that lowered quarterly expense levels throughout the year while continuing to invest in growth.\n*   **Fifth Third Bank** maintained peer-leading annualized expense growth and reduced headcount by 4% from its peak without a company-wide expense program. While they did not anticipate positive operating leverage for the full year of 2023 due to risk-weighted asset reductions, they expected to return to positive operating leverage in the second half of 2024.\n*   **BNY Mellon** expressed incremental confidence in its ability to drive positive operating leverage in 2024, citing solid fee growth, better-than-expected net interest income performance, and continued expense discipline entering the second half of the year.",
+ "latency_seconds": 99.14,
+ "generated_at": "2026-09-07T11:48:47Z"
+}

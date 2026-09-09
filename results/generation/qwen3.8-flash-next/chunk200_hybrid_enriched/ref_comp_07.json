@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid_enriched",
+ "question_id": "ref_comp_07",
+ "category": "comparative",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "USB_2024_Q3_prepared_remarks_200_000",
+  "USB_2023_Q3_prepared_remarks_200_000",
+  "PNC_2023_Q3_qa_200_002",
+  "USB_2023_Q4_prepared_remarks_200_000",
+  "PNC_2023_Q3_prepared_remarks_200_002"
+ ],
+ "raw_response": "PNC framed its 2024 expense plan by highlighting over $725 million in total expense management actions, which included a Continuous Improvement Program (CIP) goal of approximately $450 million and staff reductions expected to lower 2024 expenses by $325 million. The company stated that these savings would be used to fund investments in key growth markets and technology.\n\nThe provided context does not contain enough information to answer this question regarding U.S. Bancorp's specific framing of its 2024 expense plans on the third-quarter 2023 call, as the relevant text from that transcript is truncated before any financial details or prepared remarks by management are included.",
+ "latency_seconds": 255.24,
+ "generated_at": "2026-09-07T10:58:42Z"
+}

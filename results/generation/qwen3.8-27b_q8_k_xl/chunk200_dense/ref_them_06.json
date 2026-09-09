@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense",
+ "question_id": "ref_them_06",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "C_2023_Q4_prepared_remarks_200_010",
+  "FITB_2024_Q2_prepared_remarks_200_016",
+  "COF_2023_Q4_prepared_remarks_200_015",
+  "STT_2023_Q4_prepared_remarks_200_012",
+  "WFC_2023_Q4_prepared_remarks_200_023"
+ ],
+ "raw_response": "Based on the provided context, the following efficiency ratios and targets were discussed:\n\n*   **Fifth Third Bancorp (FITB):** The bank projects a full-year 2024 efficiency ratio of around 57%. They also expect to manage full-year adjusted non-interest expense stable to 2023 levels.\n*   **Capital One Financial Corporation (COF):** For the first quarter of 2024, the company expects its annual operating efficiency ratio, net of adjustments, to be flat to modestly down compared to 2023. This expectation includes the partial-year impact of a proposed CFPB late fee rule assumed to take effect in October 2024.\n*   **State Street Corporation (STT):** The company stated that its actions to streamline operations and reduce expenses will contribute to its \"fee operating leverage goal\" for 2024 and subsequent years, though a specific percentage target was not provided in the text.",
+ "latency_seconds": 117.8,
+ "generated_at": "2026-09-05T22:35:15Z"
+}

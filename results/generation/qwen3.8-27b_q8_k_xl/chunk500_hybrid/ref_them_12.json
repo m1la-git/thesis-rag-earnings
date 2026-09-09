@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid",
+ "question_id": "ref_them_12",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BK_2023_Q4_prepared_remarks_500_002",
+  "STT_2024_Q2_qa_500_012",
+  "MS_2023_Q4_qa_500_014",
+  "GS_2024_Q4_prepared_remarks_500_003",
+  "JPM_2023_Q4_prepared_remarks_500_005"
+ ],
+ "raw_response": "Based on the provided context, here is what the firms said regarding their wealth management businesses and investments in 2023:\n\n*   **BNY Mellon:** The firm stated that it launched new solutions to deepen relationships with existing clients and attract new ones, including Pershing’s wealth advisory platform (Wove). It also noted that all its businesses were bringing new client solutions to market. BNY Mellon hired its first Chief Commercial Officer in 2023 to operationalize its \"one BNY Mellon\" initiative and created an integrated team to facilitate multi-line of business solutions at scale.\n*   **Morgan Stanley:** Management described the wealth business as a key differentiator for the firm over the previous 15 years, noting that it had not worked to the detriment of the investment bank. They highlighted the integration of Smith Barney and the creation of a \"full funnel\" approach combining self-directed, traditional advisory, and workplace channels. The leadership emphasized their commitment to delivering value in a differentiated manner with high barriers to entry.\n*   **State Street:** While discussing asset management trends that impact wealth clients, State Street noted that well-managed firms are responding to market pressure by offering collective trusts alongside mutual funds and finding ways to participate in the wealth business. State Street stated it continues to respond to and support these client shifts.\n\nNote: The context for Goldman Sachs (2024) and JPMorgan Chase (2023/2024 outlook) does not provide specific details about 2023 wealth management investments or strategic statements limited strictly to the 2023 period in the same manner as the other firms.",
+ "latency_seconds": 648.84,
+ "generated_at": "2026-09-06T00:00:45Z"
+}

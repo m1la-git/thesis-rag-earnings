@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense",
+ "question_id": "ref_them_11",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "COF_2023_Q4_qa_200_021",
+  "FITB_2024_Q2_prepared_remarks_200_016",
+  "C_2023_Q4_prepared_remarks_200_010",
+  "COF_2024_Q3_prepared_remarks_200_010",
+  "AXP_2023_Q3_qa_200_019"
+ ],
+ "raw_response": "Based on the provided context, banks characterized their net charge-off (NCO) levels and direction for 2023 and 2024 as follows:\n\n*   **Capital One Financial (COF):** In Q4 2023, NCOs were approximately 15% above 2018 levels. Looking ahead into 2024, the bank concluded that net charge-offs are stabilizing at about 15% above 2019 levels, with typical month-to-month volatility and seasonality.\n*   **Fifth Third Bancorp (FITB):** For full year 2024, the NCO outlook remained in the range of 35 to 45 basis points. The bank expected to resume provision builds in connection with loan growth and mix in the second half of 2024, though this build was expected to be less than in the first half of the year.\n*   **American Express (AXP):** While specific NCO figures for 2023 were not detailed in the excerpt, management indicated that credit performance is driven by product quality and disciplined risk execution. They noted they would provide more details on 2024 credit performance at the beginning of the following year.\n*   **Citigroup (C):** The provided text does not contain specific information regarding Citigroup’s net charge-off levels or direction for 2023 or 2024, focusing instead on the macro environment and balance sheet strength.",
+ "latency_seconds": 209.61,
+ "generated_at": "2026-09-05T22:36:47Z"
+}

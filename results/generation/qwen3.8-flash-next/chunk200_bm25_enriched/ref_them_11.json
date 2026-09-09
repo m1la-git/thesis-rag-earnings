@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25_enriched",
+ "question_id": "ref_them_11",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "USB_2023_Q4_qa_200_013",
+  "MTB_2024_Q2_prepared_remarks_200_002",
+  "COF_2023_Q4_qa_200_042",
+  "BAC_2023_Q2_prepared_remarks_200_014",
+  "BAC_2024_Q2_prepared_remarks_200_024"
+ ],
+ "raw_response": "Banks characterized their net charge-off levels as normalizing or trending toward pre-pandemic levels. Specifically, U.S. Bank expected full-year 2024 net charge-offs to be in the \"mid-50s\" basis points, noting that credit card charge-offs were getting closer to pre-pandemic levels but would continue to move up slightly. Capital One reported that its gross charge-offs were leveling off very close to 2018 and 2019 levels, while net charge-offs leveled off at a level approximately 15% above 2019 due to lower recoveries. Bank of America noted in Q2 2023 that the trend was moving toward pre-pandemic levels but remained below historical levels, with a charge-off rate of 33 basis points; by Q2 2024, the net charge-off ratio was 59 basis points, largely unchanged from the first quarter. M&T Bank stated in Q2 2024 that asset quality trends were performing as expected, with net charge-offs in line with their expectations and reductions in non-accrual and criticized balances.",
+ "latency_seconds": 146.58,
+ "generated_at": "2026-09-07T10:50:11Z"
+}

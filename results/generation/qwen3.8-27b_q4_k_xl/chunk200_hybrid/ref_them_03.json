@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid",
+ "question_id": "ref_them_03",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "WFC_2024_Q1_prepared_remarks_200_015",
+  "WFC_2023_Q4_prepared_remarks_200_012",
+  "WFC_2023_Q4_prepared_remarks_200_011",
+  "COF_2023_Q3_prepared_remarks_200_004",
+  "WFC_2023_Q3_prepared_remarks_200_014"
+ ],
+ "raw_response": "During 2023, banks reported that losses began to materialize in their commercial real estate (CRE) office portfolios due to weak market fundamentals, borrower performance issues, lower appraisals, and properties or loans being sold at a loss. Specifically:\n\n*   **Allowance Increases:** Wells Fargo increased its allowance for credit losses primarily for CRE office loans throughout 2023 as criticized and nonperforming assets rose. In Q4 2023, the allowance increased slightly driven by CRE and credit card loans. Capital One also saw an increase in its Commercial Banking allowance in Q3 2023, reflecting the impact of rising interest rates on certain CRE borrowers, including the commercial office portfolio.\n*   **Nonperforming Assets:** Nonaccrual loans for CRE office properties increased significantly. Wells Fargo noted a $1.3 billion increase in office nonaccrual loans in Q3 2023 and a further $567 million increase in Q4 2023.\n*   **Coverage Ratios:** In Q4 2023, Wells Fargo’s coverage ratio for its CIB commercial real estate office portfolio was stable at 11% compared to the third quarter. Capital One noted that the coverage ratio in their Commercial Banking segment (which includes office exposure) was discussed alongside details on the office portfolio in their appendix.\n*   **Outlook and Actions:** Wells Fargo stated they expected additional losses in coming quarters, which would be uneven and episodic, while continuing to derisk and reduce exposure through a rigorous monitoring process. Capital One completed the sale of approximately $900 million of loans from its commercial office portfolio that were previously marked as held for sale in Q3 2023.",
+ "latency_seconds": 119.41,
+ "generated_at": "2026-09-03T11:46:22Z"
+}

@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25_enriched",
+ "question_id": "ref_them_08",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BLK_2023_Q4_prepared_remarks_500_006",
+  "STT_2023_Q2_prepared_remarks_500_004",
+  "BLK_2023_Q3_prepared_remarks_500_001",
+  "BLK_2024_Q3_prepared_remarks_500_007",
+  "MS_2023_Q1_prepared_remarks_500_004"
+ ],
+ "raw_response": "Based on the provided context, firms described momentum in net inflows, AUM, and client investment assets during 2023 as follows:\n\n**BlackRock (BLK)**\n*   **Net Inflows:** BlackRock reported $193 billion of total net inflows in the first nine months of 2023. For the full year, institutional business generated $32 billion in net inflows, cash management saw $79 billion in net inflows, and private markets saw $14 billion in net inflows. Retail experienced net outflows of $8 billion for the full year.\n*   **AUM:** Assets under management reached $9.1 trillion by the end of Q3 2023, which was $1.1 trillion higher than a year prior. Cash and liquidity business AUM grew 14% (over $90 billion) year-on-year. Aperio’s AUM grew 95% since acquisition to reach $80 billion in 2023.\n*   **Client Investment Assets:** Clients entrusted BlackRock with over $300 billion of net inflows in the last 12 months (as of Q3 2023). The firm noted that clients were using cash products not only for liquidity but also to earn attractive returns, and demand for private markets remained strong.\n\n**State Street (STT)**\n*   **Net Inflows:** State Street reported client net inflows contributing to a year-on-year increase in Assets Under Custody/Administration (AUC/A). Global Advisors saw \"strong sequential net inflows\" in Q2 2023.\n*   **AUM and Client Investment Assets:** Period-end AUC/A increased by 4% on a year-on-year basis, driven largely by higher period-end equity market levels and client net inflows. At Global Advisors, period-end AUM increased 9% year-on-year, primarily due to higher period-end market levels.\n\n**Morgan Stanley (MS)**\n*   **Net Inflows:** Fee-based flows were $22 billion in Q1 2023. Liquidity and overlay services had inflows of $13.9 billion. However, Investment Management saw long-term net outflows of $2.4 billion as equity outflows moderated.\n*   **AUM and Client Investment Assets:** Total AUM ended at $1.4 trillion in Q1 2023, with revenues declining due to lower market levels and cumulative outflows from the prior year. The firm noted that clients were choosing to invest in cash through the cycle while waiting for the market outlook to improve, positioning them for future reinvestment.",
+ "latency_seconds": 282.0,
+ "generated_at": "2026-09-07T11:22:11Z"
+}

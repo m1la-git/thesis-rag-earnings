@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid",
+ "question_id": "ref_them_02",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "JPM_2023_Q3_prepared_remarks_500_001",
+  "GS_2024_Q2_qa_500_008",
+  "JPM_2023_Q3_prepared_remarks_500_002",
+  "GS_2023_Q3_prepared_remarks_500_002",
+  "MS_2023_Q2_qa_500_000"
+ ],
+ "raw_response": "Banks characterized the Basel III Endgame proposal as overly burdensome, disconcerting due to a lack of detailed supporting analysis, and potentially harmful to economic growth and US competitiveness. They argued that the proposed capital increases were excessive given existing improvements in bank safety since 2008, noting that the rules could drive activity to unregulated shadow banking sectors and increase credit costs.\n\nRegarding capital actions:\n*   **JPMorgan Chase** stated that the pace of share repurchases would likely remain modest in light of the proposal, though they would continue to reassess buyback trajectories as circumstances evolve. They also highlighted that the proposal could lead to a 45% increase in their capital requirements relative to 2017 levels.\n*   **Goldman Sachs** maintained a wider end of its CET1 capital range (90 basis points of cushion) specifically to signal flexibility and address the uncertainty regarding both the quantum and timing of the Basel III Endgame resolution, which they noted might not take effect until perhaps into 2025.",
+ "latency_seconds": 129.86,
+ "generated_at": "2026-09-07T11:54:28Z"
+}

@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25",
+ "question_id": "ref_them_02",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "GS_2024_Q2_qa_200_020",
+  "JPM_2023_Q3_prepared_remarks_200_006",
+  "JPM_2023_Q3_prepared_remarks_200_003",
+  "JPM_2023_Q3_prepared_remarks_200_007",
+  "WFC_2023_Q3_prepared_remarks_200_009"
+ ],
+ "raw_response": "Banks characterized the uncertainty around the Basel III Endgame as significant regarding both the \"quantum\" (magnitude) of increased requirements and the timing of its resolution. Goldman Sachs noted that this uncertainty led them to operate at the wider end of their CET1 range to signal flexibility, while JPMorgan Chase described the proposal as \"overcalibrated,\" noting it would increase capital requirements by 45% relative to 2017 levels if finalized in its current form. Wells Fargo estimated an approximate 20% increase in Risk-Weighted Assets (RWA) under the proposal.\n\nThese uncertainties directly affected capital actions, particularly share repurchases. JPMorgan Chase stated that the pace of buybacks would likely remain modest in light of the Basel III Endgame proposal, with the company continuing to reassess its trajectory as circumstances evolve. Goldman Sachs maintained a higher CET1 cushion (90 bps above normal) specifically to address this remaining uncertainty.",
+ "latency_seconds": 56.88,
+ "generated_at": "2026-09-07T11:04:49Z"
+}

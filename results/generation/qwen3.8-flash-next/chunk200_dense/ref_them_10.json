@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense",
+ "question_id": "ref_them_10",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "COF_2023_Q4_prepared_remarks_200_014",
+  "C_2023_Q4_prepared_remarks_200_010",
+  "FITB_2024_Q2_prepared_remarks_200_016",
+  "AXP_2023_Q4_prepared_remarks_200_012",
+  "AXP_2024_Q2_prepared_remarks_200_010"
+ ],
+ "raw_response": "Based on the provided context, here is what was stated regarding credit card growth and credit performance for Capital One (COF) and American Express (AXP):\n\n**Capital One (Q4 2023)**\n*   **Growth:** The company delivered solid top-line growth in domestic card revenue, purchase volume, and loans.\n*   **Credit Performance:** Domestic card delinquency trends were in line with normal seasonal patterns, which was cited as a continuing indicator of stabilizing consumer credit results.\n\n**American Express (Q4 2023)**\n*   **Growth:** Loans and card member receivables grew 13% year-over-year. This growth was elevated compared to pre-pandemic levels but was expected to moderate through 2024, though still growing faster than billings.\n*   **Credit Performance:** The company reported strong, best-in-class credit metrics attributed to a high-quality customer base and disciplined risk management. However, write-off and delinquency rates did continue to tick up in the quarter.\n\n**American Express (Q2 2024)**\n*   **Growth:** Loans and card member receivables grew 11% year-over-year. This growth was described as strong but continuing to moderate as expected, with loan growth anticipated to slow by a few percentage points through the rest of 2024 while remaining in double digits for the full year.\n*   **Credit Performance:** Credit performance remained very strong due to a disciplined strategy focused on high-credit-quality premium customers and younger demographics. The company expects write-off rates to remain generally stable for the remainder of 2024.",
+ "latency_seconds": 129.03,
+ "generated_at": "2026-09-07T11:08:36Z"
+}

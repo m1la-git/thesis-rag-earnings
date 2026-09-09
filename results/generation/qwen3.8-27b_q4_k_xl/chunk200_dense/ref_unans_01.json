@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense",
+ "question_id": "ref_unans_01",
+ "category": "unanswerable",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BK_2023_Q3_qa_200_044",
+  "MS_2023_Q3_qa_200_008",
+  "BK_2023_Q1_prepared_remarks_200_012",
+  "BK_2023_Q3_prepared_remarks_200_018",
+  "MS_2024_Q4_prepared_remarks_200_019"
+ ],
+ "raw_response": "Northern Trust’s firm-wide assets under custody and/or administration were $46.6 trillion, which increased by 2% year-over-year.",
+ "latency_seconds": 13.78,
+ "generated_at": "2026-09-03T12:56:25Z"
+}

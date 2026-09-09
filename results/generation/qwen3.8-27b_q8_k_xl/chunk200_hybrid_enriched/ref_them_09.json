@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid_enriched",
+ "question_id": "ref_them_09",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "USB_2023_Q4_prepared_remarks_200_006",
+  "HBAN_2023_Q2_prepared_remarks_200_010",
+  "FITB_2023_Q4_qa_200_028",
+  "FITB_2024_Q1_prepared_remarks_200_008",
+  "HBAN_2023_Q3_prepared_remarks_200_010"
+ ],
+ "raw_response": "Based on the provided context, here are the reported net interest margin (NIM) levels and trends for 2023 and 2024:\n\n**Huntington Bancshares (HBAN)**\n*   **Q4 2023:** The bank anticipated NIM to be between **305 basis points and 310 basis points**. This was an increase of 5 to 10 basis points compared to previous guidance.\n*   **2024 Outlook:** Management modeled NIM to trend **flat to higher** from the Q4 2023 endpoint. By Q4 2024, they anticipated NIM of approximately **3% (300 basis points)**, plus or minus a few basis points.\n\n**First Interstate BancSystem (FITB)**\n*   **Q1 2024:** Net interest margin improved by **1 basis point** sequentially. This was noted as the first sequential improvement since Q4 2022. The text does not provide specific NIM levels for 2023, only noting that the Q1 2024 increase was driven by higher yields on new fixed-rate consumer loans and day count benefits, partially offset by deposit migration to interest-bearing accounts.\n\n**U.S. Bancorp (USB)**\n*   **Q4 2023:** The context provides net interest income figures ($4.14 billion annualized) but does not explicitly state the specific NIM percentage level for Q4 2023 or 2024. It notes that NIM reflected market dynamics including deposit pricing pressure and unfavorable shifts in deposit mix, partially offset by better earning asset spreads.\n\n**Summary of Direction:**\n*   **HBAN:** Moving from a higher point in late 2023 (approx. 305-310 bps) to a slightly lower or stable level in late 2024 (approx. 300 bps), with the full-year 2024 trend described as flat to rising relative to the Q4 2023 start.\n*   **FITB:** Moving upward sequentially in Q1 2024 (+1 bps).",
+ "latency_seconds": 359.12,
+ "generated_at": "2026-09-05T22:22:54Z"
+}

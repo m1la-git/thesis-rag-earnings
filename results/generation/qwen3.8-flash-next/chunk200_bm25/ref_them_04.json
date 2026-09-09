@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25",
+ "question_id": "ref_them_04",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BK_2023_Q3_qa_200_019",
+  "USB_2023_Q3_qa_200_009",
+  "BK_2023_Q1_prepared_remarks_200_006",
+  "BAC_2023_Q4_prepared_remarks_200_005",
+  "STT_2024_Q3_prepared_remarks_200_002"
+ ],
+ "raw_response": "Banks described their progress on positive operating leverage as follows:\n\n*   **Bank of New York Mellon (BK):** In Q1 2023, the company reported delivering positive operating leverage on a year-over-year basis. By Q3 2023, management expressed confidence in achieving aggregate positive operating leverage for the following year, citing investments and cost-cutting efforts such as consolidating KYC processes.\n*   **Bank of America (BAC):** In Q4 2023 prepared remarks, the company stated it achieved 170 basis points of operating leverage in 2023, driven by good expense discipline and bringing headcount and expenses down every quarter during the year.\n*   **State Street (STT):** In Q3 2024 prepared remarks, the company reported generating positive fee and total operating leverage for the third quarter, as well as better-than-expected positive fee and total operating leverage on a year-to-date basis due to solid revenue growth and good expense discipline.\n*   **U.S. Bank (USB):** In Q3 2023, management discussed the \"sweet spot\" of merger savings coming up in the next quarter, noting that $900 million in run-rate savings would be fully reflected in the 2024 expense base, which was consistent with guidance for flat expenses between 2023 and 2024.",
+ "latency_seconds": 78.75,
+ "generated_at": "2026-09-07T11:05:11Z"
+}

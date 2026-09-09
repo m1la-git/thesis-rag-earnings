@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25_enriched",
+ "question_id": "ref_them_07",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BK_2023_Q2_prepared_remarks_200_013",
+  "BK_2023_Q1_prepared_remarks_200_015",
+  "STT_2023_Q2_qa_200_010",
+  "FITB_2023_Q3_qa_200_002",
+  "FITB_2023_Q3_qa_200_001"
+ ],
+ "raw_response": "Based on the provided context, Bank of America (BK) described its deposit balances as remaining elevated relative to expectations, with average balances increasing by 1% sequentially. Specifically, interest-bearing deposits rose by 5%, while noninterest-bearing deposits decreased by 11%. The company noted that this mix shift contributed to a 2% quarter-over-quarter decline in net interest revenue.\n\nThe provided context does not contain specific descriptions of deposit growth for other banks during the second quarter of 2023; the available excerpts from Fifth Third (FITB) and State Street (STT) refer to third-quarter expectations or general trends without detailing Q2 2023 performance metrics in the same manner.",
+ "latency_seconds": 107.34,
+ "generated_at": "2026-09-05T14:12:19Z"
+}

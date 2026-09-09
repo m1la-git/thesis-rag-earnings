@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense",
+ "question_id": "ref_them_11",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "COF_2023_Q4_qa_200_021",
+  "FITB_2024_Q2_prepared_remarks_200_016",
+  "C_2023_Q4_prepared_remarks_200_010",
+  "COF_2024_Q3_prepared_remarks_200_010",
+  "AXP_2023_Q3_qa_200_019"
+ ],
+ "raw_response": "Based on the provided context, banks characterized their net charge-off levels and directions as follows:\n\n*   **Capital One (COF):** In Q4 2023, net charge-offs were about 15% above 2018 levels. Looking ahead to 2024, they concluded that net charge-offs are stabilizing at about 15% above 2019 levels. For their Commercial Banking business in Q3 2024, the annualized net charge-off rate increased by 7 basis points from the previous quarter to 0.22%.\n*   **Fifth Third Bancorp (FITB):** The full-year 2024 net charge-off outlook remained in the range of 35 to 45 basis points. They expected provision builds to resume in connection with loan growth and mix in the second half of 2024, though this build was expected to be less than that of the first half of 2024.\n*   **American Express (AXP):** In Q3 2023, net charge-offs were noted as being below pre-pandemic levels.",
+ "latency_seconds": 115.52,
+ "generated_at": "2026-09-07T11:08:22Z"
+}

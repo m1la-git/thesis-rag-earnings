@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense",
+ "question_id": "ref_comp_07",
+ "category": "comparative",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "PNC_2023_Q3_prepared_remarks_500_006",
+  "USB_2024_Q3_prepared_remarks_500_000",
+  "USB_2023_Q3_prepared_remarks_500_000",
+  "PNC_2023_Q4_prepared_remarks_500_000",
+  "USB_2023_Q4_prepared_remarks_500_000"
+ ],
+ "raw_response": "On its third-quarter 2023 call, PNC framed its 2024 expense plan by announcing a workforce reduction of 4% to address current environmental pressures. This initiative was expected to reduce 2024 expenses by approximately $325 million, with one-time costs of about $150 million incurred in the fourth quarter of 2023. PNC stated its objective was to keep core expenses stable in 2024, excluding these one-time charges, while maintaining a Corporate Investment Program (CIP) goal similar in magnitude to 2023.\n\nThe provided context does not contain enough information to answer this question regarding U.S. Bancorp’s specific framing of its 2024 expense plan on its third-quarter 2023 call. The available text for U.S. Bancorp’s Q3 2023 call focuses on Q3 results, the Union Bank acquisition, and capital ratios, but does not detail a forward-looking 2024 expense strategy or specific reduction targets in that transcript segment.",
+ "latency_seconds": 637.95,
+ "generated_at": "2026-09-05T23:49:35Z"
+}

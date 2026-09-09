@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense_enriched",
+ "question_id": "ref_them_08",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "MS_2023_Q4_prepared_remarks_200_023",
+  "JPM_2023_Q4_prepared_remarks_200_009",
+  "MS_2023_Q3_prepared_remarks_200_012",
+  "BLK_2024_Q3_prepared_remarks_200_017",
+  "MS_2023_Q1_prepared_remarks_200_011"
+ ],
+ "raw_response": "Based on the provided context, firms described momentum in net inflows, AUM, and client investment assets during 2023 as follows:\n\n**JPMorgan Chase (JPM)** reported strong positive momentum:\n*   **Net Inflows:** Net long-term inflows were $140 billion for the full year, with record client asset net inflows of $489 billion. Liquidity saw net inflows of $242 billion for the full year.\n*   **AUM and Client Assets:** AUM reached $3.4 trillion and client assets reached $5 trillion, both up 24% year-over-year, driven by continued net inflows and higher market levels.\n\n**Morgan Stanley (MS)** reported mixed results with headwinds in specific areas:\n*   **Net Inflows:** The firm experienced long-term net outflows of approximately $7 billion for the full year, driven by headwinds in active equity growth strategies. However, client migration from workplace to advisor-led channels was up 25% year-over-year, and adviser-led flows originating from workplace relationships doubled compared to the prior year in Q1.\n*   **AUM:** Total AUM increased year-over-year to $1.5 trillion for the full year, supported by higher asset values despite the outflows.",
+ "latency_seconds": 159.77,
+ "generated_at": "2026-09-07T10:53:37Z"
+}

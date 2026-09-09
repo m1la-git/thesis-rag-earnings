@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense",
+ "question_id": "ref_comp_07",
+ "category": "comparative",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "PNC_2023_Q3_prepared_remarks_500_006",
+  "USB_2024_Q3_prepared_remarks_500_000",
+  "USB_2023_Q3_prepared_remarks_500_000",
+  "PNC_2023_Q4_prepared_remarks_500_000",
+  "USB_2023_Q4_prepared_remarks_500_000"
+ ],
+ "raw_response": "PNC framed its 2024 expense plan by announcing a workforce reduction of 4% expected to reduce 2024 expenses by approximately $325 million, with the objective of keeping core expenses stable in 2024. The provided context does not contain information regarding U.S. Bancorp's specific 2024 expense plans from its third-quarter 2023 call.",
+ "latency_seconds": 267.53,
+ "generated_at": "2026-09-07T11:51:36Z"
+}

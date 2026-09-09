@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense_enriched",
+ "question_id": "ref_fact_13",
+ "category": "factual",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "JPM_2023_Q2_prepared_remarks_500_003",
+  "JPM_2024_Q2_prepared_remarks_500_002",
+  "JPM_2023_Q2_prepared_remarks_500_004",
+  "JPM_2023_Q2_prepared_remarks_500_000",
+  "JPM_2024_Q2_prepared_remarks_500_003"
+ ],
+ "raw_response": "JPMorgan's Investment Banking revenue in the second quarter of 2023 was $1.5 billion, which was up 11% year-on-year (or down 7% excluding bridge book markdowns from the prior year).",
+ "latency_seconds": 228.38,
+ "generated_at": "2026-09-07T11:26:08Z"
+}

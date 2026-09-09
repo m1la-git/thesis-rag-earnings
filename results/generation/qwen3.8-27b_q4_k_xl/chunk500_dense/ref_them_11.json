@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense",
+ "question_id": "ref_them_11",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "COF_2023_Q4_prepared_remarks_500_005",
+  "COF_2024_Q3_prepared_remarks_500_004",
+  "COF_2023_Q4_qa_500_008",
+  "MTB_2023_Q4_prepared_remarks_500_004",
+  "C_2024_Q4_qa_500_003"
+ ],
+ "raw_response": "Based on the provided context, banks characterized their net charge-off (NCO) levels and direction as follows:\n\n**Capital One Financial Corporation (COF)**\n*   **2023:** In Q4 2023, management stated that auto delinquency and charge-off rates had been tracking normal seasonal patterns since the first half of the year. They declared that consumer credit results were stabilizing, with net charge-offs leveling off at approximately 15% above 2018/2019 levels.\n*   **2024:** In Q3 2024, COF noted that auto charge-offs had been \"strong and stable\" since 2022. Consumer credit trends remained stable in the third quarter of 2024.\n\n**Citigroup (C)**\n*   **2024:** For the full year 2024, Citigroup expected net credit losses to be at the high end of their guidance range: 3.5%–4% for branded cards and 5.75%–6.25% for retail services (with retail services currently at 6.28%). They anticipated that branded card NCL rates would creep up toward the 4% level over the course of the year, noting seasonal movement through the quarters.\n\n**M&T Bank (MTB)**\n*   **2023:** In Q4 2023, net charge-offs totaled $148 million or 44 basis points, which was an increase of 15 basis points over the linked quarter. This increase was largely driven by specific office-related and C&I charge-offs.",
+ "latency_seconds": 744.91,
+ "generated_at": "2026-09-03T12:34:40Z"
+}

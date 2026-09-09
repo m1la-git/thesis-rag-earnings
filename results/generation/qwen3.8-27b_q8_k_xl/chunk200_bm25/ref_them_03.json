@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25",
+ "question_id": "ref_them_03",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "WFC_2023_Q3_prepared_remarks_200_014",
+  "WFC_2024_Q1_prepared_remarks_200_015",
+  "WFC_2023_Q4_prepared_remarks_200_011",
+  "BK_2024_Q1_qa_200_055",
+  "WFC_2023_Q4_prepared_remarks_200_012"
+ ],
+ "raw_response": "During 2023, Wells Fargo reported that its allowance for credit losses increased significantly to address growing risks in the commercial real estate (CRE) sector, particularly within the office portfolio. In the third quarter of 2023, the allowance rose by $333 million, primarily driven by CRE office loans and higher credit card balances. This increase was accompanied by a $1.3 billion rise in office nonaccrual loans.\n\nBy the fourth quarter of 2023, losses began to materialize in the CRE office portfolio due to weak market fundamentals, borrower performance issues, and lower appraisals resulting from properties being sold at a loss. The allowance for credit losses increased slightly again during this period, driven by further increases for credit card and commercial real estate loans. Nonaccrual loans in the CRE sector saw an additional $567 million increase in office non-accrual loans compared to the third quarter. Management noted that they had substantially built reserves throughout 2023 as criticized and nonperforming assets increased, while continuing to derisk and reduce exposure through a rigorous monitoring process.",
+ "latency_seconds": 81.69,
+ "generated_at": "2026-09-05T22:30:37Z"
+}

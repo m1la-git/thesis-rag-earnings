@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid_enriched",
+ "question_id": "ref_them_12",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "MS_2023_Q4_prepared_remarks_200_002",
+  "BK_2023_Q3_prepared_remarks_200_009",
+  "MS_2023_Q4_qa_200_036",
+  "BK_2023_Q4_prepared_remarks_200_005",
+  "GS_2023_Q4_prepared_remarks_200_003"
+ ],
+ "raw_response": "Based on the provided context, the firms discussed the following regarding their wealth management businesses in 2023:\n\n*   **Morgan Stanley:** The firm noted that its wealth business generated operating leverage and high returns. It highlighted that client assets in durable businesses have tripled since the transformation began, with significant opportunities for further growth. In 2023, despite challenges, the business model produced consistent results, contributing to $54 billion in total revenues and a 13% return on tangible common equity.\n*   **Bank of New York Mellon (BNY Mellon):** The firm emphasized that clients across various sectors trust BNY Mellon to do more business with them as the financial system becomes more complex. In 2023, they launched new solutions to deepen client relationships and highlighted the growth of their \"Wove\" platform. They noted active contracting with prospective clients, such as Integrity and Lincoln Investment, which are using Wove to access third-party models, institutional-grade investment management, and custody solutions. The firm plans to begin disclosing financial information and leading indicators for Wove’s growth trajectory in early 2024.\n*   **Goldman Sachs:** In its Asset & Wealth Management division, the firm reported solid investment performance and consistent growth in a more durable revenue base consisting of management fees, other fees, and private banking and lending revenues. The business operates with over $2.8 trillion in assets under supervision, where the firm sees significant opportunity for further growth.",
+ "latency_seconds": 364.86,
+ "generated_at": "2026-09-05T14:27:48Z"
+}

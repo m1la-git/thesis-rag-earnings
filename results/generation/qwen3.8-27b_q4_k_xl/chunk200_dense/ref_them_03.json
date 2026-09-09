@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense",
+ "question_id": "ref_them_03",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "COF_2023_Q3_prepared_remarks_200_004",
+  "WFC_2023_Q4_prepared_remarks_200_012",
+  "USB_2023_Q3_prepared_remarks_200_008",
+  "WFC_2024_Q1_prepared_remarks_200_015",
+  "PNC_2024_Q1_prepared_remarks_200_012"
+ ],
+ "raw_response": "During 2023, several major banks highlighted increasing pressure in the commercial real estate (CRE) office sector and adjusted their allowances accordingly:\n\n*   **Citigroup (COF):** In Q3 2023, the allowance for Commercial Banking increased by $97 million due to rising interest rates and other factors affecting certain CRE and corporate borrowers, including the commercial office portfolio. The bank also completed the sale of approximately $900 million in loans from its commercial office portfolio that had been marked as held for sale.\n*   **Wells Fargo (WFC):** In Q4 2023, nonperforming assets increased by 3%, driven largely by a $567 million increase in office non-accrual loans. The allowance for credit losses increased slightly during the quarter, specifically driven by increases in commercial real estate and credit card loans.\n*   **U.S. Bancorp (USB):** In Q3 2023, the bank noted that asset quality metrics reflected changing conditions in the CRE office segment. Consequently, it increased its reserve ratio for commercial real estate office loans to 10%. The overall allowance for credit losses stood at $7.8 billion, or 2.08% of loans.\n\nThese statements indicate a general trend of rising nonperforming assets and specific increases in allowances or reserve ratios dedicated to the CRE office portfolio during that period.",
+ "latency_seconds": 123.2,
+ "generated_at": "2026-09-03T12:00:58Z"
+}

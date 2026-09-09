@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense",
+ "question_id": "ref_them_06",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "WFC_2023_Q4_prepared_remarks_500_009",
+  "COF_2023_Q4_prepared_remarks_500_005",
+  "PNC_2023_Q3_prepared_remarks_500_006",
+  "COF_2023_Q4_prepared_remarks_500_006",
+  "C_2023_Q4_prepared_remarks_500_004"
+ ],
+ "raw_response": "Based on the provided context, the following efficiency ratio levels and targets were discussed:\n\n*   **Capital One (COF):** Reported an annual operating efficiency ratio, net of adjustments, of **43.54%** for full-year 2023, representing a 99 basis point improvement from the prior year. For 2024, Capital One expects its annual operating efficiency ratio to be **flat to modestly down** compared to 2023.\n*   **PNC Financial Services (PNC):** Did not provide specific efficiency ratio percentage targets but stated an objective to keep core expenses stable in 2024 and noted that their Cost Improvement Program (CIP) efforts have historically allowed for low single-digit annual expense growth while investing in the company.\n*   **Wells Fargo (WFC):** Did not cite a specific efficiency ratio percentage or target, but discussed delivering approximately $10 billion in gross expense savings through 2023 and expecting an additional $2.7 billion in gross expense reductions in 2024.",
+ "latency_seconds": 159.97,
+ "generated_at": "2026-09-07T11:49:48Z"
+}

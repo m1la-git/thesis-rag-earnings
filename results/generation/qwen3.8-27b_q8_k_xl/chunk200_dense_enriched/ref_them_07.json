@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense_enriched",
+ "question_id": "ref_them_07",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "FITB_2023_Q2_prepared_remarks_200_003",
+  "FITB_2023_Q2_prepared_remarks_200_004",
+  "BAC_2023_Q2_prepared_remarks_200_019",
+  "FITB_2023_Q2_prepared_remarks_200_016",
+  "FITB_2023_Q2_prepared_remarks_200_011"
+ ],
+ "raw_response": "In the second quarter of 2023, Fifth Third Bank reported that total period-end deposits increased by 1% sequentially and 2% year-over-year, outperforming the broader banking industry which saw a 5% decline. This growth was driven by deliberate strategies including expanding distribution in Southeast markets (adding over 70 de novo branches since 2019), launching innovative products like Momentum Banking, and focusing on primary household growth, which resulted in 3% year-over-year net household growth in the consumer segment. Additionally, Fifth Third added a record number of new middle-market commercial relationships, up 30% from 2022.\n\nBank of America described its deposit results as finding stability, noting that this was a good result given normal tax seasonality and monetary policy actions. The bank highlighted that it maintained over $1 trillion in high-quality consumer deposits, which remained $274 billion above pre-pandemic levels. However, Bank of America noted that the decline in consumer deposits during the quarter was driven by higher debt payments, increased spending, and seasonal tax activity.",
+ "latency_seconds": 312.17,
+ "generated_at": "2026-09-05T22:13:33Z"
+}

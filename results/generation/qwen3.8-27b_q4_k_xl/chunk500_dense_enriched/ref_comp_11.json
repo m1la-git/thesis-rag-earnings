@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense_enriched",
+ "question_id": "ref_comp_11",
+ "category": "comparative",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BK_2023_Q3_prepared_remarks_500_006",
+  "MTB_2023_Q3_prepared_remarks_500_004",
+  "BK_2023_Q3_prepared_remarks_500_008",
+  "BK_2023_Q3_prepared_remarks_500_005",
+  "BK_2023_Q3_prepared_remarks_500_000"
+ ],
+ "raw_response": "For BNY Mellon, the 16% year-over-year decrease in reported expenses was primarily driven by the goodwill impairment associated with its investment management reporting unit in the third quarter of the prior year. In contrast, M&T Bank’s non-interest expenses decreased by $15 million sequentially due to lower compensation and benefit costs (reflecting lower average headcount and contracted resources) and lower other cost of operations (largely reflecting lower sub-advisory fees following the sale of the CIT business and lower legal-related expenses), which were partially offset by losses associated with certain retail banking activities.",
+ "latency_seconds": 720.64,
+ "generated_at": "2026-09-05T15:00:47Z"
+}

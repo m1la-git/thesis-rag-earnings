@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense",
+ "question_id": "ref_them_08",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "MS_2023_Q1_prepared_remarks_200_011",
+  "BLK_2024_Q3_prepared_remarks_200_017",
+  "STT_2024_Q1_prepared_remarks_200_007",
+  "MS_2023_Q4_prepared_remarks_200_023",
+  "BLK_2023_Q4_prepared_remarks_200_015"
+ ],
+ "raw_response": "Based on the provided context, firms described momentum in net inflows, AUM, and client investment assets during 2023 as follows:\n\n*   **Morgan Stanley:** In Q1 2023, adviser-led flows originating from workplace relationships reached $28 billion, which was double the amount seen in the same period the previous year. This compared to approximately $50 billion seen annually over the prior three years. By Q4 2023, client migration to the advisor-led channel was up 25% year-over-year. However, Investment Management reported long-term net outflows of approximately $7 billion for the full year, driven by headwinds in active equity growth strategies, while total AUM increased year-over-year to $1.5 trillion supported by higher asset values.\n*   **BlackRock:** In 2023, the institutional business generated net inflows of $32 billion, led by active net inflows of $87 billion. This included record net inflows of $12 billion for Aperio, whose AUM grew 95% since acquisition to $80 billion. Conversely, index strategies saw net outflows of $55 billion due to redemptions from low-fee equity strategies, and retail clients experienced full-year net outflows of $8 billion primarily due to allocations out of rising rate-sensitive strategies.\n*   **State Street (STT):** While specific 2023 quarterly details are limited in the text, it notes that Q1 2024 management fees were the highest since Q1 2022, aided by a strong finish at year-end 2023. The cash business saw positive net inflows for four consecutive quarters leading into early 2024, and ETF AUM reached a record $1.4 trillion at the end of Q1 2024.",
+ "latency_seconds": 266.72,
+ "generated_at": "2026-09-03T12:03:21Z"
+}

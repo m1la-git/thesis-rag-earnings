@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense",
+ "question_id": "ref_them_01",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BK_2024_Q4_prepared_remarks_500_006",
+  "WFC_2023_Q3_prepared_remarks_500_007",
+  "WFC_2023_Q4_prepared_remarks_500_009",
+  "WFC_2024_Q1_prepared_remarks_500_005",
+  "WFC_2024_Q2_qa_500_006"
+ ],
+ "raw_response": "In late 2023, Wells Fargo reported that its non-interest expense included a $1.9 billion FDIC special assessment related to events earlier in the year. Excluding this item, expenses would have been $53.6 billion for 2023. In the first half of 2024, the bank noted that the FDIC expense was one of the primary drivers behind an increase in its expense guidance compared to initial expectations, alongside remediation costs and higher variable expenses. The provided context does not contain specific reporting details regarding the impact of the FDIC special assessment on Bank of America’s expenses during this period.",
+ "latency_seconds": 175.77,
+ "generated_at": "2026-09-05T23:41:53Z"
+}

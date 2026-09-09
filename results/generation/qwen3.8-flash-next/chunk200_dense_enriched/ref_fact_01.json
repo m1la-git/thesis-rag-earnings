@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense_enriched",
+ "question_id": "ref_fact_01",
+ "category": "factual",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BK_2024_Q1_prepared_remarks_200_019",
+  "BK_2024_Q4_prepared_remarks_200_002",
+  "BK_2024_Q1_prepared_remarks_200_010",
+  "BK_2024_Q4_prepared_remarks_200_007",
+  "BK_2023_Q1_prepared_remarks_200_012"
+ ],
+ "raw_response": "BNY Mellon's firm-wide assets under custody and/or administration (AUCA) were $48.8 trillion in the first quarter of 2024, which was up 5% year-over-year.",
+ "latency_seconds": 35.47,
+ "generated_at": "2026-09-07T10:51:33Z"
+}

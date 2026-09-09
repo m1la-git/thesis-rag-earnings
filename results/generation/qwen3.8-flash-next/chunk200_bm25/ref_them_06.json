@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25",
+ "question_id": "ref_them_06",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "COF_2024_Q2_prepared_remarks_200_012",
+  "GS_2023_Q4_qa_200_024",
+  "FITB_2024_Q2_prepared_remarks_200_016",
+  "COF_2023_Q3_prepared_remarks_200_012",
+  "COF_2023_Q4_prepared_remarks_200_015"
+ ],
+ "raw_response": "Based on the provided context, the following efficiency ratio levels and targets were discussed:\n\n*   **Capital One (COF):**\n    *   **2023:** The annual operating efficiency ratio net of adjustments was expected to be modestly down compared to 2022.\n    *   **2024:** The full-year operating efficiency ratio, net of adjustments, is expected to be flat to modestly down compared to 2023 (including the impact of the Walmart relationship ending and the proposed CFPB late fee rule).\n\n*   **Goldman Sachs (GS):**\n    *   **2023:** Excluding selected items, the efficiency ratio would have been approximately 65%. The firm noted this was not where they wanted it to be but significantly better than the fully reported number. They implemented initiatives to drive non-compensation expense more efficiently.\n\n*   **Fifth Third Bancorp (FITB):**\n    *   **2024:** The outlook projects a full-year efficiency ratio of around 57%.",
+ "latency_seconds": 107.67,
+ "generated_at": "2026-09-07T11:05:40Z"
+}

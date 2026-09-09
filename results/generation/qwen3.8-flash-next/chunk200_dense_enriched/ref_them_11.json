@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense_enriched",
+ "question_id": "ref_them_11",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "FITB_2023_Q4_qa_200_028",
+  "FITB_2024_Q4_prepared_remarks_200_015",
+  "BAC_2024_Q4_prepared_remarks_200_021",
+  "MTB_2023_Q4_prepared_remarks_200_010",
+  "FITB_2023_Q4_prepared_remarks_200_022"
+ ],
+ "raw_response": "Based on the provided context, banks characterized their net charge-off levels and directions as follows:\n\n**Fifth Third Bancorp (FITB)**\n*   **2023:** The company noted that 2023 credit trends were \"a little bit more episodic\" with no significant geographic or product-specific trends.\n*   **2024:** Net charge-offs were expected to be in the range of 35 to 45 basis points, described as a period where credit continues to normalize. The outlook for 2024 was characterized as \"fairly benign,\" with expectations that drivers would remain similar to those seen in 2023 and early 2024.\n\n**Bank of America (BAC)**\n*   **2024:** Consumer losses were described as being in a \"pretty stable range\" of $1 billion to $1.1 billion over recent quarters. Commercial losses declined from the third quarter, driven by continued declines in commercial real estate office losses. The net charge-off ratio for Q4 2024 was 54 basis points, down 4 basis points sequentially.\n*   **Direction:** The bank did not expect overall net charge-offs or the related ratio to change much in 2025 without significant changes in GDP or employment, projecting a range of 50 to 60 basis points for 2025.\n\n**M&T Bank (MTB)**\n*   **2023:** Net charge-offs increased by 15 basis points over the linked quarter in Q4 2023, reaching 44 basis points. This increase was largely driven by specific office-related and C&I charge-offs. However, non-accrual loans had trended down each consecutive quarter since Q1 2023.",
+ "latency_seconds": 177.69,
+ "generated_at": "2026-09-07T10:53:55Z"
+}

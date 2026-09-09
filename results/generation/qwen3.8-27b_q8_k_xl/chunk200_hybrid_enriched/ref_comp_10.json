@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid_enriched",
+ "question_id": "ref_comp_10",
+ "category": "comparative",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "PNC_2023_Q2_prepared_remarks_200_008",
+  "PNC_2024_Q2_prepared_remarks_200_005",
+  "FITB_2023_Q3_qa_200_006",
+  "PNC_2023_Q4_prepared_remarks_200_004",
+  "PNC_2023_Q3_prepared_remarks_200_003"
+ ],
+ "raw_response": "The provided context does not contain enough information to answer this question.",
+ "latency_seconds": 412.52,
+ "generated_at": "2026-09-05T22:23:47Z"
+}

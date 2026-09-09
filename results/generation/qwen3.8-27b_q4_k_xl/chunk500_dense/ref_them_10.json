@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense",
+ "question_id": "ref_them_10",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "AXP_2023_Q1_prepared_remarks_500_004",
+  "COF_2023_Q2_qa_500_004",
+  "BAC_2023_Q4_prepared_remarks_500_001",
+  "JPM_2024_Q4_prepared_remarks_500_004",
+  "COF_2024_Q4_qa_500_017"
+ ],
+ "raw_response": "Based on the provided transcripts, bank executives described credit card growth and credit performance for 2023 and 2024 as follows:\n\n**Credit Card Growth**\n*   **American Express (Q1 2023):** International Card Services travel and entertainment spending grew 58% year-over-year. Loan balances grew 25% year-over-year, driven primarily by existing customers rebuilding balances. The company expected loan balance growth to moderate slightly through 2023 but remain elevated compared to pre-pandemic levels.\n*   **Bank of America (Q4 2023):** Spending growth rates declined throughout 2023, moving from a 9–10% year-over-year growth rate in early 2023 to a 4–5% growth rate by the end of the year. This slower pace was described as consistent with a 2% GDP environment and lower inflation.\n*   **Capital One (Q2 2023 & Q4 2024):** In mid-2023, domestic card purchase volume grew 7% year-over-year, driven by customer base expansion rather than spend per customer, which was flat. By late 2024, overall purchase volume growth continued to be powered by the branded card customer base (consumer and small business). Spend per customer in the consumer business had been largely flat through 2023 and the first half of 2024 but began picking up midway through 2024 and grew further in Q4.\n*   **JPMorgan Chase (Q4 2024):** The bank noted a 12% pace for card loan growth in 2024, driven by tailwinds from revolve normalization. For 2025, they expect healthy but lower card loan growth as these specific tailwends fade.\n\n**Credit Performance**\n*   **American Express (Q1 2023):** Write-off and delinquency rates remained below pre-pandemic levels in Q1 2023, though they were trending upward as expected. The company anticipated these rates would continue to increase over time but likely remain below pre-pandemic levels throughout 2023. A $320 million reserve build occurred due to rising delinquencies and loan balance growth.\n*   **Capital One (Q4 2024):** Recent originations in the card business showed stability in performance, with risk levels remaining mostly stable vintage over vintage. The overall front book of new origination vintages continued to perform in line with pre-pandemic standards.\n*   **JPMorgan Chase (Q4 2024):** The bank guided that its 2025 card net charge-off rate would be approximately 3.6%, consistent with previous guidance.",
+ "latency_seconds": 855.73,
+ "generated_at": "2026-09-03T12:36:31Z"
+}

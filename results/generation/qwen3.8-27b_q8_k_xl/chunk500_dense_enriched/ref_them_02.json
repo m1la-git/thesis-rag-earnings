@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense_enriched",
+ "question_id": "ref_them_02",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "MS_2023_Q2_qa_500_014",
+  "GS_2023_Q3_prepared_remarks_500_002",
+  "MS_2023_Q3_prepared_remarks_500_001",
+  "MS_2023_Q2_qa_500_000",
+  "JPM_2023_Q3_prepared_remarks_500_001"
+ ],
+ "raw_response": "Based on the provided context, bank executives characterized the uncertainty surrounding the Basel III Endgame proposal by emphasizing that it was a **proposal rather than a final regulation**, noting that an extensive comment period would allow for \"thoughtful changes\" before adoption. They described the rules as going \"way too far,\" arguing they failed to account for significant improvements in capital quality, liquidity, and business simplification made since 2008. Executives expressed concern that the proposal lacked detailed analysis supporting such a large increase in capital requirements despite policymakers' statements that banks were well-capitalized.\n\nRegarding capital actions, the uncertainty led to specific adjustments:\n*   **JPMorgan Chase** stated that the pace of share buybacks would likely remain \"modest\" in light of the proposal and indicated they would continue to reassess their buyback trajectory as circumstances evolved.\n*   **Morgan Stanley** noted that despite the potential impact, they had adequate capital buffers to meet requirements even if implemented immediately, though they anticipated agencies would be open to considering changes during the comment period.",
+ "latency_seconds": 213.69,
+ "generated_at": "2026-09-05T23:03:50Z"
+}

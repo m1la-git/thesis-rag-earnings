@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid_enriched",
+ "question_id": "ref_comp_11",
+ "category": "comparative",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "MTB_2023_Q3_prepared_remarks_200_010",
+  "BK_2023_Q3_prepared_remarks_200_016",
+  "MTB_2023_Q1_prepared_remarks_200_020",
+  "MTB_2023_Q4_prepared_remarks_200_009",
+  "MTB_2023_Q3_prepared_remarks_200_016"
+ ],
+ "raw_response": "For BNY Mellon, the 16% year-over-year decrease in reported expenses was driven by efficiency savings and the Alcentra divestiture. For M&T Bank, the $15 million decrease in non-interest expenses compared to the linked quarter was due to $11 million in lower compensation and benefit costs (reflecting lower average headcount and contracted resources) and $6 million in lower other cost of operations (largely reflecting lower sub-advisory fees resulting from the sale of the CIT business).",
+ "latency_seconds": 405.75,
+ "generated_at": "2026-09-05T14:28:29Z"
+}

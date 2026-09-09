@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense_enriched",
+ "question_id": "ref_them_03",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "USB_2023_Q3_prepared_remarks_200_008",
+  "BAC_2023_Q2_prepared_remarks_200_032",
+  "COF_2023_Q3_prepared_remarks_200_004",
+  "WFC_2023_Q3_prepared_remarks_200_014",
+  "WFC_2023_Q4_prepared_remarks_200_012"
+ ],
+ "raw_response": "During 2023, banks reported that while asset quality metrics reflected changing conditions in the commercial real estate (CRE) office segment, results generally trended in line with expectations. Key observations regarding office and CRE credit exposure and allowances include:\n\n*   **Increased Allowances:** Multiple banks increased their allowance for credit losses specifically for CRE office loans due to rising interest rates and other portfolio considerations. For example, one bank raised its reserve ratio for CRE office loans to 10%, while another noted a $333 million increase in the total allowance primarily driven by CRE office loans and higher credit card balances.\n*   **Rising Nonperforming Assets:** Banks reported increases in nonaccrual loans within the CRE sector, particularly in office exposures. One bank saw a $1.3 billion increase in office nonaccrual loans in Q3 2023, followed by a further $567 million increase in Q4 2023. Another bank reported its ratio of nonperforming assets to loans rose from 0.29% in June to 0.35% in September.\n*   **Charge-offs:** Net charge-off ratios increased year-over-year and quarter-over-quarter, with some increases attributed specifically to CRE office exposures. One bank recorded $70 million in charge-offs on office exposure in Q2 2023 to write down properties where loan-to-value (LTV) had deteriorated.\n*   **Portfolio Management:** Banks emphasized intentional client selection and deal structure in the office sector, noting that despite rising losses, realized losses remained relatively low compared to historical averages or pre-pandemic levels for some portfolios. One bank completed the sale of approximately $900 million of loans from its commercial office portfolio previously marked as held for sale.",
+ "latency_seconds": 113.31,
+ "generated_at": "2026-09-07T10:52:51Z"
+}

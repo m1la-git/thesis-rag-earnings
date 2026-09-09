@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense_enriched",
+ "question_id": "ref_fact_09",
+ "category": "factual",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "MTB_2023_Q2_prepared_remarks_200_008",
+  "MTB_2023_Q1_prepared_remarks_200_019",
+  "MTB_2023_Q3_prepared_remarks_200_007",
+  "MTB_2024_Q3_prepared_remarks_200_006",
+  "MTB_2023_Q1_prepared_remarks_200_018"
+ ],
+ "raw_response": "M&T’s total average loans and leases were $133.5 billion during the second quarter of 2023, representing an increase of $1.5 billion compared to the first quarter.",
+ "latency_seconds": 287.86,
+ "generated_at": "2026-09-05T22:13:08Z"
+}

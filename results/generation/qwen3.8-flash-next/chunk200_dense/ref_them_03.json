@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense",
+ "question_id": "ref_them_03",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "COF_2023_Q3_prepared_remarks_200_004",
+  "WFC_2023_Q4_prepared_remarks_200_012",
+  "USB_2023_Q3_prepared_remarks_200_008",
+  "WFC_2024_Q1_prepared_remarks_200_015",
+  "PNC_2024_Q1_prepared_remarks_200_012"
+ ],
+ "raw_response": "Based on the provided context for 2023, banks reported the following regarding their office and commercial real estate (CRE) credit exposure and allowances:\n\n*   **Capital One (Q3 2023):** The allowance in Commercial Banking increased by $97 million, reflecting the impact of rising interest rates and other factors on certain CRE and corporate borrowers, specifically including the commercial office portfolio. Additionally, Capital One completed the sale of approximately $900 million of loans from its commercial office portfolio that had been marked as held for sale.\n*   **Wells Fargo (Q4 2023):** The allowance for credit losses increased slightly, driven in part by an increase for CRE loans. Nonperforming assets rose due to a $567 million increase in office non-accrual loans within the commercial real estate sector.\n*   **U.S. Bank (Q3 2023):** Asset quality metrics reflected changing conditions in the CRE office segment, though results trended in line with expectations and remained below pre-pandemic levels. Given the higher interest rate environment, U.S. Bank increased its reserve ratio for commercial real estate office loans to 10%.",
+ "latency_seconds": 86.36,
+ "generated_at": "2026-09-07T11:07:53Z"
+}

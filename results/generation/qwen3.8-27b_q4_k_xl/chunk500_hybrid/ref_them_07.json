@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid",
+ "question_id": "ref_them_07",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "WFC_2023_Q3_prepared_remarks_500_006",
+  "WFC_2024_Q3_prepared_remarks_500_004",
+  "MTB_2023_Q1_prepared_remarks_500_007",
+  "FITB_2023_Q1_prepared_remarks_500_005",
+  "FITB_2024_Q2_prepared_remarks_500_006"
+ ],
+ "raw_response": "Based on the provided context, there is no information describing how banks described deposit growth specifically for the **second quarter of 2023**. The available text contains data regarding:\n\n*   **Wells Fargo (Q3 2023):** Mentions average deposits declined 5% from a year ago and stabilized in Corporate and Investment Banking, but does not provide specific Q2 2023 growth figures or descriptions.\n*   **First Interstate BancSystem (FITB) (Q1 2023):** Provides an outlook for the *second quarter of 2023*, stating they expected average deposits to be \"stable to up 1% on a sequential basis.\" However, this is a forward-looking expectation made in Q1, not a description of actual results after the quarter ended.\n*   **M&T Bank (Q1 2023):** Discusses full-year expectations and Q1 results but does not describe Q2 2023 deposit growth.\n\nTherefore, the context only contains an *expectation* for Q2 2023 from FITB, not a description of actual performance or general industry descriptions for that specific quarter.\n\nThe provided context does not contain enough information to answer this question.",
+ "latency_seconds": 539.34,
+ "generated_at": "2026-09-03T12:45:48Z"
+}

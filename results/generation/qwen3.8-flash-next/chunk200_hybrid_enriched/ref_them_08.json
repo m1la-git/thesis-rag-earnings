@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid_enriched",
+ "question_id": "ref_them_08",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "JPM_2023_Q4_prepared_remarks_200_009",
+  "MS_2023_Q4_prepared_remarks_200_023",
+  "JPM_2023_Q3_prepared_remarks_200_015",
+  "JPM_2023_Q2_prepared_remarks_200_012",
+  "STT_2023_Q3_prepared_remarks_200_012"
+ ],
+ "raw_response": "Based on the provided context, firms described momentum in net inflows, AUM, and client investment assets as follows:\n\n**JPMorgan Chase (JPM)** reported strong positive momentum throughout 2023:\n*   **Net Inflows:** JPM recorded record client asset net inflows of $489 billion for the full year. Quarterly long-term net inflows were consistently positive, reaching $61 billion in Q2 and $12 billion in Q4 (with liquidity inflows of $60 billion in Q2 and $49 billion in Q4).\n*   **AUM:** Assets Under Management grew significantly, rising from $3.2 trillion in Q2 and Q3 to $3.4 trillion in Q4. Year-on-year growth was reported at 16% in Q2, 22% in Q3, and 24% in Q4.\n*   **Client Assets:** Total client assets increased from $4.6 trillion in Q2 and Q3 to $5 trillion in Q4, with year-on-year growth accelerating from 20-21% earlier in the year to 24% by Q4.\n\n**Morgan Stanley (MS)** reported mixed results for Investment Management:\n*   **Net Inflows:** The firm experienced long-term net *outflows* of approximately $7 billion, driven by headwinds in active equity growth strategies. However, client migration to the advisor-led channel increased 25% year-over-year.\n*   **AUM:** AUM increased year-over-year to $1.5 trillion, supported primarily by higher asset values rather than net inflows.\n\n**State Street (STT)** reported positive momentum in Q3:\n*   **Net Inflows:** The cash franchise generated a record $41 billion of net inflows, and Global Advisors saw inflows of $10 billion. However, long-term flows across the broader asset management industry were described as \"muted\" due to risk-off sentiment.\n*   **AUM/AUC:** Period-end AUM for Global Advisors increased 13% year-on-year (driven by market levels and inflows) but decreased 3% sequentially. Assets Under Custody/Administration (AUC/A) also saw increases driven by higher equity market levels and net new business.",
+ "latency_seconds": 226.8,
+ "generated_at": "2026-09-07T10:58:14Z"
+}

@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense_enriched",
+ "question_id": "ref_fact_12",
+ "category": "factual",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "WFC_2024_Q4_prepared_remarks_200_027",
+  "WFC_2024_Q4_prepared_remarks_200_002",
+  "WFC_2024_Q4_prepared_remarks_200_006",
+  "WFC_2024_Q1_prepared_remarks_200_021",
+  "WFC_2024_Q4_prepared_remarks_200_007"
+ ],
+ "raw_response": "Wells Fargo’s fee-based revenue grew by 15% in 2024.",
+ "latency_seconds": 237.88,
+ "generated_at": "2026-09-05T14:18:36Z"
+}

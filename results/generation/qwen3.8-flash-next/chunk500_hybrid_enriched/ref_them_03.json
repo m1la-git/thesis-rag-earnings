@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid_enriched",
+ "question_id": "ref_them_03",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "WFC_2023_Q1_prepared_remarks_500_005",
+  "WFC_2023_Q3_prepared_remarks_500_005",
+  "USB_2023_Q1_qa_500_009",
+  "BAC_2023_Q2_prepared_remarks_500_012",
+  "WFC_2024_Q2_prepared_remarks_500_006"
+ ],
+ "raw_response": "Based on the provided context, here is what banks said about their office and commercial real estate (CRE) credit exposure and allowances during 2023:\n\n**Wells Fargo (Q1 and Q3 2023)**\n*   **Exposure:** In Q1 2023, Wells Fargo reported $154.7 billion in total CRE loans, with office loans representing 35.7% of that portfolio (or 4% of total loans). By Q3 2023, office loans had decreased to $32.2 billion, representing 3% of total loans outstanding. The bank noted it was actively derisking the office portfolio, with commitments declining 5% year-over-year in Q1 and balances down 3% quarter-over-quarter in Q3.\n*   **Allowance:** In Q1 2023, the allowance for credit losses increased by $643 million, driven primarily by increases for CRE loans (specifically office) and credit card models. In Q3 2023, the allowance increased by another $333 million, again primarily for CRE office loans.\n*   **Performance:** The bank noted that while they had not seen meaningful loss content yet in Q1, they expected more stress over time due to lower demand and higher financing costs. By Q3, nonperforming assets in CRE increased significantly (driven by a $1.3 billion increase in office nonaccrual loans), though 87% of CRE nonaccruals were current on interest as of the end of Q1.\n\n**Bank of America (Q2 2023)**\n*   **Exposure:** Bank of America stated that its commercial real estate office credit exposure represented less than 2% of total loans. The bank emphasized intentional client selection, portfolio concentration management, and deal structure over many years to maintain this low exposure.\n*   **Allowance/Provision:** In Q2 2023, provision expense included a $256 million reserve build driven by loan growth (particularly credit card) and macroeconomic outlooks. While specific allowance figures for office were not detailed in the excerpt, commercial net charge-offs remained flat quarter-over-quarter, with decreases in C&I losses offset by increases in CRE office exposures.\n\n**U.S. Bank (Q1 2023)**\n*   **Exposure:** U.S. Bank indicated it did not have a large exposure to commercial real estate, having been \"very, very conservative\" regarding CRE office over the last many years.\n*   **Outlook:** The bank acknowledged that while their broader portfolio was stable and normalizing, the office sector within real estate was an area of focus due to tenant behavior changes and sponsor pressures, which could accelerate industry-wide stress.",
+ "latency_seconds": 301.09,
+ "generated_at": "2026-09-07T11:33:23Z"
+}

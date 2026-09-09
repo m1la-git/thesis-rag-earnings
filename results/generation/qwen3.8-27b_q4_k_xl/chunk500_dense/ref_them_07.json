@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense",
+ "question_id": "ref_them_07",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "FITB_2023_Q2_prepared_remarks_500_001",
+  "PNC_2023_Q2_prepared_remarks_500_002",
+  "BAC_2023_Q4_prepared_remarks_500_002",
+  "WFC_2023_Q3_prepared_remarks_500_006",
+  "MTB_2023_Q1_prepared_remarks_500_007"
+ ],
+ "raw_response": "In the second quarter of 2023, bank descriptions regarding deposit growth varied by institution and metric (period-end vs. average):\n\n*   **Fifth Third Bank** reported that total period-end deposits increased 1% sequentially and 2% year-over-year, outperforming the broader industry which saw a 5% decline over the same period. This growth was attributed to multiyear strategies in Southeast markets, new branch openings, and products like Momentum banking.\n*   **PNC Financial Services** noted that deposits declined 2% on both a spot (period-end) and average basis compared to the first quarter. The bank cited quantitative tightening, increased spending activity, and consumer tax payments as drivers for this decline.\n*   **Wells Fargo** stated that average deposits declined 5% from a year ago, primarily due to outflows in consumer and wealth businesses as customers spent more or moved cash into higher-yielding alternatives. Average deposits also declined in Commercial Banking but stabilized in Corporate and Investment Banking.\n\nThe provided context does not contain specific second-quarter deposit growth figures for Bank of America (which discusses full-year 2023 results) or M&T Bank (which provides first-quarter 2023 data and full-year expectations).",
+ "latency_seconds": 642.45,
+ "generated_at": "2026-09-03T12:32:58Z"
+}

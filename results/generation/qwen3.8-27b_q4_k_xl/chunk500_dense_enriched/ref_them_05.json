@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense_enriched",
+ "question_id": "ref_them_05",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "FITB_2024_Q4_prepared_remarks_500_001",
+  "FITB_2023_Q4_prepared_remarks_500_002",
+  "BK_2024_Q3_prepared_remarks_500_001",
+  "FITB_2024_Q3_prepared_remarks_500_003",
+  "C_2024_Q3_prepared_remarks_500_006"
+ ],
+ "raw_response": "In the third quarter of 2024, Fifth Third returned capital to shareholders by purchasing shares and raising its quarterly common dividend by 6%, though the specific dollar amount for Q3 is not provided in the context (only a full-year total of $1.6 billion is mentioned). Citigroup returned $2.1 billion through common dividends and share repurchases during the same quarter. The scale differed significantly, with Citigroup's return being substantially larger than Fifth Third's implied quarterly contribution to its annual $1.6 billion total.",
+ "latency_seconds": 284.33,
+ "generated_at": "2026-09-05T14:53:31Z"
+}

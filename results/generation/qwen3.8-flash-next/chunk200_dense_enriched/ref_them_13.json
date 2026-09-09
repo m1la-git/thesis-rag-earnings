@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense_enriched",
+ "question_id": "ref_them_13",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BK_2024_Q4_prepared_remarks_200_020",
+  "BK_2024_Q3_prepared_remarks_200_013",
+  "BK_2024_Q4_prepared_remarks_200_011",
+  "BK_2024_Q3_qa_200_017",
+  "BK_2023_Q4_prepared_remarks_200_002"
+ ],
+ "raw_response": "BNY Mellon described strong growth in its ETF servicing business throughout 2023 and 2024, highlighting the following metrics:\n\n*   **Q3 2024:** ETF Assets Under Custody/Administration (AUC/A) reached $2.7 trillion, up more than 70% year-over-year, with the number of funds serviced up 20% year-over-year. Inflows remained strong across all asset classes.\n*   **Q4 2024:** ETF AUC/A rose to $2.8 trillion, an increase of over 60% year-over-year, with inflows on BNY's platform outpacing the market.\n\nThe company attributed this growth to multiyear investments in its platforms and noted that it successfully onboarded several new liquidity providers to its electronic order execution platform during Q3 2024.",
+ "latency_seconds": 202.53,
+ "generated_at": "2026-09-07T10:54:20Z"
+}

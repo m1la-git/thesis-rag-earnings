@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense",
+ "question_id": "ref_them_03",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "COF_2023_Q3_prepared_remarks_200_004",
+  "WFC_2023_Q4_prepared_remarks_200_012",
+  "USB_2023_Q3_prepared_remarks_200_008",
+  "WFC_2024_Q1_prepared_remarks_200_015",
+  "PNC_2024_Q1_prepared_remarks_200_012"
+ ],
+ "raw_response": "During 2023, several major banks highlighted specific pressures and actions regarding their commercial real estate (CRE) and office portfolios:\n\n*   **Citigroup** noted that in its Commercial Banking business, the allowance increased by $97 million due to rising interest rates and other factors affecting certain CRE and corporate borrowers, including the commercial office portfolio. The bank also completed the sale of approximately $900 million in loans from its commercial office portfolio that had been marked as held for sale.\n*   **Wells Fargo** reported that nonperforming assets increased 3% from the third quarter to the fourth quarter of 2023, driven by a $567 million increase in office non-accrual loans. The allowance for credit losses increased slightly in Q4 2023 due to higher allowances for CRE and credit card loans, partially offset by lower auto loan allowances.\n*   **U.S. Bank** stated that asset quality metrics reflected changing conditions in the CRE office segment but remained below pre-pandemic levels. In response to a higher interest rate environment and other portfolio considerations, the bank increased its reserve ratio for commercial real estate office loans to 10%. Its net charge-off ratio also rose to 0.44% in Q3 2023 from 0.35% in Q2.\n\nThese comments indicate that while overall credit quality remained resilient or in line with expectations, banks were actively managing and reserving against specific stressors in the office sector during 2023.",
+ "latency_seconds": 126.53,
+ "generated_at": "2026-09-05T22:35:24Z"
+}

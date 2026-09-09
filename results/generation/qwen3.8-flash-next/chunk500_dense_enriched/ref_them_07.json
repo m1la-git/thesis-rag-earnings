@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense_enriched",
+ "question_id": "ref_them_07",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "FITB_2023_Q2_prepared_remarks_500_001",
+  "BAC_2024_Q3_prepared_remarks_500_005",
+  "BAC_2023_Q2_prepared_remarks_500_008",
+  "PNC_2023_Q2_prepared_remarks_500_002",
+  "BAC_2023_Q2_prepared_remarks_500_009"
+ ],
+ "raw_response": "Based on the provided context for the second quarter of 2023, banks described their deposit situations as follows:\n\n*   **Fifth Third Bancorp (FITB):** Reported that total period-end deposits increased 1% sequentially and 2% year-over-year. The bank attributed this outperformance relative to the sector's decline to multiyear strategies including expanding distribution in Southeast markets, launching innovative operational deposit solutions (such as Momentum banking), and focusing on primary household growth. They noted that new branches were producing at 200% to 300% of plan and expected a highly competitive environment for deposits in the back half of the year.\n*   **Bank of America (BAC):** Noted that average deposit balances remained 33% above pre-pandemic levels, with consumer checking up more than 50%. While there was a modest downtick in deposits due to the Fed removing accommodation and competitive pressure on CDs, total rate paid on consumer deposits rose only slightly to 22 basis points. Global banking deposits were stable at $493 billion, though shifting toward interest-bearing accounts. The bank stated it had not yet felt the need to chase deposits with rates because deposits far exceeded loans.\n*   **PNC Financial Services (PNC):** Reported that deposits declined 2% on both a spot and average basis linked quarter due to quantitative tightening, increased spending activity, and consumer tax payments. They observed a continued mix shift from non-interest bearing to interest-bearing accounts, driven primarily by commercial deposits, with the cumulative deposit beta rising to 39%.",
+ "latency_seconds": 209.7,
+ "generated_at": "2026-09-07T11:25:49Z"
+}

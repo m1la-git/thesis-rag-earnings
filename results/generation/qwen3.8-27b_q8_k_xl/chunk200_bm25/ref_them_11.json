@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25",
+ "question_id": "ref_them_11",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "FITB_2024_Q2_prepared_remarks_200_016",
+  "USB_2023_Q4_qa_200_013",
+  "BAC_2023_Q2_prepared_remarks_200_014",
+  "MTB_2024_Q2_prepared_remarks_200_002",
+  "AXP_2023_Q1_prepared_remarks_200_011"
+ ],
+ "raw_response": "Based on the provided context, banks characterized their net charge-off (NCO) levels and direction as follows:\n\n*   **Fifth Third Bank (FITB):** For full year 2024, the NCO outlook remains in the range of 35 to 45 basis points. The bank expects to resume provision builds in the second half of 2024 due to loan growth and mix, though this build is expected to be less than in the first half of 2024.\n*   **U.S. Bancorp (USB):** For full year 2024, NCOs are expected to normalize into the mid-50s basis points. Credit card NCOs are approaching pre-pandemic levels but are expected to move up slightly. The overall portfolio is described as generally stable, with only a few idiosyncratic legacy credits moving to non-performing status that are well-collateralized and not expected to drive significant charge-offs.\n*   **Bank of America (BAC):** In the second quarter of 2023, the NCO rate was 33 basis points. The bank noted a continued trend in charge-offs toward pre-pandemic levels, which remained below historical levels at that time.\n*   **M&T Bank (MTB):** In the first half of 2024, net charge-offs were described as being \"in-line with our\" expectations (the specific benchmark is cut off in the text), while asset quality trends performed as expected with reductions in non-accrual and criticized balances.\n*   **American Express (AXP):** In the first quarter of 2023, card member loan write-off rates remained below pre-pandemic levels but continued to move up as expected. The company viewed consolidated write-off rates as more comparable to pre-pandemic rates than individual loan rates due to embedded lending functionality in charge products.",
+ "latency_seconds": 209.22,
+ "generated_at": "2026-09-05T22:32:45Z"
+}

@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid_enriched",
+ "question_id": "ref_comp_01",
+ "category": "comparative",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "GS_2024_Q2_qa_500_008",
+  "GS_2024_Q1_qa_500_016",
+  "C_2024_Q1_qa_500_008",
+  "GS_2023_Q3_prepared_remarks_500_002",
+  "GS_2023_Q3_qa_500_012"
+ ],
+ "raw_response": "Goldman Sachs characterized the Basel III Endgame uncertainty as a factor requiring them to maintain a higher-than-normal capital cushion (specifically running with 90 bps of extra buffer) to signal flexibility and support client activities while awaiting clarity on the rule's quantum and timing. They noted that favorable momentum and regulator comments suggested the rules might not take effect until 2025, but they remained cautious regarding the lingering uncertainty.\n\nCiti similarly cited uncertainty about how capital regulation would evolve as a reason for caution in their buyback decisions, noting that while they were hearing favorable things about the proposal's evolution, it was not yet finalized or in place. Citi emphasized the need to see how the CCAR process and regulatory developments played out before ramping up share repurchases, prioritizing the ability to support clients in markets and other parts of their franchise.",
+ "latency_seconds": 313.49,
+ "generated_at": "2026-09-05T15:06:18Z"
+}

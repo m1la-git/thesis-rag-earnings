@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid",
+ "question_id": "ref_them_12",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BK_2023_Q4_prepared_remarks_500_002",
+  "STT_2024_Q2_qa_500_012",
+  "MS_2023_Q4_qa_500_014",
+  "GS_2024_Q4_prepared_remarks_500_003",
+  "JPM_2023_Q4_prepared_remarks_500_005"
+ ],
+ "raw_response": "Based on the provided context, here is what the firms said regarding their wealth management businesses and investments in 2023:\n\n*   **BNY Mellon:** The firm stated that it launched new solutions to deepen relationships with existing clients and attract new ones, including Pershing’s wealth advisory platform (Wove) and buy-side trading solutions. BNY Mellon also noted that all its businesses were bringing new client solutions to market, such as Bankify and real-time payments on FedNow. Additionally, the company hired its first Chief Commercial Officer in 2023 to operationalize its \"one BNY Mellon\" initiative and created an integrated team to facilitate multi-line of business solutions at scale.\n*   **Morgan Stanley:** Management highlighted that the Wealth business is a key differentiator for the firm, noting that it has been built into something \"truly special\" through the integration of Smith Barney. The company emphasized having a \"full funnel\" approach that combines self-directed, traditional advisory, and workplace channels working as one. While specific 2023 investment figures were not detailed in this excerpt, the leadership discussed the strategic importance of integrating these channels to deliver differentiated value to clients.\n*   **State Street:** The firm noted that its asset manager segment faced pricing headwinds of about 2% per year, partly due to a shift from mutual funds to ETFs. However, it observed that well-managed firms were responding by launching new product types (such as ETF lines and collective trust offerings) and focusing on their cost base and technology stacks. State Street stated it was supporting these clients in participating in the wealth business and leveraging its position as the largest middle office provider.",
+ "latency_seconds": 645.5,
+ "generated_at": "2026-09-03T12:47:34Z"
+}

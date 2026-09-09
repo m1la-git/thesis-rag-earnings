@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid",
+ "question_id": "ref_them_14",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "STT_2023_Q4_prepared_remarks_500_001",
+  "STT_2023_Q4_prepared_remarks_500_011",
+  "JPM_2024_Q4_prepared_remarks_500_002",
+  "BAC_2023_Q4_prepared_remarks_500_002",
+  "HBAN_2023_Q3_qa_500_008"
+ ],
+ "raw_response": "Based on the provided context, only JPMorgan Chase (JPM) reported specific figures regarding investment banking revenue and fees for Q4 2024. The other banks mentioned in the context (State Street, Bank of America, and Huntington Bancshares) did not provide specific data on investment banking revenue or fees.\n\nFor JPMorgan Chase's Corporate & Investment Banking (CIB) segment in Q4 2024:\n*   **Investment Banking Fees:** Institutional Investor (IV) fees were up 49% year-on-year, with a wallet share of 9.3%. Advisory fees were up 41%, benefiting from large deals and share growth. Underwriting fees increased meaningfully, with debt underwriting up 56% and equity underwriting up 54%, driven by favorable market conditions.\n*   **Revenue:** The CIB segment reported total revenue of $17.6 billion.",
+ "latency_seconds": 377.16,
+ "generated_at": "2026-09-07T11:58:35Z"
+}

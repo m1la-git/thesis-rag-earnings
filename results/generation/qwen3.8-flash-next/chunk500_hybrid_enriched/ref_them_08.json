@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid_enriched",
+ "question_id": "ref_them_08",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BLK_2023_Q4_prepared_remarks_500_006",
+  "MS_2023_Q1_prepared_remarks_500_004",
+  "BLK_2024_Q3_prepared_remarks_500_007",
+  "BLK_2023_Q3_prepared_remarks_500_001",
+  "MS_2023_Q4_prepared_remarks_500_009"
+ ],
+ "raw_response": "Based on the provided context, firms described momentum in net inflows, AUM, and client investment assets during 2023 as follows:\n\n**BlackRock (BLK)**\n*   **Net Inflows:** BlackRock reported $193 billion of total net inflows in the first nine months of 2023. For the full year, institutional business generated $32 billion in net inflows, cash management saw $79 billion in net inflows, and private markets had $14 billion in net inflows. Retail experienced net outflows of $8 billion for the full year, primarily due to allocations out of rising rate-sensitive strategies, though this was partially offset by record net inflows of $12 billion into Aperio.\n*   **AUM:** As of Q3 2023, BlackRock managed $9.1 trillion in assets, which was $1.1 trillion higher than a year prior. The text notes that AUM has grown over the long-term with more than $1 trillion of net inflows since the start of 2021.\n*   **Client Investment Assets:** Clients entrusted BlackRock with over $300 billion in net assets in the last 12 months (as of Q3 2023). The firm highlighted that clients are consolidating business with fewer managers and using BlackRock as a platform, driving industry-leading organic growth.\n\n**Morgan Stanley (MS)**\n*   **Net Inflows/Outflows:** For the full year 2023, Investment Management reported long-term net outflows of approximately $7 billion, driven by headwinds in active equity growth strategies. However, there were positive flows in specific areas: adviser-led flows originating from workplace relationships reached $28 billion in Q1 alone (double the prior year), and liquidity overlay services saw inflows of $13.9 billion in Q1. In Q4, while institutional liquidity flows were weaker, the combined Parametric brand had net inflows of over $5 billion.\n*   **AUM:** Total AUM ended at $1.4 trillion in Q1 2023 and increased year-over-year to $1.5 trillion by Q4 2023, supported by higher asset values despite the outflows.\n*   **Client Investment Assets:** Morgan Stanley grew client relationships by over 600,000 across the franchise in 2023. Client migration from workplace to adviser-led channels was up 25% year-over-year. The firm noted that clients are choosing to invest in cash with Morgan Stanley through the cycle and are reinvesting balances as market outlooks improve, supporting a path toward $10 trillion in client assets.",
+ "latency_seconds": 390.77,
+ "generated_at": "2026-09-07T11:34:52Z"
+}

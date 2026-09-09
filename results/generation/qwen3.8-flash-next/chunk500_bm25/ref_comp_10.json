@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25",
+ "question_id": "ref_comp_10",
+ "category": "comparative",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "FITB_2023_Q3_qa_500_002",
+  "FITB_2023_Q4_prepared_remarks_500_001",
+  "FITB_2023_Q2_prepared_remarks_500_005",
+  "PNC_2023_Q2_prepared_remarks_500_001",
+  "HBAN_2023_Q1_prepared_remarks_500_006"
+ ],
+ "raw_response": "PNC reported its tangible book value per share as a single figure ($77.80 in Q2 2023) that included the impact of Accumulated Other Comprehensive Income (AOCI), noting that AOCI was negative $9.5 billion at quarter-end. They did not provide an adjusted tangible book value excluding AOCI in the provided text, though they noted their CET1 ratio increased despite the AOCI drag.\n\nFifth Third explicitly distinguished between reported and adjusted metrics to isolate the impact of AOCI. In Q2 2023, Fifth Third stated that its \"tangible book value per share, excluding AOCI,\" increased by 11% year-over-year. They also projected that a significant portion of their unrealized loss position (AOCI) would accrete back into equity over time (approximately 36% by end of 2024 and 50% by end of 2025). In Q4 2023, Fifth Third highlighted that tangible book value per share grew nearly 30% due to a rally in interest rates and noted they moved $12.6 billion of securities to held-to-maturity to de-risk potential AOCI volatility.",
+ "latency_seconds": 290.66,
+ "generated_at": "2026-09-07T11:47:08Z"
+}

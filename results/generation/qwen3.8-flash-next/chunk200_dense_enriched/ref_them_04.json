@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense_enriched",
+ "question_id": "ref_them_04",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "FITB_2024_Q4_prepared_remarks_200_007",
+  "FITB_2023_Q4_prepared_remarks_200_005",
+  "BAC_2023_Q4_prepared_remarks_200_005",
+  "BAC_2023_Q3_prepared_remarks_200_007",
+  "USB_2024_Q3_qa_200_005"
+ ],
+ "raw_response": "Banks described their progress on positive operating leverage as follows:\n\n*   **Fifth Third (FITB):** In Q4 2023, the company noted that while the carryover effect of its risk-weighted asset reduction made full-year positive operating leverage unfeasible for 2024, it anticipated returning to positive operating leverage in the second half of 2024.\n*   **Bank of America (BAC):** In Q3 2023, the company reported an eight-quarter streak of driving operating leverage but acknowledged that achieving it would be \"tough for a few quarters\" due to navigating through the trough of net interest income. However, they noted they still managed to grow revenue faster than expenses in dollar terms during that quarter.\n*   **U.S. Bancorp (USB):** In Q3 2024, the company reported positive operating leverage of approximately 30 basis points and expressed confidence in continued positive operating leverage for the fourth quarter and into 2025.",
+ "latency_seconds": 79.31,
+ "generated_at": "2026-09-07T10:52:17Z"
+}

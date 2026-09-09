@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25_enriched",
+ "question_id": "ref_them_02",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "JPM_2023_Q3_prepared_remarks_500_002",
+  "MS_2023_Q2_qa_500_000",
+  "JPM_2023_Q3_prepared_remarks_500_001",
+  "MS_2023_Q2_qa_500_006",
+  "GS_2024_Q2_qa_500_008"
+ ],
+ "raw_response": "Banks characterized the Basel III endgame proposal as overly calibrated, lacking detailed supporting analysis for such a large capital increase, and conceptually flawed regarding GSIB surcharges. They noted that the proposals could result in significant increases in capital requirements (e.g., JPMorgan estimated a 25% increase or $50 billion) without corresponding changes to their portfolios or systemic risk footprints. Banks also highlighted uncertainty regarding the final rules, timing, and potential overlaps with existing stress capital buffers.\n\nIn response to this uncertainty, banks adopted cautious capital actions:\n*   **JPMorgan** stated that the pace of share repurchases would likely remain modest in light of the proposal, though they would reassess as circumstances evolve.\n*   **Morgan Stanley** maintained a higher CET1 ratio (ending at 15.5%) partly due to caution regarding the regulatory environment and bank failures, while emphasizing flexibility around Risk-Weighted Assets (RWAs).\n*   **Goldman Sachs** operated with a wider capital cushion (90 basis points above normal) to signal flexibility and address lingering uncertainty regarding both the Standardized Approach for Operational Risk (SEB) and the Basel III endgame's quantum and timing.",
+ "latency_seconds": 107.0,
+ "generated_at": "2026-09-07T11:19:16Z"
+}

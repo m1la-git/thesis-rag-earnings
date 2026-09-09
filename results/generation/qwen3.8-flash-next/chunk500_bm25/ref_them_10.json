@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25",
+ "question_id": "ref_them_10",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "COF_2024_Q4_qa_500_017",
+  "COF_2024_Q4_prepared_remarks_500_003",
+  "AXP_2023_Q1_prepared_remarks_500_004",
+  "COF_2024_Q3_prepared_remarks_500_003",
+  "AXP_2023_Q4_prepared_remarks_500_005"
+ ],
+ "raw_response": "Based on the provided context, here is what Capital One (COF) and American Express (AXP) said regarding credit card growth and credit performance:\n\n**Capital One (COF)**\n*   **Growth:** Overall purchase volume growth was driven by an expanding branded card customer base (both consumer and small business). While spend per customer in the consumer business had been largely flat through 2023 and the first half of 2024, it began to pick up midway through 2024 and grew further in Q4 2024. Marketing efforts focused on premium benefits and differentiated experiences contributed to strong new account growth.\n*   **Credit Performance:** The company reported stability in the performance of recent originations (\"vintage over vintage\"), with risk levels remaining mostly stable over time. The overall front book of new origination vintages continued to perform in line with pre-pandemic levels. While charge-off rates increased year-over-year, the pace of these increases steadily declined through 2024.\n\n**American Express (AXP)**\n*   **Growth:** Spending volumes supported revenue guidance and long-term aspirations for sustainable growth greater than pre-pandemic levels. Loan balances grew significantly (e.g., 25% year-over-year in Q1 2023), primarily driven by existing customers rebuilding balances, with the interest-bearing portion growing faster than total loans. Amex expected loan balance growth rates to moderate through 2023 but remain elevated compared to pre-pandemic levels.\n*   **Credit Performance:** The company maintained \"best-in-class\" credit metrics attributed to a high-quality customer base and disciplined risk management. Write-off and delinquency rates remained below pre-pandemic levels, though they continued to tick up as expected. Amex anticipated these rates would continue to increase modestly over time but remain below pre-pandemic levels in 2023 and see only modest increases in 2024.",
+ "latency_seconds": 231.22,
+ "generated_at": "2026-09-07T11:46:09Z"
+}

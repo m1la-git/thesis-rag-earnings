@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid",
+ "question_id": "ref_comp_10",
+ "category": "comparative",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "HBAN_2023_Q1_prepared_remarks_200_016",
+  "PNC_2023_Q2_prepared_remarks_200_008",
+  "BAC_2023_Q2_prepared_remarks_200_016",
+  "PNC_2024_Q2_prepared_remarks_200_005",
+  "PNC_2024_Q4_prepared_remarks_200_005"
+ ],
+ "raw_response": "Based on the provided context, there is no information regarding Fifth Third. The context contains prepared remarks for Huntington Bancshares (HBAN), PNC Financial Services Group (PNC), and Bank of America (BAC). Therefore, I cannot answer how Fifth Third treated AOCI.",
+ "latency_seconds": 148.73,
+ "generated_at": "2026-09-07T11:11:41Z"
+}

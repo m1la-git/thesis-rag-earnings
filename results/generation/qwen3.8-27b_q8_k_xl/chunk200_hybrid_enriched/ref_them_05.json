@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid_enriched",
+ "question_id": "ref_them_05",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BLK_2023_Q4_prepared_remarks_200_013",
+  "FITB_2024_Q4_prepared_remarks_200_021",
+  "FITB_2024_Q3_prepared_remarks_200_005",
+  "STT_2024_Q3_prepared_remarks_200_017",
+  "BK_2023_Q3_prepared_remarks_200_014"
+ ],
+ "raw_response": "Based on the provided context, only two banks reported specific figures for the third quarter of 2024:\n\n*   **State Street (STT):** Returned over **$670 million** in total capital to shareholders. This included **$450 million** in common share repurchases and implied dividends making up the remainder of the $670 million total (as the text states \"In total, we returned over $670 million... equivalent to a total payout ratio of almost 100%\").\n*   **Fifth Third Bank (FITB):** Executed **$200 million** in share repurchases and increased its common dividend by 6% to **$0.37 per share**. The context does not provide the total dollar amount for dividends paid, only the per-share increase.\n\nThe scale differed significantly between these two institutions, with State Street returning over $670 million in total capital compared to Fifth Third Bank's reported $200 million in share repurchases alone (plus unspecified dividend totals). Other banks mentioned in the context (BlackRock and Bank of New York Mellon) provided data for 2023 or Q1/Q4 2024, not Q3 2024.",
+ "latency_seconds": 188.7,
+ "generated_at": "2026-09-05T22:20:03Z"
+}

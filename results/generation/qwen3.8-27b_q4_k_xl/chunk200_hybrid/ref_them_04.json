@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid",
+ "question_id": "ref_them_04",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BAC_2023_Q4_prepared_remarks_200_005",
+  "BK_2024_Q4_prepared_remarks_200_006",
+  "USB_2024_Q3_qa_200_005",
+  "USB_2024_Q4_prepared_remarks_200_008",
+  "BK_2024_Q2_prepared_remarks_200_020"
+ ],
+ "raw_response": "Based on the provided context, Bank of America achieved 170 basis points of operating leverage in 2023, driven by expense discipline that reduced headcount and expenses every quarter. In early 2024, Bank of New York Mellon (BNY) set an ambitious goal to at least break even from an operating leverage perspective, anticipating a roughly 10% NII headwind that would offset fee revenue growth; they ultimately delivered 968 basis points of positive operating leverage on a reported basis for the full year. U.S. Bank reported approximately 30 basis points of positive operating leverage in Q3 2024 and guided for greater than 200 basis points of positive operating leverage (excluding security gains or losses) for full-year 2025, noting that 2024 was a pivotal year where they effectively managed through macroeconomic uncertainty.",
+ "latency_seconds": 63.34,
+ "generated_at": "2026-09-03T11:45:26Z"
+}

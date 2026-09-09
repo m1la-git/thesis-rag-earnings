@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid",
+ "question_id": "ref_them_07",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "WFC_2023_Q3_prepared_remarks_500_006",
+  "WFC_2024_Q3_prepared_remarks_500_004",
+  "MTB_2023_Q1_prepared_remarks_500_007",
+  "FITB_2023_Q1_prepared_remarks_500_005",
+  "FITB_2024_Q2_prepared_remarks_500_006"
+ ],
+ "raw_response": "Based on the provided context, there is no information describing how banks described deposit growth specifically for the **second quarter of 2023**. The documents discuss expectations for the second quarter (FITB Q1 2023), results from the third quarter compared to the second quarter (WFC Q3 2023), and results from the second quarter of 2024 (FITB Q2 2024, WFC Q3 2024).",
+ "latency_seconds": 156.84,
+ "generated_at": "2026-09-07T11:54:54Z"
+}

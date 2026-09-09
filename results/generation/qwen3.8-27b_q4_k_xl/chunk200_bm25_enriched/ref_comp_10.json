@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25_enriched",
+ "question_id": "ref_comp_10",
+ "category": "comparative",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "PNC_2023_Q2_prepared_remarks_200_008",
+  "HBAN_2023_Q1_prepared_remarks_200_016",
+  "FITB_2023_Q3_qa_200_006",
+  "PNC_2024_Q2_prepared_remarks_200_005",
+  "FITB_2023_Q4_prepared_remarks_200_004"
+ ],
+ "raw_response": "Based on the provided context, here is how PNC and Fifth Third treated AOCI in their descriptions of capital and tangible book value per share (TBVPS) during 2023:\n\n**PNC Financial Services Group:**\n*   **Q2 2023:** PNC noted that despite an \"AOCI impact,\" its tangible book value increased by 1% to $77.80 compared to March 31. The company stated it expected securities yields to increase as lower-rate securities rolled off, which would result in a \"meaningful improvement to tangible book value from AOCI accretion.\"\n*   **Q2 2024 (Contextual Note):** While the question asks about 2023, the Q2 2024 remarks mention that under proposed Basel III rules, their CET1 ratio with the impact of AOCI would be 8.7%, indicating they are tracking the specific regulatory impact of including AOCI in capital calculations.\n\n**Fifth Third Bancorp:**\n*   **Q3 2023 (QA):** Management discussed the \"burn down\" of AOCI, noting it represented a \"25% accretion in tangible book value per share in the next two years\" given current rate outlooks. They framed this as a buying opportunity for investors concerned about the AOCI mark weighing on the stock.\n*   **Q4 2023:** Fifth Third reported that its tangible book value per share grew nearly 30% during the fourth quarter due to interest rates in December. To manage future volatility, they moved $12.6 billion of securities to held-to-maturity (HTM) at the beginning of January 2024. This action was intended to \"de-risk potential AOCI volatility to capital by about 30%\" if market rates rose again.",
+ "latency_seconds": 246.74,
+ "generated_at": "2026-09-05T14:14:38Z"
+}

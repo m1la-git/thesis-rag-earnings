@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid",
+ "question_id": "ref_comp_10",
+ "category": "comparative",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "FITB_2023_Q4_prepared_remarks_500_001",
+  "FITB_2024_Q3_prepared_remarks_500_006",
+  "PNC_2023_Q2_prepared_remarks_500_003",
+  "PNC_2023_Q4_prepared_remarks_500_003",
+  "PNC_2023_Q4_prepared_remarks_500_001"
+ ],
+ "raw_response": "Based on the provided context, both banks highlighted improvements in Accumulated Other Comprehensive Income (AOCI) that positively impacted their tangible book value per share during 2023:\n\n*   **PNC:** In Q4 2023, PNC reported that AOCI improved by $2.6 billion due to lower interest rates. This improvement contributed to a 9% linked-quarter increase in tangible book value per common share to $85.08. The bank noted that as lower-rate securities and swaps roll off, they expect continued meaningful improvements to tangible book value from AOCI accretion.\n*   **Fifth Third:** In Q4 2023, Fifth Third stated that its tangible book value per share grew nearly 30% during the quarter, driven in part by a significant rally in interest rates (which typically increases AOCI for banks with fixed-rate assets or specific portfolio structures, though the text explicitly links the growth to earnings and rate movements). Additionally, the bank moved $12.6 billion of securities to held-to-maturity at the beginning of January 2024 to de-risk potential AOCI volatility to capital by about 30% in case rates rise again.",
+ "latency_seconds": 792.98,
+ "generated_at": "2026-09-03T12:50:02Z"
+}

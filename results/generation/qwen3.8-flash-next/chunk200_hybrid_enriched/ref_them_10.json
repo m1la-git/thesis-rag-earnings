@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid_enriched",
+ "question_id": "ref_them_10",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "AXP_2023_Q4_prepared_remarks_200_012",
+  "USB_2023_Q4_qa_200_026",
+  "WFC_2024_Q4_qa_200_002",
+  "BAC_2023_Q2_prepared_remarks_200_031",
+  "JPM_2024_Q3_prepared_remarks_200_004"
+ ],
+ "raw_response": "Banks indicated that while credit card receivables continued to grow, the pace was expected to moderate in 2024 compared to elevated post-pandemic levels. American Express noted year-over-year growth of 13% in loans and card member receivables but expects this to slow down throughout 2024, though still growing faster than billings. JPMorgan reported an 11% increase in card outstandings driven by strong account acquisition and the normalization of revolving balances.\n\nRegarding credit performance, banks generally maintained a positive outlook on asset quality despite some deterioration in specific metrics:\n*   **American Express** described its credit metrics as \"strong and best-in-class,\" attributing this to high customer credit quality and disciplined growth, though it acknowledged that write-off and delinquency rates continued to tick up.\n*   **U.S. Bank** stated that the credit card business remains a \"very nice business\" focused on prime and super-prime customers, expecting strong performance through the cycle despite making marginal adjustments to underwriting due to economic uncertainties.\n*   **Bank of America** reported an increase in net charge-offs driven by higher late-stage delinquencies flowing into losses, with a Q2 credit card net charge-off rate of 2.6%, which remained below pre-pandemic levels. They also built reserves due to loan growth and macroeconomic outlooks.\n*   **JPMorgan** saw credit costs rise, driven by an increase in net charge-offs and reserve builds associated with higher revolving balances.\n*   **Wells Fargo** noted that as earlier card vintages matured, profitability was beginning to improve, though they highlighted the need to monitor the credit box and performance.",
+ "latency_seconds": 208.92,
+ "generated_at": "2026-09-07T10:57:56Z"
+}

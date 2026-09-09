@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25_enriched",
+ "question_id": "ref_comp_10",
+ "category": "comparative",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "PNC_2023_Q2_prepared_remarks_200_008",
+  "HBAN_2023_Q1_prepared_remarks_200_016",
+  "FITB_2023_Q3_qa_200_006",
+  "PNC_2024_Q2_prepared_remarks_200_005",
+  "FITB_2023_Q4_prepared_remarks_200_004"
+ ],
+ "raw_response": "Based on the provided context, **PNC** described its tangible book value as increasing by 1% to $77.80 in Q2 2023 \"notwithstanding this AOCI impact.\" The company noted that while AOCI weighed on the metric, they expected yields to increase as lower-rate securities rolled off, which would result in a meaningful improvement to tangible book value from AOCI accretion.\n\n**Fifth Third** highlighted that its tangible book value per share grew nearly 30% during Q4 2023 due to interest rate movements. To manage the impact of AOCI on capital, Fifth Third moved $12.6 billion of securities to held-to-maturity in January 2024 (referenced in the Q4 2023 remarks), a move intended to de-risk potential AOCI volatility to capital by about 30% if market rates rose again. Additionally, during a Q3 2023 discussion, Fifth Third executives noted that the \"burn down\" of the AOCI mark represented 25% accretion in tangible book value per share over the next two years based on current rate outlooks.",
+ "latency_seconds": 303.34,
+ "generated_at": "2026-09-05T22:08:20Z"
+}

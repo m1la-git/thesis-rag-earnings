@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25_enriched",
+ "question_id": "ref_them_12",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "GS_2024_Q4_qa_500_005",
+  "BAC_2023_Q2_qa_500_007",
+  "MS_2023_Q4_qa_500_014",
+  "BK_2023_Q3_qa_500_010",
+  "BAC_2023_Q2_qa_500_009"
+ ],
+ "raw_response": "Based on the provided context, firms discussed the following regarding their wealth management businesses in 2023:\n\n*   **Bank of America** highlighted operational efficiencies driven by artificial intelligence (AI) and platform improvements. They noted that AI tools like \"Erica\" handled 165 million customer interactions in a single quarter, replacing emails, texts, and phone calls. Additionally, they cited an annual benefit of $0.5 billion from delivering statements digitally rather than physically, which contributed to reducing the percentage of work done by people as efficiency improved.\n*   **Morgan Stanley** described its wealth business as \"differentiated\" and a key strategic asset built over 15 years through the integration of Smith Barney. The firm emphasized that it has created a \"full funnel\" combining self-directed, traditional advisory, and new workplace channels. Leadership stated that this integrated approach provides enormous barriers to entry and delivers value in a differentiated manner, countering concerns about step-downs in growth rates or outflows in investment management.\n*   **Barclays** noted strength in its Pershing business, which is part of its most profitable segment (Markets and Wealth Solutions). They attributed revenue resilience to various fee components, including higher fees on sweep balances, despite headwinds seen by other firms. The firm expressed confidence in the underlying strength, people, strategy, and products of the wealth management division.",
+ "latency_seconds": 466.25,
+ "generated_at": "2026-09-05T23:00:06Z"
+}

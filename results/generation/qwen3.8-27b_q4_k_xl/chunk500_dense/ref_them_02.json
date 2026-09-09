@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense",
+ "question_id": "ref_them_02",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "JPM_2023_Q2_prepared_remarks_500_006",
+  "GS_2023_Q3_prepared_remarks_500_002",
+  "JPM_2023_Q3_prepared_remarks_500_001",
+  "GS_2024_Q2_qa_500_008",
+  "USB_2024_Q3_qa_500_006"
+ ],
+ "raw_response": "Based on the provided transcripts, banks characterized the uncertainty surrounding the Basel III endgame proposal as significant, disconcerting, and lacking in detailed analysis to support the magnitude of proposed capital increases. They described the rules as going \"way too far,\" potentially increasing systemic risk by pushing activity into shadow banking, raising credit costs, and reducing U.S. competitiveness. Specific concerns included a lack of clarity on the timing (with some suggesting it might not take effect until 2025) and the quantum of the final resolution.\n\nThis uncertainty directly affected capital actions in the following ways:\n*   **JPMorgan Chase** kept its share repurchase pace \"modest\" due to the proposal, noting that while they expected RWA to increase by around $500 billion (requiring roughly $22.5 billion in additional capital at their current GSIB ratio), they were reassessing buyback trajectories as circumstances evolved.\n*   **Goldman Sachs** maintained a wider-than-normal CET1 cushion (running with 90 bps of extra buffer) to signal flexibility and address the lingering uncertainty regarding both the timing and final requirements of the rules, while still aiming to return capital to shareholders.\n*   **U.S. Bank** indicated that clarity on Basel III was a key factor in their timeline for building upon modest buybacks, though they remained confident in their ability to meet capital targets even under stricter scenarios (CAT II) expected around 2027.",
+ "latency_seconds": 373.12,
+ "generated_at": "2026-09-03T12:28:28Z"
+}

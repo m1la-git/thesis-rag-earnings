@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25",
+ "question_id": "ref_them_11",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BAC_2024_Q2_prepared_remarks_500_009",
+  "FITB_2023_Q4_qa_500_011",
+  "FITB_2023_Q4_prepared_remarks_500_000",
+  "COF_2023_Q4_qa_500_008",
+  "COF_2024_Q2_prepared_remarks_500_004"
+ ],
+ "raw_response": "Based on the provided context, banks characterized their net charge-off (NCO) levels and direction as follows:\n\n*   **Bank of America (BAC):** In Q2 2024, NCOs were $1.5 billion with a ratio of 59 basis points, described as \"little changed\" from Q1. Consumer NCOs increased modestly by $31 million due to credit card delinquencies, while commercial NCOs remained relatively flat as lower office losses offset small increases in other commercial loans.\n*   **Fifth Third Bancorp (FITB):** For 2023, the bank reported that NCOs remained below historical averages, with zero net charge-offs in commercial real estate. Looking ahead to 2024, management characterized the overall charge-off outlook as \"fairly benign,\" expecting a range of 35 to 45 basis points. They noted no significant geographic or product trends and expected asset quality to remain stable, similar to 2023 levels.\n*   **Capital One (COF):** In Q4 2023, the bank declared that charge-offs were \"leveling off\" after catching up with stabilizing delinquencies in the second half of the year. NCOs were approximately 15% above 2018 levels. For 2024, they projected that net charge-offs would stabilize at about 15% above 2019 levels, noting typical month-to-month volatility and seasonality.",
+ "latency_seconds": 386.42,
+ "generated_at": "2026-09-05T23:37:54Z"
+}

@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid",
+ "question_id": "ref_them_14",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BAC_2024_Q4_prepared_remarks_200_026",
+  "GS_2024_Q4_prepared_remarks_200_016",
+  "BK_2024_Q4_prepared_remarks_200_014",
+  "BAC_2024_Q4_prepared_remarks_200_006",
+  "USB_2023_Q4_prepared_remarks_200_006"
+ ],
+ "raw_response": "Based on the provided context, here is what was reported regarding investment banking revenue and fees:\n\n**Bank of America (BAC)**\n*   **2024:** The Global Banking business generated $8.1 billion in earnings for the full year 2024. Investment banking fees saw a \"nice rebound\" in 2024, with Q4 fees reaching $1.7 billion, representing a 44% increase year-over-year. This growth was led by mergers and acquisitions, as well as strength in debt capital markets (particularly leverage finance) and equity capital markets. The company expects this trend to continue into 2025. Additionally, the sales and trading team achieved a new full-year record of nearly $19 billion in revenue for 2024.\n*   **2023:** The context does not provide specific investment banking fee figures for Bank of America in 2023, only noting that Q4 2024 fees were up 44% compared to the prior year.\n\n**Goldman Sachs (GS)**\n*   **2024:** In Asset & Wealth Management, incentive fees totaled $393 million for the full year 2024. The company expects to make further progress in 2025 toward an annual target of $1 billion in incentive fees.\n\n**U.S. Bancorp (USB)**\n*   **2023/2024:** The context notes that noninterest income increased 12.1% year-over-year in Q4 2023, driven partly by increases in trust and investment management fees. It does not provide specific data for \"investment banking\" revenue or fees distinct from these broader categories.\n\n**BNY Mellon (BK)**\n*   **2024:** Investment services fees grew 7%, reflecting net-new business, higher market values, and client activity. Investment management and performance fees were up 3%. The context does not break out specific \"investment banking\" fees separate from these segments.",
+ "latency_seconds": 159.22,
+ "generated_at": "2026-09-07T11:11:51Z"
+}

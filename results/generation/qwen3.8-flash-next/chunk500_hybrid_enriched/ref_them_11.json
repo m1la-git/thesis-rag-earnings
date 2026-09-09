@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid_enriched",
+ "question_id": "ref_them_11",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "USB_2023_Q4_qa_500_005",
+  "COF_2023_Q4_qa_500_008",
+  "BAC_2024_Q4_prepared_remarks_500_008",
+  "BAC_2023_Q4_prepared_remarks_500_011",
+  "FITB_2023_Q4_qa_500_011"
+ ],
+ "raw_response": "Based on the provided context, banks characterized their net charge-off levels and directions as follows:\n\n**Bank of America (BAC)**\n*   **2023:** Net charge-offs increased to $1.2 billion in Q4, with a ratio of 45 basis points (up 10 bps from Q3). The increase was driven by credit card losses normalizing, smaller commercial and industrial losses, and commercial real estate office losses.\n*   **2024:** Net charge-offs improved modestly to approximately $1.5 billion in Q4, with a ratio of 54 basis points (down 4 bps from Q3). Consumer losses remained stable between $1 billion and $1.1 billion, while commercial losses declined due to reduced office-related losses.\n\n**Fifth Third Bancorp (FITB)**\n*   **2023:** Charge-offs were described as \"episodic\" with no significant geographic or product trends.\n*   **2024/Outlook:** The outlook for 2024 was characterized as \"fairly benign,\" with an expected net charge-off range of 35 to 45 basis points. Management noted that loss content in commercial real estate remained minimal and C&I losses were stable, with no trends suggesting a significant move from current asset quality levels.\n\n**Capital One (COF)**\n*   **2023:** Delinquencies stabilized, and charge-offs leveled off in the second half of 2023. Q4 net charge-offs were about 15% above 2018 levels.\n*   **2024 Outlook:** Net charge-offs are expected to stabilize at approximately 15% above 2019 levels, with typical month-to-month volatility and normal seasonality.\n\n**U.S. Bancorp (USB)**\n*   **2023/Outlook:** Credit quality was generally stable, though some idiosyncratic legacy credits moved to non-performing status. Net charge-offs were expected to continue normalizing, with credit card losses moving closer to pre-pandemic levels. The full-year 2024 net charge-off rate was projected to be in the \"mid-50s\" basis points.",
+ "latency_seconds": 376.45,
+ "generated_at": "2026-09-07T11:34:38Z"
+}

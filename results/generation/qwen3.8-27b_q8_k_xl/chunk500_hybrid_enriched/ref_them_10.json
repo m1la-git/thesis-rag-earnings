@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid_enriched",
+ "question_id": "ref_them_10",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "COF_2024_Q4_qa_500_017",
+  "AXP_2023_Q4_prepared_remarks_500_005",
+  "COF_2023_Q2_qa_500_004",
+  "JPM_2023_Q4_prepared_remarks_500_005",
+  "COF_2024_Q4_prepared_remarks_500_003"
+ ],
+ "raw_response": "Based on the provided transcripts, bank executives discussed credit card growth and credit performance for 2023 and 2024 as follows:\n\n**Credit Card Growth**\n*   **Capital One (COF):** Overall purchase volume growth was driven by an expanding branded card customer base, which includes both consumer and small business segments. While spend per customer in the consumer business remained largely flat through 2023 and the first half of 2024, it began to pick up midway through 2024 and grew further in Q4 2024. In Q2 2023, domestic card purchase volume was up 7% year-over-year, primarily powered by customer base growth rather than increased spend per account.\n*   **American Express (AXP):** Total revenues were up 15% for the full year 2023 on an FX-adjusted basis. Discount revenue grew 9% for the full year 2023, driven by spending trends. Net card fee revenues grew 20% for the full year 2023. For 2024, American Express expected further momentum in net card fee revenue growth supported by product innovation and a focus on premium value propositions.\n\n**Card Credit Performance**\n*   **Capital One (COF):** Management noted that recent originations have shown stability in performance, with risk levels remaining mostly stable vintage over vintage. The front book of new origination vintages continued to perform in line with pre-pandemic levels. In Q4 2024, the charge-off rate was up 45 basis points sequentially, while the 30-plus delinquency rate remained flat compared to the prior quarter.\n*   **American Express (AXP):** The company reported \"strong and best-in-class credit metrics\" in Q4 2023, attributing this to high customer credit quality and disciplined risk management. Write-off and delinquency rates ticked up slightly in Q4 2023 as expected. For 2024, American Express anticipated that delinquency and write-off rates would remain strong with only modest increases. The reserve rate at the end of Q4 2023 was 2.8% of total loans and card member receivables, which is approximately 10 basis points below pre-pandemic levels.\n*   **JPMorgan Chase (JPM):** The bank expected its 2024 card net charge-off rate to be below 3.5%, consistent with previous guidance.",
+ "latency_seconds": 654.74,
+ "generated_at": "2026-09-05T23:23:53Z"
+}

@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid",
+ "question_id": "ref_them_10",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "AXP_2023_Q1_prepared_remarks_500_004",
+  "COF_2024_Q4_qa_500_017",
+  "COF_2024_Q4_prepared_remarks_500_003",
+  "AXP_2023_Q4_prepared_remarks_500_005",
+  "COF_2023_Q2_qa_500_004"
+ ],
+ "raw_response": "Based on the provided transcripts, American Express (AXP) and Capital One (COF) reported the following regarding credit card growth and credit performance for 2023 and 2024:\n\n**American Express (AXP)**\n*   **Growth:** In Q1 2023, loan balances grew 25% year-over-year, driven primarily by existing customers rebuilding balances. The company expected this growth rate to moderate through 2023 but remain elevated compared to pre-pandemic levels. By Q4 2023, total revenues were up 11% year-over-year, with discount revenue growing 5% in the quarter and 9% for the full year.\n*   **Credit Performance:** AXP described its credit metrics as \"best-in-class\" due to high customer quality and disciplined risk management. While write-off and delinquency rates continued to tick up in Q1 and Q4 of 2023, they remained below pre-pandemic levels. The company expected these rates to continue increasing modestly through 2024 but anticipated they would remain strong relative to peers. Reserve builds were $320 million in Q1 2023 and $400 million in Q4 2023, contributing to provision expenses of $1.1 billion and $1.4 billion, respectively.\n\n**Capital One (COF)**\n*   **Growth:** In Q4 2024, purchase volume growth was driven by an expanding branded card customer base across consumer and small business segments. Spend per customer in the consumer business had been largely flat through 2023 and the first half of 2024 but began to pick up midway through 2024 and grew further in Q4. In Consumer Banking, auto originations rose 53% year-over-year in Q4 2024 following four consecutive quarters of growth in 2024, allowing loan balances to return to growth (up 4% year-over-year).\n*   **Credit Performance:** COF noted that recent card originations have shown stability in performance, with risk levels remaining mostly stable vintage over vintage and performing in line with pre-pandemic standards. In Q4 2024, the charge-off rate increased by 45 basis points sequentially, while the 30-plus delinquency rate remained flat compared to the prior quarter. The company stated that the end of the Walmart loss-sharing agreement did not have a meaningful impact on delinquency rates.",
+ "latency_seconds": 683.86,
+ "generated_at": "2026-09-06T00:01:20Z"
+}

@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense_enriched",
+ "question_id": "ref_them_12",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "GS_2023_Q3_prepared_remarks_200_003",
+  "MS_2023_Q3_prepared_remarks_200_014",
+  "MS_2024_Q3_prepared_remarks_200_008",
+  "MS_2023_Q3_qa_200_000",
+  "GS_2023_Q4_prepared_remarks_200_003"
+ ],
+ "raw_response": "Based on the provided context from 2023 earnings calls, firms highlighted the following regarding their wealth management businesses and investments:\n\n**Goldman Sachs (Q3 and Q4 2023)**\n*   **Performance:** The firm reported its 23rd consecutive quarter of long-term fee-based inflows in Asset & Wealth Management. It generated record management and other fees of $2.4 billion in Q3 2023 and was on track to meet a $10 billion annual target by 2024.\n*   **Scale:** By Q4 2023, the firm had over $2.8 trillion in assets under supervision across its Asset & Wealth Management businesses.\n*   **Strategy:** The strategy was described as \"working,\" evidenced by successes across the franchise and a shift toward a more durable revenue base comprising management fees, other fees, and private banking/lending revenues.\n\n**Morgan Stanley (Q3 2023)**\n*   **Outlook:** Management expressed that increased client conviction would further support asset growth in wealth and investment management.\n*   **Unit Economics Discussion:** In response to a question about why strong organic asset growth had not yet translated into revenue growth for wealth management revenues excluding net interest income, the CFO noted being \"impressed with the resiliency\" seen in the business, though the provided text cuts off before detailing specific investment strategies or unit economics explanations.",
+ "latency_seconds": 167.09,
+ "generated_at": "2026-09-07T10:53:45Z"
+}

@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25",
+ "question_id": "ref_them_14",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "STT_2024_Q4_qa_500_003",
+  "BAC_2024_Q3_prepared_remarks_500_001",
+  "BK_2023_Q4_qa_500_001",
+  "JPM_2024_Q4_prepared_remarks_500_005",
+  "BAC_2024_Q1_prepared_remarks_500_001"
+ ],
+ "raw_response": "Based on the provided context, Bank of America reported the following regarding investment banking revenue and fees:\n\n*   **Q1 2024:** The bank delivered nearly $1.6 billion in investment banking fees, representing a 35% increase compared to Q1 2023. This performance was attributed to market share growth and investments in middle-market and dual coverage teams.\n*   **Q3 2024:** While specific dollar amounts for investment banking were not detailed, the bank noted \"healthy revenue growth\" in its wealth and investment management business and global markets businesses during this quarter.\n\nThe provided context does not contain specific figures or reports regarding investment banking revenue or fees for the full year of 2023 or other quarters in 2024 beyond these mentions.",
+ "latency_seconds": 424.03,
+ "generated_at": "2026-09-05T23:38:32Z"
+}

@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense",
+ "question_id": "ref_them_06",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "C_2023_Q4_prepared_remarks_200_010",
+  "FITB_2024_Q2_prepared_remarks_200_016",
+  "COF_2023_Q4_prepared_remarks_200_015",
+  "STT_2023_Q4_prepared_remarks_200_012",
+  "WFC_2023_Q4_prepared_remarks_200_023"
+ ],
+ "raw_response": "Based on the provided context, the following efficiency ratio levels and targets were discussed:\n\n*   **Fifth Third Bancorp (FITB):** Projected a full-year 2024 efficiency ratio of around 57%.\n*   **Capital One (COF):** Expected the annual operating efficiency ratio (net of adjustments) for 2024 to be flat to modestly down compared to 2023.",
+ "latency_seconds": 72.38,
+ "generated_at": "2026-09-07T11:07:39Z"
+}

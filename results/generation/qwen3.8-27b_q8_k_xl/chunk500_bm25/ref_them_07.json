@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25",
+ "question_id": "ref_them_07",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "FITB_2023_Q1_prepared_remarks_500_005",
+  "FITB_2023_Q1_prepared_remarks_500_001",
+  "COF_2024_Q2_prepared_remarks_500_003",
+  "AXP_2023_Q1_qa_500_001",
+  "FITB_2024_Q2_prepared_remarks_500_006"
+ ],
+ "raw_response": "Based on the provided context, Fifth Third Bank (FITB) described its deposit expectations for the second quarter of 2023 as stable to up 1% sequentially. The bank also noted that end-of-period total deposit balances ended the first quarter above the level seen on March 8, following a period where they opened more new commercial deposit accounts in the weekend after Silicon Valley Bank's failure than they typically would in an entire month. Additionally, Fifth Third expected continued migration from demand deposits (DDA) into interest-bearing products throughout the remainder of 2023.\n\nCapital One (COF) reported that for its Consumer Banking business in the second quarter of 2024 (comparing to the prior year), ending consumer deposits were up about 7% and average deposits were up 5%. However, the context does not provide specific deposit growth figures for Capital One's second quarter of 2023.",
+ "latency_seconds": 270.84,
+ "generated_at": "2026-09-05T23:35:59Z"
+}

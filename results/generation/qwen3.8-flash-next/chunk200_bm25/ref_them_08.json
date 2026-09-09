@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25",
+ "question_id": "ref_them_08",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "JPM_2023_Q4_prepared_remarks_200_009",
+  "BK_2024_Q4_prepared_remarks_200_016",
+  "BLK_2023_Q4_prepared_remarks_200_014",
+  "STT_2024_Q1_prepared_remarks_200_007",
+  "BLK_2024_Q4_prepared_remarks_200_002"
+ ],
+ "raw_response": "Based on the provided context, firms described momentum in net inflows, AUM, and client investment assets during 2023 as follows:\n\n*   **JPMorgan Chase:** Reported record client asset net inflows of $489 billion for the year. Assets Under Management (AUM) reached $3.4 trillion and client assets reached $5 trillion, both up 24% year-on-year, driven by continued net inflows and higher market levels.\n*   **BlackRock:** Generated full-year total net inflows of $289 billion, which were positive across active and index strategies as well as regions. The firm achieved industry-leading ETF net inflows of $186 billion in 2023, representing 6% organic asset growth.",
+ "latency_seconds": 116.98,
+ "generated_at": "2026-09-07T11:05:50Z"
+}

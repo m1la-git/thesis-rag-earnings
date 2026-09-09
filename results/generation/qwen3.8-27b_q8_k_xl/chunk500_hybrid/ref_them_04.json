@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid",
+ "question_id": "ref_them_04",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BAC_2023_Q4_prepared_remarks_500_002",
+  "USB_2024_Q4_prepared_remarks_500_003",
+  "FITB_2023_Q4_prepared_remarks_500_002",
+  "STT_2024_Q1_prepared_remarks_500_001",
+  "HBAN_2023_Q4_prepared_remarks_500_001"
+ ],
+ "raw_response": "Based on the provided context, banks described their progress on positive operating leverage as follows:\n\n*   **Bank of America** achieved 170 basis points of operating leverage in 2023. This was driven by heightened quarterly expense levels being lowered throughout the year due to good expense discipline and headcount reductions, even while continuing investments in growth.\n*   **U.S. Bancorp (USB)** delivered 190 basis points of positive operating leverage in the fourth quarter of 2024. For the first quarter of 2025, they expected to deliver at least 200 basis points of positive operating leverage year-over-year, and for full-year 2025, they anticipated achieving greater than 200 basis points excluding security gains or losses.\n*   **Fifth Third Bancorp** stated that while the carryover effect of their Risk-Weighted Asset (RWA) diet made it unfeasible to achieve positive operating leverage for the full year 2023, they anticipated returning to positive operating leverage in the second half of 2024. This was supported by a 4% reduction in full-time equivalent employee headcount from their 2023 peak and sustained peer-leading annualized expense growth.\n*   **State Street (STT)** reported delivering both positive fee and total operating leverage in the first quarter of 2024 relative to the prior year period, excluding notable items. This was supported by underlying expenses increasing just 1% year-over-year despite increased business investments.",
+ "latency_seconds": 318.36,
+ "generated_at": "2026-09-05T23:55:14Z"
+}

@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25",
+ "question_id": "ref_them_10",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "AXP_2023_Q4_prepared_remarks_200_012",
+  "WFC_2024_Q4_prepared_remarks_200_005",
+  "AXP_2024_Q1_qa_200_024",
+  "WFC_2024_Q4_qa_200_002",
+  "AXP_2023_Q1_prepared_remarks_200_011"
+ ],
+ "raw_response": "Based on the provided context, American Express (AXP) reported that loan and card member receivables grew by 13% year-over-year in Q4 2023. For 2024, AXP expects this growth to moderate from elevated pre-pandemic levels but still grow modestly faster than billings. Regarding credit performance, AXP noted \"best-in-class\" metrics attributed to high customer credit quality and disciplined risk management, although write-off and delinquency rates continued to tick up in Q4 2023 as expected. In Q1 2024, AXP highlighted that revolving balances on charge products were the fastest-growing segment of their lending portfolio with strong credit performance among premium card members.\n\nWells Fargo (WFC) reported strong momentum in its credit card business in Q4 2024, noting that credit card spend increased by over $17 billion year-over-year and more than 2.4 million new accounts were opened in 2024 while maintaining credit standards. Regarding profitability and performance, Wells Fargo indicated that early product vintages launched around 3.5 years prior (starting mid-2021) are beginning to mature and become more profitable, though the company is still in the \"early days\" of seeing this profitability fully reflected in the P&L.",
+ "latency_seconds": 181.42,
+ "generated_at": "2026-09-05T22:32:17Z"
+}

@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid",
+ "question_id": "ref_unans_06",
+ "category": "unanswerable",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "MTB_2024_Q4_qa_200_029",
+  "HBAN_2023_Q4_qa_200_018",
+  "GS_2024_Q2_qa_200_017",
+  "COF_2024_Q2_prepared_remarks_200_006",
+  "JPM_2023_Q1_qa_200_024"
+ ],
+ "raw_response": "The provided context does not contain enough information to answer this question.",
+ "latency_seconds": 12.05,
+ "generated_at": "2026-09-03T11:44:34Z"
+}

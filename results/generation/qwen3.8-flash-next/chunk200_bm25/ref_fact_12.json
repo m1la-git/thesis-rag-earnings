@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25",
+ "question_id": "ref_fact_12",
+ "category": "factual",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "AXP_2023_Q2_prepared_remarks_200_002",
+  "WFC_2024_Q2_prepared_remarks_200_024",
+  "USB_2023_Q4_qa_200_019",
+  "WFC_2023_Q3_prepared_remarks_200_020",
+  "WFC_2023_Q3_prepared_remarks_200_006"
+ ],
+ "raw_response": "The provided context does not contain enough information to answer this question.",
+ "latency_seconds": 92.44,
+ "generated_at": "2026-09-07T11:05:25Z"
+}

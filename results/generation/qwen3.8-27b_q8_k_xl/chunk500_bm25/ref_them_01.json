@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25",
+ "question_id": "ref_them_01",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "WFC_2024_Q2_prepared_remarks_500_009",
+  "BK_2024_Q4_prepared_remarks_500_006",
+  "PNC_2024_Q1_prepared_remarks_500_003",
+  "WFC_2024_Q1_prepared_remarks_500_003",
+  "C_2023_Q4_prepared_remarks_500_005"
+ ],
+ "raw_response": "Based on the provided context, banks reported the impact of the FDIC special assessment as follows:\n\n*   **Citigroup (Q4 2023):** Reported an FDIC special assessment of approximately $1.7 billion related to regional bank failures in March 2023, which impacted expenses in \"all other.\"\n*   **Wells Fargo (Q1 2024 and Q2 2024 Outlook):** Included $284 million ($0.06 per share) for the FDIC special assessment in its first-quarter results, noting this was an additional amount following a $1.9 billion charge in the prior quarter. For full-year 2024 guidance, Wells Fargo updated its non-interest expense outlook to approximately $54 billion (up from $52.6 billion), citing $336 million of expense for the FDIC special assessment in the first half of the year as a primary driver.\n*   **PNC Financial Services (Q1 2024):** Reported a pre-tax, non-core, non-interest expense of $130 million ($103 million after tax) related to the increased FDIC special assessment. This amount was included in total non-interest expenses of $3.3 billion for the quarter.\n*   **Bank of New York Mellon (Q4 2024 Outlook/Context):** While discussing Q4 2024 results, the transcript notes that reported expenses were down year-over-year primarily because the fourth quarter of 2023 included an FDIC special assessment.",
+ "latency_seconds": 144.45,
+ "generated_at": "2026-09-05T23:33:52Z"
+}

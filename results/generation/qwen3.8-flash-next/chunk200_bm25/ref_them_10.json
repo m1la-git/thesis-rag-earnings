@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25",
+ "question_id": "ref_them_10",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "AXP_2023_Q4_prepared_remarks_200_012",
+  "WFC_2024_Q4_prepared_remarks_200_005",
+  "AXP_2024_Q1_qa_200_024",
+  "WFC_2024_Q4_qa_200_002",
+  "AXP_2023_Q1_prepared_remarks_200_011"
+ ],
+ "raw_response": "Banks reported strong engagement and loyalty among card members, with American Express noting a 13% year-over-year growth in loans and card member receivables. While this growth was elevated compared to pre-pandemic levels, both companies expected it to moderate through 2024 while still growing faster than billings. Regarding credit performance, banks maintained best-in-class metrics attributed to high customer credit quality and robust risk management. Although write-off and delinquency rates continued to tick up as expected, they remained below pre-pandemic levels for American Express. Wells Fargo highlighted that its new card products were well-received, with over 2.4 million new accounts opened in 2024 and strong credit card spend growth of over $17 billion year-over-year, all while maintaining strict credit standards.",
+ "latency_seconds": 120.12,
+ "generated_at": "2026-09-07T11:05:53Z"
+}

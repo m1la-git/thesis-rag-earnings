@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid_enriched",
+ "question_id": "ref_them_11",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BAC_2024_Q4_prepared_remarks_200_021",
+  "USB_2023_Q4_qa_200_013",
+  "BAC_2024_Q2_prepared_remarks_200_024",
+  "COF_2023_Q4_qa_200_021",
+  "BAC_2023_Q2_prepared_remarks_200_031"
+ ],
+ "raw_response": "Banks characterized their net charge-off levels as stabilizing or normalizing toward pre-pandemic benchmarks, with specific directional trends varying by portfolio segment:\n\n*   **Bank of America (BAC):** Characterized overall net charge-offs as stable, expecting the ratio to remain in the range of 50 to 60 basis points for 2025 without significant changes in GDP or employment. Consumer losses were described as being in a \"pretty stable range\" of $1 billion to $1.1 billion over recent quarters. Commercial losses declined due to reduced commercial real estate office losses, though consumer credit card losses increased modestly due to the flow-through of higher late-stage delinquencies.\n*   **U.S. Bank (USB):** Described the portfolio as \"generally pretty stable,\" with net charge-offs expected to continue to \"normalize.\" Credit card charge-offs were noted as getting closer to pre-pandemic levels but continuing to move up slightly, with full-year 2024 expectations in the mid-50s basis points.\n*   **Capital One (COF):** Characterized net charge-offs as \"stabilizing\" at approximately 15% above 2019 levels, noting that this stabilization was driven by strategic choices made during the pandemic to manage credit risk amid increased competition from FinTechs.",
+ "latency_seconds": 196.28,
+ "generated_at": "2026-09-07T10:57:43Z"
+}

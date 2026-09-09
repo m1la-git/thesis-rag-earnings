@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense_enriched",
+ "question_id": "ref_them_02",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "JPM_2023_Q3_prepared_remarks_200_017",
+  "MS_2023_Q2_qa_200_001",
+  "GS_2023_Q3_qa_200_011",
+  "MS_2023_Q4_prepared_remarks_200_011",
+  "COF_2023_Q4_qa_200_038"
+ ],
+ "raw_response": "Banks characterized the uncertainty around the Basel III Endgame proposal as prominent and fluid, noting that they had not yet seen the actual final rules. They expressed hope that industry comments would lead to a more constructive outcome than originally proposed, particularly regarding risk-weighted asset (RWA) inflation. This uncertainty led banks to wait for the final rule before making definitive capital decisions, with some noting that their stress capital buffers fluctuated significantly in prior years due to scenario and balance sheet impacts. Despite this uncertainty, firms like Morgan Stanley maintained a strong capital position and remained committed to dividends while toggling between supporting clients, growing businesses, and repurchasing stock.",
+ "latency_seconds": 56.98,
+ "generated_at": "2026-09-07T10:51:54Z"
+}

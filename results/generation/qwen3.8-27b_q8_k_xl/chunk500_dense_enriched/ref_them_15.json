@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense_enriched",
+ "question_id": "ref_them_15",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BAC_2023_Q4_prepared_remarks_500_010",
+  "MTB_2024_Q4_qa_500_005",
+  "C_2023_Q4_prepared_remarks_500_007",
+  "WFC_2023_Q4_prepared_remarks_500_009",
+  "BAC_2023_Q2_qa_500_002"
+ ],
+ "raw_response": "Based on the provided context, here is the information regarding technology spending and General & Administrative (G&A) expenses for 2023 and 2024:\n\n**Technology Spending:**\n*   **Citigroup (C):** Invested over **$12 billion** in technology in 2023. This was part of a broader transformation effort where roughly 30% of investments over the last three years were in technology, with a noted shift from consulting expenses to technology and compensation in 2023.\n*   **Bank of America (BAC):** Increased annual technology initiatives spending from approximately **$2.5 billion** to **$3.8 billion** over the decade leading up to the discussion (referenced in Q2 2023 context). The text does not provide a specific total for 2024 tech spend, but notes continued investment in new tech initiatives and digital transformation.\n*   **M&T Bank (MTB):** Did not specify a dollar amount for technology spending in 2023 or 2024, but noted that they spent \"a fair amount of money\" on significant projects in 2024 and are doing the same in 2025. They identified cloud/data centers, a new general ledger system, and commercial services as major investments.\n\n**G&A / Non-Interest Expense Changes:**\n*   **Bank of America (BAC):** Reported adjusted expense of **$15.6 billion** in Q4 2023, which was down $199 million from the third quarter and only $94 million higher than Q4 2022. For Q1 2024, they expected expenses to rise to approximately **$16.4 billion** due to seasonal elevation, payroll taxes, merit increases, and revenue-related costs. They expect quarterly expense to decline from Q1 2024 as the year progresses.\n*   **Citigroup (C):** Full-year 2023 expenses were **$54.3 billion**, in line with guidance. This included roughly $780 million in restructuring costs and approximately $730 million in additional severance costs. Expense growth was driven by transformation, business-led investments, volume-related expenses, and risk/controls investments, partially offset by productivity savings.\n*   **Wells Fargo (WFC):** Reported non-interest expense of **$55.6 billion** in 2023 (including a $1.9 billion FDIC special assessment). Excluding the assessment, expenses were **$53.6 billion**. For 2024, they expect severance to be approximately $1.3 billion lower, revenue-related expenses to increase by at least $300 million, and all other expenses to be flat. They anticipate approximately **$2.7 billion** in gross expense reductions from efficiency initiatives in 2024.\n*   **M&T Bank (MTB):** The context does not provide specific dollar figures for total G&A or non-interest expense for 2023 or 2024, only qualitative statements about disciplined spending and major investment projects.",
+ "latency_seconds": 761.88,
+ "generated_at": "2026-09-05T23:12:58Z"
+}

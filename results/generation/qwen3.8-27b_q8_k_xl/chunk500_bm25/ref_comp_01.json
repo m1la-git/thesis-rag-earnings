@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25",
+ "question_id": "ref_comp_01",
+ "category": "comparative",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "GS_2024_Q2_qa_500_008",
+  "GS_2023_Q4_prepared_remarks_500_007",
+  "USB_2023_Q4_qa_500_006",
+  "PNC_2023_Q4_qa_500_006",
+  "C_2023_Q4_prepared_remarks_500_000"
+ ],
+ "raw_response": "Based on the provided context, there is no information regarding how Citi characterized Basel III endgame uncertainty. The text for Citi's Q4 2023 earnings call focuses on strategic progress, services rankings, and general priorities without mentioning Basel III. Therefore, a comparison between Goldman Sachs and Citi cannot be made using only the provided context.\n\nThe provided context does not contain enough information to answer this question.",
+ "latency_seconds": 211.45,
+ "generated_at": "2026-09-05T23:34:59Z"
+}

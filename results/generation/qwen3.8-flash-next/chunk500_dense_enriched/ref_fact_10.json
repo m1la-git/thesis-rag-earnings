@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense_enriched",
+ "question_id": "ref_fact_10",
+ "category": "factual",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "PNC_2023_Q3_prepared_remarks_500_001",
+  "PNC_2024_Q3_prepared_remarks_500_002",
+  "PNC_2023_Q4_prepared_remarks_500_001",
+  "PNC_2023_Q3_prepared_remarks_500_000",
+  "PNC_2023_Q2_prepared_remarks_500_001"
+ ],
+ "raw_response": "At the end of the third quarter of 2023, PNC's Accumulated Other Comprehensive Income (AOCI) was a negative $10.3 billion. At the end of the prior quarter (June 30), it had been a negative $9.5 billion.",
+ "latency_seconds": 184.06,
+ "generated_at": "2026-09-07T11:25:24Z"
+}

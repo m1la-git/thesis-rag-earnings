@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense_enriched",
+ "question_id": "ref_comp_11",
+ "category": "comparative",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BK_2023_Q3_prepared_remarks_500_006",
+  "MTB_2023_Q3_prepared_remarks_500_004",
+  "BK_2023_Q3_prepared_remarks_500_008",
+  "BK_2023_Q3_prepared_remarks_500_005",
+  "BK_2023_Q3_prepared_remarks_500_000"
+ ],
+ "raw_response": "For BNY Mellon, the 16% year-over-year decrease in reported expenses was primarily driven by the goodwill impairment associated with its investment management reporting unit recorded in the third quarter of the prior year. Excluding notable items, expenses actually increased by 3% due to higher investment and revenue-related expenses, inflation, and the unfavorable impact of a weaker dollar, which were partially offset by efficiency savings and the Alcentra divestiture.\n\nFor M&T Bank, non-interest expenses decreased by $15 million sequentially in the third quarter of 2023. This decline was driven by an $11 million reduction in compensation and benefit costs (reflecting lower average headcount and contracted resource expenses) and a $6 million decrease in other cost of operations. The latter was largely due to lower sub-advisory fees resulting from the sale of the CIT business and lower legal-related expenses, partially offset by losses associated with certain retail banking activities.",
+ "latency_seconds": 746.47,
+ "generated_at": "2026-09-05T23:12:43Z"
+}

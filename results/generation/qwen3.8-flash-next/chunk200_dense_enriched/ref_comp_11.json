@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense_enriched",
+ "question_id": "ref_comp_11",
+ "category": "comparative",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BK_2023_Q3_prepared_remarks_200_013",
+  "MTB_2023_Q3_prepared_remarks_200_010",
+  "BK_2023_Q3_prepared_remarks_200_016",
+  "BK_2023_Q3_prepared_remarks_200_021",
+  "BK_2024_Q3_prepared_remarks_200_003"
+ ],
+ "raw_response": "BNY Mellon’s reported expenses fell primarily due to a goodwill impairment associated with its investment management reporting unit recorded in the prior year. M&T’s non-interest expenses decreased due to lower compensation and benefit costs (reflecting lower average headcount and contracted resources) and lower other cost of operations, largely driven by reduced sub-advisory fees following the sale of the CIT business.",
+ "latency_seconds": 209.3,
+ "generated_at": "2026-09-07T10:54:27Z"
+}

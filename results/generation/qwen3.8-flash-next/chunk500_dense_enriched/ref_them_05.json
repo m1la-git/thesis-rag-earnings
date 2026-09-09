@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense_enriched",
+ "question_id": "ref_them_05",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "FITB_2024_Q4_prepared_remarks_500_001",
+  "FITB_2023_Q4_prepared_remarks_500_002",
+  "BK_2024_Q3_prepared_remarks_500_001",
+  "FITB_2024_Q3_prepared_remarks_500_003",
+  "C_2024_Q3_prepared_remarks_500_006"
+ ],
+ "raw_response": "Based on the provided context, here are the amounts returned through dividends and share repurchases for the companies mentioned regarding the third quarter of 2024:\n\n*   **Citigroup (C):** Returned **$2.1 billion** in the form of common dividends and share repurchases during the third quarter of 2024.\n*   **Fifth Third Bancorp (FITB):** The context states that for the **full year** of 2024, Fifth Third returned a total of **$1.6 billion** of capital to shareholders. It notes that share repurchases resumed in the second quarter and the dividend was raised in the third quarter, but it does not provide a specific dollar amount for dividends and share repurchases combined specifically for the third quarter alone.\n\nTherefore, based strictly on the text provided:\n*   Citigroup returned **$2.1 billion** in Q3 2024.\n*   Fifth Third Bancorp's full-year return was **$1.6 billion**, with no specific Q3-only figure provided for dividends and repurchases combined.",
+ "latency_seconds": 114.01,
+ "generated_at": "2026-09-07T11:24:14Z"
+}

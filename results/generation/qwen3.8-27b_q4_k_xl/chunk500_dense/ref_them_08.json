@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense",
+ "question_id": "ref_them_08",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BLK_2023_Q4_prepared_remarks_500_006",
+  "MS_2023_Q4_prepared_remarks_500_009",
+  "MS_2023_Q3_prepared_remarks_500_004",
+  "MS_2023_Q1_prepared_remarks_500_004",
+  "BK_2023_Q4_prepared_remarks_500_007"
+ ],
+ "raw_response": "Based on the provided context, firms described momentum in net inflows, AUM, and client investment assets during 2023 as follows:\n\n*   **BlackRock:** Reported $32 billion in institutional net inflows for 2023, led by active strategies. The cash management platform saw $79 billion in net inflows for the year, with year-end AUM up 14% (over $90 billion) year-over-year. Private markets saw $14 billion in net inflows driven by infrastructure and private credit. Retail clients experienced net outflows of $8 billion for the full year, primarily due to allocations away from rate-sensitive strategies, though this was partially offset by record $12 billion in net inflows into Aperio.\n*   **Morgan Stanley:** Investment management AUM increased year-over-year to $1.5 trillion, supported by higher asset values. However, long-term net outflows were approximately $7 billion for the full year, driven by headwinds in active equity growth strategies. The firm grew client relationships by over 600,000 across the franchise, with workplace assets migrating to the advisor-led channel at a rate up 25% year-over-year.\n*   **Bank of America:** Assets under management of $2 trillion increased by 8% year-over-year, reflecting higher market values and a weaker dollar, though this was partially offset by cumulative net outflows. Wealth management client assets of $312 billion increased by 16% year-over-year due to higher equity market values and cumulative net inflows.",
+ "latency_seconds": 725.66,
+ "generated_at": "2026-09-03T12:34:21Z"
+}

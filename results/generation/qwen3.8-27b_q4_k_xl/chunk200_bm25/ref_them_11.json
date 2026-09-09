@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25",
+ "question_id": "ref_them_11",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "FITB_2024_Q2_prepared_remarks_200_016",
+  "USB_2023_Q4_qa_200_013",
+  "BAC_2023_Q2_prepared_remarks_200_014",
+  "MTB_2024_Q2_prepared_remarks_200_002",
+  "AXP_2023_Q1_prepared_remarks_200_011"
+ ],
+ "raw_response": "Based on the provided context, banks characterized their net charge-off levels and direction as follows:\n\n*   **Fifth Third Bancorp (FITB):** For full year 2024, the net charge-off outlook remains in the range of 35 to 45 basis points.\n*   **U.S. Bank (USB):** Net charge-offs are expected to continue to normalize. Credit card charge-offs are approaching pre-pandemic levels but will move up slightly. The expectation for full year 2024 is that net charge-offs will be in the mid-50s basis points.\n*   **Bank of America (BAC):** In Q2 2023, the charge-off rate was 33 basis points. This reflects a continued trend toward pre-pandemic levels, though it remains below historical levels.\n*   **M&T Bank (MTB):** In Q2 2024, net charge-offs were described as in-line with expectations, alongside reductions in non-accrual and criticized balances.",
+ "latency_seconds": 199.03,
+ "generated_at": "2026-09-03T11:57:52Z"
+}

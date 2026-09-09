@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25",
+ "question_id": "ref_comp_10",
+ "category": "comparative",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "FITB_2023_Q3_qa_500_002",
+  "FITB_2023_Q4_prepared_remarks_500_001",
+  "FITB_2023_Q2_prepared_remarks_500_005",
+  "PNC_2023_Q2_prepared_remarks_500_001",
+  "HBAN_2023_Q1_prepared_remarks_500_006"
+ ],
+ "raw_response": "Based on the provided context, **PNC** reported a negative AOCI of $9.5 billion at quarter-end in Q2 2023, which resulted in a tangible book value of $77.80 per common share (a 5% increase year-over-year). The text does not explicitly state that PNC adjusted its capital ratios or TBVPS by excluding AOCI for this specific metric, though it notes the negative balance.\n\n**Fifth Third** treated AOCI as a significant factor affecting tangible book value per share (TBVPS) and regulatory capital in multiple quarters during 2023:\n*   **Q1:** The company noted that OCI impacts reduced their adjusted CET1 ratio to 7.6% (compared to the reported 9.55%) and lowered their Tangible Common Equity (TCE) ratio by 13 basis points due to higher cash balances. They explicitly stated that adjusting for AOCI, their TCE ratio was 7.27% and TBVPS increased to $9.23.\n*   **Q2:** The company highlighted that TBVPS *excluding* AOCI increased 11% compared to the year-ago quarter. They also projected that approximately 36% of their current unrealized loss position (AOCI) would accrete back into equity by the end of 2024.\n*   **Q3:** Management discussed how the AOCI mark erodes tangible book value per share but noted that if rates fell, there would be significant TBVPS accretion. They also modeled the capital impact of fully phased-in AOCI on CET1 at approximately 125 basis points by Q3 2028.\n*   **Q4:** The company reported that TBVPS grew nearly 30% in the quarter, partly due to a rally in interest rates reducing the negative AOCI mark. They also moved $12.6 billion of securities to held-to-maturity to de-risk potential AOCI volatility to capital by about 30%.",
+ "latency_seconds": 449.08,
+ "generated_at": "2026-09-05T23:38:57Z"
+}

@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25",
+ "question_id": "ref_them_02",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "GS_2024_Q2_qa_200_020",
+  "JPM_2023_Q3_prepared_remarks_200_006",
+  "JPM_2023_Q3_prepared_remarks_200_003",
+  "JPM_2023_Q3_prepared_remarks_200_007",
+  "WFC_2023_Q3_prepared_remarks_200_009"
+ ],
+ "raw_response": "Based on the provided context, banks characterized the uncertainty surrounding the Basel III endgame proposal as significant, complex, and \"overcalibrated,\" with specific concerns regarding the quantum and timing of its resolution. Goldman Sachs noted that while there was favorable momentum in press reports and regulator comments, uncertainty remained, leading them to operate at the wider end of their capital range (running 90 bps of cushion above normal) to signal flexibility. JPMorgan Chase described the proposal as \"overcalibrated\" and criticized its construct for exacerbating procyclicality and discouraging scale and diversification; they noted that if finalized in its current form, it would result in a 45% increase in capital requirements relative to 2017 levels. Wells Fargo characterized the rules as a \"complicated set\" that included higher capital requirements than expected, estimating a potential 20% increase in risk-weighted assets (RWA) if no changes were made or actions taken.\n\nRegarding capital actions, JPMorgan Chase stated that the pace of share buybacks would likely remain modest due to the proposal and that they would continue to reassess their buyback trajectory as circumstances evolved. Goldman Sachs indicated that running with higher capital cushions was a deliberate strategy to address the remaining uncertainty associated with both the Stress Capital Buffer (SCB) and the Basel III endgame.",
+ "latency_seconds": 94.33,
+ "generated_at": "2026-09-05T22:30:50Z"
+}

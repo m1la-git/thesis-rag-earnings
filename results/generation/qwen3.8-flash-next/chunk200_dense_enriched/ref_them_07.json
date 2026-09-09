@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense_enriched",
+ "question_id": "ref_them_07",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "FITB_2023_Q2_prepared_remarks_200_003",
+  "FITB_2023_Q2_prepared_remarks_200_004",
+  "BAC_2023_Q2_prepared_remarks_200_019",
+  "FITB_2023_Q2_prepared_remarks_200_016",
+  "FITB_2023_Q2_prepared_remarks_200_011"
+ ],
+ "raw_response": "Banks described deposit growth in the second quarter of 2023 as follows:\n\n*   **Fifth Third:** Total period-end deposits increased 1% sequentially and 2% year-over-year, outperforming a 5% system-wide decline. This growth was driven by commercial banking segments, new de novo branches in the Southeast, Momentum banking products, treasury management offerings, and primary household growth (up 3% year-over-year). Average total deposits were flat compared to the prior quarter due to increases in CDs and interest checking offsetting declines in demand deposits.\n*   **Bank of America:** Deposits appeared to be finding stability despite normal tax seasonality impacts and monetary policy actions. Consumer deposits declined in the second quarter due to higher debt payments, higher spending, and seasonal tax activity, though total high-quality consumer deposits remained above pre-pandemic levels.",
+ "latency_seconds": 120.41,
+ "generated_at": "2026-09-07T10:52:58Z"
+}

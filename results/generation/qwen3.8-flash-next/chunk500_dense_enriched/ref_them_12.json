@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense_enriched",
+ "question_id": "ref_them_12",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "MS_2023_Q3_qa_500_000",
+  "MS_2023_Q4_qa_500_014",
+  "MS_2023_Q3_qa_500_010",
+  "MS_2023_Q1_prepared_remarks_500_001",
+  "MS_2023_Q3_qa_500_008"
+ ],
+ "raw_response": "Based on the provided context, Morgan Stanley executives discussed their wealth management business and investments in the following ways during 2023:\n\n*   **Resilience and Growth Strategy:** In Q3, Sharon Yeshaya highlighted the \"resiliency\" of the business, noting strong organic growth and significant asset capture ($260 billion or $235 billion over the last year). She emphasized a strategy focused on growing fee-based flows and asset management fees to offset declines in Net Interest Income (NII), while also observing retail investors beginning to move cash into markets.\n*   **Differentiation and Integration:** In Q4, Ted Pick described the wealth business as \"differentiated\" and \"existentially\" important to the firm, citing the successful integration of Smith Barney and the creation of a \"full funnel\" approach that includes self-directed, traditional advisory, and workplace channels. He noted that this structure creates high barriers to entry.\n*   **Expense Management and Investment:** In Q1, Sharon Yeshaya stated that while expense management was a priority due to market uncertainty and inflation, the firm continued to prioritize investments in long-term goals, including technology, marketing, and business development. She noted that ongoing integration expenses and modest increases in credit reserves impacted margins.\n*   **Talent and Technology:** In Q3, Yeshaya acknowledged the \"war for talent\" but stated the firm pays competitively while managing the expense base through actions like severance costs. She emphasized investing in technology and process modernization to drive future operating efficiencies and leverage.",
+ "latency_seconds": 279.88,
+ "generated_at": "2026-09-07T11:27:00Z"
+}

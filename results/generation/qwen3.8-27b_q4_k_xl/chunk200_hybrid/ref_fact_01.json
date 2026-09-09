@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid",
+ "question_id": "ref_fact_01",
+ "category": "factual",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BK_2024_Q3_prepared_remarks_200_004",
+  "STT_2023_Q1_qa_200_047",
+  "BK_2023_Q3_qa_200_006",
+  "BK_2023_Q4_prepared_remarks_200_002",
+  "BK_2024_Q1_prepared_remarks_200_010"
+ ],
+ "raw_response": "In the first quarter of 2024, BNY Mellon’s firm-wide assets under custody and administration were $48.8 trillion, representing a 5% increase year-over-year.",
+ "latency_seconds": 32.12,
+ "generated_at": "2026-09-03T11:44:54Z"
+}

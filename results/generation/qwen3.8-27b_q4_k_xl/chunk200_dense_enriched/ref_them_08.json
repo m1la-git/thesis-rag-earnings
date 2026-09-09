@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense_enriched",
+ "question_id": "ref_them_08",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "MS_2023_Q4_prepared_remarks_200_023",
+  "JPM_2023_Q4_prepared_remarks_200_009",
+  "MS_2023_Q3_prepared_remarks_200_012",
+  "BLK_2024_Q3_prepared_remarks_200_017",
+  "MS_2023_Q1_prepared_remarks_200_011"
+ ],
+ "raw_response": "Based on the provided context, firms described their 2023 performance regarding net inflows, AUM, and client assets as follows:\n\n*   **JPMorgan Chase:** Reported record client asset net inflows of $489 billion for the year. Net long-term inflows were $140 billion for the full year, with liquidity net inflows totaling $242 billion. Both AUM ($3.4 trillion) and client assets ($5 trillion) increased by 24% year-over-year, driven by continued net inflows and higher market levels.\n*   **Morgan Stanley:** Investment management reported long-term net outflows of approximately $7 billion for the full year, driven by headwinds in active equity growth strategies. Despite these outflows, AUM increased year-over-year to $1.5 trillion, supported by higher asset values. The firm noted that client migration from workplace to advisor-led channels was up 25% year-over-year.\n*   **BlackRock:** While the specific text provided is from a Q3 2024 call, it notes that 2024 net inflows had already surpassed the full-year net inflows of both 2022 and 2023, implying strong momentum in those prior years. AUM reached a new high at $11.5 trillion as of Q3 2024.",
+ "latency_seconds": 307.31,
+ "generated_at": "2026-09-05T14:19:46Z"
+}

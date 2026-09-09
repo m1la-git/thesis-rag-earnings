@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid",
+ "question_id": "ref_them_01",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BK_2024_Q4_prepared_remarks_500_006",
+  "C_2023_Q4_prepared_remarks_500_005",
+  "WFC_2024_Q1_prepared_remarks_500_005",
+  "WFC_2024_Q2_prepared_remarks_500_009",
+  "WFC_2023_Q4_prepared_remarks_500_009"
+ ],
+ "raw_response": "Banks reported the FDIC special assessment as a notable item that significantly impacted expenses. In late 2023, one bank recorded an approximately $1.7 billion charge related to regional bank failures, while another reported $1.9 billion in non-interest expense for the year including this assessment. In the first half of 2024, a third bank noted $336 million of expense for the FDIC special assessment, which was included in their updated full-year guidance. Banks generally excluded these assessments when calculating \"excluding notable items\" metrics to show underlying performance trends, such as pre-tax margins and earnings per share.",
+ "latency_seconds": 111.33,
+ "generated_at": "2026-09-07T11:54:09Z"
+}

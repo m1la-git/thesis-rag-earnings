@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense",
+ "question_id": "ref_them_02",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "JPM_2023_Q2_prepared_remarks_500_006",
+  "GS_2023_Q3_prepared_remarks_500_002",
+  "JPM_2023_Q3_prepared_remarks_500_001",
+  "GS_2024_Q2_qa_500_008",
+  "USB_2024_Q3_qa_500_006"
+ ],
+ "raw_response": "Based on the provided transcripts, banks characterized the uncertainty surrounding the Basel III Endgame proposal as significant, disconcerting, and lacking in detailed analysis to support the magnitude of proposed capital increases. They described the rules as going \"way too far,\" potentially increasing systemic risk by pushing activity into shadow banking, raising credit costs, and reducing U.S. competitiveness. Specific concerns included a lack of clarity on the timing (with some expecting effects not until 2025 or later) and the quantum of the final rules.\n\nThis uncertainty directly affected their capital actions in the following ways:\n*   **JPMorgan Chase:** Maintained a modest pace for share buybacks, stating they would continue to reassess the trajectory as circumstances evolved. They noted that while they expected RWA to increase by around 30% ($500 billion), leading to higher capital requirements, they found the proposed increase disconcerting given prior statements about banks being well-capitalized.\n*   **Goldman Sachs:** Maintained a wider-than-normal CET1 cushion (90 bps above normal) to signal flexibility and address the lingering uncertainty regarding both the quantum and timing of the proposal's resolution. This buffer was designed to support client returns and shareholder capital while maintaining prudence.\n*   **U.S. Bank:** Delayed more aggressive buybacks until there was greater clarity on Basel III and other capital rules, though they planned modest buybacks in the near term. They cited loan growth, final capital rules, and rating agencies as factors influencing their capital distribution decisions, noting that CAT II thresholds were not expected until 2027.",
+ "latency_seconds": 233.78,
+ "generated_at": "2026-09-05T23:42:51Z"
+}

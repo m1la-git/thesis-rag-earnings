@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25_enriched",
+ "question_id": "ref_them_08",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BLK_2023_Q4_prepared_remarks_500_006",
+  "STT_2023_Q2_prepared_remarks_500_004",
+  "BLK_2023_Q3_prepared_remarks_500_001",
+  "BLK_2024_Q3_prepared_remarks_500_007",
+  "MS_2023_Q1_prepared_remarks_500_004"
+ ],
+ "raw_response": "Based on the provided context, firms described momentum in net inflows, AUM, and client investment assets during 2023 as follows:\n\n*   **BlackRock:** Clients entrusted BlackRock with $193 billion of total net inflows in the first nine months of 2023, representing 3% annualized organic asset growth. By year-end, the firm managed $9.1 trillion in assets, which was $1.1 trillion higher than a year ago. The company noted that while safe-haven cash allocations impacted some flows, client momentum remained strong, with over $300 billion of net inflows in the last 12 months leading up to Q4. Specific segments showed strength, including $87 billion in active net inflows for institutional clients and record net inflows of $12 billion for Aperio.\n*   **State Street (STT):** In the second quarter of 2023, period-end AUC/A increased by 4% year-on-year, driven largely by higher market levels and client net inflows. Global Advisors saw a 9% year-on-year increase in period-end AUM, attributed to higher market levels and strong sequential net inflows.\n*   **Morgan Stanley (MS):** In the first quarter of 2023, fee-based flows were $22 billion. However, total AUM ended at $1.4 trillion with long-term net outflows of $2.4 billion as equity outflows moderated. The firm noted a channel migration from workplace to adviser-led relationships, with adviser-led flows reaching $28 billion in the quarter alone.",
+ "latency_seconds": 440.5,
+ "generated_at": "2026-09-05T14:46:40Z"
+}

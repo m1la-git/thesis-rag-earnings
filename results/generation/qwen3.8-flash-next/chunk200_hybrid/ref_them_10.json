@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid",
+ "question_id": "ref_them_10",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "AXP_2023_Q4_prepared_remarks_200_012",
+  "AXP_2024_Q2_prepared_remarks_200_010",
+  "AXP_2023_Q1_prepared_remarks_200_011",
+  "HBAN_2023_Q4_prepared_remarks_200_002",
+  "USB_2023_Q4_qa_200_026"
+ ],
+ "raw_response": "American Express reported strong engagement from card members and best-in-class credit metrics, attributing this to a high-quality customer base and disciplined risk management. While write-off and delinquency rates ticked up in late 2023 as expected, they remained below pre-pandemic levels. For 2024, American Express expects loan growth to moderate but remain elevated compared to pre-pandemic levels, with write-off rates remaining generally stable for the remainder of the year.\n\nU.S. Bank stated that it sees continued nice growth in the credit card space despite economic uncertainties and inflationary pressures on consumers. The bank focuses on prime and super-prime customers and makes marginal adjustments to underwriting standards as needed. U.S. Bank expects its credit card business, which is considered a \"very nice business,\" to perform very well through the cycle.\n\nHuntington noted that it outperformed on loans throughout 2023 while managing deposit betas. The bank reported that credit trends are normalizing as expected and maintained confidence in outperforming the industry on credit through the cycle, consistent with its moderate-to-low risk appetite.",
+ "latency_seconds": 122.2,
+ "generated_at": "2026-09-07T11:11:14Z"
+}

@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense",
+ "question_id": "ref_them_12",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "C_2023_Q4_prepared_remarks_200_010",
+  "FITB_2023_Q4_prepared_remarks_200_008",
+  "GS_2024_Q4_qa_200_032",
+  "BK_2023_Q4_qa_200_001",
+  "WFC_2023_Q4_prepared_remarks_200_006"
+ ],
+ "raw_response": "Based on the provided context, firms made the following statements regarding their wealth management businesses and investments in 2023:\n\n*   **Goldman Sachs** noted that they saw good year-over-year growth in wealth management for both the fourth quarter and the full year of 2023. They expressed a desire to continue raising and growing management fees across asset and wealth management, re-underwriting their forward growth expectations to be high-single digits over the next several years.\n*   **BNY Mellon (BK)** stated that they were making investments in wealth management where they were beginning to see \"green shoots.\"",
+ "latency_seconds": 133.44,
+ "generated_at": "2026-09-07T11:08:40Z"
+}

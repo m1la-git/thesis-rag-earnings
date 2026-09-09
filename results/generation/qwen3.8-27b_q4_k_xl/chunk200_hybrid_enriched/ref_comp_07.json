@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid_enriched",
+ "question_id": "ref_comp_07",
+ "category": "comparative",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "USB_2024_Q3_prepared_remarks_200_000",
+  "USB_2023_Q3_prepared_remarks_200_000",
+  "PNC_2023_Q3_qa_200_002",
+  "USB_2023_Q4_prepared_remarks_200_000",
+  "PNC_2023_Q3_prepared_remarks_200_002"
+ ],
+ "raw_response": "Based on the provided context, only PNC’s framing of its 2024 expense plan is detailed in the text from its Third Quarter 2023 call. PNC stated that it was implementing more than $725 million in expense management actions impacting 2024, which included $450 million in Continuous Improvement Program (CIP) savings and $325 million from staff reductions. The company’s objective was to keep 2024 expenses stable year-over-year compared to 2023.\n\nThe provided context for U.S. Bancorp’s Third Quarter 2023 call contains only introductory remarks listing the executives present and directing attendees to their website for materials; it does not contain specific details regarding their 2024 expense plans or framing.",
+ "latency_seconds": 398.69,
+ "generated_at": "2026-09-05T14:28:22Z"
+}

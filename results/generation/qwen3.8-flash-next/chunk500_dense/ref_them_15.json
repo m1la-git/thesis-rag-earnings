@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense",
+ "question_id": "ref_them_15",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "WFC_2023_Q4_prepared_remarks_500_009",
+  "C_2023_Q4_prepared_remarks_500_007",
+  "COF_2023_Q4_prepared_remarks_500_006",
+  "BAC_2023_Q4_prepared_remarks_500_001",
+  "BAC_2023_Q4_prepared_remarks_500_002"
+ ],
+ "raw_response": "Based on the provided context, only one bank (identified in the chunk labeled `C_2023_Q4_prepared_remarks_500_007`, which corresponds to Citigroup based on the specific financial figures) disclosed its technology spending. This company invested over **$12 billion** in technology in 2023. The context notes a shift from consulting expenses to technology and compensation as transformation execution deepened, with roughly 30% of transformation investments over the last three years being in technology.\n\nThe provided context does not contain enough information to answer this question regarding other banks or specific total technology spending figures for 2024 across the industry.",
+ "latency_seconds": 289.55,
+ "generated_at": "2026-09-07T11:51:58Z"
+}

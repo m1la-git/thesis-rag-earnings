@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense_enriched",
+ "question_id": "ref_them_11",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BAC_2023_Q4_prepared_remarks_500_011",
+  "BAC_2024_Q4_prepared_remarks_500_008",
+  "MTB_2023_Q4_prepared_remarks_500_004",
+  "USB_2023_Q4_qa_500_005",
+  "COF_2023_Q4_qa_500_008"
+ ],
+ "raw_response": "Based on the provided context, banks characterized their net charge-off (NCO) levels and direction as follows:\n\n**Bank of America (BAC)**\n*   **Q4 2023:** NCOs were $1.2 billion, a 45 basis point ratio, which was a 10 basis point increase from the third quarter. The company described credit as \"normalizing,\" with increases driven by credit card losses flowing through from higher late-stage delinquencies, smaller commercial and industrial (C&I) losses, and commercial real estate (CRE) office losses.\n*   **Q4 2024:** NCOs were slightly less than $1.5 billion, a 54 basis point ratio, which was a modest improvement (down 4 basis points) from the third quarter. Consumer losses remained stable in the range of $1 billion to $1.1 billion, while commercial losses declined due to lower CRE office losses. The bank expected NCOs and the related ratio to remain relatively unchanged in 2025, projecting a range of 50 to 60 basis points assuming no significant changes in GDP or employment.\n\n**M&T Bank (MTB)**\n*   **Q4 2023:** NCOs totaled $148 million, or 44 basis points, up 15 basis points from the prior quarter. The increase was largely driven by idiosyncratic office-related charge-offs in major cities and specific C&I losses (an online retailer and an RV dealer).\n\n**U.S. Bancorp (USB)**\n*   **Outlook for 2024:** Management expected net charge-offs to continue to \"normalize.\" They noted that credit card NCOs were approaching pre-pandemic levels but would continue to move up slightly, with a full-year 2024 expectation of being in the mid-50s basis points.\n\n**Capital One (COF)**\n*   **Q4 2023:** The bank characterized its charge-offs as \"leveling off\" after catching up to stabilizing delinquencies in the second half of 2023. Q4 NCOs were approximately 15% above 2018 levels (a benchmark for a stable year).\n*   **Outlook:** The bank concluded that net charge-offs were stabilizing at about 15% above 2019 levels, with typical month-to-month volatility and seasonality expected to continue.",
+ "latency_seconds": 577.95,
+ "generated_at": "2026-09-05T23:09:54Z"
+}

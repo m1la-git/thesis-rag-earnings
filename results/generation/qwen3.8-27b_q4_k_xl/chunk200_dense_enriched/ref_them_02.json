@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense_enriched",
+ "question_id": "ref_them_02",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "JPM_2023_Q3_prepared_remarks_200_017",
+  "MS_2023_Q2_qa_200_001",
+  "GS_2023_Q3_qa_200_011",
+  "MS_2023_Q4_prepared_remarks_200_011",
+  "COF_2023_Q4_qa_200_038"
+ ],
+ "raw_response": "Banks characterized the uncertainty surrounding the Basel III Endgame proposal as \"fluid,\" noting that while there was significant speculation based on initial proposals, the actual rules had not yet been finalized. Executives highlighted that the final outcome remained uncertain due to ongoing advocacy and further evaluation of economic and competitive impacts, with some suggesting the final rule would be more constructive than originally proposed. This uncertainty affected capital actions by prompting banks to prepare for a range of scenarios and maintain strong capital positions despite the potential for regulatory changes. For instance, Morgan Stanley noted that its regulatory requirements had steadily decreased since 2020, reflecting improved business resilience, while Capital One indicated it was waiting to see what the final rule would hold before making definitive adjustments, particularly as they approached CCAR stress tests with fluctuating stress capital buffers.",
+ "latency_seconds": 104.91,
+ "generated_at": "2026-09-05T14:16:23Z"
+}

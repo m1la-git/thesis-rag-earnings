@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid_enriched",
+ "question_id": "ref_them_10",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "AXP_2023_Q4_prepared_remarks_200_012",
+  "USB_2023_Q4_qa_200_026",
+  "WFC_2024_Q4_qa_200_002",
+  "BAC_2023_Q2_prepared_remarks_200_031",
+  "JPM_2024_Q3_prepared_remarks_200_004"
+ ],
+ "raw_response": "Based on the provided context, banks discussed credit card growth and credit performance as follows:\n\n*   **American Express (AXP):** In late 2023, loans and card member receivables grew 13% year-over-year. For 2024, the company expects this elevated growth to moderate but still grow modestly faster than billings. While write-off and delinquency rates ticked up in Q4 2023, management attributed strong credit metrics to high customer quality, robust risk management, and disciplined growth.\n*   **U.S. Bancorp (USB):** Management indicated that while they make marginal adjustments to underwriting due to economic uncertainties and inflationary pressure on consumers, they view the credit card business as having \"nice growth\" potential. They focus on prime and super-prime customers and expect the segment to perform very well through the cycle.\n*   **Bank of America (BAC):** In Q2 2023, net charge-offs increased due to higher late-stage delinquencies flowing through to credit card losses. However, the credit card net charge-off rate of 2.6% remained below the pre-pandemic level of 3.03%. Provision expenses included a reserve build driven by loan growth in credit cards and an outlook anticipating unemployment rising above 5% in 2024.\n*   **JPMorgan Chase (JPM):** In Q3 2024, card outstandings increased 11% year-over-year due to strong account acquisition and the normalization of revolving balances. Credit costs were driven by net charge-offs that rose $520 million year-over-year and a reserve build primarily resulting from higher revolving balances.\n*   **Wells Fargo (WFC):** In Q4 2024, management noted that early vintages of new credit card products launched approximately 3.5 years prior were beginning to mature and become more profitable, though they are still in the \"early days\" of seeing this profitability fully reflected in the P&L.",
+ "latency_seconds": 352.03,
+ "generated_at": "2026-09-05T22:22:47Z"
+}

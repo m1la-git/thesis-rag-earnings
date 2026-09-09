@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense_enriched",
+ "question_id": "ref_them_04",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "FITB_2023_Q4_prepared_remarks_500_002",
+  "BAC_2023_Q4_prepared_remarks_500_002",
+  "MTB_2024_Q3_qa_500_011",
+  "BAC_2023_Q2_qa_500_008",
+  "USB_2024_Q3_qa_500_002"
+ ],
+ "raw_response": "Based on the provided context, banks described their progress on positive operating leverage in late 2023 and early 2024 as follows:\n\n*   **Fifth Third (FITB):** In late 2023, the bank noted that while the carryover effect of its Risk-Weighted Asset (RWA) diet made full-year positive operating leverage unfeasible, it anticipated returning to positive operating leverage in the second half of 2024. This was supported by expense discipline and a 4% reduction in headcount from peak levels without a company-wide expense program.\n*   **Bank of America (BAC):** For the full year 2023, the bank reported achieving 170 basis points of operating leverage. This was driven by heightened quarterly expense levels being lowered throughout the year while continuing to invest in growth. In early 2024 discussions regarding how this leverage is achieved despite increased investment spend (such as in branches), management highlighted that branch consolidation continued (dropping from approximately 3,900 to 3,800+), ATM counts drifted down, and digital activity levels (like Zelle transactions exceeding checks) reduced back-end processing costs.\n*   **U.S. Bancorp (USB):** While the specific Q4 2023/early 2024 data is not explicitly detailed in the provided chunks for USB, management indicated in late 2024 that they had reported positive operating leverage of approximately 30 basis points in Q3 2024 and expected it to expand into 2025. However, looking back at the trajectory implied by the \"continued positive operating leverage\" confidence mentioned at Investor Day (referenced in late 2024), the bank was on a path of expanding leverage from prior periods.\n*   **M&T Bank (MTB):** In discussions regarding 2025 planning (late 2024/early 2025 context), management expressed confidence in achieving positive operating leverage for 2025, noting that expenses were up slightly in Q4 2024 due to projects and increased corporate-wide incentives for a good performance year.",
+ "latency_seconds": 347.64,
+ "generated_at": "2026-09-05T14:54:34Z"
+}

@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid_enriched",
+ "question_id": "ref_them_08",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BLK_2023_Q4_prepared_remarks_500_006",
+  "MS_2023_Q1_prepared_remarks_500_004",
+  "BLK_2024_Q3_prepared_remarks_500_007",
+  "BLK_2023_Q3_prepared_remarks_500_001",
+  "MS_2023_Q4_prepared_remarks_500_009"
+ ],
+ "raw_response": "During 2023, BlackRock described strong momentum in client engagement and asset growth, noting that clients entrusted the firm with $193 billion in total net inflows for the first nine months of the year. This represented a 3% annualized organic asset growth rate. By the end of the third quarter, BlackRock managed $9.1 trillion in assets, which was $1.1 trillion higher than the previous year. The firm highlighted that client momentum remained strong despite specific outflows, such as a single-client index redemption and market-related ETF outflows, attributing this to clients consolidating business with fewer managers and utilizing BlackRock’s integrated platform for investment, technology, and portfolio servicing. Additionally, BlackRock reported over $1 trillion in net inflows since the start of 2021, with more than $300 billion occurring in the last 12 months leading up to Q3 2023.\n\nMorgan Stanley described its momentum through channel migration and specific flow dynamics. In Q1 2023, adviser-led flows originating from workplace relationships reached $28 billion, doubling year-over-year compared to an approximate annual average of $50 billion in the prior three years. Although long-term net outflows were reported ($2.4 billion in Q1), the firm noted that its strategy was working as clients migrated assets to advice channels. By Q4 2023, Morgan Stanley’s AUM increased year-over-year to $1.5 trillion, supported by higher asset values, despite approximately $7 billion in long-term net outflows driven by headwinds in active equity growth strategies. The firm also noted that client migration was up 25% year-over-year for the full year, and it grew client relationships by over 600,000 across the franchise.",
+ "latency_seconds": 605.02,
+ "generated_at": "2026-09-05T23:23:03Z"
+}

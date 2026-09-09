@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25_enriched",
+ "question_id": "ref_them_02",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "GS_2024_Q2_qa_200_020",
+  "JPM_2023_Q3_prepared_remarks_200_006",
+  "MS_2023_Q2_qa_200_001",
+  "JPM_2023_Q3_prepared_remarks_200_003",
+  "JPM_2023_Q3_prepared_remarks_200_007"
+ ],
+ "raw_response": "Based on the provided context, banks characterized the uncertainty surrounding the Basel III endgame as significant, noting that while there was favorable momentum in press reports and regulator comments by mid-2024, substantial uncertainty remained regarding both the quantum (magnitude) and timing of its resolution. In 2023, the proposal was described as \"overcalibrated,\" with concerns raised about procyclicality and the compounding effects of GSIB surcharges and stress capital buffers, which were projected to increase capital requirements by up to 45% relative to a 2017 baseline if finalized in their current form.\n\nThis uncertainty directly affected capital actions:\n*   **Goldman Sachs** operated at the wider end of its CET1 range (running with 90 bps of cushion, above normal) specifically to signal flexibility and address the remaining uncertainties regarding the Basel III endgame.\n*   **JPMorgan Chase** maintained a modest pace of share repurchases in light of the proposal, stating they would continue to reassess their buyback trajectory as circumstances evolved. They also emphasized that implementing the rules consistently with European approaches (retaining credit risk modeling) could have achieved compliance without the proposed unnecessary increase in capital requirements.\n*   **Morgan Stanley** noted a lack of clarity on whether the endgame was being fully implemented in Europe and highlighted that actual U.S. bank capital levels were higher than speculated, while awaiting specific rule proposals and engaging with regulators during the comment period.",
+ "latency_seconds": 96.53,
+ "generated_at": "2026-09-05T22:04:54Z"
+}

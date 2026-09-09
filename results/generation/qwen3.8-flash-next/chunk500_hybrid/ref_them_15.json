@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid",
+ "question_id": "ref_them_15",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "C_2023_Q4_prepared_remarks_500_007",
+  "BLK_2024_Q1_prepared_remarks_500_003",
+  "BLK_2023_Q3_prepared_remarks_500_003",
+  "BAC_2023_Q4_prepared_remarks_500_002",
+  "BLK_2024_Q1_prepared_remarks_500_002"
+ ],
+ "raw_response": "Based on the provided context, only Bank of America (BAC) is identified as a bank. BlackRock (BLK) is an asset manager and technology provider, not a bank.\n\n**Bank of America (2023):**\n*   **Technology Spend:** The text does not provide a specific dollar amount for total technology spend in 2023. It states that expense growth was driven by \"investments in risk and controls and technology,\" but notes that full-year expenses were $54.3 billion, which included restructuring costs ($780 million) and severance costs ($730 million).\n*   **G&A/Expense Change:** Full-year expenses were in line with guidance at $54.3 billion (excluding FDIC special assessment and divestiture impacts). The bank achieved 170 basis points of operating leverage, with headcount and expenses coming down every quarter during 2023 due to expense discipline and productivity savings, despite continued investments in growth.\n\n**BlackRock (Context provided for comparison, though not a bank):**\n*   **Technology Spend:** BlackRock is not a bank, but the context notes that technology is one of its primary areas of investment within G&A. In Q1 2024, G&A expense increased 6% due to timing of technology investment spend (compared to prior year timing). For full-year 2023, BlackRock expected core G&A to fall on the low end of guidance for a mid- to high-single-digit percentage increase.\n*   **G&A/Expense Change:** In Q1 2024, G&A expense decreased 12% sequentially (reflecting timing of spend) but increased 6% year-over-year.\n\n**Conclusion regarding \"Banks\":**\nThe provided context does not contain specific dollar figures for how much banks spent on technology in 2023 and 2024, nor does it provide data for any bank's spending in 2024 (only BlackRock has 2024 data). Bank of America's 2023 commentary indicates that while they continued to invest in technology, overall expenses were disciplined and decreased quarterly throughout the year.",
+ "latency_seconds": 403.26,
+ "generated_at": "2026-09-07T11:59:01Z"
+}

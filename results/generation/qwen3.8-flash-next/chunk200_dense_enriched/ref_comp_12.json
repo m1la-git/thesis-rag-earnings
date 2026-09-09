@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense_enriched",
+ "question_id": "ref_comp_12",
+ "category": "comparative",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "PNC_2024_Q1_prepared_remarks_200_016",
+  "PNC_2024_Q1_prepared_remarks_200_010",
+  "PNC_2024_Q1_prepared_remarks_200_009",
+  "PNC_2024_Q1_prepared_remarks_200_011",
+  "PNC_2024_Q1_prepared_remarks_200_002"
+ ],
+ "raw_response": "The provided context does not contain enough information to answer this question.",
+ "latency_seconds": 207.05,
+ "generated_at": "2026-09-07T10:54:24Z"
+}

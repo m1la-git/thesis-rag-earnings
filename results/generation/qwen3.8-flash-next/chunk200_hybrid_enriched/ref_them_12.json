@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid_enriched",
+ "question_id": "ref_them_12",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "MS_2023_Q4_prepared_remarks_200_002",
+  "BK_2023_Q3_prepared_remarks_200_009",
+  "MS_2023_Q4_qa_200_036",
+  "BK_2023_Q4_prepared_remarks_200_005",
+  "GS_2023_Q4_prepared_remarks_200_003"
+ ],
+ "raw_response": "Based on the provided context, firms made the following statements regarding their wealth management businesses and investments in 2023:\n\n**Morgan Stanley** stated that it achieved incremental scale in wealth and investment management through acquisitions (E*TRADE and Eaton Vance) during the 2020–2022 period, resulting in a leading self-directed platform. The firm noted that its durable businesses tripled client assets over a 15-year period, generating operating leverage and high returns. In 2023, despite challenges, the business model generated consistent results with $54 billion in revenues and a 13% return on tangible common equity. Morgan Stanley also highlighted the integration of Smith Barney as a key differentiator that built barriers to entry without disadvantaging the investment bank.\n\n**BNY Mellon** reported progress in its wealth management technology, specifically through its \"Wove\" platform. The firm announced new client agreements and partnerships, including with Integrity (a nationwide insurance and financial services firm) and Lincoln Investment, noting that these clients selected Wove to support their wealth management businesses and access institutional-grade solutions. BNY Mellon indicated plans to begin disclosing relevant financial information and leading indicators for Wove’s growth trajectory at the beginning of 2024.\n\n**Goldman Sachs** reported solid investment performance and consistent growth in a more durable revenue base within its Asset & Wealth Management division, which includes management fees, other fees, and private banking and lending revenues. The firm also noted it reduced historical principal investments by $13 billion and surpassed its five-year alternatives fundraising target one year early.",
+ "latency_seconds": 253.03,
+ "generated_at": "2026-09-07T10:58:40Z"
+}

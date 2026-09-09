@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid_enriched",
+ "question_id": "ref_them_09",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "USB_2023_Q4_prepared_remarks_200_006",
+  "HBAN_2023_Q2_prepared_remarks_200_010",
+  "FITB_2023_Q4_qa_200_028",
+  "FITB_2024_Q1_prepared_remarks_200_008",
+  "HBAN_2023_Q3_prepared_remarks_200_010"
+ ],
+ "raw_response": "Based on the provided context, here are the net interest margin (NIM) levels and trends for the specified periods:\n\n**Huntington Bancshares (HBAN)**\n*   **Q3 2023:** The bank anticipated Q4 2023 NIM to be between 305 and 310 basis points, which was 5 to 10 basis points higher than previously shared. This represented a better-than-expected performance due to loan growth and funding mix.\n*   **Q4 2023 Outlook (from Q2 2023 remarks):** The bank anticipated NIM of approximately 3% by Q4 2023, plus or minus a few basis points.\n*   **2024 Trend:** Modeling indicated that NIM outlooks were stable to rising during 2024.\n\n**First Interstate BancSystem (FITB)**\n*   **Q1 2024:** Net interest margin improved by 1 basis point for the quarter compared to the prior period. This was noted as the first sequential improvement since Q4 2022. The increase was driven by higher yields on new fixed-rate consumer loans and day count benefits, partially offset by deposit migration from demand to interest-bearing accounts.\n\n**U.S. Bancorp (USB)**\n*   **Q4 2023:** While a specific NIM percentage is not provided, the text notes that the margin reflected market dynamics including deposit pricing pressure and unfavorable shifts in deposit mix, which were partially offset by better earning asset spreads and improved total funding mix. The annualized Q4 2023 net interest income level was approximately $4.14 billion.\n*   **Q1 2024 Outlook:** Net interest income on a fully-taxable equivalent basis was expected to be in the range of $4.0 billion to $4.1 billion.\n\n**General Trends (2023–2024)**\n*   Margins were influenced by deposit pricing pressure and shifts in deposit mix, but also benefited from earning asset growth and improved funding mixes.\n*   For 2024, banks generally modeled NIM as stable to rising or flat to higher, depending on interest rate scenarios (such as rates staying \"higher for longer\").",
+ "latency_seconds": 341.14,
+ "generated_at": "2026-09-05T14:27:24Z"
+}

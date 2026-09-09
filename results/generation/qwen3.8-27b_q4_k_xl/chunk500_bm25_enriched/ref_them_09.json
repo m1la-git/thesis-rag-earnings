@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25_enriched",
+ "question_id": "ref_them_09",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "MTB_2024_Q1_prepared_remarks_500_001",
+  "HBAN_2023_Q2_prepared_remarks_500_004",
+  "USB_2023_Q3_qa_500_008",
+  "BAC_2024_Q4_prepared_remarks_500_001",
+  "AXP_2023_Q1_prepared_remarks_500_005"
+ ],
+ "raw_response": "Based on the provided context, the following net interest margin (NIM) levels and trends were reported:\n\n*   **M&T Bank (Q1 2024):** Reported a NIM of **3.52%**, which was down **9 basis points** from the linked quarter.\n*   **Huntington Bancshares (Q2 2023 Outlook for Q4 2023):** Anticipated a NIM of approximately **3%** by Q4, plus or minus a few basis points. The outlook for 2024 was described as **stable to rising**.\n*   **Bank of America (Full Year 2024 / Q4 2024):** While specific NIM percentages were not stated, the bank reported that net interest income bottomed out in Q2 2024 and increased by Q4 2024. The company expected to report record net interest income in **2025**, indicating an upward trajectory following the 2024 bottoming out.\n\nThe context does not provide specific adjusted NIM figures or reported/adjusted distinctions for these metrics, nor does it contain NIM data for other quarters in 2023 beyond the Huntington outlook.",
+ "latency_seconds": 394.12,
+ "generated_at": "2026-09-05T14:45:53Z"
+}

@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25_enriched",
+ "question_id": "ref_them_04",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "FITB_2023_Q1_prepared_remarks_500_000",
+  "BK_2024_Q1_prepared_remarks_500_001",
+  "BK_2023_Q4_prepared_remarks_500_001",
+  "USB_2024_Q4_prepared_remarks_500_003",
+  "BK_2023_Q1_prepared_remarks_500_002"
+ ],
+ "raw_response": "In late 2023, BNY Mellon reported that it generated approximately 180 basis points of positive operating leverage excluding notable items, which contributed to improvements in pre-tax margin and return on tangible common equity. In the first quarter of 2024, BNY Mellon stated it delivered positive operating leverage both on a reported basis and excluding notable items, consistent with its goal to generate at least some operating leverage for the year. Meanwhile, U.S. Bancorp noted that in the fourth quarter of 2024 (referencing recent performance leading into early 2025), it delivered 190 basis points of positive operating leverage and guided for positive operating leverage of 200 basis points or more on a year-over-year basis for the first quarter of 2025. Fifth Third Bank, in its Q1 2023 remarks (early 2023), cited nine points of year-over-year positive operating leverage driven by an 18% increase in revenue.",
+ "latency_seconds": 151.41,
+ "generated_at": "2026-09-05T14:41:51Z"
+}

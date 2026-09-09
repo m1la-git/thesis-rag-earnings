@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid",
+ "question_id": "ref_them_06",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "FITB_2024_Q2_prepared_remarks_200_016",
+  "COF_2023_Q4_prepared_remarks_200_015",
+  "COF_2024_Q3_prepared_remarks_200_011",
+  "COF_2023_Q4_prepared_remarks_200_014",
+  "GS_2023_Q4_qa_200_024"
+ ],
+ "raw_response": "Based on the provided context, the following efficiency ratio levels and targets were discussed by the banks:\n\n*   **Fifth Third Bancorp (FITB):** For full-year 2024, the bank projects an efficiency ratio of around 57%. They expect to manage full-year adjusted non-interest expense stable to 2023 levels.\n*   **Capital One Financial Corporation (COF):**\n    *   In Q4 2023, the annual operating efficiency ratio, net of adjustments, was reported at 43.54% for the full year 2023. This represented a 99 basis point improvement over the previous year.\n    *   For full-year 2024, Capital One initially guided that the annual operating efficiency ratio (net of adjustments) would be flat to modestly down compared to 2023. By Q3 2024, they updated this expectation to a range in the low 42s for the full year 2024.\n    *   The year-to-date operating efficiency ratio through September 2024 was 41.7%.\n*   **Goldman Sachs (GS):** In Q4 2023, it was noted that if selected items were excluded, the efficiency ratio for 2023 would have been approximately 65%, which is significantly better than the fully reported number.",
+ "latency_seconds": 164.83,
+ "generated_at": "2026-09-03T11:47:07Z"
+}

@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense_enriched",
+ "question_id": "ref_them_11",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "FITB_2023_Q4_qa_200_028",
+  "FITB_2024_Q4_prepared_remarks_200_015",
+  "BAC_2024_Q4_prepared_remarks_200_021",
+  "MTB_2023_Q4_prepared_remarks_200_010",
+  "FITB_2023_Q4_prepared_remarks_200_022"
+ ],
+ "raw_response": "Based on the provided context, banks characterized their net charge-off (NCO) levels and direction as follows:\n\n*   **Fifth Third Bank (FITB):** For 2024, FITB expected NCOs to be in the range of 35 to 45 basis points, describing the outlook as \"fairly benign\" and noting that credit was normalizing. They characterized 2023 charge-offs as \"a little bit more episodic.\" In Q4 2024, the actual NCO ratio was 46 basis points, which was in line with expectations and down 2 basis points sequentially.\n*   **Bank of America (BAC):** In Q4 2024, BAC reported an NCO ratio of 54 basis points, down 4 basis points from the third quarter. They characterized consumer losses as stable ($1 billion to $1.1 billion) and noted a decline in commercial real estate office losses. For 2025, they expected the NCO ratio to remain in the range of 50 to 60 basis points, assuming no significant changes in GDP or employment.\n*   **M&T Bank (MTB):** In Q4 2023, MTB reported NCOs of 44 basis points, which was up 15 basis points from the previous quarter. This increase was driven by specific office-related charge-offs and C&I issues. However, they noted that non-accrual loans had trended down each consecutive quarter since Q1 2023.",
+ "latency_seconds": 324.86,
+ "generated_at": "2026-09-05T14:20:03Z"
+}

@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense",
+ "question_id": "ref_them_06",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "WFC_2023_Q4_prepared_remarks_500_009",
+  "COF_2023_Q4_prepared_remarks_500_005",
+  "PNC_2023_Q3_prepared_remarks_500_006",
+  "COF_2023_Q4_prepared_remarks_500_006",
+  "C_2023_Q4_prepared_remarks_500_004"
+ ],
+ "raw_response": "Based on the provided context, the following efficiency ratios and targets were discussed:\n\n*   **Citigroup (COF):** Reported an annual operating efficiency ratio of **43.54%** for full-year 2023 (net of adjustments). This represented a **99 basis point improvement** over the prior year. For 2024, Citigroup expects its annual operating efficiency ratio to be **flat to modestly down** compared to 2023.\n*   **PNC Financial Services (PNC):** While specific percentage ratios were not cited, PNC stated that its Cost Improvement Program (CIP) has historically allowed the bank to deliver **low single-digit annual expense growth**. For 2024, PNC set an objective to keep **core expenses stable** (excluding one-time charges related to workforce reductions).\n*   **Wells Fargo (WFC):** Did not provide a specific efficiency ratio percentage but noted that it successfully delivered approximately **$10 billion in gross expense saves** through efficiency initiatives over the past three years. For 2024, Wells Fargo expects approximately **$2.7 billion in gross expense reductions** due to these initiatives.",
+ "latency_seconds": 557.72,
+ "generated_at": "2026-09-03T12:31:33Z"
+}

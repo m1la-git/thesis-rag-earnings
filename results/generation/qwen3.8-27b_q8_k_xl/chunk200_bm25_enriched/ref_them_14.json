@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25_enriched",
+ "question_id": "ref_them_14",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BAC_2024_Q1_prepared_remarks_200_028",
+  "GS_2023_Q4_prepared_remarks_200_003",
+  "JPM_2024_Q3_prepared_remarks_200_001",
+  "BAC_2024_Q4_prepared_remarks_200_026",
+  "JPM_2023_Q1_qa_200_025"
+ ],
+ "raw_response": "Based on the provided context, banks reported the following regarding investment banking revenue and fees in 2023 and 2024:\n\n*   **Goldman Sachs (2023):** The firm generated record total financing revenues across its Global Banking & Markets businesses in 2023.\n*   **Bank of America (Q1 2024):** Investment banking fees improved, though they were overcome by lower net interest income and higher provision expense, resulting in a 22% year-over-year decline in global banking earnings.\n*   **JPMorgan Chase (Q3 2024):** In the Corporate & Investment Bank (CIB), investment banking fees were notably up year-on-year. Additionally, excluding prior year net investment securities losses, non-interest revenue was up 10% driven by higher investment banking fees.\n*   **Bank of America (Q4 2024 / Full Year 2024):** The Global Banking business saw a rebound in investment banking fees in 2024. Specifically, Q4 investment banking fees were $1.7 billion, growing 44% year-over-year, led by mergers and acquisitions.",
+ "latency_seconds": 295.86,
+ "generated_at": "2026-09-05T22:08:13Z"
+}

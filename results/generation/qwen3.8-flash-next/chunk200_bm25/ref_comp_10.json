@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25",
+ "question_id": "ref_comp_10",
+ "category": "comparative",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "HBAN_2023_Q1_prepared_remarks_200_016",
+  "FITB_2023_Q4_prepared_remarks_200_004",
+  "PNC_2023_Q2_prepared_remarks_200_008",
+  "BAC_2023_Q2_prepared_remarks_200_016",
+  "PNC_2024_Q2_prepared_remarks_200_005"
+ ],
+ "raw_response": "PNC described its tangible book value as increasing despite the impact of AOCI, noting that lower rate securities and swaps rolling off would lead to a meaningful improvement in tangible book value from AOCI accretion. Fifth Third moved $12.6 billion of securities to held-to-maturity specifically to de-risk potential AOCI volatility to capital by about 30%.",
+ "latency_seconds": 147.73,
+ "generated_at": "2026-09-07T11:06:20Z"
+}

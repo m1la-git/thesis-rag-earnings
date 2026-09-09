@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25",
+ "question_id": "ref_them_03",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "WFC_2023_Q3_prepared_remarks_200_014",
+  "WFC_2024_Q1_prepared_remarks_200_015",
+  "WFC_2023_Q4_prepared_remarks_200_011",
+  "BK_2024_Q1_qa_200_055",
+  "WFC_2023_Q4_prepared_remarks_200_012"
+ ],
+ "raw_response": "Banks reported that their allowance for credit losses increased due to commercial real estate (CRE) office loans, with Wells Fargo noting a $1.3 billion increase in office nonaccrual loans in Q3 2023 and a further $567 million increase in Q4 2023. The bank substantially built reserves for the CRE office portfolio throughout 2023 as criticized and nonperforming assets increased, driven by weak market fundamentals, lower appraisals, and borrower performance issues. While losses were expected to continue in coming quarters, they were anticipated to be uneven and episodic. By Q1 2024, the coverage ratio for the commercial real estate office portfolio was stable at 11%, with no increase in the allowance for this specific portfolio during that quarter.",
+ "latency_seconds": 51.36,
+ "generated_at": "2026-09-07T11:04:44Z"
+}

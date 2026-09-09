@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense",
+ "question_id": "ref_them_14",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "MS_2023_Q4_prepared_remarks_200_016",
+  "BAC_2024_Q4_prepared_remarks_200_026",
+  "GS_2024_Q4_prepared_remarks_200_016",
+  "GS_2024_Q4_prepared_remarks_200_014",
+  "BK_2023_Q4_prepared_remarks_200_018"
+ ],
+ "raw_response": "Based on the provided context, banks reported the following regarding investment banking revenues and fees for 2023 and 2024:\n\n**Morgan Stanley (2023)**\n*   **Full Year:** Investment banking revenues were $4.6 billion. Results were impacted by a weak environment in early 2022 that persisted through most of the year, with lower completed M&A transactions weighing on results due to a dearth of announcements in late 2022 and early 2023.\n*   **Fourth Quarter:** Revenues were $1.3 billion, supported mostly by fixed income underwriting as the investment grade market remained open for regular way issuance and event-driven activity. Optimism rose mid-year, with announced volumes increasing starting in Q3 and continuing into Q4.\n\n**Bank of America (2024)**\n*   **Full Year:** The Global Banking business generated $8.1 billion in earnings, representing 30% of the company's total earnings. It was noted as the most efficient business with an efficiency ratio of less than 50%. Investment banking fees saw a rebound in 2024, which is expected to continue in 2025.\n*   **Fourth Quarter:** Global Banking produced $2.1 billion in earnings. Investment banking fees were $1.7 billion, growing 44% year-over-year, led by mergers and acquisitions. There was also strength in debt capital markets (mostly leverage finance) and equity capital markets fees.\n\n**Goldman Sachs (2024)**\n*   **Full Year:** The bank maintained the number one position in league tables for announced and completed M&A, ranked third in equity underwriting, and second in leverage lending.\n*   **Fourth Quarter:** Investment banking fees were $2.1 billion, rising 24% year-over-year. Advisory revenues were $960 million. Equity underwriting revenues increased substantially to $499 million due to strong equity markets and robust issuance activity. Net underwriting revenues rose 51% to $595 amid higher leveraged finance activity following the election. The investment banking backlog remained robust, particularly in advisory, driven by renewed CEO confidence and sponsor desire to transact.",
+ "latency_seconds": 312.22,
+ "generated_at": "2026-09-05T22:38:30Z"
+}

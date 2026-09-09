@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25_enriched",
+ "question_id": "ref_them_15",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BLK_2024_Q1_prepared_remarks_500_002",
+  "FITB_2023_Q1_qa_500_011",
+  "BLK_2024_Q3_prepared_remarks_500_004",
+  "JPM_2023_Q3_qa_500_014",
+  "JPM_2024_Q2_qa_500_012"
+ ],
+ "raw_response": "Based on the provided context, there is no specific aggregate figure for total bank technology spending across the industry for 2023 and 2024. However, the text provides details for specific institutions:\n\n*   **JPMorgan Chase:** In Q3 2023, management noted that while consensus estimates for their expense outlook were around $88 billion, they were still in the budget process. By Q2 2024, a question referenced spending of \"$17 billion a year\" to improve the company through digital banking, automation, and AI, though this figure was part of a discussion on returns rather than explicitly defined as total tech spend for the full years.\n*   **Fifth Third Bancorp (FITB):** In Q1 2023, management stated that multi-year technology conversion spend could reach up to $100 million, with less than half capitalized. They noted continued ramp-up in technology costs in Q1 2023 driving expense growth.\n*   **BlackRock:** While not a bank, BlackRock reported in Q1 2024 that total expense increased 8% year-over-year, including higher G&A due to the timing of technology investment spend. In Q3 2024, they expected low-to-mid-single-digit percentage increases in core G&A expense for 2024, with Q4 reflecting planned technology investment spend consistent with Q3.\n\nThe context does not provide a consolidated total for \"banks\" as a group or specific year-over-year changes in tech spending percentages for the banking sector as a whole.",
+ "latency_seconds": 567.23,
+ "generated_at": "2026-09-05T14:48:47Z"
+}

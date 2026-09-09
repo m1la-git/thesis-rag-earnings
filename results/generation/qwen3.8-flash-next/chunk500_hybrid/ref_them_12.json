@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid",
+ "question_id": "ref_them_12",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BK_2023_Q4_prepared_remarks_500_002",
+  "STT_2024_Q2_qa_500_012",
+  "MS_2023_Q4_qa_500_014",
+  "GS_2024_Q4_prepared_remarks_500_003",
+  "JPM_2023_Q4_prepared_remarks_500_005"
+ ],
+ "raw_response": "Based on the provided context, here is what firms said during 2023 regarding their wealth management businesses and investments:\n\n*   **Morgan Stanley:** The firm described its Wealth business as \"differentiated\" and a key thematic strength over the prior 15 years. It highlighted the integration of Smith Barney to build a world-class wealth manager with high barriers to entry, noting that this strategy did not disadvantage the investment bank. Morgan Stanley emphasized having a \"full funnel\" approach covering self-directed, traditional advisory, and workplace channels working as one.\n*   **State Street:** The firm noted that its clients (asset managers) were responding to market pressures by expanding into ETFs, collective trusts, and the wealth business. State Street stated it continues to respond and support these clients in this transition.\n*   **BNY Mellon:** While primarily discussing broader corporate strategy, BNY Mellon mentioned launching new solutions like \"Wove\" (Pershing’s wealth advisory platform) and \"BNY Mellon Advisors\" to deepen client relationships and open doors to new ones.",
+ "latency_seconds": 299.41,
+ "generated_at": "2026-09-07T11:57:17Z"
+}

@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25",
+ "question_id": "ref_them_11",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BAC_2024_Q2_prepared_remarks_500_009",
+  "FITB_2023_Q4_qa_500_011",
+  "FITB_2023_Q4_prepared_remarks_500_000",
+  "COF_2023_Q4_qa_500_008",
+  "COF_2024_Q2_prepared_remarks_500_004"
+ ],
+ "raw_response": "Based on the provided context, banks characterized their net charge-off (NCO) levels and direction as follows:\n\n*   **Bank of America (BAC):** In Q2 2024, NCOs were $1.5 billion with a ratio of 59 basis points, described as \"little changed\" from Q1. The company noted that consumer NCOs increased modestly due to higher late-stage credit card delinquencies, while commercial NCOs remained relatively flat as lower commercial real estate office losses were offset by small increases in other commercial loans.\n*   **Fifth Third Bancorp (FITB):** For 2023, the bank reported that net charge-offs remained below historical averages, with zero net charge-offs in commercial real estate. Looking ahead to 2024, management characterized the overall charge-off outlook as \"fairly benign,\" expecting a range of 35 to 45 basis points. They anticipated continued episodic losses similar to 2023, with minimal trends in commercial and industrial (C&I) or commercial real estate sectors.\n*   **Capital One Financial (COF):** In Q4 2023, the bank declared that its charge-offs were \"leveling off\" after catching up to stabilizing delinquencies. Net charge-offs were approximately 15% above 2018 levels and about 15% above 2019 levels. For 2024, the company projected that net charge-offs would stabilize at this level (about 15% above 2019), noting typical month-to-month volatility and seasonality. In Q2 2024, specific segments showed mixed results: auto charge-off rates increased year-over-year, while commercial banking NCOs saw a slight sequential increase to an annualized rate of 0.15%.",
+ "latency_seconds": 580.33,
+ "generated_at": "2026-09-03T12:21:56Z"
+}

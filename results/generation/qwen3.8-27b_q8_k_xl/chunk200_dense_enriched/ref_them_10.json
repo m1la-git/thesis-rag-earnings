@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense_enriched",
+ "question_id": "ref_them_10",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "JPM_2024_Q4_prepared_remarks_200_010",
+  "USB_2023_Q4_qa_200_026",
+  "C_2023_Q4_prepared_remarks_200_010",
+  "WFC_2024_Q4_prepared_remarks_200_006",
+  "AXP_2023_Q4_prepared_remarks_200_012"
+ ],
+ "raw_response": "Based on the provided context, here is what the banks said regarding credit card growth and credit performance for 2023 and 2024:\n\n*   **JPMorgan Chase (2024):** The bank reported a 12% pace of card loan growth in 2024. For the current year, they expect healthy growth to continue but at a lower rate than 2024, as tailwinds from revolve normalization are largely behind them.\n*   **U.S. Bancorp (2023):** Management stated that there continues to be \"nice growth\" in the credit card space. They noted that while they make adjustments to underwriting and tighten it where necessary due to economic uncertainties and consumer pressure, the overall credit performance of the business remains strong. They emphasized a focus on prime and super-prime customers, expecting the segment to perform very well through the cycle.\n*   **Citigroup (2023/2024 Outlook):** While not explicitly detailing 2023 card metrics in this specific excerpt, management noted that 2024 is expected to be similar to 2023 regarding the macro environment, with moderating rates and inflation. They expressed confidence in their ability to support clients through challenging times due to strong balance sheets and diligent risk management.\n*   **Wells Fargo (2024):** The bank reported that debit card transactions reached over 10 billion last year, up 2% from the previous year, marking the highest annual volume in its history. They also noted meaningful growth in net checking accounts, with most of that growth coming from more valuable primary checking accounts.\n*   **American Express (2023/2024 Outlook):** The company reported a year-over-year growth of 13% in loans and card member receivables for the period ending in late 2023. They expect this elevated growth to moderate as they progress through 2024, though it should still grow modestly faster than billings. Regarding credit performance, American Express cited \"strong and best-in-class credit metrics\" attributed to high customer credit quality, robust risk management, and disciplined growth. However, they noted that write-off and delinquency rates continued to tick up during the quarter as expected.",
+ "latency_seconds": 446.97,
+ "generated_at": "2026-09-05T22:15:48Z"
+}

@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense_enriched",
+ "question_id": "ref_them_08",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "MS_2023_Q3_prepared_remarks_500_004",
+  "MS_2023_Q4_prepared_remarks_500_009",
+  "BLK_2023_Q4_prepared_remarks_500_006",
+  "MS_2023_Q1_prepared_remarks_500_004",
+  "MS_2023_Q3_qa_500_000"
+ ],
+ "raw_response": "Based on the provided context, firms described momentum in net inflows, AUM, and client investment assets during 2023 as follows:\n\n**Morgan Stanley (MS)**\n*   **Net Inflows/Flows:** The firm reported fee-based flows of $22.5 billion in Q3 alone. While Investment Management experienced long-term net outflows of approximately $7 billion in both Q3 and Q4 due to headwinds in active equity growth strategies, year-to-date long-term flows across the franchise were slightly positive as of Q3. In Q1, fee-based flows were strong at $22 billion, though long-term net outflows were $2.4 billion.\n*   **AUM:** Total AUM ended at $1.4 trillion in both Q1 and Q3. By Q4, AUM increased year-over-year to $1.5 trillion, supported by higher asset values.\n*   **Client Investment Assets/Relationships:** The firm grew client relationships by over 600,000 across the franchise during the year, led by success in the workplace channel. Client migration from workplace to advisor-led channels was up 25% year-over-year. Total deposits remained stable at $340 billion in Q3, though the mix shifted toward higher-yielding cash alternatives.\n\n**BlackRock (BLK)**\n*   **Net Inflows:** The institutional business generated net inflows of $32 billion in 2023, led by active net inflows of $87 billion. However, index strategies saw net outflows of $55 billion. Retail clients experienced net outflows of $8 billion for the full year and $9 billion in Q4, primarily due to allocations out of rising rate-sensitive strategies. The cash management platform saw significant growth with $79 billion in net inflows for 2023 and $33 billion in Q4 alone. Private markets (illiquid strategies) attracted $14 billion in net inflows during the year.\n*   **AUM:** Year-end AUM for the cash and liquidity business was up 14% year-on-year, adding over $90 billion. Aperio’s AUM grew 95% since acquisition to reach $80 billion. The planned acquisition of GIP is expected to create a pro forma infrastructure platform with client assets of $150 billion.\n*   **Client Investment Assets:** Demand for private markets remained strong, driven by infrastructure and private credit. Institutional clients used precision exposures to re-risk, resulting in $28 billion of net inflows into these instruments in Q4.",
+ "latency_seconds": 553.25,
+ "generated_at": "2026-09-05T23:09:30Z"
+}

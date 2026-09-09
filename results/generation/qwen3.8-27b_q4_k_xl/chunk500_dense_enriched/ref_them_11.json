@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense_enriched",
+ "question_id": "ref_them_11",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BAC_2023_Q4_prepared_remarks_500_011",
+  "BAC_2024_Q4_prepared_remarks_500_008",
+  "MTB_2023_Q4_prepared_remarks_500_004",
+  "USB_2023_Q4_qa_500_005",
+  "COF_2023_Q4_qa_500_008"
+ ],
+ "raw_response": "Based on the provided context, banks characterized their net charge-off (NCO) levels and direction as follows:\n\n**Bank of America (BAC)**\n*   **Q4 2023:** NCOs were $1.2 billion, a 45 basis point ratio, which was a 10 basis point increase from the third quarter. The increase was driven by normalizing credit card losses, smaller commercial and industrial (C&I) losses, and commercial real estate (CRE) office losses.\n*   **Q4 2024:** NCOs were slightly less than $1.5 billion with a ratio of 54 basis points, down 4 basis points from the third quarter. Consumer losses remained stable in the range of $1 billion to $1.1 billion, while commercial losses declined due to lower CRE office losses.\n*   **2025 Outlook:** BAC expects NCOs and the related ratio to remain relatively unchanged, with a projected 2025 NCO ratio between 50 and 60 basis points, assuming no significant changes in GDP or employment.\n\n**M&T Bank (MTB)**\n*   **Q4 2023:** NCOs totaled $148 million, or 44 basis points, up 15 basis points from the prior quarter. The increase was largely driven by office-related charge-offs and specific C&I losses.\n\n**U.S. Bancorp (USB)**\n*   **Q4 2023/Outlook:** Management expected NCOs to continue normalizing in 2024, with credit card losses moving closer to pre-pandemic levels but still trending upward slightly. The full-year 2024 NCO rate was expected to be in the mid-50s (basis points).\n\n**Capital One Financial (COF)**\n*   **Q4 2023:** Net charge-offs were approximately 15% above 2018 levels and stabilizing at about 15% above 2019 levels. The bank characterized this as a leveling off of charge-offs following the stabilization of delinquencies, noting that while there is month-to-month volatility, the trend was stabilizing due to tightened underwriting standards implemented in 2020 and 2021.",
+ "latency_seconds": 588.67,
+ "generated_at": "2026-09-05T14:58:35Z"
+}

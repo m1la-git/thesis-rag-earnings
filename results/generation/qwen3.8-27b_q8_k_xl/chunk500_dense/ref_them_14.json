@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense",
+ "question_id": "ref_them_14",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "WFC_2023_Q4_prepared_remarks_500_009",
+  "C_2023_Q4_prepared_remarks_500_004",
+  "FITB_2023_Q2_prepared_remarks_500_007",
+  "MS_2024_Q4_prepared_remarks_500_006",
+  "COF_2023_Q4_prepared_remarks_500_006"
+ ],
+ "raw_response": "Based on the provided context, **Morgan Stanley** reported that fourth-quarter 2024 investment banking revenues were $1.6 billion, driven by accelerating strength in equity underwriting (including follow-on and IPO issuance) and improved advisory revenues from higher completed M&A transactions. The firm noted that 2024 commenced with strong debt underwriting activity, followed by increased M&A announcements in the second half, and ended with increased equity underwriting as the IPO market posted its highest volumes since 2021.\n\nThe provided context does not contain specific information regarding investment banking revenue or fees for other banks (such as Wells Fargo, Citigroup, Fifth Third, or Capital One) for 2023 or 2024.",
+ "latency_seconds": 503.28,
+ "generated_at": "2026-09-05T23:47:20Z"
+}

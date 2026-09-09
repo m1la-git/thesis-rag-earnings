@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense_enriched",
+ "question_id": "ref_them_14",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BAC_2024_Q4_prepared_remarks_500_010",
+  "WFC_2023_Q4_prepared_remarks_500_009",
+  "BAC_2023_Q4_prepared_remarks_500_002",
+  "WFC_2024_Q3_prepared_remarks_500_007",
+  "MS_2023_Q4_prepared_remarks_500_006"
+ ],
+ "raw_response": "Based on the provided context, here is what the banks reported regarding investment banking revenue and fees:\n\n**Bank of America (BAC)**\n*   **2023:** The text notes that Global Banking results were characterized by \"strong but slowing NII\" and does not provide specific 2023 investment banking fee figures in the excerpt, though it mentions strong sales and trading.\n*   **2024:** Global Banking saw a \"nice rebound in investment banking fees,\" which was expected to continue into 2025. In Q4 2024 specifically, investment banking fees were $1.7 billion, growing 44% year-over-year. This growth was led by mergers and acquisitions, with strength also seen in debt capital markets (mostly leverage finance) and equity capital markets fees. Bank of America maintained its number three position for investment banking fees at the end of the year.\n\n**Morgan Stanley (MS)**\n*   **2023:** Full-year investment banking revenues were $4.6 billion, impacted by a weak environment that began with the onset of the hiking cycle and geopolitical events in early 2022. Lower completed M&A transactions weighed on results due to a dearth of announcements in late 2022 and early 2023. However, announced volumes increased notably starting in Q3 2023 and continuing into Q4. In Q4 2023 specifically, investment banking revenues were $1.3 billion, supported mostly by fixed income underwriting, while advisory revenues were roughly flat year-over-year and equity underwriting revenues remained muted.\n\n**Wells Fargo (WFC)**\n*   **2023/2024:** The provided context for Wells Fargo focuses on net interest income, expenses, and general banking revenue trends rather than specific investment banking fee figures. It notes that in Q3 2024, Commercial Real Estate revenue reflected \"higher capital markets revenue,\" but does not provide aggregate investment banking fee data for the periods requested.",
+ "latency_seconds": 353.8,
+ "generated_at": "2026-09-07T11:28:14Z"
+}

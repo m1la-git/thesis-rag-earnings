@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid",
+ "question_id": "ref_them_11",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "COF_2023_Q4_qa_500_008",
+  "BAC_2023_Q4_prepared_remarks_500_002",
+  "USB_2023_Q4_qa_500_005",
+  "FITB_2024_Q2_prepared_remarks_500_006",
+  "COF_2024_Q3_prepared_remarks_500_004"
+ ],
+ "raw_response": "Based on the provided context, banks characterized their net charge-off (NCO) levels and direction as follows:\n\n*   **Capital One (COF):** In Q4 2023, management declared that NCOs were \"leveling off\" or stabilizing. They noted that Q4 2023 NCOs were approximately 15% above 2018 levels and projected that NCOs would stabilize at about 15% above 2019 levels heading into 2024, with typical month-to-month volatility.\n*   **Bank of America (BAC):** In 2023, NCOs \"moved higher through the year off historic lows,\" but management stated they still compared \"very favorably against historic averages.\" The bank characterized asset quality as solid.\n*   **U.S. Bancorp (USB):** Management expected NCOs to continue to \"normalize\" in 2024. They noted that credit card NCOs were getting closer to pre-pandemic levels but would continue to move up slightly. For full-year 2024, they projected an NCO rate in the \"mid-50s.\"\n*   **Fifth Third Bancorp (FITB):** The net charge-off outlook for full-year 2024 remained in the range of 35 to 45 basis points.",
+ "latency_seconds": 596.51,
+ "generated_at": "2026-09-05T23:59:52Z"
+}

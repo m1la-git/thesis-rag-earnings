@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25_enriched",
+ "question_id": "ref_them_10",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "COF_2024_Q4_qa_500_017",
+  "COF_2024_Q4_prepared_remarks_500_003",
+  "AXP_2023_Q4_prepared_remarks_500_005",
+  "AXP_2023_Q1_prepared_remarks_500_004",
+  "COF_2024_Q3_prepared_remarks_500_003"
+ ],
+ "raw_response": "Based on the provided transcripts, bank executives discussed credit card growth and credit performance as follows:\n\n**Credit Card Growth (Capital One)**\n*   **Purchase Volume:** Overall purchase volume growth is driven by an expanding branded card customer base, which includes both consumer and small business segments. This has been a strength for several years, supported by originations at the higher end of the market.\n*   **Spend Per Customer:** While overall spend metrics grew, per-customer spend in the consumer business remained largely flat through 2023 and the first half of 2024. However, this metric began to pick up midway through 2024 and grew further in Q4 2024.\n*   **Marketing:** Marketing expenses increased year-over-year (up 15% in Q3 2024 and 10% in Q4 2024), with investments focused on premium benefits, differentiated customer experiences (such as travel portals and airport lounges), and growing originations at the top of the market.\n\n**Credit Performance (Capital One)**\n*   **Stability:** Recent card originations have shown stability in performance, with risk levels remaining mostly stable vintage over vintage. The front book of new origination vintages continues to perform in line with pre-pandemic levels.\n*   **Delinquencies and Charge-offs:** In Q4 2024, the charge-off rate was up 45 basis points sequentially, while the 30-plus delinquency rate was flat compared to the prior quarter. Year-over-year increases in both rates had been steadily declining for several quarters leading into Q3 2024.\n*   **Walmart Impact:** The end of the Walmart loss-sharing agreement did not have a meaningful impact on the delinquency rate.\n\n**Credit Performance (American Express)**\n*   **Trends:** In Q4 2023, write-off and delinquency rates ticked up as expected. For 2024, American Express anticipated that these rates would remain strong with only modest increases.\n*   **Reserves:** The company ended Q4 2023 with a reserve rate of 2.8% of total loans and card member receivables, which was about 10 basis points below pre-pandemic levels. They expected the reserve rate to increase slightly as they moved through 2024.\n*   **Quality:** The bank attributed its credit metrics to high customer credit quality, robust risk management, and a disciplined growth strategy.",
+ "latency_seconds": 558.34,
+ "generated_at": "2026-09-05T14:48:38Z"
+}

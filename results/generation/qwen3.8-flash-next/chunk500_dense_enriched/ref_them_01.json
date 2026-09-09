@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense_enriched",
+ "question_id": "ref_them_01",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "WFC_2023_Q4_prepared_remarks_500_009",
+  "BAC_2023_Q4_prepared_remarks_500_010",
+  "WFC_2023_Q3_prepared_remarks_500_007",
+  "BAC_2024_Q1_prepared_remarks_500_008",
+  "BK_2024_Q4_prepared_remarks_500_006"
+ ],
+ "raw_response": "Banks reported that the FDIC special assessment significantly increased their non-interest expenses in late 2023, with Wells Fargo recording a $1.9 billion charge and Bank of America noting a $125 million quarterly lift in expense. In response to this one-time cost, banks adjusted their reporting by excluding the assessment from \"adjusted\" or \"excluding notable items\" expense figures to provide a clearer view of underlying operational trends. For 2024, Wells Fargo expected severance expenses to be approximately $1.3 billion lower than prior periods (partly due to actions taken in Q4 2023), while Bank of America projected that quarterly expenses would decline from the first quarter as elevated payroll taxes and other seasonal factors normalized, with digital transformation and operational excellence initiatives helping to offset cost increases.",
+ "latency_seconds": 102.05,
+ "generated_at": "2026-09-07T11:24:02Z"
+}

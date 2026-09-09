@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25_enriched",
+ "question_id": "ref_them_01",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "MTB_2024_Q2_prepared_remarks_200_011",
+  "C_2024_Q4_prepared_remarks_200_010",
+  "JPM_2024_Q4_prepared_remarks_200_009",
+  "C_2024_Q1_prepared_remarks_200_011",
+  "WFC_2024_Q2_prepared_remarks_200_024"
+ ],
+ "raw_response": "Based on the provided context, banks reported the impact of the FDIC special assessment as follows:\n\n*   **Citigroup (Q1 2024):** Reported an incremental FDIC special assessment of roughly $250 million included in total expenses of $14.2 billion.\n*   **M&T Bank (Q2 2024):** Included $5 million related to the FDIC special assessment, compared to $29 million in the prior quarter. The adjusted efficiency ratio excluded this impact.\n*   **JPMorgan Chase (Q4 2024):** Noted that expenses were down year-on-year predominantly due to the absence of the FDIC Special Assessment of $2.9 billion recorded in the prior year (late 2023).\n*   **Wells Fargo (Q2 2024):** Reported $336 million of expense for the FDIC special assessment in the first half of the year, which was not initially anticipated but is now included in updated guidance.\n*   **Citigroup (Q4 2024):** Stated that expenses were down largely driven by the absence of the FDIC special assessment recorded in the prior year.",
+ "latency_seconds": 58.42,
+ "generated_at": "2026-09-05T15:25:22Z"
+}

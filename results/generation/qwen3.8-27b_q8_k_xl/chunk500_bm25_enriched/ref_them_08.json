@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25_enriched",
+ "question_id": "ref_them_08",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BLK_2023_Q4_prepared_remarks_500_006",
+  "STT_2023_Q2_prepared_remarks_500_004",
+  "BLK_2023_Q3_prepared_remarks_500_001",
+  "BLK_2024_Q3_prepared_remarks_500_007",
+  "MS_2023_Q1_prepared_remarks_500_004"
+ ],
+ "raw_response": "Based on the provided context, firms described momentum in net inflows, AUM, and client investment assets during 2023 as follows:\n\n*   **BlackRock:** Clients entrusted BlackRock with $193 billion of total net inflows in the first nine months of 2023, representing 3% annualized organic asset growth. By year-end, BlackRock managed $9.1 trillion in assets, which was $1.1 trillion higher than a year ago. The firm noted that while retail clients saw net outflows due to allocations into cash and away from rate-sensitive strategies, institutional business generated $32 billion in net inflows, and the cash management platform saw $79 billion in net inflows for the full year. Additionally, Aperio saw record net inflows of $12 billion, growing its AUM 95% to $80 billion since acquisition.\n*   **State Street (STT):** In the second quarter of 2023, period-end Assets Under Custody/Advisory (AUC/A) increased by 4% year-on-year and 5% sequentially, driven largely by higher equity market levels and client net inflows. Global Advisors AUM increased 9% year-on-year and 5% sequentially, also driven by higher market levels and strong sequential net inflows.\n*   **Morgan Stanley (MS):** In the first quarter of 2023, fee-based flows were $22 billion. Total Asset Management (AUM) ended at $1.4 trillion, though this reflected lower asset values due to market declines and cumulative outflows from the prior year. The firm noted a channel migration with adviser-led flows reaching $28 billion in Q1 2023, double the previous year's level for that period.",
+ "latency_seconds": 353.73,
+ "generated_at": "2026-09-05T22:58:14Z"
+}

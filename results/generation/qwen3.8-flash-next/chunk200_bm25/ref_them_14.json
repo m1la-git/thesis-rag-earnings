@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25",
+ "question_id": "ref_them_14",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "GS_2023_Q4_prepared_remarks_200_003",
+  "BAC_2024_Q4_prepared_remarks_200_026",
+  "BAC_2024_Q1_prepared_remarks_200_028",
+  "BK_2024_Q4_prepared_remarks_200_014",
+  "GS_2024_Q4_prepared_remarks_200_016"
+ ],
+ "raw_response": "Based on the provided context, banks reported the following regarding investment banking revenue and fees:\n\n*   **Goldman Sachs (2023):** The company maintained and strengthened its leadership positions across investment banking.\n*   **Bank of America (2024):** Global Banking saw a \"nice rebound\" in investment banking fees for 2024, which was expected to continue into 2025. In Q4 2024 specifically, investment banking fees were $1.7 billion, representing a 44% year-over-year increase led by mergers and acquisitions, debt capital markets (mostly leverage finance), and equity capital markets.\n*   **Bank of New York Mellon (2024):** Fee revenue increased by 6% overall, driven by investment services fees (up 7%) and investment management/performance fees (up 3%). The text does not explicitly break out \"investment banking\" fees separately from these other fee categories for this bank.",
+ "latency_seconds": 149.86,
+ "generated_at": "2026-09-07T11:06:22Z"
+}

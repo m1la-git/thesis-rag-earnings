@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25_enriched",
+ "question_id": "ref_comp_08",
+ "category": "comparative",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "MTB_2023_Q3_prepared_remarks_200_005",
+  "MTB_2023_Q1_prepared_remarks_200_002",
+  "FITB_2023_Q3_qa_200_006",
+  "MTB_2024_Q4_prepared_remarks_200_004",
+  "MTB_2024_Q3_prepared_remarks_200_004"
+ ],
+ "raw_response": "M&T reported that its tangible book value per share increased 3% compared to the end of June. The provided context does not contain information regarding how Fifth Third described its tangible book value per share for the third quarter of 2023.",
+ "latency_seconds": 172.39,
+ "generated_at": "2026-09-07T10:50:37Z"
+}

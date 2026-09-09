@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense",
+ "question_id": "ref_them_08",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "MS_2023_Q1_prepared_remarks_200_011",
+  "BLK_2024_Q3_prepared_remarks_200_017",
+  "STT_2024_Q1_prepared_remarks_200_007",
+  "MS_2023_Q4_prepared_remarks_200_023",
+  "BLK_2023_Q4_prepared_remarks_200_015"
+ ],
+ "raw_response": "Based on the provided context, firms described momentum in net inflows, AUM, and client investment assets during 2023 as follows:\n\n*   **Morgan Stanley:** In Q1 2023, adviser-led flows originating from workplace relationships reached $28 billion, doubling year-over-year. However, Investment Management revenues declined 3% in Q1 due to lower AUM and cumulative outflows over the prior year, with total AUM ending at $1.4 trillion. For the full year 2023 (reported in Q4 remarks), AUM increased year-over-year to $1.5 trillion supported by higher asset values, but long-term net outflows were approximately $7 billion, driven by headwinds in active equity growth strategies. Client migration from workplace to adviser-led channels was up 25% year-over-year.\n*   **BlackRock:** In Q4 2023, the firm reported $28 billion of net inflows into precision exposures. Full-year retail net outflows were $8 billion, primarily due to allocations out of rising rate-sensitive strategies, partially offset by record net inflows of $12 billion in Aperio. The institutional business generated net inflows of $32 billion for the full year 2023, led by active net inflows of $87 billion, while index net outflows were $55 billion due to redemptions from low-fee equity strategies.\n*   **State Street (STT):** While specific 2023 quarterly details are limited in the text, Q1 2024 remarks noted that management fees were the highest since Q1 2022, aided by a \"strong finish\" at year-end 2023. The firm also reported four consecutive quarters of positive net inflows in its cash business leading into early 2024.",
+ "latency_seconds": 221.7,
+ "generated_at": "2026-09-05T22:36:59Z"
+}

@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25",
+ "question_id": "ref_them_12",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BK_2023_Q4_prepared_remarks_200_026",
+  "MS_2023_Q4_prepared_remarks_200_002",
+  "BK_2023_Q3_prepared_remarks_200_009",
+  "BK_2024_Q2_prepared_remarks_200_006",
+  "USB_2023_Q1_prepared_remarks_200_005"
+ ],
+ "raw_response": "Based on the provided context, firms discussed the following regarding their wealth management businesses and investments in 2023:\n\n*   **BNY Mellon** reported that its Investment and Wealth Management segment had a pre-tax margin of 12% for full-year 2023 (or 17% excluding notable items). The firm stated it was unlocking distribution power by creating a firmwide platform combining enhanced products with third-party managers. They also highlighted the growth of their \"Wove\" wealth advisory platform, noting that clients like Integrity and Lincoln Investment were using it to access institutional-grade solutions and technology. BNY Mellon aimed to improve segment margins to 25% or higher over the medium term through growth and efficiency initiatives.\n*   **Morgan Stanley** noted that its wealth management business line generated operating leverage and high returns during the period following the acquisitions of E*TRADE and Eaton Vance, which provided a leading self-directed platform. The firm reported tripled client assets in its durable businesses despite 2023 challenges.\n*   **U.S. Bancorp** observed that deposit balances were relatively stable (down only 0.6% from March 8 to the end of Q1) as inflows from new customers offset clients diversifying into money market funds. The firm saw an increase in money market funds of approximately $10 billion within its wealth management and investment services businesses during that period.",
+ "latency_seconds": 257.86,
+ "generated_at": "2026-09-03T11:58:51Z"
+}

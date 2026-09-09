@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25",
+ "question_id": "ref_them_03",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "WFC_2023_Q3_prepared_remarks_200_014",
+  "WFC_2024_Q1_prepared_remarks_200_015",
+  "WFC_2023_Q4_prepared_remarks_200_011",
+  "BK_2024_Q1_qa_200_055",
+  "WFC_2023_Q4_prepared_remarks_200_012"
+ ],
+ "raw_response": "During 2023, Wells Fargo reported that its allowance for credit losses increased primarily due to commercial real estate office loans. In Q3, the allowance rose by $333 million driven by these office loans and higher credit card balances, while in Q4, it increased slightly due to credit card and commercial real estate loans. The bank noted that nonaccrual loans in commercial real estate grew significantly, with a $1.3 billion increase in office nonaccrual loans in Q3 and a further $567 million increase in Q4.\n\nRegarding credit exposure and losses, Wells Fargo stated that as expected, losses began to materialize in the commercial real estate office portfolio due to weak market fundamentals, borrower performance issues, and lower appraisals resulting from properties or loans being sold at a loss. These losses were spread across various markets and loans. The bank emphasized that it had substantially built reserves for this portfolio throughout 2023 as criticized and nonperforming assets increased. Additionally, the company noted that while additional losses were expected in coming quarters due to market fundamentals and liquidity challenges, these amounts would likely be uneven and episodic. The commercial real estate team continued to derisk and reduce exposure through a rigorous monitoring process.",
+ "latency_seconds": 100.58,
+ "generated_at": "2026-09-03T11:56:14Z"
+}

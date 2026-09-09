@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid",
+ "question_id": "ref_them_08",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BLK_2023_Q4_prepared_remarks_500_006",
+  "BLK_2024_Q3_prepared_remarks_500_007",
+  "BLK_2023_Q3_prepared_remarks_500_001",
+  "MS_2023_Q1_prepared_remarks_500_004",
+  "BLK_2023_Q4_prepared_remarks_500_012"
+ ],
+ "raw_response": "Based on the provided context, BlackRock described its momentum in 2023 as follows:\n\n*   **Net Inflows:** Clients awarded BlackRock with $289 billion of net new assets during 2023. While full-year retail saw net outflows of $8 billion due to allocations out of rising rate-sensitive strategies, this was partially offset by record net inflows in Aperio ($12 billion) and strong institutional net inflows ($32 billion). Momentum accelerated at the end of the year with $96 billion of total net inflows in the fourth quarter.\n*   **AUM:** BlackRock’s asset base grew over the long-term, with AUM reaching $9.1 trillion by the third quarter (up $1.1 trillion from a year prior). By the end of 2023, Aperio’s AUM had grown 95% since acquisition to $80 billion, and cash management AUM was up 14% or over $90 billion year-on-year.\n*   **Client Investment Assets:** The firm noted that clients entrusted them with significant assets despite a backdrop of portfolio de-risking. BlackRock maintained positive organic base fee growth and stated it grew regardless of the market backdrop, even when most of the industry experienced outflows. Clients increasingly consolidated business with fewer managers, choosing to build bigger relationships with BlackRock by combining investment, technology, and portfolio servicing.",
+ "latency_seconds": 288.47,
+ "generated_at": "2026-09-07T11:57:06Z"
+}

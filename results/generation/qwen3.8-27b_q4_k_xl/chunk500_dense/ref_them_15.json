@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense",
+ "question_id": "ref_them_15",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "WFC_2023_Q4_prepared_remarks_500_009",
+  "C_2023_Q4_prepared_remarks_500_007",
+  "COF_2023_Q4_prepared_remarks_500_006",
+  "BAC_2023_Q4_prepared_remarks_500_001",
+  "BAC_2023_Q4_prepared_remarks_500_002"
+ ],
+ "raw_response": "Based on the provided context, only Citigroup (C) disclosed specific figures for technology spending in 2023. The bank stated it invested over $12 billion in technology in 2023. This investment was part of a broader transformation effort where roughly 30% of investments over the last three years were in technology, with the remainder related to non-tech employees and consultants. In 2023, Citigroup noted a shift from consulting expenses toward technology and compensation as it moved deeper into execution. Regarding general and administrative (G&A) or total expenses, Citigroup reported full-year expenses of $54.3 billion for 2023 (excluding the FDIC special assessment and divestiture-related impacts), which included approximately $780 million in restructuring costs and $730 million in additional severance costs.\n\nThe provided context does not contain information regarding technology spending or G&A expense changes for Wells Fargo, Capital One, or Bank of America for 2023 or 2024.",
+ "latency_seconds": 848.89,
+ "generated_at": "2026-09-03T12:36:24Z"
+}

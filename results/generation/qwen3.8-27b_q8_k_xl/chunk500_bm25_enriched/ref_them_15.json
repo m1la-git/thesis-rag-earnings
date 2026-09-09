@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25_enriched",
+ "question_id": "ref_them_15",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BLK_2024_Q1_prepared_remarks_500_002",
+  "FITB_2023_Q1_qa_500_011",
+  "BLK_2024_Q3_prepared_remarks_500_004",
+  "JPM_2023_Q3_qa_500_014",
+  "JPM_2024_Q2_qa_500_012"
+ ],
+ "raw_response": "Based on the provided context, there is no specific dollar amount stated for total bank technology spending across 2023 and 2024. However, JPMorgan indicated in its Q3 2023 earnings call that it was still going through its budget process but remained \"in the ballpark\" of a consensus estimate of **$88 billion** for investment/tech spend over the next year (implying 2024).\n\nRegarding changes in spending and G&A expense:\n*   **JPMorgan:** In Q3 2023, management noted that tech spending includes \"sine qua non\" items like cybersecurity and data center resiliency. By Q2 2024, a question referenced JPMorgan spending **$17 billion a year** to improve the company (including digital banking, back-office automation, and AI).\n*   **BlackRock:** In Q1 2024, total expense increased 8% year-over-year. G&A expense increased 6% due to the timing of technology investment spend in the prior year. In Q3 2024, BlackRock expected a low to mid-single digit percentage increase in core G&A expense for 2024, with Q4 reflecting planned technology investment spend consistent with Q3 levels.\n*   **Fifth Third Bank (FITB):** In Q1 2023, the bank reported a continued ramp-up in technology costs associated with core conversion projects (new ledger, CD platform, nCino). The total multi-year spend for these conversions was estimated to reach as much as **$100 million**, with less than half being capitalized.",
+ "latency_seconds": 476.36,
+ "generated_at": "2026-09-05T23:00:16Z"
+}

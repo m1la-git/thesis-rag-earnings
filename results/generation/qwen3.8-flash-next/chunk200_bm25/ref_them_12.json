@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25",
+ "question_id": "ref_them_12",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BK_2023_Q4_prepared_remarks_200_026",
+  "MS_2023_Q4_prepared_remarks_200_002",
+  "BK_2023_Q3_prepared_remarks_200_009",
+  "BK_2024_Q2_prepared_remarks_200_006",
+  "USB_2023_Q1_prepared_remarks_200_005"
+ ],
+ "raw_response": "Based on the provided context, firms made the following statements regarding their wealth management businesses and investments in 2023:\n\n**BNY Mellon (BK)**\n*   **Investment and Wealth Management Performance:** The segment reported a pre-tax margin of 12% for full-year 2023 (17% excluding notable items). The firm plans to improve this margin to 25% or higher over the medium term through growth and efficiency initiatives.\n*   **Strategic Investments:** BNY Mellon is creating a firmwide distribution platform combining enhanced products with third-party manager offerings. They are also enhancing Dreyfus Cash products within an open-architecture liquidity ecosystem.\n*   **Wove Platform:** The firm highlighted its wealth advisory platform, Wove, noting signed client agreements (such as Integrity and Lincoln Investment), a growing pipeline, and plans to begin disclosing financial information for the platform in early 2024.\n\n**Morgan Stanley (MS)**\n*   **Business Model Results:** Despite geopolitical and macroeconomic challenges in 2023, the firm’s business model generated consistent results. Firm revenues were $54 billion with $12 billion of pre-tax income.\n*   **Returns:** The return on tangible common equity was 13%, inclusive of notable items that reduced returns by over 100 basis points.\n*   **Scale and Growth:** Morgan Stanley noted it has tripled client assets in its durable businesses (wealth and investment management) with significant opportunities for further growth, following acquisitions like E*TRADE and Eaton Vance which provided scale in self-directed platforms and investment solutions.\n\n**U.S. Bank (USB)**\n*   **Deposit Trends:** In the first quarter of 2023, deposit balances in wealth management and investment services were relatively stable (down only 0.6% from March 8 to quarter-end). However, there was an increase of approximately $10 billion in money market funds within these businesses as clients sought yield.\n*   **Competition:** The firm expected competition for deposits to remain high throughout 2023.",
+ "latency_seconds": 153.97,
+ "generated_at": "2026-09-07T11:06:27Z"
+}

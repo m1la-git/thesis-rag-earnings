@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25_enriched",
+ "question_id": "ref_them_06",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "MS_2024_Q4_qa_500_014",
+  "GS_2023_Q4_qa_500_009",
+  "USB_2024_Q2_qa_500_005",
+  "WFC_2024_Q1_prepared_remarks_500_001",
+  "BAC_2023_Q2_qa_500_015"
+ ],
+ "raw_response": "Based on the provided context, the following efficiency ratio levels and targets were discussed:\n\n*   **Morgan Stanley:** Stated a long-term goal of a **70%** efficiency ratio.\n*   **Goldman Sachs:** Discussed driving towards a **60%** target. They noted that excluding selected items in 2023, the efficiency ratio would have been approximately **65%**.\n*   **Bank of America:** Reported an efficiency ratio of **64%** or **62%** (depending on the specific metric referenced), compared to levels of **57%** and **58%** in 2018 and 2019. The company aims to push the ratio back down, aided by net interest income and technology investments.",
+ "latency_seconds": 155.58,
+ "generated_at": "2026-09-07T11:20:05Z"
+}

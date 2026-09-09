@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid",
+ "question_id": "ref_them_03",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "WFC_2024_Q1_prepared_remarks_200_015",
+  "WFC_2023_Q4_prepared_remarks_200_012",
+  "WFC_2023_Q4_prepared_remarks_200_011",
+  "COF_2023_Q3_prepared_remarks_200_004",
+  "WFC_2023_Q3_prepared_remarks_200_014"
+ ],
+ "raw_response": "During 2023, banks reported that losses began to materialize in their commercial real estate (CRE) office portfolios due to weak market fundamentals, borrower performance issues, lower appraisals, and properties or loans being sold at a loss. Specifically:\n\n*   **Wells Fargo** noted that while they substantially built reserves for the CRE office portfolio throughout 2023 as criticized and nonperforming assets increased, they did not increase the allowance in Q1 2024 (referencing the prior period's stability). In Q3 2023, their allowance for credit losses increased by $333 million, primarily driven by CRE office loans. They also reported a $1.3 billion increase in office nonaccrual loans in Q3 2023 and a $567 million increase in Q4 2023. The bank expected additional losses to be \"uneven and episodic\" given ongoing market challenges but stated their team was actively derisking and reducing exposure.\n*   **Capital One** indicated that in Q3 2023, the allowance for their Commercial Banking business increased by $97 million, reflecting the impact of rising interest rates on certain CRE borrowers, including the commercial office portfolio. They also completed the sale of approximately $900 million of loans from their commercial office portfolio during that quarter.\n\nOverall, both banks highlighted an increase in nonaccrual loans and charge-offs related to the office sector, leading to higher allowances for credit losses throughout 2023.",
+ "latency_seconds": 220.84,
+ "generated_at": "2026-09-05T22:42:17Z"
+}

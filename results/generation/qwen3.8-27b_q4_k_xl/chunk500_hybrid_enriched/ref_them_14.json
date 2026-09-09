@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid_enriched",
+ "question_id": "ref_them_14",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BAC_2023_Q4_prepared_remarks_500_004",
+  "WFC_2024_Q3_prepared_remarks_500_007",
+  "BAC_2024_Q4_prepared_remarks_500_010",
+  "BAC_2024_Q2_prepared_remarks_500_011",
+  "BAC_2024_Q3_prepared_remarks_500_001"
+ ],
+ "raw_response": "Based on the provided context, here is what the banks reported regarding investment banking revenue and fees in 2023 and 2024:\n\n**Bank of America (BAC)**\n*   **Q4 2023:** The transcript notes that Global Markets saw strong performance with 7% year-over-year revenue growth, described as the strongest in many years. It does not provide a specific dollar amount for investment banking fees for this quarter.\n*   **Q2 2024:** Investment banking fees grew 29% year-over-year to nearly $1.6 billion, led by debt capital markets fees (mostly leveraged finance and investment grade). The bank maintained its number three global position in investment banking fees.\n*   **Q3 2024:** The text mentions healthy revenue growth in the Global Markets business but does not provide specific figures for investment banking fees for this quarter.\n*   **Q4 2024:** Investment banking fees were $1.7 billion, growing 44% year-over-year, led by mergers and acquisitions, with strength also seen in debt capital markets (leverage finance) and equity capital markets. The bank maintained its number three investment banking fee position for the full year.\n\n**Wells Fargo (WFC)**\n*   **Q3 2024:** Corporate Investment Banking revenue was down 5% from a year ago, driven by higher deposit costs and lower loan balances. Commercial real estate revenue decreased 1%, while Markets revenue increased 6%. The text does not provide specific figures for total investment banking fees for this quarter.",
+ "latency_seconds": 659.41,
+ "generated_at": "2026-09-05T15:12:04Z"
+}

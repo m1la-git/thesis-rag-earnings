@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense",
+ "question_id": "ref_them_06",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "WFC_2023_Q4_prepared_remarks_500_009",
+  "COF_2023_Q4_prepared_remarks_500_005",
+  "PNC_2023_Q3_prepared_remarks_500_006",
+  "COF_2023_Q4_prepared_remarks_500_006",
+  "C_2023_Q4_prepared_remarks_500_004"
+ ],
+ "raw_response": "Based on the provided context, the following efficiency ratios and targets were discussed:\n\n*   **Capital One (COF):** Reported an annual operating efficiency ratio of **43.54%** for full-year 2023 (net of adjustments). For 2024, they expect this ratio to be **flat to modestly down** compared to 2023.\n*   **PNC:** While not providing a specific percentage target, PNC stated an objective to keep **core expenses stable in 2024**. This goal is intended to position the bank for stronger efficiency following workforce reductions and expense control measures beyond their annual CIP program.\n*   **Citigroup (C):** Did not provide a specific operating efficiency ratio percentage or target in the provided text, but noted that 2024 will be a turning point allowing them to focus on business performance and transformation benefits.",
+ "latency_seconds": 244.42,
+ "generated_at": "2026-09-05T23:43:02Z"
+}

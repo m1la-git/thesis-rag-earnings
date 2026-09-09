@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense_enriched",
+ "question_id": "ref_comp_01",
+ "category": "comparative",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "GS_2024_Q2_qa_500_008",
+  "C_2024_Q3_prepared_remarks_500_003",
+  "GS_2023_Q3_prepared_remarks_500_002",
+  "C_2023_Q3_prepared_remarks_500_003",
+  "GS_2023_Q3_qa_500_012"
+ ],
+ "raw_response": "Goldman Sachs characterized the Basel III Endgame uncertainty as a factor requiring them to maintain capital cushions above their normal range (specifically running with 90 bps of cushion) to signal flexibility and support client returns while addressing lingering regulatory ambiguity regarding both the quantum and timing of the rules. In contrast, Citi described its capital position as \"very robust\" despite the prevailing uncertainty, noting that it ended Q3 2024 with a CET1 ratio of 13.7% (which was $14 billion above regulatory minimums in late 2023) and continued to return capital through dividends and buybacks while actively working on mitigating actions for potentially high capital requirements.",
+ "latency_seconds": 337.86,
+ "generated_at": "2026-09-05T23:05:54Z"
+}

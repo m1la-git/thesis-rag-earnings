@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25_enriched",
+ "question_id": "ref_them_08",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "JPM_2023_Q4_prepared_remarks_200_009",
+  "BK_2023_Q3_prepared_remarks_200_021",
+  "STT_2023_Q1_prepared_remarks_200_014",
+  "STT_2023_Q4_prepared_remarks_200_015",
+  "JPM_2023_Q2_prepared_remarks_200_012"
+ ],
+ "raw_response": "Based on the provided context, firms described momentum in net inflows, AUM, and client investment assets during 2023 as follows:\n\n*   **JPMorgan Chase:** Reported record client asset net inflows of $489 billion for the full year. Net long-term inflows were $140 billion for the full year (with a quarterly figure of $12 billion), and liquidity saw net inflows of $242 billion for the full year. AUM reached $3.4 trillion and client assets reached $5 trillion, both up 24% year-on-year, driven by continued net inflows and higher market levels. In Q2 specifically, they noted record net long-term inflows of $61 billion.\n*   **Bank of America:** Described a mix of flows in Q3, with $15 billion in net outflows from long-term strategies due to client de-risking and rebalancing, offset by $7 billion in net inflows into short-term strategies. Client assets increased by 14% year-over-year to $292 billion, reflecting higher equity market values.\n*   **State Street:** Highlighted strong business momentum despite a difficult macroeconomic backdrop. In Q4, Global Advisors recorded its best-ever quarter of aggregate net flows at $103 billion. Period-end AUM for Global Advisors increased 19% year-on-year and 12% sequentially, largely reflecting higher market levels and strong net inflows. In Q1, they noted continued strategic growth in ETFs and significant net inflows into their cash franchise.",
+ "latency_seconds": 183.08,
+ "generated_at": "2026-09-05T14:13:34Z"
+}

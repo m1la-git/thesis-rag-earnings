@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid",
+ "question_id": "ref_them_04",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BAC_2023_Q4_prepared_remarks_500_002",
+  "USB_2024_Q4_prepared_remarks_500_003",
+  "FITB_2023_Q4_prepared_remarks_500_002",
+  "STT_2024_Q1_prepared_remarks_500_001",
+  "HBAN_2023_Q4_prepared_remarks_500_001"
+ ],
+ "raw_response": "Banks described their progress on positive operating leverage as follows:\n\n*   **Bank of America (Full Year 2023):** Achieved 170 basis points of operating leverage, driven by good expense discipline that lowered quarterly expense levels throughout the year while continuing to invest in growth.\n*   **Fifth Third Bank (Late 2023/Early 2024 Outlook):** Maintained peer-leading annualized expense growth and reduced headcount by 4% from its peak. While full-year positive operating leverage was unfeasible due to the carryover effect of risk-weighted asset reductions, the bank anticipated returning to positive operating leverage in the second half of 2024.\n*   **State Street (Q1 2024):** Delivered both positive fee and total operating leverage excluding notable items, supported by well-controlled underlying expenses that increased only 1% year-over-year despite increased investments.\n*   **Huntington Bancshares (Late 2023/Early 2024 Outlook):** Focused on efficiency initiatives such as Operation Accelerate, voluntary retirement programs, and offshoring to maintain disciplined execution, with an expectation to grow earnings over the course of 2024.",
+ "latency_seconds": 142.06,
+ "generated_at": "2026-09-07T11:54:40Z"
+}

@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25",
+ "question_id": "ref_them_08",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "JPM_2023_Q4_prepared_remarks_200_009",
+  "BK_2024_Q4_prepared_remarks_200_016",
+  "BLK_2023_Q4_prepared_remarks_200_014",
+  "STT_2024_Q1_prepared_remarks_200_007",
+  "BLK_2024_Q4_prepared_remarks_200_002"
+ ],
+ "raw_response": "Based on the provided context, firms described their performance regarding net inflows, AUM, and client investment assets for 2023 as follows:\n\n*   **JPMorgan Chase:** Reported record client asset net inflows of $489 billion for the year. Assets Under Management (AUM) reached $3.4 trillion and client assets reached $5 trillion, both up 24% year-on-year, driven by continued net inflows and higher market levels. Net long-term inflows were $140 billion for the full year, while liquidity saw net inflows of $242 billion.\n*   **BlackRock:** Full-year total net inflows were $289 billion, positive across active and index strategies as well as regions. The firm generated industry-leading ETF net inflows of $186 billion in 2023, representing 6% organic asset growth.\n*   **Bank of America:** While specific full-year 2023 AUM figures were not detailed in the text, it noted that Firmwide Assets Under Custody (AUCA) of $52.1 trillion were up 9% year-over-year (referenced in Q4 2024 remarks comparing to prior periods), reflecting higher market values and client inflows. It also highlighted that AUM of $2 trillion was up 3% year-over-year, primarily due to higher market values.\n*   **State Street:** The context provided for State Street focuses on Q1 2024 performance (such as cash net inflows of $9 billion and record ETF AUM of $1.4 trillion) rather than describing the specific momentum or totals for the full year 2023, other than noting a \"strong finish\" at year-end 2023 that benefited Q1 2024 management fees.",
+ "latency_seconds": 196.44,
+ "generated_at": "2026-09-05T22:32:32Z"
+}

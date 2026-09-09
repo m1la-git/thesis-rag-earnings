@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense",
+ "question_id": "ref_them_03",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "WFC_2023_Q3_prepared_remarks_500_006",
+  "WFC_2024_Q2_prepared_remarks_500_006",
+  "WFC_2023_Q1_prepared_remarks_500_005",
+  "WFC_2024_Q1_prepared_remarks_500_006",
+  "MTB_2023_Q4_prepared_remarks_500_004"
+ ],
+ "raw_response": "During 2023, banks reported increasing stress in their commercial real estate (CRE) office portfolios due to lower demand, higher financing costs, and challenging capital market conditions. Key points regarding credit exposure and allowances include:\n\n*   **Losses and Charge-Offs:** Wells Fargo noted that while meaningful loss content had not yet materialized by the end of Q1 2023, they expected higher losses over time. By Q4 2023 (referenced in early 2024 remarks), commercial net loan charge-offs increased significantly, driven primarily by higher losses in the CRE office portfolio. M&T Bank reported that its Q4 2023 net charge-off increase was largely driven by three office-related charge-offs in New York City, Boston, and Washington, D.C.\n*   **Allowance Coverage:** Wells Fargo continued to increase its allowance coverage ratio for its Corporate and Investment Banking (CIB) CRE office portfolio throughout the year, rising from 8.8% at the end of Q2 2023 to 10.8% at the end of Q3 2023. By early 2024, this coverage ratio remained relatively stable at approximately 11%. M&T Bank increased its allowance by over $200 million since the end of 2022, ending 2023 with an allowance-to-loan ratio of 1.59%, driven in part by commercial real estate values and higher interest rates.\n*   **De-risking Efforts:** Banks actively worked to reduce their office exposure. Wells Fargo reported that its efforts reduced office commitments by 13% and loan balances by 9% from a year ago (as of mid-2024, reflecting actions taken in late 2023/early 2024). In Q1 2023, Wells Fargo noted commitments had already declined 5% from the prior year. M&T Bank conducted thorough reviews covering more than 60% of its commercial real estate loans, leading to an increase in criticized CRE loans tied to 2024 maturities and potential debt service shortfalls under higher rates.",
+ "latency_seconds": 514.5,
+ "generated_at": "2026-09-03T12:30:50Z"
+}

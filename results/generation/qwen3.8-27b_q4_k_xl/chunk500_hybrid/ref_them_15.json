@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid",
+ "question_id": "ref_them_15",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "C_2023_Q4_prepared_remarks_500_007",
+  "BLK_2024_Q1_prepared_remarks_500_003",
+  "BLK_2023_Q3_prepared_remarks_500_003",
+  "BAC_2023_Q4_prepared_remarks_500_002",
+  "BLK_2024_Q1_prepared_remarks_500_002"
+ ],
+ "raw_response": "Based on the provided context, here is the information regarding technology spending and General & Administrative (G&A) expenses:\n\n**Bank of America (BAC)**\n*   **Technology Spend:** The text does not specify a total dollar amount for Bank of America’s technology spend in 2023 or 2024. It notes that expense growth was driven by investments in risk, controls, and technology, but specific figures are not provided.\n*   **G&A/Expense Changes:** In 2023, the bank achieved 170 basis points of operating leverage as quarterly expense levels were driven lower throughout the year despite continued growth investments. The text does not provide specific G&A percentage changes for 2024.\n\n**BlackRock (BLK)**\n*   **Technology Spend:** BlackRock stated that technology is one of its primary areas of investment within G&A. In Q1 2024, G&A expense increased 6% year-over-year due to the timing of technology investment spend in the prior year. The company expects a low-to-mid-single-digit percentage increase in core G&A expense for full-year 2024.\n*   **G&A Expense Changes:**\n    *   **Q1 2024:** G&A expense increased 6% compared to the same period last year, primarily due to the timing of technology investment spend. Sequentially (compared to Q4 2023), G&A decreased by 12%, reflecting the timing of that technology spend and seasonally higher marketing expenses in Q4.\n    *   **Q3 2023:** Total expense was 4% higher year-over-year, with G&A lower than the prior year (partially offsetting higher compensation). The company expected full-year 2023 core G&A to fall on the low end of its guidance for a mid-to-high-single-digit percentage increase.\n\n**Note on Other Institutions:**\n*   **JPMorgan Chase (implied by C_2023_Q4 context):** While the chunk labeled `C_2023_Q4_prepared_remarks_500_007` discusses a firm that invested over $12 billion in technology in 2023 and had full-year expenses of $54.3 billion, it does not explicitly name the bank as \"Bank of America\" or another specific entity in the text provided (though the context ID suggests a major bank). It states that roughly 30% of transformation investments over the last three years were in technology. For 2023, there was a shift from consulting expenses to technology and compensation. No specific G&A percentage change is given for this firm, only total expense figures.\n\n**Summary of Specific Figures:**\n*   **BlackRock Q1 2024 G&A:** Up 6% year-over-year; down 12% sequentially.\n*   **BlackRock 2024 Outlook:** Low-to-mid-single-digit increase in core G&A.\n*   **Unnamed Firm (C_2023_Q4):** Invested over $12 billion in technology in 2023.",
+ "latency_seconds": 812.7,
+ "generated_at": "2026-09-03T12:50:21Z"
+}

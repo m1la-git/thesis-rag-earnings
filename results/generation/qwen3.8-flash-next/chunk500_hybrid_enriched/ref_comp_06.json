@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid_enriched",
+ "question_id": "ref_comp_06",
+ "category": "comparative",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "FITB_2023_Q1_prepared_remarks_500_000",
+  "FITB_2023_Q4_prepared_remarks_500_002",
+  "BAC_2023_Q4_prepared_remarks_500_002",
+  "BAC_2023_Q1_prepared_remarks_500_013",
+  "BAC_2023_Q2_prepared_remarks_500_004"
+ ],
+ "raw_response": "In the first quarter of 2023, Fifth Third reported nine points of year-over-year positive operating leverage driven by an 18% increase in revenue. Bank of America stated that they had achieved seven consecutive quarters of operating leverage, noting that their nominal expense dollars were similar to levels from eight to ten years ago while continuing to invest for growth.",
+ "latency_seconds": 228.11,
+ "generated_at": "2026-09-07T11:32:10Z"
+}

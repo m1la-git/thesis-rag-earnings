@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25_enriched",
+ "question_id": "ref_them_11",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "USB_2023_Q4_qa_200_013",
+  "MTB_2024_Q2_prepared_remarks_200_002",
+  "COF_2023_Q4_qa_200_042",
+  "BAC_2023_Q2_prepared_remarks_200_014",
+  "BAC_2024_Q2_prepared_remarks_200_024"
+ ],
+ "raw_response": "Based on the provided context, banks characterized their net charge-off (NCO) levels and direction as follows:\n\n*   **US Bancorp (USB):** In late 2023, NCOs were expected to continue normalizing. Credit card NCOs were approaching pre-pandemic levels but were still moving up slightly. For full-year 2024, the bank projected NCOs would be in the \"mid-50s\" (basis points).\n*   **M&T Bank (MTB):** In mid-2024, asset quality trends were performing as expected, with NCOs described as being in line with expectations. The bank noted reductions in non-accrual and criticized balances.\n*   **Capital One Financial (COF):** In late 2023, the company characterized its charge-offs as leveling off at a level approximately 15% above 2019 levels for net charge-offs. Gross charge-offs were leveling off near 2018–2019 levels, with lower recoveries creating the differential between gross and net figures.\n*   **Bank of America (BAC):** In mid-2023, provision expenses reflected a continued trend in charge-offs toward pre-pandemic levels, which remained below historical averages. By mid-2024, the NCO ratio was 59 basis points, largely unchanged from Q1. Consumer NCOs increased modestly due to higher late-stage credit card delinquencies flowing through, while commercial NCOs were relatively flat.",
+ "latency_seconds": 212.0,
+ "generated_at": "2026-09-05T22:06:49Z"
+}

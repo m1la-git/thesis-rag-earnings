@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25",
+ "question_id": "ref_comp_01",
+ "category": "comparative",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "GS_2024_Q2_qa_500_008",
+  "GS_2023_Q4_prepared_remarks_500_007",
+  "USB_2023_Q4_qa_500_006",
+  "PNC_2023_Q4_qa_500_006",
+  "C_2023_Q4_prepared_remarks_500_000"
+ ],
+ "raw_response": "Goldman Sachs characterized the uncertainty around the Basel III endgame as a factor requiring them to maintain a capital cushion at the wider end of their range (90 basis points above normal) to signal flexibility, noting that implementation might not occur until perhaps into 2025. In contrast, Citi's prepared remarks for Q4 2023 did not mention the Basel III endgame or characterize its uncertainty; they focused instead on strategic simplification and execution progress.",
+ "latency_seconds": 146.7,
+ "generated_at": "2026-09-07T11:44:44Z"
+}

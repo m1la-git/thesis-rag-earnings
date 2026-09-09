@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid",
+ "question_id": "ref_them_10",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "AXP_2023_Q1_prepared_remarks_500_004",
+  "COF_2024_Q4_qa_500_017",
+  "COF_2024_Q4_prepared_remarks_500_003",
+  "AXP_2023_Q4_prepared_remarks_500_005",
+  "COF_2023_Q2_qa_500_004"
+ ],
+ "raw_response": "Based on the provided transcripts, American Express and Capital One reported the following regarding credit card growth and credit performance for 2023 and 2024:\n\n**American Express (AXP)**\n*   **Growth:** In Q1 2023, loan balances grew 25% year-over-year, driven primarily by existing customers rebuilding balances. The company expected this growth rate to moderate through 2023 but remain elevated compared to pre-pandemic levels. By Q4 2023, total revenues were up 11% year-over-year, with discount revenue growing 5% in the quarter and 9% for the full year.\n*   **Credit Performance:** Credit metrics remained \"best-in-class\" due to high customer credit quality. Write-off and delinquency rates continued to tick up sequentially but remained below pre-pandemic levels throughout 2023. The company expected these rates to continue increasing modestly in 2024 while remaining strong. In Q1 2023, a $320 million reserve build contributed to $1.1 billion in provision expense. By Q4 2023, the reserve rate was 2.8% of total loans and receivables, approximately 10 basis points below pre-pandemic levels, with expectations for further modest increases in 2024.\n\n**Capital One (COF)**\n*   **Growth:** In Q2 2023, Domestic Card purchase volume was up 7% year-over-year, driven by customer base growth, while spend per customer had moderated to flat levels. By Q4 2024, spend per customer in the consumer business began to pick up after being largely flat through 2023 and the first half of 2024. Overall purchase volume growth continued to be driven by the branded card customer base (consumer and small business).\n*   **Credit Performance:** In Q4 2024, the charge-off rate was up 45 basis points sequentially, while the 30-plus delinquency rate remained flat compared to the prior quarter. The company noted that recent originations in the card business showed stability in performance, with risk levels remaining mostly stable vintage-over-vintage and performing in line with pre-pandemic levels. In Q2 2023, management acknowledged credit normalization with an \"upward slope\" but stated that credit remained at attractive levels.",
+ "latency_seconds": 678.51,
+ "generated_at": "2026-09-03T12:48:07Z"
+}

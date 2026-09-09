@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid_enriched",
+ "question_id": "ref_fact_05",
+ "category": "factual",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "COF_2024_Q2_qa_200_000",
+  "COF_2024_Q2_prepared_remarks_200_003",
+  "COF_2024_Q2_prepared_remarks_200_002",
+  "COF_2024_Q3_prepared_remarks_200_011",
+  "COF_2024_Q3_prepared_remarks_200_002"
+ ],
+ "raw_response": "The Walmart-related build that Capital One called out as an adjusting item in the second quarter of 2024 was $826 million.",
+ "latency_seconds": 53.51,
+ "generated_at": "2026-09-07T10:55:20Z"
+}

@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid_enriched",
+ "question_id": "ref_them_06",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "GS_2023_Q4_qa_500_009",
+  "COF_2023_Q4_prepared_remarks_500_006",
+  "WFC_2023_Q4_prepared_remarks_500_010",
+  "FITB_2024_Q2_prepared_remarks_500_006",
+  "WFC_2023_Q4_prepared_remarks_500_009"
+ ],
+ "raw_response": "Based on the provided context, the following efficiency ratio levels and targets were discussed by various banks for 2023 and 2024:\n\n*   **Goldman Sachs:** The firm is targeting a **60%** efficiency ratio. For 2023, excluding selected items (one-timers), the efficiency ratio would have been approximately **65%**.\n*   **Capital One:** For full-year 2024, the bank expects its annual operating efficiency ratio, net of adjustments, to be **flat to modestly down** compared to 2023. This expectation includes the partial-year impact of a proposed CFPB late fee rule assumed to take effect in October 2024.\n*   **Wells Fargo:** While specific percentage targets for the efficiency ratio were not explicitly stated, the bank noted it has delivered approximately **$10 billion** in gross expense savings through its efficiency initiatives and expects another **$2.7 billion** in gross expense reductions in 2024. The bank emphasized that while substantial progress has been made, there remains a significant opportunity to become more efficient across the company.\n*   **Fifth Third Bancorp:** For full-year 2024, the bank projects an efficiency ratio of around **57%**.",
+ "latency_seconds": 435.0,
+ "generated_at": "2026-09-05T23:20:13Z"
+}

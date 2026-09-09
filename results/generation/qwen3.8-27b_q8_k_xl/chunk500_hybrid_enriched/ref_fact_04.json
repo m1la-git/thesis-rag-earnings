@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid_enriched",
+ "question_id": "ref_fact_04",
+ "category": "factual",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "STT_2023_Q1_prepared_remarks_500_002",
+  "STT_2023_Q4_prepared_remarks_500_011",
+  "STT_2023_Q1_prepared_remarks_500_001",
+  "STT_2023_Q1_prepared_remarks_500_008",
+  "STT_2023_Q1_prepared_remarks_500_005"
+ ],
+ "raw_response": "State Street’s management fees in the first quarter of 2023 were $457 million, representing a 12% decrease on a year-over-year basis. This decline was primarily driven by lower average market levels and a previously reported client-specific pricing adjustment.",
+ "latency_seconds": 193.92,
+ "generated_at": "2026-09-05T23:16:12Z"
+}

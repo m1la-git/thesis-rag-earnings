@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense_enriched",
+ "question_id": "ref_them_10",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "JPM_2024_Q4_prepared_remarks_500_004",
+  "BAC_2023_Q4_prepared_remarks_500_001",
+  "BAC_2023_Q4_prepared_remarks_500_002",
+  "WFC_2024_Q4_prepared_remarks_500_002",
+  "COF_2024_Q4_qa_500_017"
+ ],
+ "raw_response": "Based on the provided context, here is what the banks said regarding credit card growth and credit performance for 2023 and 2024:\n\n**JPMorgan Chase (JPM)**\n*   **Growth:** JPM reported a 12% pace of card loan growth in 2024. They expect healthy growth to continue in 2025, but at a rate below the 12% seen in 2024, as tailwinds from revolve normalization are largely behind them.\n*   **Credit Performance:** JPM expects the 2025 card net charge-off rate to be approximately 3.6%, which is in line with their previous guidance.\n\n**Wells Fargo (WFC)**\n*   **Growth:** Wells Fargo reported strong momentum in its credit card business, with over 2.4 million new accounts opened in 2024 and credit card spend increasing by more than $17 billion compared to the prior year. This growth was supported by the rollout of 11 new cards since 2021 (including four consumer and one small business card in 2024).\n*   **Credit Performance:** The company stated it maintained its credit standards while achieving this growth, though specific charge-off rates were not detailed in the provided text.\n\n**Capital One (COF)**\n*   **Growth:** Capital One noted that overall purchase volume growth has been driven by an expanding branded card customer base (consumer and small business). While spend per customer was largely flat through 2023 and the first half of 2024, it began to pick up midway through 2024 and grew further in Q4.\n*   **Credit Performance:** Capital One reported stability in the performance of recent originations (vintages), noting that risk levels have remained mostly stable over time and that new origination vintages continue to perform in line with pre-pandemic levels.\n\n**Bank of America (BAC)**\n*   The provided context for Bank of America focuses on 2023 results, mentioning that net charge-offs moved higher through the year off historic lows but remained favorable compared to historical averages. It does not provide specific data on credit card growth or credit performance for 2024.",
+ "latency_seconds": 305.52,
+ "generated_at": "2026-09-07T11:27:25Z"
+}

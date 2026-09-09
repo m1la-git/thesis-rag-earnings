@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid_enriched",
+ "question_id": "ref_them_07",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "JPM_2023_Q2_qa_200_030",
+  "BK_2023_Q2_prepared_remarks_200_013",
+  "STT_2023_Q2_qa_200_002",
+  "STT_2023_Q2_qa_200_025",
+  "FITB_2023_Q4_prepared_remarks_200_001"
+ ],
+ "raw_response": "Based on the provided context, banks described their deposit trends in the second quarter of 2023 as follows:\n\n*   **JPMorgan Chase:** Expected a modest downward trend to reassert itself from a higher starting point due to Quantitative Tightening (QT), though they hoped for some offset by gaining market share.\n*   **Bank of New York Mellon (BK):** Reported that overall deposit balances remained elevated relative to expectations, increasing 1% sequentially on an average basis. Specifically, interest-bearing deposits increased by 5%, while noninterest-bearing deposits decreased by 11%.\n*   **State Street (STT):** Noted a sequential fall in deposits for trust banks and expected a downtick in deposits for the next quarter, driven largely by movements in non-interest-bearing deposits and client sophistication.",
+ "latency_seconds": 112.05,
+ "generated_at": "2026-09-07T10:56:19Z"
+}

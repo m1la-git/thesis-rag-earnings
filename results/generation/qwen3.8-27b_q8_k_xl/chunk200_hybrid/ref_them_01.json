@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid",
+ "question_id": "ref_them_01",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BAC_2024_Q4_prepared_remarks_200_018",
+  "WFC_2023_Q4_prepared_remarks_200_023",
+  "WFC_2024_Q1_prepared_remarks_200_012",
+  "FITB_2023_Q1_prepared_remarks_200_016",
+  "STT_2023_Q4_prepared_remarks_200_011"
+ ],
+ "raw_response": "Based on the provided context, banks reported the impact of the FDIC special assessment as follows:\n\n*   **Bank of America (Q4 2023):** The fourth quarter included a large FDIC special assessment charge. This was partially offset by a roughly $300 million release of prior period accruals for the same assessment.\n*   **Wells Fargo (Q4 2023 / Q1 2024):** In 2023, non-interest expense included a $1.9 billion FDIC special assessment. Excluding this item, 2023 expenses would have been $53.6 billion. For the first quarter of 2024, the FDIC special assessment was cited as a driver for the 5% year-over-year increase in non-interest expense. However, excluding this specific expense, full-year 2024 non-interest expense guidance remained unchanged at approximately $52.6 billion.\n*   **State Street (Q4 2023):** The bank recognized an FDIC special assessment of $387 million, which was reflected in other expenses and contributed to notable items totaling $620 million pretax for the quarter.",
+ "latency_seconds": 166.86,
+ "generated_at": "2026-09-05T22:41:23Z"
+}

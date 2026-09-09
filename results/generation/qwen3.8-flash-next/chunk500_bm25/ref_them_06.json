@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25",
+ "question_id": "ref_them_06",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "MS_2024_Q4_qa_500_014",
+  "GS_2023_Q4_qa_500_009",
+  "USB_2024_Q2_qa_500_005",
+  "COF_2024_Q2_prepared_remarks_500_004",
+  "WFC_2024_Q1_prepared_remarks_500_001"
+ ],
+ "raw_response": "Based on the provided context, the following efficiency ratio levels and targets were discussed:\n\n*   **Morgan Stanley:** Stated a long-term goal of a **70% efficiency ratio**.\n*   **Goldman Sachs:** Is driving towards a **60% target**. The company noted that excluding selected items in 2023, the efficiency ratio would have been approximately **65%**, which was described as significantly better than the fully reported number but not yet at the desired level.\n*   **Capital One (COF):** Guided for the 2024 annual operating efficiency ratio (net of adjustments) to be **flat to modestly down** compared to 2023, assuming the CFPB late fee rule takes effect in October. If that rule is delayed, it would be a tailwind. Including the impact of ending the Walmart partnership, they expect the full-year 2024 operating efficiency ratio (net of adjustments) to be **modestly down** compared to 2023.",
+ "latency_seconds": 189.94,
+ "generated_at": "2026-09-07T11:45:27Z"
+}

@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid",
+ "question_id": "ref_them_14",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BAC_2024_Q4_prepared_remarks_200_026",
+  "GS_2024_Q4_prepared_remarks_200_016",
+  "BK_2024_Q4_prepared_remarks_200_014",
+  "BAC_2024_Q4_prepared_remarks_200_006",
+  "USB_2023_Q4_prepared_remarks_200_006"
+ ],
+ "raw_response": "Based on the provided context, the following was reported regarding investment banking revenue and fees for 2024 (with limited specific data for 2023):\n\n*   **Bank of America:** In Q4 2024, investment banking fees were $1.7 billion, representing a 44% year-over-year increase driven by mergers and acquisitions, strength in debt capital markets (specifically leverage finance), and equity capital markets fees. The company noted that Global Banking generated $8.1 billion in earnings for the full year 2024, with investment banking fees rebounding in 2024 after a prior period reserve release impacted Q4 total earnings. Additionally, Bank of America reported gaining share of industry revenue in investment banking during 2024.\n*   **Goldman Sachs:** While specific \"investment banking\" fee totals were not isolated, the firm reported that financing revenues across FICC and Equities rose 17% in 2024 to a record $9.1 billion.\n*   **Barclays:** Total revenue was up 5% year-over-year in 2024, with fee revenue up 6%. Investment services fees grew 7%, reflecting net-new business and higher market values.\n\nThe provided context does not contain specific total investment banking revenue or fee figures for the full year 2023, only year-over-year comparisons indicating growth in 2024.",
+ "latency_seconds": 454.89,
+ "generated_at": "2026-09-05T22:46:11Z"
+}

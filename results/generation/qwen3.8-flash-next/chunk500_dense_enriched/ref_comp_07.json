@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense_enriched",
+ "question_id": "ref_comp_07",
+ "category": "comparative",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "PNC_2023_Q4_prepared_remarks_500_000",
+  "PNC_2023_Q3_prepared_remarks_500_000",
+  "PNC_2023_Q3_prepared_remarks_500_006",
+  "USB_2024_Q3_prepared_remarks_500_000",
+  "USB_2023_Q3_prepared_remarks_500_000"
+ ],
+ "raw_response": "PNC framed its 2024 expense plan by stating an objective to keep core expenses stable, excluding one-time charges from a workforce reduction initiative that is expected to reduce 2024 expenses by approximately $325 million. This action was taken in addition to their Continuous Improvement Program (CIP), for which they expect savings within a similar range to the 2023 goal of $450 million.\n\nU.S. Bancorp framed its expense approach by stating it continues to prudently manage core expenses while identifying operational efficiencies across the business, noting that it is achieving the cost synergies anticipated from the Union Bank acquisition.",
+ "latency_seconds": 322.77,
+ "generated_at": "2026-09-07T11:27:43Z"
+}

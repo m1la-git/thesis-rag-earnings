@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense",
+ "question_id": "ref_fact_02",
+ "category": "factual",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "AXP_2024_Q3_prepared_remarks_500_000",
+  "AXP_2023_Q4_prepared_remarks_500_000",
+  "AXP_2023_Q3_prepared_remarks_500_007",
+  "AXP_2024_Q4_prepared_remarks_500_001",
+  "AXP_2023_Q3_prepared_remarks_500_000"
+ ],
+ "raw_response": "American Express raised its full-year EPS guidance to between $13.75 and $14.05.",
+ "latency_seconds": 53.78,
+ "generated_at": "2026-09-07T11:48:02Z"
+}

@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid",
+ "question_id": "ref_them_12",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "WFC_2023_Q4_prepared_remarks_200_029",
+  "MS_2023_Q4_prepared_remarks_200_002",
+  "GS_2023_Q4_prepared_remarks_200_003",
+  "BK_2023_Q4_qa_200_001",
+  "STT_2023_Q4_prepared_remarks_200_002"
+ ],
+ "raw_response": "Based on the provided context, several firms discussed their wealth management businesses and related investments for 2023:\n\n*   **Wells Fargo (WFC):** The firm stated that revenue growth from investments in Wealth and Investment Management would help fund additional investments. They noted that these drivers were intended to close performance gaps and improve returns.\n*   **Morgan Stanley (MS):** The company highlighted that its wealth and investment management business line generated operating leverage and high returns during the 2020–2022 period following acquisitions of E*TRADE and Eaton Vance. In 2023, despite challenges, the firm’s business model produced consistent results, contributing to $54 billion in total revenues and a 13% return on tangible common equity.\n*   **Goldman Sachs (GS):** The firm reported driving solid investment performance and consistent growth in its Asset & Wealth Management segment. This included growth in durable revenue bases such as management fees, other fees, and private banking and lending revenues. Additionally, Goldman surpassed its five-year alternatives fundraising target one year early.\n*   **Bank of New York Mellon (BK):** The firm indicated it was making investments in wealth management where they were \"beginning to see green shoots.\" These investments are part of a broader strategy that includes modernizing platforms and driving efficiency across all segments.",
+ "latency_seconds": 387.52,
+ "generated_at": "2026-09-05T22:45:03Z"
+}

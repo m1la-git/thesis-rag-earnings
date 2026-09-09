@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid",
+ "question_id": "ref_comp_01",
+ "category": "comparative",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "GS_2024_Q2_qa_200_020",
+  "USB_2023_Q4_qa_200_016",
+  "JPM_2023_Q3_prepared_remarks_200_017",
+  "GS_2024_Q1_prepared_remarks_200_014",
+  "C_2023_Q4_prepared_remarks_200_001"
+ ],
+ "raw_response": "Based on the provided context, Goldman Sachs characterized the Basel III endgame uncertainty as a factor that would be resolved through \"significant modifications\" to the proposed rule, which they expected would provide them with \"materially more flexibility on capital deployment.\" In contrast, Citi’s prepared remarks in late 2023 did not explicitly characterize the Basel III endgame; instead, Jane Fraser focused on the company's progress in simplifying operations and executing its strategy, noting that Q4 results were disappointing. The context does not contain specific statements from Citi regarding their characterization of Basel III uncertainty during this period.",
+ "latency_seconds": 114.25,
+ "generated_at": "2026-09-03T11:46:17Z"
+}

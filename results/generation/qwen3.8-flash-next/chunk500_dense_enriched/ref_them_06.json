@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense_enriched",
+ "question_id": "ref_them_06",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "WFC_2023_Q4_prepared_remarks_500_009",
+  "FITB_2023_Q4_prepared_remarks_500_002",
+  "FITB_2023_Q4_prepared_remarks_500_009",
+  "FITB_2024_Q2_prepared_remarks_500_006",
+  "BAC_2023_Q4_prepared_remarks_500_002"
+ ],
+ "raw_response": "Based on the provided context, Fifth Third (FITB) projected a full-year efficiency ratio of around 57% for 2024. The text does not provide specific efficiency ratio levels or targets for other banks mentioned (Wells Fargo and Bank of America), though it notes that Bank of America achieved 170 basis points of operating leverage in 2023 and Fifth Third anticipated returning to positive operating leverage in the second half of 2024.",
+ "latency_seconds": 119.53,
+ "generated_at": "2026-09-07T11:24:19Z"
+}

@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25",
+ "question_id": "ref_them_07",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "FITB_2023_Q1_prepared_remarks_500_005",
+  "FITB_2023_Q1_prepared_remarks_500_001",
+  "COF_2024_Q2_prepared_remarks_500_003",
+  "AXP_2023_Q1_qa_500_001",
+  "FITB_2024_Q2_prepared_remarks_500_006"
+ ],
+ "raw_response": "Based on the provided context, Fifth Third Bank described its expected average deposits for the second quarter of 2023 to be stable or up 1% on a sequential basis. Additionally, they noted that end-of-period total deposit balances ended the first quarter above the level seen on March 8, following the failure of Silicon Valley Bank, and consumer household growth accelerated after the turmoil in March.",
+ "latency_seconds": 191.45,
+ "generated_at": "2026-09-03T12:15:27Z"
+}

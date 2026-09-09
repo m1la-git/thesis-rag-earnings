@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25_enriched",
+ "question_id": "ref_them_04",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "FITB_2023_Q1_prepared_remarks_500_000",
+  "BK_2024_Q1_prepared_remarks_500_001",
+  "BK_2023_Q4_prepared_remarks_500_001",
+  "USB_2024_Q4_prepared_remarks_500_003",
+  "BK_2023_Q1_prepared_remarks_500_002"
+ ],
+ "raw_response": "Based on the provided context, banks described their progress on positive operating leverage as follows:\n\n*   **BNY Mellon (Q1 2023):** Reported delivering positive operating leverage on a year-over-year basis.\n*   **BNY Mellon (Full Year 2023):** Generated approximately 180 basis points of positive operating leverage excluding notable items, which contributed to improvements in pre-tax margin and return on tangible common equity.\n*   **BNY Mellon (Q1 2024):** Delivered positive operating leverage both on a reported basis and excluding notable items, consistent with their goal to generate at least some operating leverage for the year.\n*   **Fifth Third (Q1 2023):** Generated nine points of year-over-year positive operating leverage driven by an 18% increase in revenue.",
+ "latency_seconds": 94.61,
+ "generated_at": "2026-09-07T11:19:04Z"
+}

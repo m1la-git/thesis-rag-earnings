@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25",
+ "question_id": "ref_them_01",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "MTB_2024_Q2_prepared_remarks_200_011",
+  "JPM_2024_Q4_prepared_remarks_200_009",
+  "C_2024_Q4_prepared_remarks_200_010",
+  "C_2023_Q4_prepared_remarks_200_017",
+  "WFC_2024_Q1_prepared_remarks_200_012"
+ ],
+ "raw_response": "Banks reported that the FDIC special assessment significantly increased expenses in late 2023 and early 2024, with its absence or reduction driving year-over-year expense declines in subsequent periods. Specifically:\n\n*   **M&T Bank (Q2 2024):** Reported a $5 million charge for the FDIC special assessment in Q2 2024, down from $29 million in the prior quarter (Q1 2024).\n*   **JPMorgan Chase (Q4 2024):** Noted that expenses were down $3 billion year-over-year, predominantly driven by the absence of the $2.9 billion FDIC special assessment incurred in the prior year (2023).\n*   **Citigroup (Q4 2024 and Q4 2023):** Reported that Q4 2024 expenses were down 18% largely due to the absence of the FDIC special assessment from the prior year. In their full-year 2023 review, they noted that excluding the FDIC special assessment and divestiture impacts, full-year expenses were $54.3 billion.\n*   **Wells Fargo (Q1 2024):** Reported a 5% increase in non-interest expense from a year ago, driven partly by the FDIC special assessment. They noted that excluding this assessment, their full-year 2024 non-interest expense guidance remained unchanged at approximately $52.6 billion.",
+ "latency_seconds": 81.48,
+ "generated_at": "2026-09-07T11:05:14Z"
+}

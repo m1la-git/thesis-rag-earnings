@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense_enriched",
+ "question_id": "ref_comp_06",
+ "category": "comparative",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "FITB_2023_Q1_prepared_remarks_500_000",
+  "BAC_2023_Q3_prepared_remarks_500_003",
+  "FITB_2023_Q3_prepared_remarks_500_001",
+  "BAC_2023_Q1_prepared_remarks_500_013",
+  "BAC_2023_Q3_prepared_remarks_500_014"
+ ],
+ "raw_response": "In the first quarter of 2023, Bank of America reported seven consecutive quarters of operating leverage, with consumer banking delivering its eighth consecutive quarter of strong operating leverage. This was driven by top-line revenue growth of 21% in consumer banking and overall company efficiency improvements that kept nominal expenses similar to levels seen eight to ten years prior.\n\nFifth Third generated nine points of year-over-year positive operating leverage, which was driven by an 18% increase in revenue.",
+ "latency_seconds": 393.73,
+ "generated_at": "2026-09-05T14:55:20Z"
+}

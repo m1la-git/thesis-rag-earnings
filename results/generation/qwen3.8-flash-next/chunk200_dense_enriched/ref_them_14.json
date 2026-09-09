@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense_enriched",
+ "question_id": "ref_them_14",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BAC_2024_Q4_prepared_remarks_200_026",
+  "BAC_2024_Q4_prepared_remarks_200_006",
+  "BAC_2023_Q4_prepared_remarks_200_031",
+  "GS_2024_Q4_prepared_remarks_200_016",
+  "BAC_2024_Q3_prepared_remarks_200_023"
+ ],
+ "raw_response": "Banks reported that investment banking fees rebounded in 2024 after a sluggish environment in 2023. In Q4 2023, Bank of America’s overall investment banking fees were $1.1 billion, growing 7% year-over-year despite an industry fee pool down 8%. By Q4 2024, Bank of America’s investment banking fees rose to $1.7 billion, a 44% increase year-over-year, driven by mergers and acquisitions, debt capital markets (particularly leveraged finance), and equity capital markets. Goldman Sachs also reported record financing revenues across FICC and Equities in 2024, rising 17% to $9.1 billion.",
+ "latency_seconds": 206.98,
+ "generated_at": "2026-09-07T10:54:24Z"
+}

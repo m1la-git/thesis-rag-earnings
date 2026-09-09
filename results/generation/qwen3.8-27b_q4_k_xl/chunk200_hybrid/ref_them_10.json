@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid",
+ "question_id": "ref_them_10",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "AXP_2023_Q4_prepared_remarks_200_012",
+  "AXP_2024_Q2_prepared_remarks_200_010",
+  "AXP_2023_Q1_prepared_remarks_200_011",
+  "HBAN_2023_Q4_prepared_remarks_200_002",
+  "USB_2023_Q4_qa_200_026"
+ ],
+ "raw_response": "Based on the provided context, American Express reported that loan and card member receivable growth moderated from 13% year-over-year in Q4 2023 to 11% in Q2 2024. While this growth is expected to continue moderating through 2024, it remains elevated compared to pre-pandemic levels and is growing modestly faster than billings. American Express attributed its strong, best-in-class credit performance to a high-quality customer base, robust risk management, and disciplined growth strategies, noting that write-off and delinquency rates ticked up in Q4 2023 but are expected to remain generally stable for the remainder of 2024.\n\nBank of America stated that there continues to be nice growth in the credit card space, particularly among prime and super-prime customers. They noted that while they make marginal adjustments to underwriting due to economic uncertainties and consumer pressure, they expect the overall credit performance of their credit card business to remain very strong through the cycle.\n\nHuntington Bancshares indicated that it outperformed on loans throughout 2023 while effectively managing deposit beta. The bank stated that credit trends are normalizing as expected and that they continue to believe they will outperform the industry on credit through the cycle, consistent with their moderate to low risk appetite.",
+ "latency_seconds": 192.33,
+ "generated_at": "2026-09-03T11:47:35Z"
+}

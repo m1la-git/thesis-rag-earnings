@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25_enriched",
+ "question_id": "ref_them_04",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BK_2023_Q3_qa_200_019",
+  "BK_2023_Q1_prepared_remarks_200_006",
+  "USB_2024_Q4_qa_200_024",
+  "BK_2024_Q1_prepared_remarks_200_003",
+  "BK_2024_Q4_qa_200_024"
+ ],
+ "raw_response": "In late 2023, Bank of America’s CEO stated that the company was committed to achieving aggregate positive operating leverage for the following year, expressing confidence due to ongoing investments. By Q1 2024, Bank of America reported that it had delivered positive operating leverage on both a reported basis and excluding notable items, with expenses growing at a slower rate than revenue.\n\nAdditionally, in early 2023 (Q1), another bank noted that it had delivered positive operating leverage year-over-year while bending the cost curve and cutting core expense growth by roughly half compared to the prior year. In late 2024, U.S. Bancorp guided for at least 200 basis points of positive operating leverage, emphasizing a conservative approach to ensure confidence in their ability to manage expenses and capitalize on revenue inflection points.",
+ "latency_seconds": 65.8,
+ "generated_at": "2026-09-05T14:11:37Z"
+}

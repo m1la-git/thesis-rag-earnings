@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense",
+ "question_id": "ref_them_11",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "COF_2023_Q4_prepared_remarks_500_005",
+  "COF_2024_Q3_prepared_remarks_500_004",
+  "COF_2023_Q4_qa_500_008",
+  "MTB_2023_Q4_prepared_remarks_500_004",
+  "C_2024_Q4_qa_500_003"
+ ],
+ "raw_response": "Based on the provided context, banks characterized their net charge-off levels and directions as follows:\n\n**Capital One (COF)**\n*   **2023:** Capital One stated that its net charge-offs were \"leveling off\" and stabilizing. In the fourth quarter of 2023, net charge-offs were approximately 15% above 2018 levels. The company concluded that charge-offs were stabilizing at about 15% above 2019 levels.\n*   **2024:** For the third quarter of 2024, the Commercial Banking annualized net charge-off rate increased by 7 basis points from the previous quarter to 0.22%. In the auto business, charge-offs were described as \"strong and stable.\"\n\n**M&T Bank (MTB)**\n*   **2023:** Net charge-offs for the fourth quarter totaled $148 million (44 basis points), which was an increase of 15 basis points over the linked quarter. This increase was largely driven by specific office-related and C&I charge-offs.\n\n**Citigroup (C)**\n*   **2024:** For the full year 2024, Citigroup expected net credit losses to be at the high end of their guidance ranges: approximately 6.28% for retail services and creeping up toward 4% for branded cards.",
+ "latency_seconds": 248.16,
+ "generated_at": "2026-09-07T11:51:16Z"
+}

@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid_enriched",
+ "question_id": "ref_them_03",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "WFC_2023_Q1_prepared_remarks_500_005",
+  "WFC_2023_Q3_prepared_remarks_500_005",
+  "USB_2023_Q1_qa_500_009",
+  "BAC_2023_Q2_prepared_remarks_500_012",
+  "WFC_2024_Q2_prepared_remarks_500_006"
+ ],
+ "raw_response": "During 2023, several major banks highlighted specific trends regarding their commercial real estate (CRE) office portfolios and associated allowances:\n\n**Wells Fargo (Q1 2023)**\n*   **Exposure:** The bank reported $154.7 billion in total CRE loans, with office loans representing 35.7% of that portfolio (or 4% of total loans). They noted the office market showed signs of weakness due to lower demand and higher financing costs.\n*   **Actions & Allowance:** Wells Fargo increased its allowance for credit losses by $643 million in Q1, primarily driven by commercial real estate office loans. The bank stated it was derisking the portfolio, with commitments declining 5% year-over-year. They noted that while they had not yet seen meaningful loss content, they expected more stress over time.\n\n**Wells Fargo (Q3 2023)**\n*   **Exposure:** Office loans stood at $32.2 billion, down 3% from the previous quarter and representing 3% of total loans outstanding. The office market remained weak with high vacancy rates.\n*   **Actions & Allowance:** Nonperforming assets increased 17% from Q2, driven by a $1.3 billion increase in office nonaccrual loans. The allowance for credit losses increased by $333 million in Q3, primarily for commercial real estate office loans and higher credit card balances.\n\n**Bank of America (Q2 2023)**\n*   **Exposure:** Commercial real estate office credit exposure represented less than 2% of total loans. The bank noted an increase in charge-offs related to CRE office exposures, which offset a decrease in C&I losses.\n*   **Actions & Allowance:** Bank of America emphasized that they had been intentional regarding client selection, portfolio concentration, and deal structure over many years. Provision expense included a reserve build driven by loan growth and a macroeconomic outlook expecting unemployment to rise above 5% in 2024.\n\n**U.S. Bancorp (Q1 2023)**\n*   **Exposure:** Management stated they do not have a large exposure to CRE office, having been very conservative and not adding significant CRE office loans over the last many years.\n*   **Outlook:** Despite the smaller exposure, they identified office real estate as an area of focus due to tenant behavior changes and sponsor pressures that could accelerate industry stress.",
+ "latency_seconds": 294.17,
+ "generated_at": "2026-09-05T15:05:59Z"
+}

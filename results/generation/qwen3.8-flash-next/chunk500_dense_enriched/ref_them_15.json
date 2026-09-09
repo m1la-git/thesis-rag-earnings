@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense_enriched",
+ "question_id": "ref_them_15",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BAC_2023_Q4_prepared_remarks_500_010",
+  "MTB_2024_Q4_qa_500_005",
+  "C_2023_Q4_prepared_remarks_500_007",
+  "WFC_2023_Q4_prepared_remarks_500_009",
+  "BAC_2023_Q2_qa_500_002"
+ ],
+ "raw_response": "Based on the provided context, here is the information regarding technology spending and related expenses for 2023 and 2024:\n\n**Technology Spending in 2023:**\n*   **Citigroup (C):** Invested over $12 billion in technology in 2023. This included transformation investments (roughly 30% of which were in technology) as well as spending on digital innovation, new product development, client experience enhancements, cloud, and cyber infrastructure.\n\n**Technology Spending in 2024:**\n*   The provided context does not specify the total dollar amount banks planned to spend on technology specifically for 2024. However, it notes that **Bank of America (BAC)** expects continued digital transformation and adoption to help reduce quarterly expenses throughout 2024, and **M&T Bank (MTB)** stated they are continuing significant investments in 2025 (implying ongoing investment through the period), including major projects like new data centers and a general ledger system.\n\n**Changes in Related G&A/Expense:**\n*   **Bank of America (BAC):** Reported Q4 2023 adjusted expenses of $15.6 billion, which was only $94 million higher than Q4 2022 despite increased investments in new tech initiatives and other costs. They expect Q1 2024 expenses to rise seasonally to approximately $16.4 billion but anticipate quarterly expenses will decline from that level through the rest of 2024 due to operational excellence, digital transformation, and lower payroll taxes.\n*   **Citigroup (C):** Full-year 2023 expenses were $54.3 billion (excluding FDIC special assessment and divestiture impacts). Expense growth was driven by transformation and business-led investments, volume-related expenses, and risk/controls technology, partially offset by productivity savings. They noted a shift in spending from consulting to technology and compensation as execution deepened.\n*   **Wells Fargo (WFC):** Reported 2023 non-interest expense of $55.6 billion ($53.6 billion excluding the FDIC special assessment). For 2024, they expect \"all other expenses\" to be flat, which includes both significant efficiencies and increased investments. They anticipate approximately $2.7 billion in gross expense reductions from efficiency initiatives in 2024 but will continue making significant separate investments in risk and control infrastructure.\n*   **M&T Bank (MTB):** Stated that while they are undertaking major technology investments (such as cloud, data centers, and a new general ledger system) in 2025, these are one-time or multi-decade projects that will eventually \"fall off,\" allowing for lower expenses and efficiencies in the future.",
+ "latency_seconds": 361.74,
+ "generated_at": "2026-09-07T11:28:22Z"
+}

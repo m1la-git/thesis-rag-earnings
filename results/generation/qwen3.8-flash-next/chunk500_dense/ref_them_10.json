@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense",
+ "question_id": "ref_them_10",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "AXP_2023_Q1_prepared_remarks_500_004",
+  "COF_2023_Q2_qa_500_004",
+  "BAC_2023_Q4_prepared_remarks_500_001",
+  "JPM_2024_Q4_prepared_remarks_500_004",
+  "COF_2024_Q4_qa_500_017"
+ ],
+ "raw_response": "Based on the provided transcripts, banks reported the following regarding credit card growth and credit performance during 2023 and 2024:\n\n**Credit Card Growth**\n*   **American Express (Q1 2023):** Reported robust year-over-year growth in spending volumes, with International Card Services travel and entertainment growing 58%. Loan balances grew 25% year-over-year, driven primarily by existing customers rebuilding balances. The company expected loan balance growth to moderate through 2023 but remain elevated compared to pre-pandemic levels.\n*   **Capital One (Q2 2023 & Q4 2024):** In mid-2023, Capital One noted that while overall purchase volume was up 7% year-over-year due to customer base growth, spend per customer had moderated and was generally flat. By the end of 2024, however, spend per customer in the consumer business began to pick up midway through the year and grew further in Q4, marking a positive trajectory after being largely flat through 2023 and early 2024.\n*   **JPMorgan Chase (Q4 2024):** Reported healthy card loan growth in 2024 but expected this pace to slow below the 12% seen in 2024, as tailwinds from \"revolve normalization\" were largely behind them.\n\n**Card Credit Performance**\n*   **American Express (Q1 2023):** Stated that write-off and delinquency rates remained below pre-pandemic levels but continued to move up as expected. The company anticipated these rates would increase over time but likely remain below pre-pandemic levels in 2023. This trend resulted in a $320 million reserve build and $1.1 billion in provision expense for the quarter.\n*   **Capital One (Q2 2023 & Q4 2024):** In 2023, management acknowledged \"credit normalization\" with an upward slope to credit costs, though levels remained attractive. By late 2024, Capital One reported stability in the performance of recent card originations (\"vintages\"), noting that risk levels were mostly stable over time and the front book continued to perform in line with pre-pandemic standards.\n*   **JPMorgan Chase (Q4 2024):** Guided for a 2025 card net charge-off rate of approximately 3.6%, which was in line with previous guidance.",
+ "latency_seconds": 306.86,
+ "generated_at": "2026-09-07T11:52:15Z"
+}

@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25_enriched",
+ "question_id": "ref_them_10",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "AXP_2023_Q4_prepared_remarks_200_012",
+  "WFC_2024_Q4_qa_200_002",
+  "AXP_2024_Q1_qa_200_024",
+  "COF_2024_Q1_qa_200_003",
+  "JPM_2024_Q3_prepared_remarks_200_004"
+ ],
+ "raw_response": "Based on the provided context, banks described credit card growth and credit performance as follows:\n\n*   **American Express (AXP):** In late 2023/early 2024, AXP reported year-over-year loan and card member receivables growth of 13%. They expected this elevated growth to moderate through 2024 but remain modestly faster than billings. Regarding credit performance, AXP cited \"strong and best-in-class\" metrics attributed to high customer quality and disciplined risk management, though they noted that write-off and delinquency rates continued to tick up in the quarter. In Q1 2024, AXP highlighted that revolving balances on their charge product were the fastest-growing segment of their lending products with the best credit performance among their lending offerings.\n*   **JPMorgan Chase (JPM):** In Q3 2024, JPM reported Card Services revenue up 11% year-on-year, driven by higher card net interest income on higher revolving balances. Card outstandings increased by 11% due to strong account acquisition and the normalization of revolve. Credit costs were $2.8 billion, with net charge-offs rising $520 million year-over-year to $1.9 billion, largely reflecting higher revolving balances.\n*   **Wells Fargo (WFC):** In Q4 2024, Wells Fargo indicated that early vintages of new credit card products launched approximately 3.5 years prior were beginning to mature and become more profitable, though they noted it was still \"early days\" for this profitability to fully appear in the P&L.\n*   **Capital One (COF):** In Q1 2024, Capital One mentioned seeing good growth opportunities in the card business while discussing the consumer environment and merger applications.",
+ "latency_seconds": 227.05,
+ "generated_at": "2026-09-05T22:07:04Z"
+}

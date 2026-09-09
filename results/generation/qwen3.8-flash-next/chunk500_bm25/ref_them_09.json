@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25",
+ "question_id": "ref_them_09",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "MTB_2024_Q1_prepared_remarks_500_001",
+  "BAC_2024_Q4_prepared_remarks_500_001",
+  "AXP_2023_Q1_prepared_remarks_500_005",
+  "JPM_2024_Q2_prepared_remarks_500_004",
+  "HBAN_2023_Q2_prepared_remarks_500_004"
+ ],
+ "raw_response": "Based on the provided context, here are the reported net interest margin (NIM) levels and trends for the specified periods:\n\n**M&T Bank (MTB)**\n*   **Q1 2024:** The net interest margin was **3.52%**. It moved **down** by 9 basis points from the linked quarter.\n\n**Huntington Bancshares (HBAN)**\n*   **Q2 2023:** While a specific NIM percentage for Q2 2023 is not explicitly stated in the text, the company anticipated a net interest margin of approximately **3%** by Q4 2023. This represented an expected decline from Q2 levels (core net interest income was projected to be down 1% to 2%). The trend for 2024 was expected to be stable to rising.\n\n**Bank of America (BAC)**\n*   **Q4 2024:** Net interest income on an FTE basis was $14.5 billion, which was better than expected and provided a starting point for record NII in 2025. The text notes that net interest income had bottomed out at $13.9 billion in Q2 2024, indicating an **upward** trend from the second quarter to the fourth quarter of 2024. A specific NIM percentage is not provided.\n\n**American Express (AXP)**\n*   **Q1 2023:** The text reports that net yield on card member loans increased 50 basis points sequentially, reaching pre-pandemic levels. It does not provide a consolidated bank-wide Net Interest Margin percentage.\n\n**JPMorgan Chase (JPM)**\n*   **Q2 2024:** The text notes that deposit margin compression offset other factors in the Asset & Wealth Management segment and that NII was up $626 million year-on-year in Corporate due to balance sheet mix and higher rates. A specific consolidated Net Interest Margin percentage is not provided.",
+ "latency_seconds": 240.09,
+ "generated_at": "2026-09-07T11:46:17Z"
+}

@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid",
+ "question_id": "ref_them_10",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "AXP_2023_Q1_prepared_remarks_500_004",
+  "COF_2024_Q4_qa_500_017",
+  "COF_2024_Q4_prepared_remarks_500_003",
+  "AXP_2023_Q4_prepared_remarks_500_005",
+  "COF_2023_Q2_qa_500_004"
+ ],
+ "raw_response": "Based on the provided transcripts, here is what American Express (AXP) and Capital One (COF) stated regarding credit card growth and credit performance in 2023 and 2024:\n\n**American Express (AXP)**\n*   **Growth:** In Q1 2023, spending volumes grew significantly (International Card Services travel and entertainment grew 58%), supporting revenue guidance. Loan balances grew 25% year-over-year, driven mostly by existing customers rebuilding balances. AXP expected loan balance growth to moderate through 2023 but remain elevated compared to pre-pandemic levels. By Q4 2023, total revenues were up 11% year-over-year, with discount revenue growing 5%.\n*   **Credit Performance:** In both Q1 and Q4 2023, AXP reported \"best-in-class\" credit performance with write-off and delinquency rates remaining below pre-pandemic levels. However, these rates continued to tick up as expected. The company anticipated modest increases in delinquency and write-off rates through 2024 but expected them to remain strong. Reserve builds occurred due to rising delinquencies and loan growth ($320 million in Q1 2023; $400 million in Q4 2023).\n\n**Capital One (COF)**\n*   **Growth:** In Q2 2023, Domestic Card purchase volume was up 7% year-over-year, driven by customer base growth rather than spend per customer, which had moderated to flat levels. By Q4 2024, purchase volume growth picked up, with spend per customer finally increasing after being largely flat through 2023 and the first half of 2024. Domestic Card marketing expenses increased in Q4 2024 to drive new account growth.\n*   **Credit Performance:** In Q2 2023, COF noted that credit was normalizing with an upward slope but remained at attractive levels; they did not predict exactly where it would settle. By Q4 2024, the company reported stability in the performance of recent originations (\"vintage over vintage\"), noting that risk levels were mostly stable and performing in line with pre-pandemic levels. The charge-off rate was down 8 basis points from the prior year in Q4 2024, though it rose sequentially by 45 basis points.",
+ "latency_seconds": 368.03,
+ "generated_at": "2026-09-07T11:58:26Z"
+}

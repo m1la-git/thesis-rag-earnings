@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid",
+ "question_id": "ref_them_02",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "MS_2023_Q2_qa_200_001",
+  "JPM_2023_Q3_prepared_remarks_200_007",
+  "JPM_2023_Q3_prepared_remarks_200_006",
+  "GS_2024_Q2_qa_200_020",
+  "PNC_2023_Q3_prepared_remarks_200_012"
+ ],
+ "raw_response": "Banks characterized the uncertainty surrounding the Basel III Endgame as significant, noting that while there was favorable momentum and public comments from regulators in 2024, substantial ambiguity remained regarding both the timing and the final quantum of the rules. In 2023, executives described the proposals as \"overcalibrated\" and criticized flaws in the framework's construct, arguing that it discouraged beneficial scale and diversification while exacerbating procyclicality. They highlighted that the current proposal would lead to substantial increases in capital requirements—such as a 45% increase for JPMorgan Chase relative to 2017 levels—and warned of negative impacts on credit pricing and availability.\n\nThis uncertainty directly affected capital actions by prompting banks to maintain higher capital cushions and pause share repurchases. For instance, Goldman Sachs noted it was operating at the wider end of its CET1 range (with a 90 bps cushion above normal) specifically to signal flexibility and address the remaining uncertainty regarding the Basel III Endgame. Similarly, PNC Bank stated that due to the \"fluidity\" of the capital proposals, its share repurchase activity remained on pause while it evaluated the potential impact of the rules.",
+ "latency_seconds": 158.73,
+ "generated_at": "2026-09-05T22:41:14Z"
+}

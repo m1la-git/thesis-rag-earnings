@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid",
+ "question_id": "ref_them_02",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "JPM_2023_Q3_prepared_remarks_500_001",
+  "GS_2024_Q2_qa_500_008",
+  "JPM_2023_Q3_prepared_remarks_500_002",
+  "GS_2023_Q3_prepared_remarks_500_002",
+  "MS_2023_Q2_qa_500_000"
+ ],
+ "raw_response": "Based on the provided context, banks characterized the uncertainty surrounding the Basel III endgame proposal as significant, disconcerting, and lacking detailed analysis to support the magnitude of proposed capital increases. They described the proposals as \"overcalibrated,\" \"conceptually flawed\" (specifically regarding GSIB surcharges), and potentially procyclical. Executives noted that the absence of a fix to the GSIB clause presents an indefinite headwind and that the rules, if implemented as proposed, would negatively impact US competitiveness, increase credit costs, and shift activity to shadow banking.\n\nRegarding capital actions, this uncertainty led banks to maintain higher-than-normal capital cushions and moderate share repurchases:\n*   **JPMorgan Chase** stated that the pace of buybacks would likely remain modest in light of the proposal. They noted their CET1 ratio increased by 50 basis points quarter-over-year and indicated they would continue to reassess the buyback trajectory as circumstances evolve.\n*   **Goldman Sachs** reported operating at the wider end of its capital range (running with a cushion above normal) to signal flexibility and address the uncertainty regarding both the quantum and timing of the Basel III endgame resolution. This buffer was designed to support client returns while maintaining prudence amidst lingering regulatory uncertainty.",
+ "latency_seconds": 266.14,
+ "generated_at": "2026-09-05T23:54:22Z"
+}

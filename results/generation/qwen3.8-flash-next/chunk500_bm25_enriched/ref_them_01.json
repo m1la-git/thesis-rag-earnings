@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25_enriched",
+ "question_id": "ref_them_01",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "WFC_2024_Q2_prepared_remarks_500_009",
+  "PNC_2024_Q1_prepared_remarks_500_003",
+  "WFC_2024_Q1_prepared_remarks_500_003",
+  "MTB_2024_Q2_prepared_remarks_500_004",
+  "MTB_2024_Q1_prepared_remarks_500_001"
+ ],
+ "raw_response": "Based on the provided context, banks reported the impact of the FDIC special assessment as follows:\n\n*   **Wells Fargo (Q1 2024):** Reported $284 million in expenses for the quarter due to updates from the FDIC regarding potential recoveries. This was in addition to a $1.9 billion expense recorded in the prior quarter (late 2023). Wells Fargo noted that the ultimate amount could change as the FDIC determines actual losses and recoveries.\n*   **Wells Fargo (Q2 2024):** Stated they did not anticipate the $336 million of expense incurred in the first half of the year for the special assessment, which was included in their updated full-year non-interest expense guidance.\n*   **PNC Financial Services (Q1 2024):** Reported a pretax, non-core, non-interest expense of $130 million ($103 million after tax) related to the increased FDIC special assessment.\n*   **M&T Bank (Q1 2024):** Included an additional FDIC special assessment in their results, which reduced diluted GAAP earnings per share from $3.15 (adjusted) to $3.02. The specific dollar amount for Q1 was not explicitly stated in the text, but it is referenced as a factor excluding non-core expenses.\n*   **M&T Bank (Q2 2024):** Reported $5 million related to the FDIC special assessment, compared to $29 million in the prior quarter (Q1).",
+ "latency_seconds": 134.34,
+ "generated_at": "2026-09-07T11:19:43Z"
+}

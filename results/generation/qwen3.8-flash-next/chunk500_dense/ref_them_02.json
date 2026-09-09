@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense",
+ "question_id": "ref_them_02",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "JPM_2023_Q2_prepared_remarks_500_006",
+  "GS_2023_Q3_prepared_remarks_500_002",
+  "JPM_2023_Q3_prepared_remarks_500_001",
+  "GS_2024_Q2_qa_500_008",
+  "USB_2024_Q3_qa_500_006"
+ ],
+ "raw_response": "Banks characterized the Basel III Endgame proposal as overly stringent, noting that the rules \"go way too far\" by failing to account for improvements made since the 2008 financial crisis. They argued that the proposed requirements would increase the cost of credit, shift risk to unregulated shadow banking sectors, and reduce U.S. competitiveness. JPMorgan described the lack of detailed analysis supporting such a large capital increase as \"disconcerting,\" while Goldman Sachs emphasized lingering uncertainty regarding both the quantum and timing of the resolution.\n\nRegarding capital actions, this uncertainty led banks to adopt cautious strategies:\n*   **JPMorgan** stated that the pace of share repurchases would likely remain modest in light of the proposal.\n*   **Goldman Sachs** maintained a CET1 ratio at the wider end of its range (90 basis points above normal) to signal flexibility and address uncertainty about future regulatory inputs, aiming to support client returns while maintaining a prudent buffer.\n*   **U.S. Bank** indicated it would build upon modest buybacks only once there was more clarity on the final capital rules, citing factors such as loan growth, rating agencies, and the pending revisions as reasons for not being aggressive ahead of the new set of rules.",
+ "latency_seconds": 108.22,
+ "generated_at": "2026-09-07T11:48:56Z"
+}

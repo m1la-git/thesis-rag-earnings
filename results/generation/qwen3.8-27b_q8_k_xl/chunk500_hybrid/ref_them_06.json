@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid",
+ "question_id": "ref_them_06",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "COF_2023_Q4_prepared_remarks_500_006",
+  "COF_2024_Q3_prepared_remarks_500_004",
+  "FITB_2024_Q2_prepared_remarks_500_006",
+  "STT_2023_Q4_prepared_remarks_500_004",
+  "COF_2024_Q2_prepared_remarks_500_004"
+ ],
+ "raw_response": "Based on the provided context, the following efficiency ratio levels and targets were discussed by Capital One (COF) and Fifth Third Bancorp (FITB):\n\n**Capital One (COF)**\n*   **2023 Actual:** The company posted an annual operating efficiency ratio, net of adjustments, of 43.5% in 2023.\n*   **2024 Guidance/Target:**\n    *   Initially guided to be flat to modestly down compared to 2023, assuming the CFPB late fee rule took effect in October 2024 and including the positive impact from the end of the Walmart partnership revenue sharing.\n    *   By Q3 2024, the company updated its expectation for the full-year 2024 annual operating efficiency ratio (net of adjustments) to be in the **low 42s**. This update reflected the removal of the assumption that the CFPB late fee rule would take effect in 2024 due to litigation uncertainty.\n    *   The year-to-date operating efficiency ratio through September 2024 was reported at 41.7%.\n\n**Fifth Third Bancorp (FITB)**\n*   **2024 Outlook:** The company projected a full-year 2024 efficiency ratio of around **57%**. This outlook assumed stable adjusted non-interest expense compared to 2023 levels, despite continued investments in technology and sales additions.\n\n**State Street Corporation (STT)**\n*   While STT discussed returning approximately 100% of earnings as capital in 2024 and implementing productivity initiatives to drive operating model efficiency, the provided text does not specify a numerical target or level for their overall efficiency ratio.",
+ "latency_seconds": 550.45,
+ "generated_at": "2026-09-05T23:59:06Z"
+}

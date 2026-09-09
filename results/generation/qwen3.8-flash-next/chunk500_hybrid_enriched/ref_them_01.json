@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid_enriched",
+ "question_id": "ref_them_01",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BK_2024_Q4_prepared_remarks_500_006",
+  "C_2023_Q4_prepared_remarks_500_005",
+  "BAC_2024_Q4_prepared_remarks_500_007",
+  "WFC_2024_Q1_prepared_remarks_500_005",
+  "WFC_2023_Q4_prepared_remarks_500_009"
+ ],
+ "raw_response": "Banks reported that the fourth quarter of 2023 included a large FDIC special assessment charge, which caused reported expenses to decrease year-over-year when compared to subsequent periods. For example, one bank noted that excluding this notable item, expenses were up 1% in Q4 2024 due to higher investments and merit increases, while another stated that reported expenses of $16 billion included the assessment, but excluding it, expenses increased by 10%. In early 2024, one bank noted a roughly $300 million release of prior period accruals for the FDIC special assessment, which partially offset expense increases. Another bank indicated that its full-year 2024 non-interest expense guidance was unchanged despite including the impact of the FDIC special assessment in the first quarter.",
+ "latency_seconds": 118.59,
+ "generated_at": "2026-09-07T11:30:20Z"
+}

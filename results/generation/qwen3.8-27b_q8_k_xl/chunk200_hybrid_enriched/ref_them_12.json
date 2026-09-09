@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid_enriched",
+ "question_id": "ref_them_12",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "MS_2023_Q4_prepared_remarks_200_002",
+  "BK_2023_Q3_prepared_remarks_200_009",
+  "MS_2023_Q4_qa_200_036",
+  "BK_2023_Q4_prepared_remarks_200_005",
+  "GS_2023_Q4_prepared_remarks_200_003"
+ ],
+ "raw_response": "Based on the provided context, the firms discussed the following regarding their wealth management businesses in 2023:\n\n*   **Morgan Stanley:** The firm noted that its wealth business generated operating leverage and high returns. It highlighted that client assets in durable businesses have tripled since the transformation began, with significant opportunities for further growth. Management emphasized the successful integration of Smith Barney to build a world-class wealth manager with high barriers to entry, driven by leadership from Andy Saperstein and others.\n*   **Bank of New York Mellon (BNY Mellon):** The firm stated that global clients trust them to do more business as they partner to achieve client ambitions. They launched new solutions in 2023 to deepen relationships, including the \"Wove\" platform, which connects investment management and broker-dealer clearing/custody solutions from Pershing. Examples of this expansion included partnerships with Integrity and Lincoln Investment.\n*   **Goldman Sachs:** In its Asset & Wealth Management division, the firm reported solid investment performance and consistent growth in a more durable revenue base consisting of management fees, other fees, and private banking and lending revenues. They also noted that they surpassed their five-year alternatives fundraising target one year early.",
+ "latency_seconds": 393.86,
+ "generated_at": "2026-09-05T22:23:29Z"
+}

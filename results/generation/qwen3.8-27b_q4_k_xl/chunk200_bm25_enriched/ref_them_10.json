@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25_enriched",
+ "question_id": "ref_them_10",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "AXP_2023_Q4_prepared_remarks_200_012",
+  "WFC_2024_Q4_qa_200_002",
+  "AXP_2024_Q1_qa_200_024",
+  "COF_2024_Q1_qa_200_003",
+  "JPM_2024_Q3_prepared_remarks_200_004"
+ ],
+ "raw_response": "Based on the provided context, banks described credit card growth and credit performance as follows:\n\n*   **American Express (AXP):** In late 2023/early 2024, loans and card member receivables grew 13% year-over-year. While this elevated growth was expected to moderate through 2024, it was still projected to grow modestly faster than billings. The company reported \"strong and best-in-class credit metrics,\" attributing this to high customer credit quality, robust risk management, and disciplined growth. However, write-off and delinquency rates did tick up in the quarter. In Q1 2024, AXP noted that revolving balances on charge products were the fastest-growing segment of their balances and exhibited the best credit performance among their lending products.\n*   **JPMorgan Chase (JPM):** In Q3 2024, card outstandings increased by 11% year-over-year due to strong account acquisition and the continued normalization of revolve. Credit costs were $2.8 billion, with net charge-offs rising $520 million year-over-year to $1.9 billion, driven predominantly by higher revolving balances.\n*   **Wells Fargo (WFC):** In Q4 2024, management indicated that early vintages of new credit card products launched approximately 3.5 years prior were beginning to mature and become more profitable, though they noted it was still \"early days\" for this profitability to fully appear in the P&L.\n*   **Capital One (COF):** In Q1 2024, executives mentioned seeing good growth opportunities in the card business while discussing the competitive environment and consumer health.",
+ "latency_seconds": 194.31,
+ "generated_at": "2026-09-05T14:13:46Z"
+}

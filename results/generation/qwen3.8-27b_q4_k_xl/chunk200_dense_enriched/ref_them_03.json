@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense_enriched",
+ "question_id": "ref_them_03",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "USB_2023_Q3_prepared_remarks_200_008",
+  "BAC_2023_Q2_prepared_remarks_200_032",
+  "COF_2023_Q3_prepared_remarks_200_004",
+  "WFC_2023_Q3_prepared_remarks_200_014",
+  "WFC_2023_Q4_prepared_remarks_200_012"
+ ],
+ "raw_response": "During 2023, several major banks highlighted specific trends regarding their commercial real estate (CRE) office portfolios and associated allowances:\n\n*   **U.S. Bancorp** increased its reserve ratio for commercial real estate office loans to 10% due to higher interest rates and portfolio considerations. Its nonperforming assets to loans ratio rose to 0.35% by September 30, and the third-quarter net charge-off ratio was 0.44%. The allowance for credit losses totaled $7.8 billion, or 2.08% of total loans.\n*   **Bank of America** noted that CRE office exposure represented less than 2% of its total loans. It reported $70 million in charge-offs on office exposures in the second quarter (up from $15 million in the first quarter) to write down properties with deteriorated loan-to-value ratios, while maintaining low nonperforming loans and realized losses for this segment.\n*   **Capital One** increased its allowance by $97 million in its Commercial Banking business during the third quarter, driven partly by rising interest rates impacting its commercial office portfolio. The bank also completed the sale of approximately $900 million in loans from its commercial office portfolio that had been marked as held for sale.\n*   **Wells Fargo** saw increases in both nonaccrual loans and allowances specifically tied to CRE office exposures. In Q3, a $1.3 billion increase in office nonaccrual loans drove the rise in CRE nonaccruals, leading to a $333 million increase in the allowance for credit losses. In Q4, office non-accrual loans increased by another $567 million, contributing to a slight overall increase in the allowance for credit losses driven by commercial real estate and credit card loans.",
+ "latency_seconds": 182.56,
+ "generated_at": "2026-09-05T14:17:41Z"
+}

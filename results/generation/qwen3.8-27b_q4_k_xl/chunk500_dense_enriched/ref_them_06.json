@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense_enriched",
+ "question_id": "ref_them_06",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "WFC_2023_Q4_prepared_remarks_500_009",
+  "FITB_2023_Q4_prepared_remarks_500_002",
+  "FITB_2023_Q4_prepared_remarks_500_009",
+  "FITB_2024_Q2_prepared_remarks_500_006",
+  "BAC_2023_Q4_prepared_remarks_500_002"
+ ],
+ "raw_response": "Based on the provided context, only Fifth Third Bancorp (FITB) explicitly discusses specific efficiency ratio levels. In its Q2 2024 prepared remarks, FITB stated that its outlook projects an **efficiency ratio of around 57%** for the full year 2024. The text does not provide specific efficiency ratio figures or targets for Wells Fargo (WFC) or Bank of America (BAC), though both banks discussed expense discipline and reductions in headcount and non-interest expenses during this period.",
+ "latency_seconds": 296.45,
+ "generated_at": "2026-09-05T14:53:43Z"
+}

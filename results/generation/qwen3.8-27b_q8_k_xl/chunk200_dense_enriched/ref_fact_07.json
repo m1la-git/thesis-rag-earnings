@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense_enriched",
+ "question_id": "ref_fact_07",
+ "category": "factual",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BAC_2023_Q4_prepared_remarks_200_006",
+  "BAC_2024_Q4_prepared_remarks_200_005",
+  "BAC_2024_Q3_prepared_remarks_200_013",
+  "BAC_2023_Q4_prepared_remarks_200_003",
+  "BAC_2024_Q4_prepared_remarks_200_023"
+ ],
+ "raw_response": "Bank of America’s overall rate paid on deposits decreased from 210 basis points in the third quarter to 194 basis points in the fourth quarter of 2024. Additionally, within the Consumer Banking segment specifically, the rate paid declined to 64 basis points in the fourth quarter.",
+ "latency_seconds": 131.66,
+ "generated_at": "2026-09-05T22:10:32Z"
+}

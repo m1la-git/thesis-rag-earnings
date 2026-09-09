@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid",
+ "question_id": "ref_them_04",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BAC_2023_Q4_prepared_remarks_200_005",
+  "BK_2024_Q4_prepared_remarks_200_006",
+  "USB_2024_Q3_qa_200_005",
+  "USB_2024_Q4_prepared_remarks_200_008",
+  "BK_2024_Q2_prepared_remarks_200_020"
+ ],
+ "raw_response": "Banks described their progress on positive operating leverage as follows:\n\n*   **Bank of America (Full Year 2023):** Achieved 170 basis points of operating leverage, driven by good expense discipline that lowered heightened quarterly expense levels throughout the year.\n*   **BNY Mellon (Full Year 2024):** Delivered 968 basis points of positive operating leverage on a reported basis and 288 basis points excluding notable items, meeting their goal to at least break even despite an approximately 10% net interest income headwind.\n*   **U.S. Bancorp (Q3 2024):** Reported positive operating leverage of approximately 30 basis points in the third quarter and guided for greater than 200 basis points of positive operating leverage for full-year 2025.",
+ "latency_seconds": 54.16,
+ "generated_at": "2026-09-07T11:10:06Z"
+}

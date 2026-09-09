@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid_enriched",
+ "question_id": "ref_them_14",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BAC_2024_Q4_prepared_remarks_200_026",
+  "BAC_2023_Q4_prepared_remarks_200_031",
+  "BAC_2024_Q3_prepared_remarks_200_023",
+  "GS_2024_Q4_prepared_remarks_200_016",
+  "GS_2023_Q4_prepared_remarks_200_003"
+ ],
+ "raw_response": "Based on the provided context, here is what was reported regarding investment banking revenue and fees for Bank of America (BAC) and Goldman Sachs (GS):\n\n**Bank of America (BAC)**\n*   **2024:**\n    *   Global Banking generated $8.1 billion in earnings, representing 30% of the company's total earnings.\n    *   Investment banking fees rebounded in 2024 and are expected to continue growing in 2025.\n    *   In Q4 2024, investment banking fees were $1.7 billion, a 44% year-over-year increase led by mergers and acquisitions, with strength also seen in debt capital markets (mostly leverage finance) and equity capital markets.\n    *   Global Banking earnings in Q4 2024 were $2.1 billion. Pretax pre-provision results were flat year-over-year as improved investment banking fees offset lower net interest income (NII) and higher expenses. Total earnings fell 13% year-over-year due to higher provision expense resulting from a prior period reserve release.\n    *   In Q3 2024, Global Banking produced $1.9 billion in earnings (down 26% year-over-year). Investment banking fees grew 18% year-over-year to $1.4 billion, led by debt capital markets fees in leveraged finance and investment grade.\n*   **2023:**\n    *   In Q4 2023, overall investment banking fees were $1.1 billion, growing 7% over the prior year despite an 8% decline in the fee pool.\n    *   The company maintained its number three position overall for the year, finishing number one in investment grade, number two in leverage finance, and number four in equity capital markets and mergers and acquisitions.\n\n**Goldman Sachs (GS)**\n*   **2024:**\n    *   Financing revenues across FICC and Equities rose 17% to a record $9.1 billion for the full year.\n*   **2023:**\n    *   The firm generated record total financing revenues across its Global Banking & Markets businesses (FICC and equities).",
+ "latency_seconds": 415.53,
+ "generated_at": "2026-09-05T14:28:39Z"
+}

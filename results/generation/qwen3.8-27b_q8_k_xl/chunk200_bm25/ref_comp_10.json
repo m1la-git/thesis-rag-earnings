@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25",
+ "question_id": "ref_comp_10",
+ "category": "comparative",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "HBAN_2023_Q1_prepared_remarks_200_016",
+  "FITB_2023_Q4_prepared_remarks_200_004",
+  "PNC_2023_Q2_prepared_remarks_200_008",
+  "BAC_2023_Q2_prepared_remarks_200_016",
+  "PNC_2024_Q2_prepared_remarks_200_005"
+ ],
+ "raw_response": "Based on the provided context, **PNC** stated that its tangible book value increased by 1% to $77.80 \"notwithstanding this AOCI impact,\" indicating they reported the figure including the negative effects of Accumulated Other Comprehensive Income (AOCI). They also noted that as lower-rate securities roll off, they expect a meaningful improvement to tangible book value from AOCI accretion.\n\n**Fifth Third** did not provide a specific tangible book value per share figure for 2023 in the text; instead, it focused on de-risking potential AOCI volatility by moving $12.6 billion of securities to held-to-maturity. This action was expected to reduce the impact of AOCI volatility on capital by about 30% if market rates rose again.",
+ "latency_seconds": 235.16,
+ "generated_at": "2026-09-05T22:33:11Z"
+}

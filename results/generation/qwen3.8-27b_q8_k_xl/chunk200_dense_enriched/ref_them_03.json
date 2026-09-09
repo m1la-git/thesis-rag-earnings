@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense_enriched",
+ "question_id": "ref_them_03",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "USB_2023_Q3_prepared_remarks_200_008",
+  "BAC_2023_Q2_prepared_remarks_200_032",
+  "COF_2023_Q3_prepared_remarks_200_004",
+  "WFC_2023_Q3_prepared_remarks_200_014",
+  "WFC_2023_Q4_prepared_remarks_200_012"
+ ],
+ "raw_response": "During 2023, several major banks highlighted specific trends regarding their commercial real estate (CRE) office portfolios and associated allowances:\n\n*   **U.S. Bancorp** increased its reserve ratio for commercial real estate office loans to 10% due to higher interest rates and portfolio considerations. Its nonperforming assets to loans and other real estate ratio rose to 0.35% at the end of Q3, up from 0.29% in Q2 and 0.20% a year prior. The net charge-off ratio for Q3 was 0.44%, an increase from 0.35% in Q2 and significantly higher than the 0.19% recorded in Q3 2022.\n*   **Bank of America** noted that CRE office credit exposure represented less than 2% of total loans, with low nonperforming loan (NPL) levels due to intentional client selection and deal structures. In Q2, the bank experienced $70 million in charge-offs on office exposures, up from $15 million in Q1, primarily to write down properties where loan-to-value ratios had deteriorated.\n*   **Capital One** reported that its allowance for credit losses increased by $97 million in its Commercial Banking business during Q3, driven by rising interest rates and other factors affecting certain CRE borrowers, including the commercial office portfolio. The bank also completed the sale of approximately $900 million in loans from its commercial office portfolio that had been marked as held for sale.\n*   **Wells Fargo** saw increases in both nonaccrual loans and allowances related to CRE office exposure. In Q3, a $1.3 billion increase in office nonaccrual loans drove the rise in CRE nonaccruals, while the allowance for credit losses increased by $333 million primarily for CRE office loans. This trend continued into Q4, where a further $567 million increase in office non-accrual loans contributed to a 3% overall increase in nonperforming assets, and the allowance for credit losses rose slightly due to increases in CRE loans.",
+ "latency_seconds": 295.03,
+ "generated_at": "2026-09-05T22:13:16Z"
+}

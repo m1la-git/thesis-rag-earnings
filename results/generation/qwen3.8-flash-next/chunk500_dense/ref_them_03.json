@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense",
+ "question_id": "ref_them_03",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "WFC_2023_Q3_prepared_remarks_500_006",
+  "WFC_2024_Q2_prepared_remarks_500_006",
+  "WFC_2023_Q1_prepared_remarks_500_005",
+  "WFC_2024_Q1_prepared_remarks_500_006",
+  "MTB_2023_Q4_prepared_remarks_500_004"
+ ],
+ "raw_response": "Based on the provided context, here is what banks said regarding their office and commercial real estate (CRE) credit exposure and allowances during 2023:\n\n**Wells Fargo (Q1 and Q3 2023)**\n*   **Exposure:** As of Q1 2023, Wells Fargo had $154.7 billion in CRE loans outstanding, with office loans representing 35.7% of that portfolio (or 4% of total loans). The bank noted the office market showed signs of weakness due to lower demand and higher financing costs but stated it had not yet seen meaningful loss content. They were actively derisking the portfolio, resulting in a 5% decline in commitments from a year ago.\n*   **Allowance:** In Q1 2023, the allowance for credit losses increased by $643 million, driven primarily by increases for CRE loans (specifically office) and credit card loans. By Q3 2023, Wells Fargo expected higher losses over time in its CIB commercial real estate office portfolio and had increased the coverage ratio for this specific portfolio from 8.8% at the end of Q2 to 10.8% at the end of Q3.\n\n**M&T Bank (Q4 2023)**\n*   **Exposure:** In Q4 2023, M&T reported that net charge-offs increased largely due to three office-related charge-offs located in New York City, Boston, and Washington, D.C. The bank noted that the increase in criticized CRE loans was tied to thorough reviews covering more than 60% of all CRE loans, driven by concerns over 2024 maturities and the potential negative impact of continued higher rates on debt service coverage.\n*   **Allowance:** M&T increased its allowance for credit losses by $77 million in Q4 2023 (recording a provision of $225 million against net charge-offs of $148 million). This build was primarily reflective of CRE values and higher interest rates contributing to modest deterioration in commercial borrower performance. The bank had increased the allowance by over $200 million since the end of 2022, ending 2023 with an allowance-to-loan ratio of 1.59%.",
+ "latency_seconds": 201.97,
+ "generated_at": "2026-09-07T11:50:30Z"
+}

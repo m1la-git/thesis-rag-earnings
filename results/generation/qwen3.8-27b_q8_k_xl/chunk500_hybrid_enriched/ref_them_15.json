@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid_enriched",
+ "question_id": "ref_them_15",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "C_2023_Q4_prepared_remarks_500_007",
+  "BAC_2023_Q4_prepared_remarks_500_002",
+  "BLK_2024_Q1_prepared_remarks_500_003",
+  "FITB_2023_Q1_qa_500_011",
+  "BLK_2024_Q3_prepared_remarks_500_004"
+ ],
+ "raw_response": "Based on the provided context, **Bank of America** stated it invested over **$12 billion** in technology in 2023. The company noted a shift from consulting expenses to technology and compensation as it deepened its transformation execution, with roughly 30% of total transformation investments over the last three years dedicated to technology.\n\nRegarding **2024**, the context does not provide specific dollar amounts for Bank of America’s planned technology spend. However, **BlackRock** (which is an asset manager, though often grouped in financial services discussions) provided guidance for 2024, expecting a low to mid-single-digit percentage increase in core G&A expense, with technology identified as one of its primary areas of investment within that category. BlackRock also noted that Q4 2024 core G&A would reflect planned technology investment spend at levels consistent with Q3 2024.\n\n**First Horizon Bank (FITB)** mentioned a multi-year technology conversion project where total spend could reach as much as **$100 million**, with less than half expected to be capitalized, but did not specify the exact split between 2023 and 2024 in the provided text.",
+ "latency_seconds": 769.75,
+ "generated_at": "2026-09-05T23:25:48Z"
+}

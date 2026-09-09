@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid_enriched",
+ "question_id": "ref_them_01",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BK_2024_Q4_prepared_remarks_500_006",
+  "C_2023_Q4_prepared_remarks_500_005",
+  "BAC_2024_Q4_prepared_remarks_500_007",
+  "WFC_2024_Q1_prepared_remarks_500_005",
+  "WFC_2023_Q4_prepared_remarks_500_009"
+ ],
+ "raw_response": "Based on the provided context, banks reported the impact of the FDIC special assessment as follows:\n\n*   **Bank of America (BAC):** In Q4 2023, the bank recorded a large FDIC special assessment charge that significantly impacted expenses. In Q4 2024, expenses were partially offset by a roughly $300 million release of prior period accruals related to this assessment.\n*   **Wells Fargo (WFC):** The bank reported a $1.9 billion FDIC special assessment in its 2023 non-interest expense. For full-year 2024, the bank noted that its non-interest expense guidance remained unchanged at approximately $52.6 billion when excluding the expense for the FDIC special assessment recorded in the first quarter of 2024.\n*   **Citigroup (C):** In Q4 2023, the bank reported an FDIC special assessment of approximately $1.7 billion related to regional bank failures, which impacted expenses in \"all other.\"\n\nThe context does not provide specific details on how BlackRock (BK) or other entities reported this impact, as they are asset managers rather than banks subject to the same banking-specific assessments in the provided text.",
+ "latency_seconds": 273.73,
+ "generated_at": "2026-09-05T23:17:32Z"
+}

@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25_enriched",
+ "question_id": "ref_them_08",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "JPM_2023_Q4_prepared_remarks_200_009",
+  "BK_2023_Q3_prepared_remarks_200_021",
+  "STT_2023_Q1_prepared_remarks_200_014",
+  "STT_2023_Q4_prepared_remarks_200_015",
+  "JPM_2023_Q2_prepared_remarks_200_012"
+ ],
+ "raw_response": "Based on the provided context, firms described momentum in net inflows, AUM, and client investment assets as follows:\n\n**JPMorgan Chase (JPM)**\n*   **Net Inflows:** Reported record client asset net inflows of $489 billion for the full year 2023. This included $140 billion in net long-term inflows for the full year and $242 billion in liquidity net inflows for the full year. Quarterly figures showed positive momentum across equities, fixed income, and all channels/regions (e.g., record $61 billion in long-term inflows in Q2).\n*   **AUM:** Asset Under Management reached $3.4 trillion at the end of 2023, up 24% year-on-year. In Q2, AUM was $3.2 trillion, up 16% year-on-year. Growth was driven by continued net inflows and higher market levels.\n*   **Client Assets:** Total client assets reached $5 trillion at the end of 2023, up 24% year-on-year. In Q2, client assets were $4.6 trillion, up 20% year-on-year.\n\n**State Street (STT)**\n*   **Net Inflows:** Global Advisors recorded its best-ever quarter for aggregate net flows of $103 billion in Q4 2023. The firm noted strong momentum in strategic growth segments like ETFs and defined contribution Target Date franchises, though institutional business saw net outflows. Cash franchise saw significant inflows due to a \"flight to quality.\"\n*   **AUM:** Period-end AUM at Global Advisors increased 19% year-on-year and was up 12% sequentially in Q4, driven by higher market levels and strong net inflows.\n\n**BNY Mellon (BK)**\n*   **Net Inflows:** The firm experienced mixed flows, with $15 billion of net outflows from long-term strategies due to client de-risking and rebalancing, offset by $7 billion of net inflows into short-term strategies (money market funds).\n*   **Client Assets:** Client assets increased 14% year-on-year to $292 billion in Q3, reflecting higher equity markets.\n\n**General Drivers**\nAcross the firms, growth in AUM and client assets was frequently attributed to a combination of net inflows and higher period-end market levels.",
+ "latency_seconds": 187.73,
+ "generated_at": "2026-09-07T10:50:52Z"
+}

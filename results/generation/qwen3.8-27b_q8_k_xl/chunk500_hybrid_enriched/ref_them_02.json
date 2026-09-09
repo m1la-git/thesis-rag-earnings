@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid_enriched",
+ "question_id": "ref_them_02",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "MS_2023_Q2_qa_500_000",
+  "JPM_2023_Q3_prepared_remarks_500_001",
+  "GS_2023_Q3_prepared_remarks_500_002",
+  "JPM_2023_Q3_prepared_remarks_500_002",
+  "GS_2024_Q2_qa_500_008"
+ ],
+ "raw_response": "Based on the provided context, bank executives characterized the uncertainty surrounding the Basel III Endgame proposal as significant, \"disconcerting,\" and indicative of rules that are \"overcalibrated\" or go \"way too far.\" They noted a lack of detailed analysis supporting the magnitude of proposed capital increases and highlighted conflicting views among policymakers regarding the need for additional capital. Specific concerns included the compounding effects of the GSIB surcharge and stress capital buffer, as well as the introduction of operational risk RWA.\n\nThis uncertainty directly affected their capital actions in the following ways:\n*   **JPMorgan Chase** stated that the pace of share buybacks would likely remain \"modest\" in light of the proposal. They indicated they would continue to reassess the buyback trajectory as circumstances evolve, noting that the proposals could increase capital requirements by 25% or $50 billion.\n*   **Goldman Sachs** maintained a higher-than-normal CET1 cushion (running with 90 basis points of extra buffer) to signal flexibility and address the lingering uncertainty regarding both the quantum and timing of the proposal's resolution. This buffer was designed to support returning capital to shareholders while maintaining prudence against potential future regulatory impacts.",
+ "latency_seconds": 259.81,
+ "generated_at": "2026-09-05T23:17:18Z"
+}

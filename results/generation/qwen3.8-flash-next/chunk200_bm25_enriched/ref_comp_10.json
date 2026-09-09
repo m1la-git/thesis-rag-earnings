@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25_enriched",
+ "question_id": "ref_comp_10",
+ "category": "comparative",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "PNC_2023_Q2_prepared_remarks_200_008",
+  "HBAN_2023_Q1_prepared_remarks_200_016",
+  "FITB_2023_Q3_qa_200_006",
+  "PNC_2024_Q2_prepared_remarks_200_005",
+  "FITB_2023_Q4_prepared_remarks_200_004"
+ ],
+ "raw_response": "Based on the provided context, there is no information regarding how Fifth Third treated AOCI in its descriptions of capital or tangible book value per share during 2023. The available Fifth Third excerpts are from Q3 and Q4 2023 (discussing actions taken at the beginning of January 2024) and do not describe their 2023 reporting treatment.\n\nRegarding PNC, the context indicates that PNC reported tangible book value per share ($77.80 in Q2 2023) as an \"AOCI impact\" figure (i.e., including AOCI), noting that they expected securities yields to increase and result in a meaningful improvement to tangible book value from AOCI accretion.",
+ "latency_seconds": 192.81,
+ "generated_at": "2026-09-07T10:50:57Z"
+}

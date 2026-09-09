@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25_enriched",
+ "question_id": "ref_them_12",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "GS_2024_Q4_qa_500_005",
+  "BAC_2023_Q2_qa_500_007",
+  "MS_2023_Q4_qa_500_014",
+  "BK_2023_Q3_qa_500_010",
+  "BAC_2023_Q2_qa_500_009"
+ ],
+ "raw_response": "Based on the provided context, here is what firms said in 2023 regarding their wealth management businesses and investments:\n\n**Bank of America (Q2 2023)**\n*   **Investment & Efficiency:** The firm highlighted a \"massive reinvestment\" in rehabs and openings within its branch system. It noted that operational excellence initiatives, including the use of artificial intelligence (such as the Erica virtual assistant with 165 million interactions in the quarter), have improved efficiency by helping bankers prioritize prospects and matching clients to advisers. These efforts allow the firm to manage headcount down relative to work done while maintaining service levels.\n*   **Business Dynamics:** The wealth management business is integrated with consumer deposits, where excess cash moves into investment products.\n\n**Morgan Stanley (Q4 2023)**\n*   **Strategic Importance:** Leadership described the Wealth Management business as \"differentiated\" and having \"enormous barriers to entry,\" noting that integrating Smith Barney was a key strategic move for the firm over the past 15 years.\n*   **Integration:** The firm emphasized an integrated approach (\"full funnel\") across self-directed, traditional advisory, and workplace channels, stating that this structure works as one unit rather than working to the detriment of the investment bank.\n\n**BNY Mellon (Q3 2023)**\n*   **Pershing Performance:** In discussing its wealth solutions segment (specifically Pershing), the firm noted strong underlying growth driven by innovation in serving client needs and optimizing balance sheets. While acknowledging headwinds such as decommissioning costs, the firm expressed confidence in the business's strength and profitability within its markets and wealth solutions segment.",
+ "latency_seconds": 254.17,
+ "generated_at": "2026-09-07T11:21:43Z"
+}

@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid_enriched",
+ "question_id": "ref_them_07",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "JPM_2023_Q2_qa_200_030",
+  "BK_2023_Q2_prepared_remarks_200_013",
+  "STT_2023_Q2_qa_200_002",
+  "STT_2023_Q2_qa_200_025",
+  "FITB_2023_Q4_prepared_remarks_200_001"
+ ],
+ "raw_response": "In the second quarter of 2023, bank executives described deposit trends with varying nuances depending on their specific market position and client base:\n\n*   **JPMorgan Chase** noted that while deposits had fluctuated due to regional bank turmoil and public transactions, they expected a \"modest downward trend\" to reassert itself from higher starting points in the second half. However, they anticipated some offsetting share gains in consumer markets (due to branch expansion) and wholesale segments.\n*   **Bank of New York Mellon** reported that deposit balances remained elevated relative to expectations, increasing 1% sequentially on an average basis. Interest-bearing deposits rose by 5%, while noninterest-bearing deposits fell by 11%.\n*   **State Street** indicated that U.S. deposit betas reached 100% in the quarter and were expected to exceed 100% in the next, driven by a \"catch-up\" in back-book rates where sophisticated clients requested adjustments to lower transactional or mid-tier rate levels. They also noted a convergence of spreads back toward previous levels.\n*   **State Street** further mentioned that based on external reports from other banks, they observed about a 2% sequential fall in deposits across the system and expected a similar \"downtick\" for their own trust bank deposits, particularly focusing on non-interest-bearing accounts.",
+ "latency_seconds": 238.91,
+ "generated_at": "2026-09-05T22:20:54Z"
+}

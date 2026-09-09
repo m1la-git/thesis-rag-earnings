@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid",
+ "question_id": "ref_them_12",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "WFC_2023_Q4_prepared_remarks_200_029",
+  "MS_2023_Q4_prepared_remarks_200_002",
+  "GS_2023_Q4_prepared_remarks_200_003",
+  "BK_2023_Q4_qa_200_001",
+  "STT_2023_Q4_prepared_remarks_200_002"
+ ],
+ "raw_response": "Based on the provided context, firms made the following statements regarding their wealth management businesses and investments in 2023:\n\n*   **Wells Fargo** expects revenue growth from investments in Wealth and Investment Management to help fund additional investments.\n*   **Morgan Stanley** achieved incremental scale in wealth and investment management through the acquisitions of E*TRADE and Eaton Vance, resulting in a leading self-directed platform and high returns. The firm noted that its durable businesses tripled client assets.\n*   **Goldman Sachs** reported solid investment performance and consistent growth in a more durable revenue base within Asset & Wealth Management, supported by an operating ethos of \"One Goldman Sachs.\"\n*   **BNY Mellon (BK)** stated they are making investments in wealth management where they are beginning to see \"green shoots,\" alongside modernizing platforms in other segments.",
+ "latency_seconds": 117.06,
+ "generated_at": "2026-09-07T11:11:09Z"
+}

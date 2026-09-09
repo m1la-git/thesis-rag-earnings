@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25",
+ "question_id": "ref_them_11",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BAC_2024_Q2_prepared_remarks_500_009",
+  "FITB_2023_Q4_qa_500_011",
+  "FITB_2023_Q4_prepared_remarks_500_000",
+  "COF_2023_Q4_qa_500_008",
+  "COF_2024_Q2_prepared_remarks_500_004"
+ ],
+ "raw_response": "Based on the provided context, banks characterized their net charge-off levels and directions as follows:\n\n**Fifth Third Bancorp (FITB)**\n*   **2023:** Net charge-offs remained below historical averages. In commercial real estate specifically, there were zero net charge-offs in 2023.\n*   **2024 Outlook:** The overall charge-off outlook was characterized as \"fairly benign,\" with a projected range of 35 to 45 basis points. Management expected trends similar to 2023, noting no significant geographic or product-driven trends and minimal losses in commercial real estate and C&I portfolios.\n\n**Bank of America (BAC)**\n*   **Q2 2024:** Net charge-offs were $1.5 billion, described as \"little changed\" from the first quarter. The net charge-off ratio was 59 basis points, also largely unchanged from Q1. Consumer net charge-offs increased modestly due to credit card delinquencies, while commercial net charge-offs remained relatively flat as lower office losses offset increases in other areas.\n\n**Capital One (COF)**\n*   **2023:** The bank declared that its charge-offs were \"leveling off\" and stabilizing, catching up to the stabilizing trend in delinquencies observed in the second half of 2023. Q4 2023 net charge-offs were about 15% above 2018 levels.\n*   **2024:** Consumer credit trends continued to show stability. However, specific segments saw increases: auto charge-off rates rose year-over-year (up 41 basis points in Q2 2024), and commercial banking net charge-off rates increased slightly sequentially. The end of the Walmart partnership was noted as a factor that would increase charge-off rates.",
+ "latency_seconds": 225.26,
+ "generated_at": "2026-09-07T11:46:03Z"
+}

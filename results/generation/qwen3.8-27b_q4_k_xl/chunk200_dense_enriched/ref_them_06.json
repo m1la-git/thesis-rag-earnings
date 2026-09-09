@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense_enriched",
+ "question_id": "ref_them_06",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "FITB_2023_Q4_prepared_remarks_200_022",
+  "FITB_2024_Q2_prepared_remarks_200_016",
+  "WFC_2023_Q4_prepared_remarks_200_023",
+  "C_2023_Q4_prepared_remarks_200_010",
+  "FITB_2024_Q4_prepared_remarks_200_007"
+ ],
+ "raw_response": "Based on the provided context, First Interstate BancSystem (FITB) discussed an efficiency ratio of around 57% for full-year 2024. This level was described as a modest increase relative to 2023, driven by a decrease in net interest income (NII). The bank maintained this outlook in its second-quarter 2024 remarks, noting that the projection remained at approximately 57% despite expectations for stable adjusted non-interest expense levels compared to 2023. No specific efficiency ratio figures or targets were provided for Wells Fargo (WFC) or Citigroup (C) in the text.",
+ "latency_seconds": 148.89,
+ "generated_at": "2026-09-05T14:17:07Z"
+}

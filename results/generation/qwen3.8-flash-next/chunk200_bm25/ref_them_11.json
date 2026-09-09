@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25",
+ "question_id": "ref_them_11",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "FITB_2024_Q2_prepared_remarks_200_016",
+  "USB_2023_Q4_qa_200_013",
+  "BAC_2023_Q2_prepared_remarks_200_014",
+  "MTB_2024_Q2_prepared_remarks_200_002",
+  "AXP_2023_Q1_prepared_remarks_200_011"
+ ],
+ "raw_response": "Banks characterized their net charge-off levels as normalizing or trending toward pre-pandemic levels, though remaining below historical averages. Specific outlooks included:\n\n*   **Fifth Third Bancorp (FITB):** Projected full-year 2024 net charge-offs in the range of 35 to 45 basis points.\n*   **U.S. Bancorp (USB):** Expected full-year 2024 net charge-offs to be in the \"mid-50s\" basis points, noting that credit card charge-offs were approaching pre-pandemic levels and would continue to rise slightly.\n*   **Bank of America (BAC):** Reported a Q2 2023 charge-off rate of 33 basis points, describing the trend as moving toward pre-pandemic levels but still below historical levels.\n*   **American Express (AXP):** Noted that write-off and delinquency rates remained below pre-pandemic levels but were continuing to move up as expected.",
+ "latency_seconds": 128.16,
+ "generated_at": "2026-09-07T11:06:01Z"
+}

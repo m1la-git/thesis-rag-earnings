@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense_enriched",
+ "question_id": "ref_them_09",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "HBAN_2023_Q3_prepared_remarks_200_010",
+  "HBAN_2024_Q3_prepared_remarks_200_012",
+  "HBAN_2023_Q2_prepared_remarks_200_010",
+  "FITB_2023_Q4_prepared_remarks_200_019",
+  "FITB_2023_Q4_qa_200_028"
+ ],
+ "raw_response": "Based on the provided context, the following Net Interest Margin (NIM) levels and trends were reported:\n\n**Huntington Bancshares (HBAN)**\n*   **Q3 2023:** The bank anticipated Q4 2023 NIM to be between **305 basis points and 310 basis points**, which was an increase of 5 to 10 basis points from previous guidance. This represented a move higher than expected due to loan growth and funding mix performance.\n*   **Q4 2023 Outlook:** NIM was projected to trend flat to higher in 2024 compared to the Q4 2023 endpoint.\n*   **Q3 2024:** Reported NIM was **2.98%**. This represented a decrease of **1 basis point** from Q2 2024. The decline was driven by lower spread net of free funds (-2 bps) and higher cash balances (-2 bps), partially offset by improved hedging drag (+3 bps).\n\n**First Interstate BancSystem (FITB)**\n*   **Q4 2023:** The bank stated it believed it had reached its **NIM trough** in the fourth quarter of 2023. While a specific percentage for Q4 2023 NIM is not explicitly cited, deposit costs were noted at 289 basis points.\n*   **Trend:** Following the Q4 2023 trough, the bank expected NIM to improve as rate cuts began in late March 2024 and continued through the end of the year, leading to decreased deposit costs for the remainder of 2024.\n\n**Summary of Direction:**\n*   **HBAN:** NIM increased into Q4 2023 but decreased slightly (1 bp) from Q2 to Q3 2024.\n*   **FITB:** NIM bottomed out in Q4 2023 and was expected to rise thereafter due to falling deposit costs.",
+ "latency_seconds": 429.73,
+ "generated_at": "2026-09-05T22:15:30Z"
+}

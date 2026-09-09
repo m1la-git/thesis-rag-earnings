@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid_enriched",
+ "question_id": "ref_them_09",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "HBAN_2023_Q2_prepared_remarks_500_004",
+  "BAC_2023_Q4_prepared_remarks_500_009",
+  "JPM_2023_Q4_prepared_remarks_500_004",
+  "HBAN_2023_Q4_prepared_remarks_500_004",
+  "USB_2023_Q4_prepared_remarks_500_002"
+ ],
+ "raw_response": "Based on the provided context, here are the reported Net Interest Margin (NIM) levels and trends for the specified banks:\n\n**Huntington Bancshares (HBAN)**\n*   **2023 Q4:** The bank indicated that if a lower rate scenario played out with cuts as early as March 2024, the margin would remain near the level seen in Q4 2023. While the exact Q4 2023 NIM percentage is not explicitly stated in this chunk, it serves as the baseline for the 2024 outlook.\n*   **2024 Outlook:** The bank expects a net interest margin between **3% and 3.1%** for each quarter of 2024 under the lower rate scenario (five cuts). If rates stay \"higher for longer\" (three cuts), they expect the margin to expand up to **10 basis points above** that range (i.e., approximately 3.1% to 3.2%).\n*   **Trend:** The NIM is expected to be stable or slightly rising depending on the interest rate scenario, with dollar-based net interest income troughing in Q1 2024 before expanding sequentially.\n\n**Bank of America (BAC)**\n*   **2023 Q4:** The net interest yield declined by 14 basis points to **197 basis points**.\n*   **Trend:** NII was expected to decline slightly in Q1 and Q2 2024 due to rate curve shifts and fewer days, but begin to grow sequentially in the second half of 2024.\n\n**JPMorgan Chase (JPM)**\n*   **Reported/Adjusted Levels:** The text does not provide a specific percentage for NIM. It reports that Q3 2023 NII ex-Markets run rate was $94 billion and guides full-year 2024 NII ex-Markets to approximately $88 billion, implying sequential quarterly declines throughout 2024 due to lower rates (six cuts assumed).\n*   **Trend:** The bank is asset-sensitive, so lower rates are expected to decrease NII.\n\n**U.S. Bancorp (USB)**\n*   **2023 Q4:** The net interest margin was **2.78%**, representing a 3 basis point decline from the prior quarter.\n*   **Trend:** The decline in Q4 2023 was driven by deposit pricing pressure and unfavorable mix shifts, partially offset by better earning asset spreads. For 2024, NII is expected to be consistent with or slightly up from the annualized Q4 2023 level (~$4.14 billion), suggesting a stable margin environment.\n\n**Note on Adjusted Bases:** The provided context does not distinguish between \"reported\" and \"adjusted\" Net Interest Margin percentages for any of the banks; it primarily discusses NII (Net Interest Income) in dollar terms or NIM as a single reported metric.",
+ "latency_seconds": 681.5,
+ "generated_at": "2026-09-05T23:24:20Z"
+}

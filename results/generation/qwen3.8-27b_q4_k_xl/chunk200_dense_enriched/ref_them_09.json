@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense_enriched",
+ "question_id": "ref_them_09",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "HBAN_2023_Q3_prepared_remarks_200_010",
+  "HBAN_2024_Q3_prepared_remarks_200_012",
+  "HBAN_2023_Q2_prepared_remarks_200_010",
+  "FITB_2023_Q4_prepared_remarks_200_019",
+  "FITB_2023_Q4_qa_200_028"
+ ],
+ "raw_response": "Based on the provided context, the following net interest margin (NIM) levels and trends were reported:\n\n*   **Huntington Bancshares (HBAN):**\n    *   **Q3 2023:** The bank anticipated Q4 2023 NIM to be between **305 basis points and 310 basis points**, which was 5 to 10 basis points higher than previously shared. This represented an improvement over expectations due to loan growth and funding mix.\n    *   **Q2 2023:** The bank anticipated NIM of approximately **3%** (plus or minus a few basis points) by Q4 2023.\n    *   **Trend:** In 2023, NIM was trending higher than expected. For 2024, modeling indicated NIM would trend **flat to higher** from the Q4 2023 endpoint.\n\n*   **Huntington Bancshares (HBAN) - 2024 Update:**\n    *   **Q3 2024:** Reported NIM was **2.98%**. This represented a decrease of **1 basis point** from Q2 2024, driven by lower spread net of free funds and higher cash balances, partially offset by improved hedging drag.\n    *   **Trend:** While the quarterly level dipped slightly in Q3 2024, the bank projected full-year net interest income to remain within guidance, with NIM expected to support record net interest income for 2025 based on current rate curve expectations.\n\n*   **Fifth Third Bancorp (FITB):**\n    *   **Q4 2023:** The bank stated it believed it was at its **NIM trough** in the fourth quarter of 2023.\n    *   **Trend:** While specific NIM percentage levels for FITB were not provided, the context indicates that deposit costs were expected to decrease throughout 2024 following rate cuts forecasted to begin in late March 2024, suggesting a potential improvement or stabilization from the Q4 2023 trough.",
+ "latency_seconds": 352.3,
+ "generated_at": "2026-09-05T14:20:30Z"
+}

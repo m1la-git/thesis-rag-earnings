@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense",
+ "question_id": "ref_comp_10",
+ "category": "comparative",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "FITB_2023_Q4_prepared_remarks_500_001",
+  "PNC_2023_Q4_prepared_remarks_500_003",
+  "FITB_2023_Q2_prepared_remarks_500_002",
+  "FITB_2024_Q3_prepared_remarks_500_006",
+  "PNC_2023_Q2_prepared_remarks_500_003"
+ ],
+ "raw_response": "Based on the provided context, here is how PNC and Fifth Third treated Accumulated Other Comprehensive Income (AOCI) regarding capital and tangible book value per share in 2023:\n\n**PNC Financial Services Group:**\n*   **Q4 2023:** PNC noted that AOCI improved by $2.6 billion due to lower interest rates. The company stated that as lower-rate securities and swaps roll off, they expect a continued meaningful improvement to tangible book value from AOCI accretion.\n*   **Q2 2023:** PNC reported that its accumulated other comprehensive loss increased by $400 million during the quarter due to higher-than-expected rates. Despite this negative impact, tangible book value still increased by 1% compared to March 31. The company emphasized that as lower-rate securities and swaps roll off, they expect securities yields to increase, resulting in a meaningful improvement to tangible book value from AOCI accretion.\n\n**Fifth Third Bancorp:**\n*   **Q4 2023:** Fifth Third highlighted that its tangible book value per share grew nearly 30% during the fourth quarter, driven partly by strong earnings and a rally in interest rates (which typically reduces AOCI losses for banks with fixed-rate assets). The company moved $12.6 billion of securities to held-to-maturity to de-risk potential AOCI volatility to capital by about 30% if market rates rise again.\n*   **Q2 2023:** While the specific Q2 2023 text provided does not explicitly quantify the AOCI impact on tangible book value for that quarter, it notes the company was balancing capital priorities and pausing share repurchases until final capital rules were published. It mentions taking actions to boost liquidity and optimize returns but does not provide a specific AOCI-to-TBV calculation for Q2 2023 in the provided chunks. However, the Q4 remarks indicate a focus on managing AOCI volatility through portfolio reclassification.",
+ "latency_seconds": 873.23,
+ "generated_at": "2026-09-03T12:36:48Z"
+}

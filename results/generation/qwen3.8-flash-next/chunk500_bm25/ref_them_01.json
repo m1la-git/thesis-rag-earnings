@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25",
+ "question_id": "ref_them_01",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "WFC_2024_Q2_prepared_remarks_500_009",
+  "BK_2024_Q4_prepared_remarks_500_006",
+  "PNC_2024_Q1_prepared_remarks_500_003",
+  "WFC_2024_Q1_prepared_remarks_500_003",
+  "C_2023_Q4_prepared_remarks_500_005"
+ ],
+ "raw_response": "Banks reported the impact of the FDIC special assessment as follows:\n\n*   **Citigroup (Q4 2023):** Recorded an approximately $1.7 billion expense related to regional bank failures, which impacted expenses in \"all other.\" This item negatively impacted diluted EPS by approximately $2 and Return on Tangible Common Equity (RoTCE) by approximately 920 basis points for the quarter.\n*   **Wells Fargo (Q4 2023):** Included $1.9 billion for the special assessment in its results.\n*   **PNC Financial Services (Q1 2024):** Reported a pretax, non-core, non-interest expense of $130 million ($103 million after tax) related to an increased FDIC special assessment. This was excluded from adjusted EPS calculations.\n*   **Wells Fargo (Q1 2024):** Included $284 million ($0.06 per share) for the FDIC special assessment, reflecting updates on potential recoveries and actual losses determined by the FDIC.\n*   **Bank of New York Mellon (FY 2024/Q4 2023 context):** Noted that reported expenses were down year-over-year primarily due to the absence of the FDIC special assessment recorded in the fourth quarter of 2023, while excluding notable items showed a different expense trend.",
+ "latency_seconds": 106.58,
+ "generated_at": "2026-09-07T11:44:04Z"
+}

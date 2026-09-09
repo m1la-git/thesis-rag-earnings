@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25_enriched",
+ "question_id": "ref_them_08",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "JPM_2023_Q4_prepared_remarks_200_009",
+  "BK_2023_Q3_prepared_remarks_200_021",
+  "STT_2023_Q1_prepared_remarks_200_014",
+  "STT_2023_Q4_prepared_remarks_200_015",
+  "JPM_2023_Q2_prepared_remarks_200_012"
+ ],
+ "raw_response": "Based on the provided context, firms described their performance regarding net inflows, AUM, and client assets in 2023 as follows:\n\n*   **JPMorgan Chase:** In Q4 2023, the firm reported record client asset net inflows of $489 billion for the year. AUM reached $3.4 trillion and client assets hit $5 trillion, both up 24% year-on-year, driven by continued net inflows and higher market levels. In Q2 2023, they noted record net long-term inflows of $61 billion, with AUM at $3.2 trillion (up 16% YoY) and client assets at $4.6 trillion (up 20% YoY).\n*   **Bank of America:** In Q3 2023, the firm reported that client assets of $292 billion increased by 14% year-over-year, reflecting higher equity market values. This growth occurred despite seeing $15 billion in net outflows from long-term strategies due to client de-risking and rebalancing, which was partially offset by $7 billion in net inflows into short-term strategies.\n*   **State Street:** In Q4 2023, Global Advisors recorded its best-ever quarter of aggregate net flows at $103 billion. Period-end AUM increased 19% year-over-year and 12% sequentially, largely reflecting higher market levels and strong net inflows. In Q1 2023, the firm noted continued strong business momentum with net inflows in SPDR portfolio low-cost equity and fixed income suites, as well as $6 billion in inflows for the Target Date franchise within defined contribution plans.",
+ "latency_seconds": 218.75,
+ "generated_at": "2026-09-05T22:06:56Z"
+}

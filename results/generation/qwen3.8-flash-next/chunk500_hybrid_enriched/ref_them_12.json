@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid_enriched",
+ "question_id": "ref_them_12",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "MS_2023_Q4_qa_500_014",
+  "GS_2023_Q4_prepared_remarks_500_001",
+  "BK_2023_Q4_prepared_remarks_500_002",
+  "MS_2023_Q4_prepared_remarks_500_001",
+  "BK_2023_Q3_prepared_remarks_500_003"
+ ],
+ "raw_response": "Based on the provided context, here is what the firms said regarding their wealth management businesses and investments in 2023:\n\n**Morgan Stanley (MS)**\n*   **Business Performance:** The firm reported that combined earnings from Wealth and Investment Management generated 60% of its top line and pre-tax profit. Revenues in these areas have more than doubled since 2010, with client assets tripling to $6.6 trillion. The business generated $1 trillion in net new assets over the past three years.\n*   **Strategy & Investment:** Morgan Stanley described its wealth management strategy as a \"category of one\" asset-gathering approach, expanding across advisor-led, self-directed, and workplace channels. Leadership emphasized that integrating Smith Barney created significant barriers to entry and differentiated the firm. They expressed confidence in continuing to grow client assets toward a $10 trillion goal by deepening relationships across their 18 million clients.\n\n**Goldman Sachs (GS)**\n*   **Business Performance:** The unified Asset & Wealth Management business holds over $2.8 trillion in assets under supervision. The firm reported solid investment performance and consistent growth in management fees, other fees, and private banking/lending revenues.\n*   **Strategy & Investment:** Goldman Sachs highlighted its position as a leading global active asset manager with a top-five alternative business and a premier ultra-high net worth wealth franchise. They noted significant opportunity for further growth in this scaled business. Additionally, they reduced historical principal investments by $13 billion and surpassed their five-year alternatives fundraising target one year ahead of schedule.\n\n**BNY Mellon (BK)**\n*   **Business Performance:** The firm experienced continued softness in investment management fees due to a subdued market backdrop but saw healthy underlying growth in Pershing and solid momentum in asset servicing.\n*   **Strategy & Investment:** BNY Mellon focused on launching new solutions to deepen client relationships, specifically the launch of \"Wove,\" Pershing’s wealth advisory platform. They reported early success with Wove, including signed agreements with clients like Integrity and Lincoln Investment. The firm is investing in operational digitization, AI, and automation to improve efficiency and channel employee energy toward innovation. They also hired their first Chief Commercial Officer to operationalize a \"one BNY Mellon\" initiative aimed at cross-selling services across the organization.",
+ "latency_seconds": 498.38,
+ "generated_at": "2026-09-07T11:36:40Z"
+}

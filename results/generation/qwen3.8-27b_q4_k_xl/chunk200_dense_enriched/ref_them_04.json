@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense_enriched",
+ "question_id": "ref_them_04",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "FITB_2024_Q4_prepared_remarks_200_007",
+  "FITB_2023_Q4_prepared_remarks_200_005",
+  "BAC_2023_Q4_prepared_remarks_200_005",
+  "BAC_2023_Q3_prepared_remarks_200_007",
+  "USB_2024_Q3_qa_200_005"
+ ],
+ "raw_response": "In late 2023, Bank of America reported achieving 170 basis points of operating leverage for the full year, driven by expense discipline that reduced headcount and expenses every quarter. Fifth Third indicated in its Q4 2023 remarks that while the carryover effect of their RWA diet made positive operating leverage unfeasible for the full year, they anticipated returning to it in the second half of 2024. By late 2024, U.S. Bank reported approximately 30 basis points of positive operating leverage in Q3 and expressed confidence in continued positive operating leverage into 2025. Fifth Third also stated in its Q4 2024 remarks that they remained confident in delivering full-year positive operating leverage across a range of interest rate scenarios in 2025.",
+ "latency_seconds": 121.39,
+ "generated_at": "2026-09-05T14:16:40Z"
+}

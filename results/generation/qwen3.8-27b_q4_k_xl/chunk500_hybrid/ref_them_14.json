@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid",
+ "question_id": "ref_them_14",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "STT_2023_Q4_prepared_remarks_500_001",
+  "STT_2023_Q4_prepared_remarks_500_011",
+  "JPM_2024_Q4_prepared_remarks_500_002",
+  "BAC_2023_Q4_prepared_remarks_500_002",
+  "HBAN_2023_Q3_qa_500_008"
+ ],
+ "raw_response": "Based on the provided context, only JPMorgan Chase reported specific details regarding investment banking revenue and fees for 2024. The other transcripts (State Street, Bank of America, and Huntington Bancshares) do not contain information specifically about \"investment banking\" revenue or fees; State Street discusses general fee revenue and trading businesses, while Bank of America mentions sales and trading results but does not break out investment banking fees.\n\nAccording to the JPMorgan Chase 2024 Q4 prepared remarks:\n*   **Investment Banking Fees:** Investment banking (IB) fees were up 49% year-on-year in 2024.\n    *   Advisory fees increased by 41%.\n    *   Underwriting fees rose significantly, with debt underwriting up 56% and equity underwriting up 54%.\n*   **Revenue:** The context does not provide a specific total revenue figure for the Investment Banking division alone, but it notes that CIB (Corporate & Investment Banking) reported net income of $6.6 billion on revenue of $17.6 billion in Q4 2024.\n\nThe provided context does not contain information about investment banking revenue or fees specifically for State Street, Bank of America, or Huntington Bancshares for either 2023 or 2024.",
+ "latency_seconds": 777.45,
+ "generated_at": "2026-09-03T12:49:46Z"
+}

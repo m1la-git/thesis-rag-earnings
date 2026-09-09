@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25_enriched",
+ "question_id": "ref_them_06",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "MS_2024_Q4_qa_200_036",
+  "COF_2024_Q2_prepared_remarks_200_012",
+  "BAC_2023_Q2_qa_200_039",
+  "GS_2024_Q2_qa_200_011",
+  "GS_2023_Q4_qa_200_023"
+ ],
+ "raw_response": "Based on the provided context, the following efficiency ratio levels and targets were discussed by various financial institutions in 2023 and 2024:\n\n*   **Morgan Stanley:** Management referenced a long-term goal of a **70% efficiency ratio**.\n*   **Capital One:** The company expected its full-year 2024 operating efficiency ratio, net of adjustments, to be modestly down compared to 2023. This outlook included the impact of ending its Walmart partnership in Q2 2024, which was noted to have a positive impact on the operating efficiency ratio despite increased charge-off rates.\n*   **Bank of America:** In 2023, management stated that their efficiency ratio is \"best-in-class\" by line of business but noted they have a larger mix toward wealth management than most peers. They indicated a goal to drive the ratio down as net interest income increases and pandemic-related costs are cleaned out.\n*   **Goldman Sachs:** In 2024, the firm reported a year-to-date efficiency ratio of **63.8%** (also cited as 64% in one instance), which was nearly 10 points better than the prior year. Management stated they are making progress toward their target of **60%**. In late 2023, management also reaffirmed that they remain \"laser focused\" on driving towards this **60% target** for 2024.",
+ "latency_seconds": 116.16,
+ "generated_at": "2026-09-05T14:12:27Z"
+}

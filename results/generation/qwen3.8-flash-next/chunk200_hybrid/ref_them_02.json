@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid",
+ "question_id": "ref_them_02",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "MS_2023_Q2_qa_200_001",
+  "JPM_2023_Q3_prepared_remarks_200_007",
+  "JPM_2023_Q3_prepared_remarks_200_006",
+  "GS_2024_Q2_qa_200_020",
+  "PNC_2023_Q3_prepared_remarks_200_012"
+ ],
+ "raw_response": "Banks characterized the uncertainty around the Basel III Endgame as stemming from the fact that actual rules had not yet been seen (as of mid-2023), concerns over \"overcalibrated\" proposals leading to significant increases in capital requirements (e.g., a projected 45% increase for JPMorgan relative to 2017 levels), and unresolved issues regarding the timing, quantum, and design flaws of the framework. This uncertainty led banks to adopt cautious capital actions: PNC paused share repurchase activity while evaluating the potential impact of the proposed rules, and Goldman Sachs operated with a wider-than-normal CET1 cushion (90 basis points) to signal flexibility and address remaining uncertainties regarding both the Standardized Approach for Counterparty Credit Risk (SA-CCR) and the Basel III Endgame.",
+ "latency_seconds": 48.98,
+ "generated_at": "2026-09-07T11:10:01Z"
+}

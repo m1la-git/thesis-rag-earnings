@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid_enriched",
+ "question_id": "ref_them_08",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "JPM_2023_Q4_prepared_remarks_200_009",
+  "MS_2023_Q4_prepared_remarks_200_023",
+  "JPM_2023_Q3_prepared_remarks_200_015",
+  "JPM_2023_Q2_prepared_remarks_200_012",
+  "STT_2023_Q3_prepared_remarks_200_012"
+ ],
+ "raw_response": "Based on the provided context, firms described strong momentum in net inflows, AUM, and client investment assets during 2023 as follows:\n\n*   **JPMorgan Chase:** Reported record client asset net inflows of $489 billion for the full year. Long-term net inflows were $140 billion for the full year (with a quarterly figure of $12 billion), and liquidity saw net inflows of $242 billion for the full year. AUM reached $3.4 trillion and client assets reached $5 trillion, both up 24% year-on-year, driven by continued net inflows and higher market levels. In Q2, they noted record net long-term inflows of $61 billion positive across all channels, regions, and asset classes.\n*   **Morgan Stanley:** Reported that client migration to the advisor-led channel was up 25% year-over-year despite economic headwinds. However, investment management experienced long-term net outflows of approximately $7 billion in Q4 due to headwinds in active equity growth strategies. AUM increased year-over-year to $1.5 trillion, supported by higher asset values.\n*   **State Street:** Noted that while long-term flows in the asset management industry were muted due to risk-off sentiment, their cash franchise generated a record $41 billion of net inflows in Q3. At Global Advisors, period-end AUM increased 13% year-on-year, driven by higher market levels and $10 billion in inflows.",
+ "latency_seconds": 327.3,
+ "generated_at": "2026-09-05T22:22:22Z"
+}

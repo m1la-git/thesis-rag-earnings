@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense_enriched",
+ "question_id": "ref_comp_06",
+ "category": "comparative",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "FITB_2023_Q1_prepared_remarks_500_000",
+  "BAC_2023_Q3_prepared_remarks_500_003",
+  "FITB_2023_Q3_prepared_remarks_500_001",
+  "BAC_2023_Q1_prepared_remarks_500_013",
+  "BAC_2023_Q3_prepared_remarks_500_014"
+ ],
+ "raw_response": "Based on the provided context, here is how each bank described their operating leverage and revenue growth for the first quarter of 2023:\n\n**Fifth Third (FITB)**\n*   **Operating Leverage:** Fifth Third reported nine points of year-over-year positive operating leverage.\n*   **Revenue Growth:** This leverage was driven by an 18% increase in revenue.\n\n**Bank of America (BAC)**\n*   **Operating Leverage:** Bank of America stated they had achieved seven quarters of operating leverage, with the efficiency ratio going to 62%. They noted that nominal dollars of expenses were similar to levels from eight to ten years ago.\n*   **Revenue Growth:** While specific total revenue growth percentages for the entire company in Q1 are not explicitly detailed in the provided text, the Consumer Banking segment reported top-line revenue growth of 21% (with expenses rising 11%), and Global Markets had one of its highest quarters for sales and trading. The text notes that operating leverage was driven by growing revenue faster than expenses.",
+ "latency_seconds": 235.8,
+ "generated_at": "2026-09-07T11:26:16Z"
+}

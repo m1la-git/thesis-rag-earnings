@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense_enriched",
+ "question_id": "ref_comp_01",
+ "category": "comparative",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "GS_2024_Q2_qa_500_008",
+  "C_2024_Q3_prepared_remarks_500_003",
+  "GS_2023_Q3_prepared_remarks_500_002",
+  "C_2023_Q3_prepared_remarks_500_003",
+  "GS_2023_Q3_qa_500_012"
+ ],
+ "raw_response": "Goldman Sachs characterized the uncertainty around the Basel III Endgame as a factor requiring flexibility, noting that while there was favorable momentum and potential delays (possibly into 2025), they maintained a wider capital cushion to address lingering unknowns regarding both the quantum and timing of the rules. In contrast, Citi described the situation as prevailing uncertainty where the ultimate impact on capital requirements would not be known until the rules were finalized; consequently, Citi focused on actively working through mitigating actions and evaluating buybacks on a quarter-by-quarter basis rather than committing to specific near-term capital deployment levels tied to regulatory clarity.",
+ "latency_seconds": 144.05,
+ "generated_at": "2026-09-07T11:24:44Z"
+}

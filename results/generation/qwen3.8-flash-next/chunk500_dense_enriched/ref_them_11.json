@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense_enriched",
+ "question_id": "ref_them_11",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BAC_2023_Q4_prepared_remarks_500_011",
+  "BAC_2024_Q4_prepared_remarks_500_008",
+  "MTB_2023_Q4_prepared_remarks_500_004",
+  "USB_2023_Q4_qa_500_005",
+  "COF_2023_Q4_qa_500_008"
+ ],
+ "raw_response": "Banks characterized their net charge-off levels as normalizing or stabilizing during this period. In Q4 2023, Bank of America noted that credit card losses continued to normalize while commercial real estate losses were mostly reserved; they expected the net charge-off ratio to remain in the range of 50 to 60 basis points for 2025 without significant changes in GDP or employment. Capital One stated that their delinquencies had stabilized and that net charge-offs were leveling off, stabilizing at about 15% above 2019 levels. U.S. Bank expected net charge-offs to continue normalizing, with credit card losses moving closer to pre-pandemic levels, projecting a full-year 2024 net charge-off rate in the mid-50s basis points. M&T Bank reported an increase in net charge-offs driven by specific office and commercial loans but noted that non-accrual loans had trended down consecutively since Q1 2023.",
+ "latency_seconds": 258.59,
+ "generated_at": "2026-09-07T11:26:38Z"
+}

@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense_enriched",
+ "question_id": "ref_them_12",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "MS_2023_Q3_qa_500_000",
+  "MS_2023_Q4_qa_500_014",
+  "MS_2023_Q3_qa_500_010",
+  "MS_2023_Q1_prepared_remarks_500_001",
+  "MS_2023_Q3_qa_500_008"
+ ],
+ "raw_response": "Based on the provided context, Morgan Stanley executives discussed several key aspects of their wealth management business and related investments in 2023:\n\n*   **Asset Growth vs. Revenue:** Management noted that while there was strong organic growth in assets under management (AUM), this had not fully translated into revenue growth for wealth management excluding Net Interest Income (NII) over the previous three years. However, they highlighted increased fee-based flows and resiliency in the business, with $235 billion to $260 billion in assets captured in the last year alone.\n*   **Client Behavior:** Executives pointed out that 23% of retail client assets were sitting in cash (higher than historical averages), but they observed a trend over the last four months of retail investors moving this cash into markets, leading to growth in transactional revenues and new products.\n*   **Strategic Integration:** The firm emphasized the success of integrating Smith Barney to build a differentiated, world-class wealth manager with high barriers to entry. They described having a \"full funnel\" that includes self-directed, traditional advisory, and workplace channels working together.\n*   **Expense Management and Technology:** Regarding expenses, management stated they were managing the expense base carefully amid a \"war for talent.\" They highlighted investments in technology and process modernization aimed at achieving operating efficiencies and leverage over time. The firm-wide margin target was mentioned as 30%, though Wealth Management margins were reported at 26% in Q1 due to credit reserves, NII growth issues, and integration expenses.\n*   **International Expansion:** Executives indicated a strategic focus on international opportunities, specifically mentioning plans for transactions in wealth and asset management outside the U.S. over the next three years, with specific interest in markets like India, Japan, and the Middle East (including an office opening in Abu Dhabi).",
+ "latency_seconds": 636.23,
+ "generated_at": "2026-09-05T23:10:53Z"
+}

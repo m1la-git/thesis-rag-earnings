@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense",
+ "question_id": "ref_them_15",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BLK_2024_Q1_prepared_remarks_200_007",
+  "WFC_2023_Q4_prepared_remarks_200_025",
+  "C_2023_Q2_prepared_remarks_200_012",
+  "BAC_2023_Q4_prepared_remarks_200_027",
+  "C_2023_Q4_prepared_remarks_200_010"
+ ],
+ "raw_response": "Based on the provided context, here is the information regarding technology spending and General & Administrative (G&A) expenses for the specified periods:\n\n**Citigroup (C)**\n*   **Technology Spend:** In Q2 2023, technology spend was $3 billion, which represented a 13% increase. The company noted a shift in investments from third-party consulting to technology and full-time employees.\n*   **G&A/Expense Changes:** While specific G&A totals for the full year were not detailed in the snippet, expenses included severance of approximately $200 million in Q2 2023 ($450 million year-to-date). The company remained in line with its full-year guidance despite a higher sequential expense base.\n\n**Bank of America (BAC)**\n*   **Technology Spend:** The text mentions that continued digital transformation and adoption would help the bank through 2024, but it does not provide specific dollar amounts for technology spending in 2023 or 2024.\n*   **G&A/Expense Changes:** For 2024, quarterly expenses were expected to decline from Q1 due to a drop in elevated payroll tax expense and revenue changes, along with operational excellence initiatives.\n\n**Wells Fargo (WFC)**\n*   **Technology Spend:** The bank expected approximately $1.1 billion of incremental technology and equipment expense for 2024. This figure reflects higher costs related to the amortization of investments made in prior years as well as new investments planned for 2024.\n*   **G&A/Expense Changes:** Total non-insurance expense was expected to be approximately $52.6 billion in 2024. This outlook included ongoing business-related operating losses of approximately $1.3 billion (similar to 2023 levels) and merit increases of approximately $700 million.\n\n**BlackRock (BLK)**\n*   **Technology Spend:** The text does not provide a specific dollar amount for technology spending but states that technology is expected to be one of the primary areas of investment within G&A.\n*   **G&A/Expense Changes:** In Q1 2024, G&A expense increased 6% year-over-year due to the timing of technology investment spend in the prior year. Sequentially, G&A expense decreased 12%, reflecting the timing of technology investment spend and seasonally higher marketing expenses in the fourth quarter of the previous year. Total expenses increased 8% year-over-year.",
+ "latency_seconds": 318.22,
+ "generated_at": "2026-09-05T22:38:36Z"
+}

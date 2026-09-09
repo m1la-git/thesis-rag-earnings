@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense",
+ "question_id": "ref_them_09",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "USB_2023_Q4_prepared_remarks_200_006",
+  "HBAN_2023_Q3_prepared_remarks_200_010",
+  "HBAN_2023_Q2_prepared_remarks_200_010",
+  "BAC_2023_Q4_prepared_remarks_200_005",
+  "HBAN_2024_Q3_prepared_remarks_200_012"
+ ],
+ "raw_response": "Based on the provided context, here are the net interest margin (NIM) levels and trends for the specified periods:\n\n**Huntington Bancshares (HBAN)**\n*   **Q3 2023:** The bank anticipated NIM to be between **305 basis points and 310 basis points** for Q4 2023, which was an increase of 5 to 10 basis points from previous guidance. For the full year 2024, modeling indicated NIM would trend **flat to higher** from the Q4 2023 endpoint.\n*   **Q2 2023:** The bank anticipated NIM of approximately **3%** (plus or minus a few basis points) by Q4 2023. Modeling for 2024 indicated NIM outlooks were **stable to rising**.\n*   **Q3 2024:** Reported NIM was **2.98%**, representing a decrease of **1 basis point** from the prior quarter (Q2 2024).\n\n**Bank of America (BAC)**\n*   **Full Year 2023:** The context notes that Net Interest Income (NII) improved by **9%** year-over-year, but it does not provide a specific NIM percentage for the full year. It describes NII as \"strong but slowing\" during the course of the year.\n\n**U.S. Bancorp (USB)**\n*   **Q4 2023 / Full Year 2024:** The context provides Net Interest Income figures rather than a specific NIM percentage. For Q1 2024, expected NII was $4.0 billion to $4.1 billion. For full-year 2024, expected NII was consistent with or slightly up from the annualized Q4 2023 level of approximately **$4.14 billion**. The text notes that the interest margin in Q4 2023 reflected market dynamics including deposit pricing pressure and unfavorable shifts in deposit mix, partially offset by better earning asset spreads.",
+ "latency_seconds": 232.52,
+ "generated_at": "2026-09-05T22:37:10Z"
+}

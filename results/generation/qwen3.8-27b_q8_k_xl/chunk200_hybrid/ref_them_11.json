@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid",
+ "question_id": "ref_them_11",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "FITB_2024_Q2_prepared_remarks_200_016",
+  "FITB_2023_Q4_qa_200_028",
+  "JPM_2023_Q4_prepared_remarks_200_014",
+  "BAC_2024_Q4_prepared_remarks_200_021",
+  "COF_2023_Q4_qa_200_021"
+ ],
+ "raw_response": "Based on the provided context, banks characterized their net charge-off levels and direction as follows:\n\n*   **Fifth Third Bancorp (FITB):** For full year 2024, the net charge-off outlook was in the range of 35 to 45 basis points. Management described the overall charge-off outlook for 2024 as \"fairly benign\" and noted that credit trends were similar to those seen in 2023, with no significant geographic or product-specific trends. The 2023 experience was characterized as \"a little bit more episodic.\"\n*   **JPMorgan Chase (JPM):** For 2024, the card net charge-off rate was expected to be below 3.5%, consistent with previous guidance. While specific overall bank-wide charge-off levels for 2023 were not detailed in this excerpt, management noted that 2023 was an \"outstanding year\" producing record revenue and net income despite significant items.\n*   **Bank of America (BAC):** In the fourth quarter of 2024, the net charge-off ratio was 54 basis points, down from the third quarter. For 2025, without significant changes in GDP or employment, the bank expected the net charge-off ratio to remain stable in the range of 50 to 60 basis points.\n*   **Capital One (COF):** In the fourth quarter of 2023, net charge-offs were approximately 15% above 2018 levels and compared favorably against 2019 benchmarks. Looking ahead into 2024, the bank concluded that net charge-offs were \"stabilizing\" at about 15% above 2019 levels, with typical month-to-month volatility and seasonality expected.",
+ "latency_seconds": 402.97,
+ "generated_at": "2026-09-05T22:45:19Z"
+}

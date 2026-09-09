@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense_enriched",
+ "question_id": "ref_them_03",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BAC_2023_Q2_prepared_remarks_500_012",
+  "USB_2023_Q3_prepared_remarks_500_003",
+  "BAC_2024_Q1_prepared_remarks_500_009",
+  "WFC_2023_Q1_prepared_remarks_500_005",
+  "COF_2023_Q3_prepared_remarks_500_001"
+ ],
+ "raw_response": "Based on the provided transcripts, banks discussed their office and commercial real estate (CRE) credit exposure and allowances as follows:\n\n**Bank of America (BAC)**\n*   **Exposure:** Commercial real estate office credit exposure represents less than 2% of total loans. The bank has been intentional regarding client selection, portfolio concentration, and deal structure. By Q1 2024, roughly one-third of office exposure was categorized as \"reservable criticized,\" though the pace of increase in these exposures had slowed since Q2 2023.\n*   **Allowance & Losses:** In Q2 2023, commercial net charge-offs were flat quarter-over-quarter, with a decrease in C&I losses offset by an increase in CRE office charge-offs. By Q1 2024, the bank stated that losses on office properties had been \"front-loaded and largely reserved\" due to quick actions, downgrades, and refreshed valuations of reservable criticized properties.\n\n**U.S. Bank (USB)**\n*   **Exposure:** The bank noted changing conditions in the commercial real estate office segment but stated results trended in line with expectations, with key metrics remaining below pre-pandemic levels.\n*   **Allowance:** Given the higher interest rate environment and portfolio considerations, U.S. Bank increased its reserve ratio for commercial real estate office loans to 10%.\n\n**Wells Fargo (WFC)**\n*   **Exposure:** As of Q1 2023, Wells Fargo had $154.7 billion in CRE loans outstanding, with office loans representing 35.7% of that portfolio and 4% of total loans. The bank noted the office market showed signs of weakness due to lower demand and higher financing costs but stated it had not yet seen this translate into meaningful loss content. They were actively derisking the portfolio (commitments down 5% year-over-year) through structural enhancements and paydowns.\n*   **Allowance:** The allowance for credit losses increased in Q1 2023, reflecting an increase specifically for commercial real estate loans, primarily office loans.\n\n**Capital One (COF)**\n*   **Exposure & Allowance:** In the Commercial Banking business, the allowance increased by $97 million in Q3 2023. This build reflected the impact of rising interest rates and other factors on certain CRE and corporate borrowers, including the commercial office portfolio. Additionally, Capital One completed the sale of approximately $900 million of loans from its commercial office portfolio that were previously marked as held for sale.",
+ "latency_seconds": 190.78,
+ "generated_at": "2026-09-07T11:25:31Z"
+}

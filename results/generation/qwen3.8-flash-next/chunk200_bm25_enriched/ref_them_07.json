@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25_enriched",
+ "question_id": "ref_them_07",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BK_2023_Q2_prepared_remarks_200_013",
+  "BK_2023_Q1_prepared_remarks_200_015",
+  "STT_2023_Q2_qa_200_010",
+  "FITB_2023_Q3_qa_200_002",
+  "FITB_2023_Q3_qa_200_001"
+ ],
+ "raw_response": "Based on the provided context, BNY Mellon (BK) described its deposit balances as having \"remained elevated relative to our expectations,\" with an increase of 1% sequentially on an average basis. This growth was driven by a mix shift where interest-bearing deposits increased by 5%, while noninterest-bearing deposits decreased by 11%.",
+ "latency_seconds": 88.12,
+ "generated_at": "2026-09-07T10:49:13Z"
+}

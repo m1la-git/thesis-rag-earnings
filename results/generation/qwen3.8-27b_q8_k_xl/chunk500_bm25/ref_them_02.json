@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25",
+ "question_id": "ref_them_02",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "JPM_2023_Q3_prepared_remarks_500_002",
+  "MS_2023_Q2_qa_500_000",
+  "JPM_2023_Q3_prepared_remarks_500_001",
+  "GS_2024_Q2_qa_500_008",
+  "MS_2023_Q2_qa_500_006"
+ ],
+ "raw_response": "Based on the provided context, banks characterized the uncertainty surrounding the Basel III endgame proposal as significant, \"disconcerting,\" and indicative of rules that are \"overcalibrated\" or \"miscalibrated.\" Key characterizations include:\n\n*   **Lack of Justification:** JPMorgan Chase described the absence of detailed analysis supporting a capital increase of this magnitude (estimated at 25% for them) as disconcerting, noting it contradicts policymakers' statements that banks are well-capitalized.\n*   **Compounding Effects:** Banks highlighted how the proposal compounds existing issues, such as the GSIB surcharge and stress capital buffer (SCB), leading to a potential 45% increase in JPMorgan’s capital requirements relative to 2017 levels.\n*   **Regulatory Flexibility and Timing:** Morgan Stanley noted that while there is speculation about the rules, the actual implementation details were still pending as of mid-2023, with an extensive comment period expected. Goldman Sachs indicated in 2024 that uncertainty remained regarding both the \"quantum and timing\" of resolution, with some comments suggesting it might not take effect until 2025.\n\nThis uncertainty affected capital actions in the following ways:\n\n*   **Reduced Share Buybacks:** JPMorgan Chase stated that the pace of share repurchases would likely remain modest specifically in light of the Basel III endgame proposal.\n*   **Increased Capital Cushions:** Goldman Sachs reported running with a higher-than-normal cushion (90 basis points above normal) on a CET1 basis to signal flexibility and address the lingering uncertainty regarding the future regulatory input. Morgan Stanley also noted maintaining a cautious stance, ending Q2 2023 with a 15.5% CET1 ratio, partly driven by caution in the broader banking environment alongside Basel III considerations.",
+ "latency_seconds": 169.78,
+ "generated_at": "2026-09-05T23:34:18Z"
+}

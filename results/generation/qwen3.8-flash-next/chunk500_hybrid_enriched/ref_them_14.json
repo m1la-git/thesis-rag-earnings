@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid_enriched",
+ "question_id": "ref_them_14",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BAC_2023_Q4_prepared_remarks_500_004",
+  "WFC_2024_Q3_prepared_remarks_500_007",
+  "BAC_2024_Q4_prepared_remarks_500_010",
+  "BAC_2024_Q2_prepared_remarks_500_011",
+  "BAC_2024_Q3_prepared_remarks_500_001"
+ ],
+ "raw_response": "Based on the provided context, here is what Bank of America (BAC) reported regarding investment banking revenue and fees for 2023 and 2024:\n\n**2023 Performance:**\n*   **Global Banking Revenue Growth:** In Q4 2023, BAC’s Global Markets team saw strong performance with 7% year-over-year revenue growth, described as the strongest in many years. This was supported by a multi-year build of the relationship management team and product expansion in global transaction services and mid-market investment banking.\n\n**2024 Performance:**\n*   **Q1/Q2 Trends (implied from Q2 report):** In Q2 2024, Global Banking earnings were down 20% year-over-year because improved investment banking fees were overcome by lower net interest income and higher provision expenses. However, investment banking fees themselves grew 29% year-over-year to nearly $1.6 billion in that quarter, led by debt capital markets (mostly leveraged finance and investment grade).\n*   **Full Year 2024:** BAC reported a \"nice rebound\" in investment banking fees for the full year of 2024. The business maintained its number three position globally in investment banking fee rankings.\n*   **Q4 2024 Specifics:** Investment banking fees reached $1.7 billion, growing 44% year-over-year. This growth was led by mergers and acquisitions (M&A), with strength also seen across debt capital markets (mostly leverage finance) and equity capital markets fees. The fourth quarter momentum was attributed to election results providing a lift to sentiment for a more pro-business climate and expectations for more deals.\n\n**Note on Wells Fargo (WFC):**\n*   In Q3 2024, WFC reported that Banking revenue in Corporate Investment Banking was down 5% from a year ago due to higher deposit costs and lower loan balances. Commercial real estate revenue decreased 1%, partially offset by higher capital markets revenue.",
+ "latency_seconds": 504.02,
+ "generated_at": "2026-09-07T11:36:46Z"
+}

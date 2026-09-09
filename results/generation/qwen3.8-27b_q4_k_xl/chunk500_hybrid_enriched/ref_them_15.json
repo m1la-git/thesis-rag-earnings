@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid_enriched",
+ "question_id": "ref_them_15",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "C_2023_Q4_prepared_remarks_500_007",
+  "BAC_2023_Q4_prepared_remarks_500_002",
+  "BLK_2024_Q1_prepared_remarks_500_003",
+  "FITB_2023_Q1_qa_500_011",
+  "BLK_2024_Q3_prepared_remarks_500_004"
+ ],
+ "raw_response": "Based on the provided context, here is the information regarding technology spending and General & Administrative (G&A) expenses:\n\n**Bank of America (BAC)**\n*   **2023 Technology Spend:** The firm invested over $12 billion in technology in 2023. This included transformation investments where roughly 30% were allocated to technology, with the remainder related to non-tech employees and consultants.\n*   **Expense Trends:** Full-year expenses for 2023 were $54.3 billion (excluding FDIC special assessment and divestiture-related impacts). Expense growth was driven by transformation and business-led investments, including technology, partially offset by productivity savings. The company noted a shift from consulting expenses to technology and compensation as it moved deeper into the execution of its transformation.\n\n**BlackRock (BLK)**\n*   **2024 G&A Outlook:** BlackRock expected core G&A expense to increase by a low to mid-single-digit percentage in 2024, excluding the impact of Global Infrastructure Partners (GIP) and related transaction costs. Including the GIP acquisition impact, full-year core G&A expense growth was expected to be closer to the high end of that range.\n*   **Technology Spend Context:** Technology is identified as a primary area of investment within G&A. In Q1 2024, G&A decreased 12% year-over-year due to the timing of technology investment spend and seasonally higher marketing expenses in the prior quarter's fourth quarter. For Q3 2024, core G&A increased 6% year-over-year, driven primarily by higher direct fund expense (linked to ETF AUM), while Q4 was expected to reflect planned technology investment spend consistent with Q3 levels.\n\n**Fifth Third Bank (FITB)**\n*   **Multi-year Technology Spend:** The bank indicated that total spend on core technology conversion over a multi-year period could reach as much as $100 million, of which less than half would be capitalized. This spending was noted as driving expense growth in the first quarter and for the year.",
+ "latency_seconds": 670.53,
+ "generated_at": "2026-09-05T15:12:15Z"
+}

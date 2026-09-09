@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25",
+ "question_id": "ref_them_12",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "GS_2024_Q4_qa_500_005",
+  "BAC_2023_Q4_prepared_remarks_500_003",
+  "C_2024_Q3_qa_500_006",
+  "HBAN_2024_Q1_qa_500_010",
+  "BLK_2023_Q2_prepared_remarks_500_005"
+ ],
+ "raw_response": "Based on the provided context, here is what firms said regarding their wealth management businesses in 2023:\n\n**Bank of America (BAC)** stated that its Global Wealth Management team added more than 40,000 net new relationships across Merrill and the Private Bank. Advisors opened 150,000 new banking accounts for wealth management clients, demonstrating a \"completeness of the relationship approach.\" The average Merrill account was over $1 million at opening, with private bank accounts being multiples of that amount.\n\n**BlackRock (BLK)** noted that it generated positive flows from wealth and institutional clients in the first half of 2023. They observed that client expectations are expanding, leading them to do more business with fewer managers who offer a broad range of integrated services alongside strong performance. BlackRock emphasized organizing itself around clients to deliver a platform approach rather than just products.\n\n**Citizens Financial Group (C)** mentioned that its consumer credit businesses were a source of strength for clients, though specific details on wealth management investments were not provided in the excerpt.",
+ "latency_seconds": 286.14,
+ "generated_at": "2026-09-07T11:47:04Z"
+}

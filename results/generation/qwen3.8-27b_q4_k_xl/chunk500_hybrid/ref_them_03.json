@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid",
+ "question_id": "ref_them_03",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "WFC_2024_Q2_prepared_remarks_500_006",
+  "WFC_2023_Q1_prepared_remarks_500_005",
+  "WFC_2023_Q4_prepared_remarks_500_004",
+  "USB_2023_Q1_qa_500_009",
+  "MTB_2023_Q2_qa_500_005"
+ ],
+ "raw_response": "During 2023, banks reported increasing stress and losses in their commercial real estate (CRE) office portfolios due to weak market fundamentals, lower demand, higher financing costs, and challenging capital markets. Key points regarding exposure and allowances include:\n\n*   **Exposure Management:** Banks actively worked to derisk their office exposures. Wells Fargo noted that its office commitments declined by 5% from a year ago in Q1 2023 and further reduced commitments by 13% and loan balances by 9% from a year ago by Q2 2024 (referencing the ongoing trend). U.S. Bancorp stated it had been very conservative with CRE office lending over many years, resulting in limited exposure compared to peers.\n*   **Losses:** Wells Fargo indicated that losses began to materialize in its CRE office portfolio in late 2023 as market fundamentals remained weak. These losses were described as \"lumpy,\" \"uneven,\" and \"episodic.\" In Q4 2023, net loan charge-offs increased partly due to higher CRE office losses driven by borrower performance issues and lower appraisals on properties sold at a loss.\n*   **Allowance for Credit Losses:** Wells Fargo substantially built reserves for the CRE portfolio throughout 2023 as criticized and nonperforming assets increased. By Q1 2023, the allowance for credit losses increased by $643 million, reflecting an increase specifically for commercial real estate loans, primarily office loans. The bank noted that its allowance coverage for the CRE office portfolio remained relatively stable at approximately 11% in subsequent quarters (Q2 2024 context referencing stability over past several quarters).\n*   **Outlook:** Banks expected additional losses in coming quarters given ongoing market challenges but emphasized rigorous monitoring processes and proactive management of borrower exposures, including structural enhancements and paydowns.",
+ "latency_seconds": 353.02,
+ "generated_at": "2026-09-03T12:42:42Z"
+}

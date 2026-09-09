@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid_enriched",
+ "question_id": "ref_comp_01",
+ "category": "comparative",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "GS_2024_Q2_qa_200_020",
+  "GS_2023_Q3_qa_200_011",
+  "GS_2023_Q3_prepared_remarks_200_005",
+  "GS_2024_Q1_qa_200_040",
+  "C_2023_Q2_prepared_remarks_200_008"
+ ],
+ "raw_response": "Goldman Sachs characterized the Basel III Endgame uncertainty by emphasizing operational flexibility and strategic positioning. In Q1 2024, management noted that while the final rules were highly determinative for specific components, their broad financing capabilities in FICC and Equities would allow them to adjust pricing or business mix as needed. By Q2 2024, they explicitly stated they were operating at the wider end of their capital range (with 90 bps of cushion) to signal flexibility and address remaining uncertainties regarding both the quantum and timing of the rule's resolution.\n\nIn contrast, Citi characterized the uncertainty in late 2023 primarily through a lens of regulatory disappointment and active engagement. In Q2 2023, they expressed disappointment with their stress capital buffer increase and highlighted ongoing dialogue with the Fed to understand model differences. They described the situation as one where the industry was awaiting further clarity on capital requirements and implementation timing from regulators' holistic review, noting that there was still uncertainty regarding what the final rules would be and that the bank needed to work through the implications alongside other levers like exiting international consumer markets.",
+ "latency_seconds": 281.7,
+ "generated_at": "2026-09-05T22:21:36Z"
+}

@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense_enriched",
+ "question_id": "ref_them_07",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "FITB_2023_Q2_prepared_remarks_500_001",
+  "BAC_2024_Q3_prepared_remarks_500_005",
+  "BAC_2023_Q2_prepared_remarks_500_008",
+  "PNC_2023_Q2_prepared_remarks_500_002",
+  "BAC_2023_Q2_prepared_remarks_500_009"
+ ],
+ "raw_response": "In the second quarter of 2023, bank executives described deposit performance with a mix of outperformance against sector trends and pressure from quantitative tightening:\n\n*   **Fifth Third** reported that total period-end deposits increased 1% sequentially and 2% year-over-year, outperforming the broader banking industry (which saw a 5% decline). This growth was attributed to multiyear strategies in Southeast markets, new branch openings, innovative products like Momentum Banking, and record middle-market relationship additions.\n*   **Bank of America** noted that average deposit balances remained 33% above pre-pandemic levels. While there was a modest downtick in deposits over the prior several quarters due to the Federal Reserve removing accommodation, global banking deposits were stable at approximately $490 billion to $500 billion. The bank also highlighted competitive pressure on roughly $40 billion of CDs but stated it had not felt the need to chase deposits with higher rates because deposits far exceeded loans.\n*   **PNC** reported that deposits declined 2% on both a spot and average basis compared to the previous quarter. This decline was attributed to continuing pressure from quantitative tightening, increased spending activity, and consumer tax payments. The bank also noted a shift in deposit mix from non-interest-bearing to interest-bearing accounts, driven primarily by commercial deposits.",
+ "latency_seconds": 429.09,
+ "generated_at": "2026-09-05T23:07:26Z"
+}

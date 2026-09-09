@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense_enriched",
+ "question_id": "ref_them_12",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "GS_2023_Q3_prepared_remarks_200_003",
+  "MS_2023_Q3_prepared_remarks_200_014",
+  "MS_2024_Q3_prepared_remarks_200_008",
+  "MS_2023_Q3_qa_200_000",
+  "GS_2023_Q4_prepared_remarks_200_003"
+ ],
+ "raw_response": "Based on the provided context, Goldman Sachs stated that its Asset & Wealth Management strategy was working as evidenced by successes across the franchise. The firm reported its 23rd consecutive quarter of long-term fee-based inflows and generated record management and other fees of $2.4 billion in Q3 2023, noting it was well on pace to achieve a $10 billion annual target for 2024. Additionally, Goldman Sachs highlighted that it had reduced historical principal investments by $13 billion over the past year while surpassing its five-year alternatives fundraising target one year early.\n\nMorgan Stanley indicated in Q3 2023 that increased client conviction would support asset growth and wealth and investment management. In Q3 2024, Morgan Stanley noted that Wealth Management produced record revenue of $7.3 billion and record pre-tax profit (PBT), driven by constructive markets and disciplined execution. The firm reported that client assets in Wealth Management reached $6 trillion, with strong fee-based flows attributed to its scaled and differentiated client acquisition funnel and the value of advice. Morgan Stanley also mentioned that its multichannel model was driving durable long-term growth and profitability, benefiting from continued investments in expanded offerings and technology.",
+ "latency_seconds": 461.73,
+ "generated_at": "2026-09-05T22:16:02Z"
+}

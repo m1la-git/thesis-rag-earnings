@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25_enriched",
+ "question_id": "ref_them_02",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "GS_2024_Q2_qa_200_020",
+  "JPM_2023_Q3_prepared_remarks_200_006",
+  "MS_2023_Q2_qa_200_001",
+  "JPM_2023_Q3_prepared_remarks_200_003",
+  "JPM_2023_Q3_prepared_remarks_200_007"
+ ],
+ "raw_response": "Banks characterized the uncertainty around the Basel III endgame as significant, noting that the proposals were \"overcalibrated\" and would lead to a substantial increase in capital requirements (e.g., a 45% increase relative to 2017 levels for JPMorgan if finalized as proposed). They highlighted ongoing uncertainties regarding the quantum and timing of resolution, the potential incorporation of CECL into stress tests, and the lack of fixes to GSIB surcharges.\n\nThis uncertainty affected capital actions by prompting banks to maintain higher capital buffers and adopt a more conservative approach to share repurchases. Specifically:\n*   **Goldman Sachs** signaled flexibility by operating at the wider end of its CET1 range (with 90 bps of cushion) to address remaining uncertainties regarding both the Standardized Approach for Counterparty Credit Risk (SA-CCR) and Basel III endgame.\n*   **JPMorgan Chase** kept the pace of buybacks \"modest\" in light of the proposal, despite generating net income, and continued to reassess its capital hierarchy as circumstances evolved.",
+ "latency_seconds": 72.91,
+ "generated_at": "2026-09-07T10:48:57Z"
+}

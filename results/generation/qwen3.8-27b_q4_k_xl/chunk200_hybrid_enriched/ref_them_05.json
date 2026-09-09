@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid_enriched",
+ "question_id": "ref_them_05",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BLK_2023_Q4_prepared_remarks_200_013",
+  "FITB_2024_Q4_prepared_remarks_200_021",
+  "FITB_2024_Q3_prepared_remarks_200_005",
+  "STT_2024_Q3_prepared_remarks_200_017",
+  "BK_2023_Q3_prepared_remarks_200_014"
+ ],
+ "raw_response": "Based on the provided context, only one bank reported specific figures for the third quarter of 2024:\n\n*   **State Street (STT):** Returned over **$670 million** to shareholders in Q3 2024. This included **$450 million** in common share repurchases and implied dividends (the text states total capital return was $670 million, with buybacks being $450 million, leaving approximately $220 million for other returns like dividends).\n\nThe context does not provide specific dividend or share repurchase figures for the third quarter of 2024 for BlackRock (BLK), Fifth Third (FITB), or Bank of New York Mellon (BK). Therefore, a direct comparison of scale between multiple banks for that specific quarter cannot be made using only the provided text.",
+ "latency_seconds": 166.22,
+ "generated_at": "2026-09-05T14:24:29Z"
+}

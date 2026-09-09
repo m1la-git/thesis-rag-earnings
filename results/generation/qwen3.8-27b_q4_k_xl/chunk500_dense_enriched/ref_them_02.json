@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense_enriched",
+ "question_id": "ref_them_02",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "MS_2023_Q2_qa_500_014",
+  "GS_2023_Q3_prepared_remarks_500_002",
+  "MS_2023_Q3_prepared_remarks_500_001",
+  "MS_2023_Q2_qa_500_000",
+  "JPM_2023_Q3_prepared_remarks_500_001"
+ ],
+ "raw_response": "Based on the provided context, bank executives characterized the uncertainty surrounding the Basel III Endgame proposal by emphasizing that it was a **proposal rather than a final regulation**, noting that an extensive comment period would allow for \"thoughtful changes\" before adoption. They described the process as taking significant time (referencing six years since initial proposals) and expressed skepticism about the necessity of such large capital increases, arguing that current rules were \"disconcerting,\" \"miscalibrated,\" or went \"way too far\" given existing improvements in bank safety and soundness.\n\nRegarding capital actions:\n*   **JPMorgan Chase** stated that the pace of share buybacks would likely remain **modest** in light of the proposal, though they continued to reassess their trajectory as circumstances evolved. They noted an expected increase in Risk-Weighted Assets (RWA) by around 30% ($500 billion), which would drive capital requirements up by approximately 25% ($50 billion).\n*   **Morgan Stanley** indicated that despite the uncertainty, they had built significant capital buffers and maintained adequate capital to meet ultimate requirements even if the proposal were implemented immediately. They did not explicitly detail changes to buybacks in the provided text but emphasized their readiness through existing buffers.\n*   **Goldman Sachs** highlighted potential negative consequences of the rules, such as higher credit costs and a shift of activity to shadow banking, which could impact economic growth, though specific capital action details (like buyback pauses) were not explicitly detailed in the same manner as JPMorgan’s statement.",
+ "latency_seconds": 250.28,
+ "generated_at": "2026-09-05T14:52:57Z"
+}

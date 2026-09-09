@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense_enriched",
+ "question_id": "ref_them_01",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "WFC_2023_Q4_prepared_remarks_500_009",
+  "BAC_2023_Q4_prepared_remarks_500_010",
+  "WFC_2023_Q3_prepared_remarks_500_007",
+  "BAC_2024_Q1_prepared_remarks_500_008",
+  "BK_2024_Q4_prepared_remarks_500_006"
+ ],
+ "raw_response": "Based on the provided context, banks reported the impact of the FDIC special assessment as follows:\n\n*   **Wells Fargo (Q4 2023):** The bank included a $1.9 billion FDIC special assessment in its reported non-interest expense for 2023. Excluding this item, expenses would have been $53.6 billion instead of the reported $55.6 billion.\n*   **Bank of America (Q4 2023):** The bank reported adjusted expense of $15.6 billion, which explicitly excluded the FDIC assessment. It noted that it began 2023 with a $125 million lift in quarterly FDIC expense.\n*   **Bank of America (Q1 2024):** The bank reported total expense of $17.2 billion including the FDIC assessment. Adjusted for this assessment, expenses were $16.5 billion.\n*   **Barclays (Q4 2023/Full Year 2024 Context):** While discussing Q4 2024 results, the bank noted that reported expenses in Q4 2023 included an FDIC special assessment. Excluding notable items (which included this assessment), expenses were up 1% year-over-year. The reported basis for Q4 2024 expenses was down 16% year-over-year primarily because of the FDIC special assessment recorded in Q4 2023 that did not recur in the same manner or magnitude in the comparison period (implied by the \"down\" statement relative to the prior year's notable item).",
+ "latency_seconds": 241.28,
+ "generated_at": "2026-09-05T23:04:18Z"
+}

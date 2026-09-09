@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense",
+ "question_id": "ref_them_14",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "MS_2023_Q4_prepared_remarks_200_016",
+  "BAC_2024_Q4_prepared_remarks_200_026",
+  "GS_2024_Q4_prepared_remarks_200_016",
+  "GS_2024_Q4_prepared_remarks_200_014",
+  "BK_2023_Q4_prepared_remarks_200_018"
+ ],
+ "raw_response": "Based on the provided context, banks reported the following regarding investment banking revenue and fees for 2023 and 2024:\n\n**Morgan Stanley (Full Year 2023)**\n*   Full-year investment banking revenues were $4.6 billion, impacted by a weak environment that began in early 2022 due to the hiking cycle and geopolitical events.\n*   Lower completed M&A transactions weighed on results, though announced volumes increased notably starting in the third quarter of 2023 and continuing into the fourth quarter.\n*   Fourth-quarter revenues were $1.3 billion, supported mostly by fixed income underwriting.\n\n**Bank of America (Full Year 2024)**\n*   Global Banking saw a \"nice rebound\" in investment banking fees in 2024, which is expected to continue into 2025.\n*   In the fourth quarter of 2024, investment banking fees were $1.7 billion, representing a 44% year-over-year increase led by mergers and acquisitions, as well as strength in debt capital markets (leverage finance) and equity capital markets.\n\n**Goldman Sachs (Full Year 2024)**\n*   In the fourth quarter of 2024, investment banking fees were $2.1 billion, up 24% year-over-year.\n*   Advisory revenues were $960 million, and equity underwriting revenues increased substantially to $499 million due to strong equity markets.\n*   Net underwriting revenues rose 51% to $595 million amid higher leveraged finance activity.\n*   The firm maintained its number one position in announced and completed M&A league tables for the year, ranked third in equity underwriting, and second in leverage lending.\n\n**Bank of New York Mellon (Outlook for 2024)**\n*   The bank expected fee revenue growth to turn positive in 2024, citing a healthy pipeline across businesses.",
+ "latency_seconds": 165.44,
+ "generated_at": "2026-09-07T11:09:12Z"
+}

@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid_enriched",
+ "question_id": "ref_them_15",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "C_2023_Q4_prepared_remarks_500_007",
+  "BAC_2023_Q4_prepared_remarks_500_002",
+  "BLK_2024_Q1_prepared_remarks_500_003",
+  "FITB_2023_Q1_qa_500_011",
+  "BLK_2024_Q3_prepared_remarks_500_004"
+ ],
+ "raw_response": "Based on the provided context, here is the information regarding technology spending and G&A expenses for the mentioned entities:\n\n**Bank of America (2023)**\n*   **Technology Spend:** The firm invested over $12 billion in technology in 2023. Roughly 30% of its transformation investments over the last three years were in technology, with a shift from consulting expenses to technology and compensation observed in 2023.\n*   **Expense Trends:** Full-year expenses for 2023 were $54.3 billion (excluding FDIC special assessment and divestiture impacts). Expense growth was driven by transformation and business-led investments, volume-related expenses, and investments in risk, controls, and technology.\n\n**BlackRock (2024)**\n*   **G&A Expense Guidance:** BlackRock expects a low to mid-single-digit percentage increase in 2024 core G&A expense. However, inclusive of the Global Infrastructure Partners (GIP) acquisition impact, full-year core G&A expense growth is expected to be closer to the high end of that range.\n*   **Technology Spend Trends:** In Q1 2024, G&A expense decreased 12% year-over-year due to the timing of technology investment spend. By Q3 2024, expenses increased 6% year-over-year (driven by direct fund expense), and the company expects Q4 core G&A to reflect execution of planned technology investment spend at levels more consistent with Q3.\n\n**Fifth Third Bancorp (FITB) (2023–2025)**\n*   **Technology Spend:** The bank noted a continued ramp-up in technology costs in Q1 2023 related to core conversions and platform rollouts. Total spend over the multi-year period could reach as much as $100 million, with slightly less than half expected to be capitalized.",
+ "latency_seconds": 503.77,
+ "generated_at": "2026-09-07T11:36:45Z"
+}

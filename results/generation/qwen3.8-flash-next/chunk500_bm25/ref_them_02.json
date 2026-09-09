@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25",
+ "question_id": "ref_them_02",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "JPM_2023_Q3_prepared_remarks_500_002",
+  "MS_2023_Q2_qa_500_000",
+  "JPM_2023_Q3_prepared_remarks_500_001",
+  "GS_2024_Q2_qa_500_008",
+  "MS_2023_Q2_qa_500_006"
+ ],
+ "raw_response": "Banks characterized the Basel III Endgame proposal as overly calibrated, lacking detailed supporting analysis for such a significant capital increase, and conceptually flawed regarding GSIB surcharges. They noted that the proposals could result in a 25% to 45% increase in capital requirements relative to previous levels, creating substantial uncertainty regarding both the final quantum of required capital and the timing of implementation (potentially extending into 2025).\n\nThis uncertainty directly affected capital actions by causing banks to adopt a more conservative approach:\n*   **Reduced Buybacks:** JPMorgan stated that the pace of share repurchases would likely remain modest in light of the proposal, with buyback trajectories being reassessed as circumstances evolve. Morgan Stanley also indicated caution, noting they maintained higher CET1 ratios partly due to the regulatory environment and market instability.\n*   **Maintaining Higher Capital Buffers:** Goldman Sachs signaled flexibility by operating at the wider end of their capital range (90 bps cushion) specifically to address the lingering uncertainty regarding the Basel III Endgame's resolution.",
+ "latency_seconds": 92.02,
+ "generated_at": "2026-09-07T11:43:49Z"
+}

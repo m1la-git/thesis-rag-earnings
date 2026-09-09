@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense",
+ "question_id": "ref_them_09",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "USB_2023_Q4_prepared_remarks_200_006",
+  "HBAN_2023_Q3_prepared_remarks_200_010",
+  "HBAN_2023_Q2_prepared_remarks_200_010",
+  "BAC_2023_Q4_prepared_remarks_200_005",
+  "HBAN_2024_Q3_prepared_remarks_200_012"
+ ],
+ "raw_response": "Based on the provided context, here are the reported net interest margin (NIM) levels and trends for the specified periods:\n\n**Huntington Bancshares (HBAN)**\n*   **2023:** The company anticipated a Q4 2023 NIM of approximately 3% (specifically updated to 3.05%–3.10%). This was higher than previous guidance and represented an improvement driven by loan growth and funding mix.\n*   **2024:** Modeling indicated that the 2024 NIM would trend flat to higher from the Q4 2023 endpoint.\n\n**U.S. Bancorp (USB)**\n*   The provided context does not state specific net interest margin percentage levels for USB in 2023 or 2024. It notes that the margin reflected market dynamics including deposit pricing pressure and unfavorable shifts in deposit mix, partially offset by better earning asset spreads and improved total funding mix.\n\n**Bank of America (BAC)**\n*   The provided context does not state specific net interest margin percentage levels for BAC. It notes that Net Interest Income (NII) was strong but slowing during the course of 2023, with a 9% NII improvement year-over-year on an adjusted basis.",
+ "latency_seconds": 118.8,
+ "generated_at": "2026-09-07T11:08:25Z"
+}

@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense",
+ "question_id": "ref_them_01",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BK_2024_Q4_prepared_remarks_500_006",
+  "WFC_2023_Q3_prepared_remarks_500_007",
+  "WFC_2023_Q4_prepared_remarks_500_009",
+  "WFC_2024_Q1_prepared_remarks_500_005",
+  "WFC_2024_Q2_qa_500_006"
+ ],
+ "raw_response": "Based on the provided context, banks reported the impact of the FDIC special assessment as follows:\n\n*   **Bank of America (BK):** In the fourth quarter of 2023, expenses were down 16% year-over-year on a reported basis primarily because the prior year period included the FDIC special assessment. For the full year 2024, they noted that excluding notable items (which reflected the net impact of adjustments for the FDIC special assessment), pre-tax margin was 33% and return on tangible common equity was 24%.\n*   **Wells Fargo (WFC):** In their Q4 2023 remarks, they stated that if the FDIC deposit special assessment related to earlier events in the year was finalized in the fourth quarter, it would increase expected fourth-quarter expenses. For full-year 2023, reported non-interest expense was $55.6 billion, which included a $1.9 billion FDIC special assessment; excluding this item, expenses were $53.6 billion. In Q1 2024, they noted that their full-year 2024 non-interest expense guidance of approximately $52.6 billion did not include the expense for the FDIC special assessment recorded in the first quarter. By Q2 2024, management indicated that the increase in the expense guide was driven partly by the FDIC expense seen in the period.",
+ "latency_seconds": 357.53,
+ "generated_at": "2026-09-03T12:28:13Z"
+}

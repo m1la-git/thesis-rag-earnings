@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25_enriched",
+ "question_id": "ref_them_12",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BK_2023_Q4_prepared_remarks_200_026",
+  "MS_2023_Q4_prepared_remarks_200_002",
+  "BK_2023_Q3_prepared_remarks_200_009",
+  "BAC_2023_Q3_prepared_remarks_200_016",
+  "BK_2024_Q2_prepared_remarks_200_006"
+ ],
+ "raw_response": "Based on the provided context, firms discussed the following regarding their wealth management businesses and investments in 2023:\n\n*   **BNY Mellon** reported that its Investment and Wealth Management segment had a pre-tax margin of 12% for full-year 2023 (or 17% excluding notable items). The firm stated its plan to improve this margin to 25% or higher over the medium term through growth and efficiency initiatives. Key strategies included unlocking distribution power by creating a firmwide distribution platform that combines enhanced products with third-party manager offerings, and enhancing Dreyfus Cash products within an enterprise-wide open architecture liquidity ecosystem. Additionally, BNY Mellon highlighted the growing interest in its wealth advisory platform, Wove, noting client agreements (such as with Integrity) and plans to begin disclosing financial information for Wove’s growth trajectory in early 2024.\n*   **Morgan Stanley** noted that during the period leading up to 2023, it achieved incremental scale in wealth management through acquisitions like E*TRADE and Eaton Vance, which provided a leading self-directed platform. In 2023, despite geopolitical and macroeconomic challenges, the firm’s business model generated consistent results with $54 billion in revenues and $12 billion of pre-tax profit. The firm stated it had tripled client assets in its durable businesses, including wealth management, while maintaining a return on tangible common equity of 13%.",
+ "latency_seconds": 178.62,
+ "generated_at": "2026-09-05T14:13:30Z"
+}

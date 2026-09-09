@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense_enriched",
+ "question_id": "ref_them_09",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "HBAN_2023_Q3_prepared_remarks_500_004",
+  "HBAN_2023_Q4_prepared_remarks_500_004",
+  "HBAN_2023_Q3_prepared_remarks_500_007",
+  "BAC_2023_Q4_prepared_remarks_500_002",
+  "MTB_2023_Q4_prepared_remarks_500_004"
+ ],
+ "raw_response": "Based on the provided context, here are the net interest margin (NIM) levels and trends for the specified periods:\n\n**Huntington Bancshares (HBAN)**\n*   **Q3 2023:** The text notes that Q3 NIM came in better than expected but does not provide a specific basis point figure for the quarter itself.\n*   **Q4 2023 Outlook:** Anticipated to be between **305 and 310 basis points**. This was an increase of 5 to 10 basis points compared to previous guidance.\n*   **2024 Outlook:** Modeling indicated NIM would trend **flat to higher** from the Q4 2023 endpoint.\n\n**Bank of America (BAC)**\n*   **Q4 2023 / Full Year 2023:** The text states that Net Interest Income (NII) improved by **9%** year-over-year in 2023, but it does not provide a specific NIM percentage or basis point level for the bank. It notes that NII was \"strong but slowing\" during the course of the year.\n\n**M&T Bank (MTB)**\n*   The provided context for M&T Bank discusses net charge-offs, non-accrual loans, and criticized loans, but **does not contain information regarding their Net Interest Margin levels or trends.**\n\n**General Trends in 2024 (HBAN Context)**\n*   HBAN’s planning scenarios for 2024 ranged from a lower end with five rate cuts to a higher end with three rate cuts.\n*   If the lower rate scenario played out, NIM was expected to remain near Q4 2023 levels (**3% to 3.1%**).\n*   If the \"higher for longer\" scenario occurred, NIM was expected to expand by up to **10 basis points** above that level.",
+ "latency_seconds": 543.75,
+ "generated_at": "2026-09-05T14:57:50Z"
+}

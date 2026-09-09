@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense",
+ "question_id": "ref_them_04",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "C_2023_Q4_prepared_remarks_200_010",
+  "BAC_2023_Q4_prepared_remarks_200_005",
+  "MTB_2024_Q4_prepared_remarks_200_003",
+  "FITB_2024_Q2_prepared_remarks_200_018",
+  "MS_2024_Q4_prepared_remarks_200_015"
+ ],
+ "raw_response": "Based on the provided context, Bank of America described achieving 170 basis points of operating leverage in 2023, noting that heightened quarterly expense levels were driven lower throughout the year. Fifth Third Bancorp (FITB) stated that its trajectory of income statement performance should deliver positive operating leverage in the fourth quarter of 2024.",
+ "latency_seconds": 70.52,
+ "generated_at": "2026-09-05T22:34:28Z"
+}

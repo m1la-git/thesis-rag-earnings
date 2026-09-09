@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid",
+ "question_id": "ref_them_03",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "WFC_2024_Q1_prepared_remarks_200_015",
+  "WFC_2023_Q4_prepared_remarks_200_012",
+  "WFC_2023_Q4_prepared_remarks_200_011",
+  "COF_2023_Q3_prepared_remarks_200_004",
+  "WFC_2023_Q3_prepared_remarks_200_014"
+ ],
+ "raw_response": "Banks reported that losses began to materialize in their commercial real estate (CRE) office portfolios throughout 2023, driven by weak market fundamentals, lower appraisals, and borrower performance issues. Consequently, they substantially built reserves for this portfolio as criticized and nonperforming assets increased. Specifically:\n\n*   **Allowance Increases:** Allowances for credit losses were increased for commercial real estate loans (particularly office) in Q3 and Q4 2023. For example, one bank noted a $333 million increase in its allowance in Q3 primarily for CRE office loans, while another cited an increase driven by rising interest rates affecting certain CRE borrowers, including the office portfolio.\n*   **Nonaccrual Loans:** Nonaccrual loans in the office sector rose significantly, with increases of $1.3 billion in one quarter and $567 million in another.\n*   **Coverage Ratios:** Coverage ratios for CRE office portfolios were maintained or remained stable (e.g., 11% in Q4), though banks noted that future losses would likely be \"uneven and episodic.\"\n*   **Risk Management:** Banks emphasized rigorous monitoring, derisking efforts, and the reduction of exposure. One bank completed the sale of approximately $900 million of loans from its commercial office portfolio previously marked as held for sale.",
+ "latency_seconds": 67.42,
+ "generated_at": "2026-09-07T11:10:20Z"
+}

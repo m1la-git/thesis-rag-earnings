@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid_enriched",
+ "question_id": "ref_comp_02",
+ "category": "comparative",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BAC_2024_Q1_prepared_remarks_500_009",
+  "BAC_2023_Q4_prepared_remarks_500_011",
+  "BAC_2023_Q2_prepared_remarks_500_012",
+  "HBAN_2023_Q4_qa_500_012",
+  "BAC_2024_Q2_prepared_remarks_500_009"
+ ],
+ "raw_response": "Based on the provided context, there is insufficient information to answer this question. The text contains detailed data regarding Bank of America’s Q1 2024 office real estate charge-offs (specifically mentioning $304 million in losses and a total net charge-off ratio of 58 basis points) but does not provide any specific financial data, charge-off figures, or portfolio reduction metrics for Huntington’s first quarter of 2024. The only reference to Huntington is from its Q4 2023 earnings call, which discusses full-year 2023 performance and general confidence in the office portfolio without providing Q1 2024 specifics.",
+ "latency_seconds": 420.28,
+ "generated_at": "2026-09-05T15:08:05Z"
+}

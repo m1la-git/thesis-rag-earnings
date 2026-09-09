@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense_enriched",
+ "question_id": "ref_them_11",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "FITB_2023_Q4_qa_200_028",
+  "FITB_2024_Q4_prepared_remarks_200_015",
+  "BAC_2024_Q4_prepared_remarks_200_021",
+  "MTB_2023_Q4_prepared_remarks_200_010",
+  "FITB_2023_Q4_prepared_remarks_200_022"
+ ],
+ "raw_response": "Based on the provided context, banks characterized their net charge-off (NCO) levels and direction as follows:\n\n**First Interstate BancSystem (FITB)**\n*   **2023:** Characterized as \"a little bit more episodic.\"\n*   **2024:** The overall charge-off outlook was described as \"fairly benign,\" with expectations for NCOs in the 35 to 45 basis point range. Management noted that credit continued to normalize, with first-quarter NCOs expected in the 35 to 40 basis point range. There were no significant trends geographically or by product compared to 2023.\n*   **Q4 2024 Specifics:** The net charge-off ratio was 46 basis points, down 2 basis points sequentially. Commercial charge-offs decreased by 8 basis points to 32 basis points, while consumer charge-offs increased by 6 basis points due to seasonal factors and the seasoning of 2022 vintages in Solar and RV portfolios.\n\n**Bank of America (BAC)**\n*   **Recent Quarters/Direction:** Consumer losses were stable in a range of $1 billion to $1.1 billion over the past few quarters. Commercial losses declined, driven by lower commercial real estate office losses.\n*   **Q4 2024 Specifics:** The net charge-off ratio was 54 basis points, down 4 basis points from the third quarter.\n*   **Outlook:** Without significant changes in GDP or employment, the bank expected the NCO ratio to remain relatively stable in 2025, ranging between 50 and 60 basis points.\n\n**M&T Bank (MTB)**\n*   **Q4 2023 Specifics:** Net charge-offs totaled $148 million or 44 basis points, which was up 15 basis points from the linked quarter. This increase was largely driven by specific office-related charge-offs in major cities and C&I charge-offs related to an online retailer and an RV dealer.",
+ "latency_seconds": 439.66,
+ "generated_at": "2026-09-05T22:15:40Z"
+}

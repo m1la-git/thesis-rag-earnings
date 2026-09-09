@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense_enriched",
+ "question_id": "ref_them_14",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BAC_2024_Q4_prepared_remarks_500_010",
+  "WFC_2023_Q4_prepared_remarks_500_009",
+  "BAC_2023_Q4_prepared_remarks_500_002",
+  "WFC_2024_Q3_prepared_remarks_500_007",
+  "MS_2023_Q4_prepared_remarks_500_006"
+ ],
+ "raw_response": "Based on the provided context, here is what the banks reported regarding investment banking revenue and fees for 2023 and 2024:\n\n**Bank of America (BAC)**\n*   **2024:** Investment banking fees rebounded in 2024. In Q4 2024, fees were $1.7 billion, growing 44% year-over-year, led by mergers and acquisitions, strength in debt capital markets (mostly leverage finance), and equity capital markets. The bank maintained its number three investment banking fee position for the year.\n*   **2023:** The context does not provide specific total figures for 2023 investment banking fees, but notes that Q4 2024 results were compared to prior periods where fees had been lower.\n\n**Morgan Stanley (MS)**\n*   **2023:** Full-year investment banking revenues were $4.6 billion. Results were impacted by a weak environment due to the hiking cycle and geopolitical events, with lower completed M&A transactions following a lack of announcements in late 2022 and early 2023. Fourth-quarter 2023 revenues were $1.3 billion, supported by fixed income underwriting and event-driven activity, while advisory and equity underwriting revenues were roughly flat year-over-year.\n*   **2024:** The bank stated it was positioned to capitalize on the opportunity set as corporate confidence grew, though specific 2024 revenue figures were not provided in the text.\n\n**Wells Fargo (WFC)**\n*   **2023/2024 Outlook:** The context does not provide specific investment banking fee totals for Wells Fargo. It focuses on net interest income and expense expectations, noting that loan demand remained weak in Q3 2024 due to economic uncertainty and high borrowing costs, which impacted corporate banking revenue (down 5% year-over-year).",
+ "latency_seconds": 719.02,
+ "generated_at": "2026-09-05T15:00:46Z"
+}

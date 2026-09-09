@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid_enriched",
+ "question_id": "ref_them_03",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "WFC_2023_Q3_prepared_remarks_200_014",
+  "WFC_2023_Q4_prepared_remarks_200_012",
+  "BAC_2023_Q2_prepared_remarks_200_032",
+  "WFC_2023_Q1_prepared_remarks_200_013",
+  "BAC_2023_Q3_prepared_remarks_200_032"
+ ],
+ "raw_response": "During 2023, bank executives provided the following updates regarding office and commercial real estate (CRE) credit exposure and allowances:\n\n**Wells Fargo (WFC):**\n*   **Q1:** The allowance for credit losses increased by $643 million, primarily driven by an increase in CRE loans, specifically office loans. At quarter-end, WFC had $154.7 billion in CRE loans outstanding, with 35.7% classified as office loans. Nonperforming assets rose 7% from the previous quarter due to higher CRE nonaccrual loans.\n*   **Q3:** The allowance for credit losses increased by $333 million, primarily for CRE office loans and higher credit card balances. An increase in CRE nonaccrual loans was driven by a $1.3 billion rise in office nonaccrual loans. Management noted that the composition of the office portfolio remained consistent with previous quarters.\n*   **Q4:** The allowance for credit losses increased slightly, driven by increases in credit card and CRE loans. This increase was partially offset by lower auto loan allowances. A $567 million increase in office non-accrual loans drove the rise in CRE non-accrual loans.\n\n**Bank of America (BAC):**\n*   **Q2:** Commercial net charge-offs were flat from Q1, with a decrease in C&I losses offset by an increase in CRE office exposure charge-offs. BAC reported $70 million in charge-offs on office exposures to write down properties where loan-to-value ratios had deteriorated (up from $15 million in Q1). Office credit exposure represented less than 2% of total loans, and management stated the portfolio was well-positioned with low NPLs and realized losses due to intentional client selection and deal structure.\n*   **Q3:** Commercial net charge-offs declined from Q2, driven mostly by a reduction in office write-downs. CRE credit exposure represented 7% of total loans, including office exposure which remained less than 2% of total loans. Management reiterated that the portfolio was adequately reserved against current conditions and well-positioned due to historical risk mitigation strategies.",
+ "latency_seconds": 182.83,
+ "generated_at": "2026-09-05T22:19:58Z"
+}

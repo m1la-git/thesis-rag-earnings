@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25_enriched",
+ "question_id": "ref_them_06",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "MS_2024_Q4_qa_500_014",
+  "GS_2023_Q4_qa_500_009",
+  "USB_2024_Q2_qa_500_005",
+  "WFC_2024_Q1_prepared_remarks_500_001",
+  "BAC_2023_Q2_qa_500_015"
+ ],
+ "raw_response": "Based on the provided context, the following efficiency ratio levels and targets were discussed by various financial institutions:\n\n*   **Morgan Stanley (2024):** Management referenced a long-term goal of a **70% efficiency ratio**. They noted that while they do not provide full-year guidance for specific expense lines like compensation, they manage expenses holistically to achieve this overall efficiency target.\n*   **Goldman Sachs (2023/2024):** The firm stated it is orienting toward a **60% efficiency ratio target**. For 2023, the fully reported efficiency ratio was higher due to selected items, but excluding those impacts, the ratio would have been approximately **65%**.\n*   **Bank of America (2023):** Management discussed an efficiency ratio in the range of **62% to 64%** for the current period. They compared this to levels from 2018 and 2019, which were **57% and 58%**, respectively. The goal is to drive the ratio back down toward those historical lows or below 60%, aided by net interest income growth and digital initiatives.\n*   **U.S. Bancorp (2024):** While specific efficiency ratio percentages were not cited in the provided text, management discussed capital accretion targets of **20 to 25 basis points per quarter** and noted that their priorities for capital distribution remain investing in the business, dividends, and buybacks.\n*   **Wells Fargo (2024):** The transcript mentions executing efficiency initiatives such as headcount reductions but does not specify a numerical efficiency ratio target or level in the provided chunk.",
+ "latency_seconds": 313.92,
+ "generated_at": "2026-09-05T22:57:34Z"
+}

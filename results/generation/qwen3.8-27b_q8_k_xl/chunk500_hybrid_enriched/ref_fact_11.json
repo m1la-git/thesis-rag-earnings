@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid_enriched",
+ "question_id": "ref_fact_11",
+ "category": "factual",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "USB_2024_Q4_prepared_remarks_500_000",
+  "USB_2024_Q4_prepared_remarks_500_003",
+  "USB_2024_Q4_prepared_remarks_500_001",
+  "USB_2024_Q4_prepared_remarks_500_002",
+  "USB_2023_Q4_qa_500_005"
+ ],
+ "raw_response": "Fee income represented over 40% of total net revenue in the fourth quarter of 2024.",
+ "latency_seconds": 451.14,
+ "generated_at": "2026-09-05T23:20:30Z"
+}

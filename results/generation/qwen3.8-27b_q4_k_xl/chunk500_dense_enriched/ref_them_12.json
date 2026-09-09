@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense_enriched",
+ "question_id": "ref_them_12",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "MS_2023_Q3_qa_500_000",
+  "MS_2023_Q4_qa_500_014",
+  "MS_2023_Q3_qa_500_010",
+  "MS_2023_Q1_prepared_remarks_500_001",
+  "MS_2023_Q3_qa_500_008"
+ ],
+ "raw_response": "Based on the provided context, Morgan Stanley executives discussed several key aspects of their wealth management business and related investments in 2023:\n\n*   **Asset Growth vs. Revenue:** Management noted that while there was strong organic growth in assets (capturing $260 billion or $235 billion over the last year), this did not immediately translate to revenue growth excluding Net Interest Income (NII). However, they highlighted increased fee-based flows and historical highs in fee-based growth when excluding asset acquisitions.\n*   **Client Behavior:** Executives pointed out that 23% of retail client assets were sitting in cash, which was 5% higher than the historical average of 18%. They observed a trend over the last four months of retail investors moving this cash into markets, leading to growth in transactional revenues and new alternative products.\n*   **Strategic Integration:** The firm emphasized the successful integration of Smith Barney, creating a \"full funnel\" that combines self-directed, traditional advisory, and workplace channels. This was described as a differentiated strategy with high barriers to entry.\n*   **Expense Management and Technology:** To support growth and manage margins (with a target of 30% firm-wide), the company focused on expense management through severance actions taken in late 2022 and spring 2023. They also highlighted investments in technology and process modernization to drive operating efficiencies and leverage, while continuing to pay competitively for talent.\n*   **International Expansion:** Management discussed strategic opportunities outside the U.S., including opening an office in Abu Dhabi and leveraging secular growth trends in India and Japan. They expressed confidence in executing transactions in wealth and asset management internationally over the next three years.",
+ "latency_seconds": 643.88,
+ "generated_at": "2026-09-05T14:59:31Z"
+}

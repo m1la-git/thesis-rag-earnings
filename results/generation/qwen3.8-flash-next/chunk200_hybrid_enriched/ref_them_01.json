@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid_enriched",
+ "question_id": "ref_them_01",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "C_2024_Q1_prepared_remarks_200_011",
+  "BAC_2024_Q4_prepared_remarks_200_018",
+  "WFC_2024_Q1_prepared_remarks_200_012",
+  "BAC_2024_Q4_prepared_remarks_200_009",
+  "WFC_2023_Q4_prepared_remarks_200_023"
+ ],
+ "raw_response": "Banks reported the following impacts from the FDIC special assessment during these periods:\n\n*   **Fourth Quarter 2023:** Bank of America recorded $2.1 billion in pre-tax expense for the special assessment, which reduced earnings per share by $0.20. Wells Fargo included a $1.9 billion FDIC special assessment in its reported non-interest expenses of $55.6 billion; excluding this item, expenses would have been $53.6 billion.\n*   **First Quarter 2024:** Bank of America incurred an incremental FDIC special assessment of roughly $250 million. Wells Fargo also included the FDIC special assessment in its first-quarter non-interest expense increase but noted that excluding this item, their full-year 2024 non-interest expense guidance remained unchanged at approximately $52.6 billion.\n*   **Fourth Quarter 2024:** Bank of America reported a roughly $300 million release of prior period accruals for the FDIC special assessment, which partially offset increased expenses in that quarter.",
+ "latency_seconds": 86.11,
+ "generated_at": "2026-09-07T10:55:53Z"
+}

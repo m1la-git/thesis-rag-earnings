@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense_enriched",
+ "question_id": "ref_them_10",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "JPM_2024_Q4_prepared_remarks_200_010",
+  "USB_2023_Q4_qa_200_026",
+  "C_2023_Q4_prepared_remarks_200_010",
+  "WFC_2024_Q4_prepared_remarks_200_006",
+  "AXP_2023_Q4_prepared_remarks_200_012"
+ ],
+ "raw_response": "Based on the provided context, here is what the banks said regarding credit card growth and credit performance for 2023 and 2024:\n\n*   **JPMorgan Chase (2024):** The bank reported a 12% pace of card loan growth in 2024. For the current year, they expect healthy growth to continue but at a lower rate than 2024, as tailwinds from revolve normalization are largely behind them.\n*   **U.S. Bancorp (2023):** Management stated that credit card is an area with \"nice growth\" and remains a \"very nice business.\" They focus on prime and super-prime customers and expect the segment to perform very well through the cycle, despite making marginal adjustments to underwriting due to economic uncertainties and consumer pressure.\n*   **Citigroup (2023/2024 Outlook):** While not detailing specific 2023 card metrics in this excerpt, the bank noted that 2024 is expected to be similar to 2023 regarding the macro environment, with moderating rates and inflation. They positioned themselves to support clients through a potential run-of-the-mill recession.\n*   **Wells Fargo (2024):** The bank reported over $10 billion in debit card transactions in 2024, up 2% from the previous year, marking the highest annual volume in its history. They also noted meaningful growth in net checking accounts, primarily driven by more valuable primary checking accounts.\n*   **American Express (2023/2024 Outlook):** In 2023, card member receivables grew 13% year-over-year. For 2024, the company expects this elevated growth to moderate but still grow modestly faster than billings. Regarding credit performance, American Express reported \"strong and best-in-class credit metrics\" attributed to high customer quality and disciplined risk management, though write-off and delinquency rates did tick up in the most recent quarter of 2023 as expected.",
+ "latency_seconds": 344.64,
+ "generated_at": "2026-09-05T14:20:23Z"
+}

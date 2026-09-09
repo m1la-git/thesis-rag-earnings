@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense_enriched",
+ "question_id": "ref_them_10",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "JPM_2024_Q4_prepared_remarks_200_010",
+  "USB_2023_Q4_qa_200_026",
+  "C_2023_Q4_prepared_remarks_200_010",
+  "WFC_2024_Q4_prepared_remarks_200_006",
+  "AXP_2023_Q4_prepared_remarks_200_012"
+ ],
+ "raw_response": "Based on the provided context, banks made the following statements regarding credit card growth and credit performance for 2023 and 2024:\n\n**JPMorgan Chase (JPM)**\n*   **Growth:** JPM expected healthy card loan growth in 2025 but noted it would be below the 12% pace seen in 2024, as tailwinds from revolve normalization were largely behind them.\n*   **Credit Performance:** The provided text does not contain specific comments on credit performance metrics for JPM.\n\n**U.S. Bank (USB)**\n*   **Growth:** USB believed there was still \"quite a bit of runway\" for good or healthy growth in the credit card space, despite economic uncertainties and inflationary pressures. They noted they were making marginal adjustments to tighten underwriting where necessary.\n*   **Credit Performance:** USB stated that the overall credit performance of their credit card business remained very strong (\"a very nice business\") because they focus on prime and super-prime customers, expecting it to perform well through the cycle.\n\n**American Express (AXP)**\n*   **Growth:** AXP reported 13% year-over-year growth in loans and card member receivables for 2023. They expected this elevated growth to moderate throughout 2024 but still grow modestly faster than billings.\n*   **Credit Performance:** AXP described their credit metrics as \"strong and best-in-class,\" attributing this to high customer credit quality, robust risk management, and disciplined growth. However, they noted that write-off and delinquency rates did continue to tick up in the fourth quarter of 2023.\n\n**Citigroup (C)**\n*   **Growth & Credit Performance:** The provided context for Citigroup discusses the macro environment and business simplification but does not contain specific information regarding credit card growth or card credit performance.",
+ "latency_seconds": 181.67,
+ "generated_at": "2026-09-07T10:53:59Z"
+}

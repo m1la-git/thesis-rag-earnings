@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25",
+ "question_id": "ref_fact_08",
+ "category": "factual",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BLK_2023_Q4_prepared_remarks_200_034",
+  "BLK_2024_Q2_prepared_remarks_200_011",
+  "BLK_2023_Q2_prepared_remarks_200_003",
+  "BLK_2023_Q2_prepared_remarks_200_017",
+  "BLK_2023_Q2_prepared_remarks_200_012"
+ ],
+ "raw_response": "BlackRock reported $190 billion of total net inflows in the first half of 2023.",
+ "latency_seconds": 139.08,
+ "generated_at": "2026-09-03T11:56:52Z"
+}

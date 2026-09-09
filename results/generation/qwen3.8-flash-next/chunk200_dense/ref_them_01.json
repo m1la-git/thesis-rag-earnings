@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense",
+ "question_id": "ref_them_01",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BAC_2024_Q4_prepared_remarks_200_018",
+  "WFC_2023_Q3_prepared_remarks_200_018",
+  "WFC_2024_Q2_qa_200_015",
+  "FITB_2023_Q1_prepared_remarks_200_016",
+  "WFC_2023_Q4_prepared_remarks_200_023"
+ ],
+ "raw_response": "Banks reported that the FDIC special assessment significantly increased their non-interest expenses. Specifically, one bank noted a $1.9 billion charge included in its 2023 non-interest expense total, while another cited a large charge in the fourth quarter of 2023 and an additional roughly $500 million year-to-date impact on operating losses in the first half of 2024 compared to prior run-rates. Some banks also noted that excluding these special assessment charges, their underlying expenses still increased due to other factors such as higher revenue-related compensation, investments in technology and personnel, and severance costs.",
+ "latency_seconds": 52.58,
+ "generated_at": "2026-09-07T11:07:19Z"
+}

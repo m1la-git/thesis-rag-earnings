@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense_enriched",
+ "question_id": "ref_them_04",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "FITB_2023_Q4_prepared_remarks_500_002",
+  "BAC_2023_Q4_prepared_remarks_500_002",
+  "MTB_2024_Q3_qa_500_011",
+  "BAC_2023_Q2_qa_500_008",
+  "USB_2024_Q3_qa_500_002"
+ ],
+ "raw_response": "In late 2023 and early 2024, the banks described their progress on positive operating leverage as follows:\n\n*   **Fifth Third (FITB):** The bank stated that while the carryover effect of its Risk-Weighted Asset (RWA) diet made full-year positive operating leverage unfeasible in 2023, it anticipated returning to positive operating leverage in the second half of 2024. This was supported by expense discipline and a 4% reduction in full-time equivalent headcount from its 2023 peak without a company-wide expense program.\n*   **Bank of America (BAC):** The bank reported achieving 170 basis points of operating leverage for the full year 2023. This was driven by heightened quarterly expense levels being lowered throughout the year despite continued investments in growth, alongside record organic customer activity and digital engagement.\n*   **U.S. Bancorp (USB):** In early 2024 (Q3 2024 context), the bank reported positive operating leverage of approximately 30 basis points for Q3 2024. It indicated that fourth-quarter 2024 positive operating leverage would be north of 1% and expected this trend to continue expanding into 2025.\n*   **M&T Bank (MTB):** In early 2024, management expressed confidence in achieving positive operating leverage for 2025, noting that while fourth-quarter 2023 expenses increased slightly due to projects and corporate-wide incentives, the company had strong momentum and expected 2025 to be a better year than 2024.",
+ "latency_seconds": 268.06,
+ "generated_at": "2026-09-05T23:04:45Z"
+}

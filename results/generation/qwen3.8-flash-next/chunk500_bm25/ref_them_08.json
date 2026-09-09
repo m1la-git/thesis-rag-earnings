@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25",
+ "question_id": "ref_them_08",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BLK_2023_Q4_prepared_remarks_500_006",
+  "BLK_2024_Q3_prepared_remarks_500_007",
+  "BLK_2023_Q4_prepared_remarks_500_013",
+  "BLK_2023_Q3_prepared_remarks_500_001",
+  "BLK_2024_Q1_prepared_remarks_500_006"
+ ],
+ "raw_response": "Based on the provided context, firms described momentum in net inflows, AUM, and client investment assets during 2023 as follows:\n\n**Net Inflows:**\n*   **Overall Growth:** Clients entrusted BlackRock with $193 billion of total net inflows in the first nine months of 2023. For the full year, institutional business generated $32 billion in net inflows, and the cash management platform saw $79 billion in net inflows.\n*   **Sector Specifics:** There were $28 billion of net inflows into precision exposures and $14 billion into illiquid private markets strategies (driven by infrastructure and private credit). ETFs generated an industry-leading $186 billion in net inflows for 2023, with nearly half coming from international listings. Active investments saw nearly $60 billion in net inflows compared to industry outflows.\n*   **Outflows:** Retail net outflows were $8 billion for the full year (primarily due to liquid alternatives and flexible bond funds), and index net outflows were $55 billion (driven by redemptions from low-fee equity strategies).\n\n**AUM and Client Assets:**\n*   **Growth Trajectory:** AUM grew over the long term with more than $1 trillion of net inflows since the start of 2021, including over $300 billion in the last 12 months as of Q3 2023. By the end of Q3 2023, BlackRock managed $9.1 trillion in assets, which was $1.1 trillion higher than a year prior.\n*   **Specific Platforms:** Aperio AUM grew 95% since acquisition to reach $80 billion by the end of 2023. Cash and liquidity business AUM ended the year up 14%, or over $90 billion, year-on-year.\n\n**Momentum Description:**\n*   Management described client momentum as \"strong,\" noting that third-quarter gross fund sales were 95% of average levels over the previous 12 months. They attributed this to clients consolidating business with fewer managers and using BlackRock’s integrated platform for investment, technology, and portfolio servicing.",
+ "latency_seconds": 257.75,
+ "generated_at": "2026-09-07T11:46:35Z"
+}

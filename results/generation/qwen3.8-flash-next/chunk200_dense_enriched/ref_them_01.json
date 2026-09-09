@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense_enriched",
+ "question_id": "ref_them_01",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BAC_2024_Q1_prepared_remarks_200_020",
+  "BAC_2024_Q4_prepared_remarks_200_018",
+  "WFC_2024_Q2_qa_200_015",
+  "FITB_2023_Q1_prepared_remarks_200_016",
+  "BAC_2023_Q4_prepared_remarks_200_026"
+ ],
+ "raw_response": "Banks reported that the FDIC special assessment significantly impacted their expense figures, often requiring adjustments to show underlying trends. In Q4 2023, Bank of America noted a large FDIC special assessment charge in its reported expenses, though this was partially offset by a roughly $300 million release of prior period accruals for the same assessment; excluding the charge, expenses increased due to other factors like higher incentives and investments. In Q1 2024, Bank of America reported total expenses of $17.2 billion including the FDIC assessment, which adjusted down to $16.5 billion when excluding it. Similarly, Fifth Third Bancorp incorporated the FDIC insurance assessment rate change into its full-year expense outlook for 2023, noting that core expenses would have been lower (up less than 3%) if excluding the FDIC assessment and other specific items. Wells Fargo attributed part of the year-to-date increase in operating losses in the first half of 2024 to the FDIC expense, alongside remediation costs and variable expenses.",
+ "latency_seconds": 70.84,
+ "generated_at": "2026-09-07T10:52:08Z"
+}

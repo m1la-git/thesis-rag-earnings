@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25_enriched",
+ "question_id": "ref_them_07",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "WFC_2023_Q1_prepared_remarks_500_001",
+  "FITB_2023_Q3_qa_500_000",
+  "AXP_2023_Q1_qa_500_001",
+  "FITB_2023_Q1_prepared_remarks_500_001",
+  "FITB_2023_Q1_prepared_remarks_500_005"
+ ],
+ "raw_response": "Based on the provided context, there is no information describing actual deposit growth results for the second quarter of 2023. The available transcripts cover Q1 2023 (for Wells Fargo, Fifth Third, and American Express) and Q3 2023 (for Fifth Third). While Fifth Third Bank provided guidance in their Q1 2023 remarks expecting average deposits to be \"stable to up 1% on a sequential basis\" for the second quarter of 2023, they did not report the actual outcome.",
+ "latency_seconds": 230.97,
+ "generated_at": "2026-09-05T22:56:11Z"
+}

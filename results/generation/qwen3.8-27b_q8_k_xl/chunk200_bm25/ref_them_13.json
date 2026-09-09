@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25",
+ "question_id": "ref_them_13",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BK_2024_Q2_prepared_remarks_200_005",
+  "BK_2024_Q4_prepared_remarks_200_020",
+  "BK_2024_Q1_prepared_remarks_200_005",
+  "BK_2023_Q3_prepared_remarks_200_009",
+  "BK_2023_Q2_prepared_remarks_200_000"
+ ],
+ "raw_response": "BNY Mellon described strong growth in its ETF servicing business, noting that ETF assets under custody (AUCA) reached $2.8 trillion by the fourth quarter of 2024, representing an increase of over 60% year-over-year. The company stated that inflows into ETFs on its platform outpaced the market and highlighted particular strength in this area as a validation of multiyear investments made into these platforms.",
+ "latency_seconds": 192.81,
+ "generated_at": "2026-09-05T22:32:28Z"
+}

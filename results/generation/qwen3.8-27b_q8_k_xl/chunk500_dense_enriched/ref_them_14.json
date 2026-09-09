@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense_enriched",
+ "question_id": "ref_them_14",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BAC_2024_Q4_prepared_remarks_500_010",
+  "WFC_2023_Q4_prepared_remarks_500_009",
+  "BAC_2023_Q4_prepared_remarks_500_002",
+  "WFC_2024_Q3_prepared_remarks_500_007",
+  "MS_2023_Q4_prepared_remarks_500_006"
+ ],
+ "raw_response": "Based on the provided context, here is what the banks reported regarding investment banking revenue and fees for 2023 and 2024:\n\n**Bank of America (BAC)**\n*   **2024:** Investment banking fees rebounded in 2024. In Q4 2024, fees were $1.7 billion, growing 44% year-over-year, led by mergers and acquisitions, debt capital markets (specifically leverage finance), and equity capital markets. The bank maintained its number three investment banking fee position for the full year.\n*   **2023:** The context does not provide specific total figures for 2023 investment banking fees, but notes that Q4 2024 results were compared to prior periods where fees had been lower.\n\n**Wells Fargo (WFC)**\n*   **2023:** The provided text focuses on expense expectations and net interest income troughs rather than specific total investment banking revenue figures for the full year, though it mentions \"wealth and investment management\" as a driver of higher revenue-related expenses in 2024.\n*   **2024 (Q3):** Corporate Investment Banking revenue was down 5% from a year ago due to higher deposit costs and lower loan balances. Commercial real estate revenue decreased 1%, while Markets revenue increased 6%.\n\n**Morgan Stanley (MS)**\n*   **2023:** Full-year investment banking revenues were $4.6 billion. Results were impacted by a weak environment caused by the hiking cycle and geopolitical events, with lower completed M&A transactions following a lack of announcements in late 2022 and early 2023. However, optimism rose mid-2023, leading to increased announced volumes starting in Q3 and continuing into Q4. Fourth-quarter investment banking revenues were $1.3 billion, supported by fixed income underwriting and event-driven activity. Advisory revenues were roughly flat year-over-year, as was equity underwriting.\n*   **2024:** The bank stated it is positioned to capitalize on the opportunity set entering 2024, with corporate confidence expected to drive the cycle forward.",
+ "latency_seconds": 739.33,
+ "generated_at": "2026-09-05T23:12:36Z"
+}

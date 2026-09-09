@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid",
+ "question_id": "ref_them_08",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "STT_2024_Q1_prepared_remarks_200_007",
+  "JPM_2023_Q4_prepared_remarks_200_009",
+  "BLK_2023_Q4_prepared_remarks_200_015",
+  "BLK_2024_Q3_prepared_remarks_200_017",
+  "MS_2023_Q4_prepared_remarks_200_023"
+ ],
+ "raw_response": "Based on the provided context, firms described momentum in net inflows, AUM, and client investment assets during 2023 as follows:\n\n*   **JPMorgan Chase (JPM):** Reported record client asset net inflows of $489 billion for the year. Assets Under Management (AUM) reached $3.4 trillion and client assets reached $5 trillion, both up 24% year-on-year, driven by continued net inflows and higher market levels. Net long-term inflows were $140 billion for the full year, and liquidity saw net inflows of $242 billion for the full year.\n*   **BlackRock (BLK):** Institutional business generated net inflows of $32 billion in 2023, led by active net inflows of $87 billion. However, retail net outflows were $8 billion for the full year, and index net outflows were $55 billion. Aperio saw record net inflows of $12 billion in 2023, with its AUM growing 95% since acquisition to $80 billion.\n*   **Morgan Stanley (MS):** Investment management reported long-term net outflows of approximately $7 billion for the full year, driven by headwinds in active equity growth strategies. However, AUM increased year-over-year to $1.5 trillion, supported by higher asset values.",
+ "latency_seconds": 132.12,
+ "generated_at": "2026-09-07T11:11:24Z"
+}

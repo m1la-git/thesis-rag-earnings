@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25",
+ "question_id": "ref_unans_01",
+ "category": "unanswerable",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BK_2023_Q3_prepared_remarks_200_018",
+  "STT_2023_Q1_qa_200_047",
+  "BK_2023_Q1_prepared_remarks_200_012",
+  "STT_2023_Q1_qa_200_046",
+  "BK_2024_Q1_prepared_remarks_200_010"
+ ],
+ "raw_response": "Based on the provided context, there are two different reporting periods for Northern Trust (BK):\n\n1.  In Q3 2023, ETFs Assets Under Custody/Administration were up over 20% year-over-year. The total assets under custody/administration and related investment services fees grew in the mid-single digit percentage range.\n2.  In Q1 2024, firm-wide assets under custody and administration were $48.8 trillion, which was up 5% year-over-year.\n\n(Note: The context also mentions Q1 2023 figures of $46.6 trillion, up 2% year-over-year, but the most recent specific figure provided is for Q1 2024.)",
+ "latency_seconds": 71.33,
+ "generated_at": "2026-09-03T11:55:44Z"
+}

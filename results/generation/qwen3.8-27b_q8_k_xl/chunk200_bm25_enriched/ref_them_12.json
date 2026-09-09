@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25_enriched",
+ "question_id": "ref_them_12",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BK_2023_Q4_prepared_remarks_200_026",
+  "MS_2023_Q4_prepared_remarks_200_002",
+  "BK_2023_Q3_prepared_remarks_200_009",
+  "BAC_2023_Q3_prepared_remarks_200_016",
+  "BK_2024_Q2_prepared_remarks_200_006"
+ ],
+ "raw_response": "Based on the provided context, firms discussed the following regarding their wealth management businesses and investments in 2023:\n\n*   **Bank of New York Mellon (BNY):** The firm reported that its Investment and Wealth Management segment had a pre-tax margin of 12% for full-year 2023 (or 17% excluding notable items). BNY stated its plan to improve this margin to 25% or higher over the medium term through growth and efficiency initiatives. Key strategies included unlocking distribution power by creating a firmwide distribution platform that combines enhanced products with third-party manager offerings, and enhancing Dreyfus Cash products within an enterprise-wide open architecture liquidity ecosystem. Additionally, BNY highlighted the growing interest in its wealth advisory platform, Wove, noting client agreements (such as with Integrity) and the integration of solutions from across BNY Mellon, including investment management and broker-dealer clearing/custody via Pershing.\n*   **Morgan Stanley:** The firm noted that during 2023, despite geopolitical, macroeconomic, and industry challenges, its business model generated consistent results. It reported firm revenues of $54 billion with pre-tax benefits (PBT) of $12 billion. Morgan Stanley mentioned that it had tripled client assets in its durable businesses, including wealth and investment management, which were bolstered by previous acquisitions like E*TRADE and Eaton Vance to create a leading self-directed platform.\n*   **BlackRock:** While the specific quote is from 2024 remarks referencing ongoing activities, it mentions combining specialized investment operations, data management services, and technology with BlackRock’s Aladdin to support evolving investment activities, indicating continued investment in scalable ecosystems for wealth and investment solutions.",
+ "latency_seconds": 247.42,
+ "generated_at": "2026-09-05T22:07:25Z"
+}

@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid_enriched",
+ "question_id": "ref_fact_10",
+ "category": "factual",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "PNC_2023_Q1_prepared_remarks_500_005",
+  "PNC_2023_Q4_prepared_remarks_500_001",
+  "FITB_2023_Q3_qa_500_003",
+  "USB_2023_Q3_qa_500_002",
+  "PNC_2023_Q3_prepared_remarks_500_001"
+ ],
+ "raw_response": "PNC’s Accumulated Other Comprehensive Income (AOCI) was negative $10.3 billion at the end of the third quarter of 2023, compared to a negative $9.5 billion at the end of the second quarter of 2023.",
+ "latency_seconds": 476.72,
+ "generated_at": "2026-09-05T23:20:55Z"
+}

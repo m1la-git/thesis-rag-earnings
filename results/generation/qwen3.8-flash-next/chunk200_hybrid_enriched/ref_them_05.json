@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid_enriched",
+ "question_id": "ref_them_05",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BLK_2023_Q4_prepared_remarks_200_013",
+  "FITB_2024_Q4_prepared_remarks_200_021",
+  "FITB_2024_Q3_prepared_remarks_200_005",
+  "STT_2024_Q3_prepared_remarks_200_017",
+  "BK_2023_Q3_prepared_remarks_200_014"
+ ],
+ "raw_response": "Based on the provided context, here is the breakdown for the third quarter of 2024:\n\n*   **State Street (STT):** Returned over $670 million to shareholders. This included $450 million in common share repurchases and dividends that brought the total payout ratio to almost 100%.\n*   **Fifth Third Bancorp (FITB):** Executed $200 million in share repurchases and increased its common dividend by 6% to $0.37 per share.\n\n**Difference in Scale:** State Street returned significantly more capital ($670+ million) compared to Fifth Third's disclosed share repurchase amount ($200 million), though Fifth Third also paid dividends which are not quantified as a total dollar amount in the text.",
+ "latency_seconds": 80.05,
+ "generated_at": "2026-09-07T10:55:47Z"
+}

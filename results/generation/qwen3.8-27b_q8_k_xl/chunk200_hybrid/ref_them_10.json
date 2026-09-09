@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid",
+ "question_id": "ref_them_10",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "AXP_2023_Q4_prepared_remarks_200_012",
+  "AXP_2024_Q2_prepared_remarks_200_010",
+  "AXP_2023_Q1_prepared_remarks_200_011",
+  "HBAN_2023_Q4_prepared_remarks_200_002",
+  "USB_2023_Q4_qa_200_026"
+ ],
+ "raw_response": "Based on the provided context, American Express reported that loan and card member receivables grew by 13% year-over-year in Q4 2023, with expectations for this growth to moderate through 2024 while remaining modestly faster than billings. By Q2 2024, American Express noted year-over-year growth of 11%, stating that loan growth was continuing to moderate as expected but remained in double digits. Regarding credit performance, American Express described its metrics as \"strong and best-in-class\" in late 2023, attributing this to high customer credit quality and disciplined risk management, though write-off and delinquency rates ticked up slightly. In mid-2024, the company stated that credit performance remained very strong due to a focus on growing its high-credit-quality premium customer base, with expectations for write-off rates to remain generally stable for the remainder of 2024.\n\nHuntington Bank indicated in Q4 2023 that it was rigorously managing credit across portfolios consistent with a moderate to low risk appetite, noting that credit trends were normalizing as expected and expressing confidence in outperforming the industry on credit through the cycle. U.S. Bancorp’s CEO stated in Q4 2023 that while they make adjustments to underwriting due to economic uncertainties and consumer pressure, the overall credit performance of their credit card business is viewed as very nice because it focuses on prime and super-prime customers, which are expected to perform well through the cycle.",
+ "latency_seconds": 372.45,
+ "generated_at": "2026-09-05T22:44:48Z"
+}

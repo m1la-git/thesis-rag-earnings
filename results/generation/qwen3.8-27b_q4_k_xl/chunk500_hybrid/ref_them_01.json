@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid",
+ "question_id": "ref_them_01",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BK_2024_Q4_prepared_remarks_500_006",
+  "C_2023_Q4_prepared_remarks_500_005",
+  "WFC_2024_Q1_prepared_remarks_500_005",
+  "WFC_2024_Q2_prepared_remarks_500_009",
+  "WFC_2023_Q4_prepared_remarks_500_009"
+ ],
+ "raw_response": "Based on the provided context, banks reported the impact of the FDIC special assessment as follows:\n\n*   **Bank of America (Q4 2023):** Reported an FDIC special assessment of approximately $1.7 billion related to regional bank failures in March, which impacted expenses in \"all other.\"\n*   **Wells Fargo (Q4 2023):** Included a $1.9 billion FDIC special assessment in its reported non-interest expense for the year. Excluding this item, expenses would have been $53.6 billion.\n*   **Bank of America (Q4 2024 context referencing Q4 2023):** Noted that expenses were down 16% year-over-year on a reported basis primarily because the fourth quarter of 2023 included the FDIC special assessment.\n*   **Wells Fargo (First Half of 2024):** Reported $336 million in expense for the FDIC special assessment during the first half of the year, which was not anticipated in initial guidance but is now included in updated full-year 2024 non-interest expense guidance of approximately $54 billion.",
+ "latency_seconds": 244.06,
+ "generated_at": "2026-09-03T12:40:53Z"
+}

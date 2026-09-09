@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25_enriched",
+ "question_id": "ref_unans_01",
+ "category": "unanswerable",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "STT_2023_Q1_qa_200_047",
+  "BK_2023_Q3_prepared_remarks_200_018",
+  "BK_2023_Q1_prepared_remarks_200_012",
+  "STT_2023_Q1_qa_200_046",
+  "BK_2024_Q1_prepared_remarks_200_010"
+ ],
+ "raw_response": "In the first quarter of 2024, Northern Trust’s firm-wide assets under custody and administration were $48.8 trillion, representing a 5% increase year-over-year. In the first quarter of 2023, these assets stood at $46.6 trillion, which was up 2% year-over-year.",
+ "latency_seconds": 46.12,
+ "generated_at": "2026-09-05T15:25:09Z"
+}

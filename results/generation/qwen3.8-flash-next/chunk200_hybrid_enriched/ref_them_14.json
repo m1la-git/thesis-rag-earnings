@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid_enriched",
+ "question_id": "ref_them_14",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BAC_2024_Q4_prepared_remarks_200_026",
+  "BAC_2023_Q4_prepared_remarks_200_031",
+  "BAC_2024_Q3_prepared_remarks_200_023",
+  "GS_2024_Q4_prepared_remarks_200_016",
+  "GS_2023_Q4_prepared_remarks_200_003"
+ ],
+ "raw_response": "Based on the provided context, here is what was reported regarding investment banking revenue and fees for Bank of America (BAC) and Goldman Sachs (GS):\n\n**Bank of America (BAC)**\n*   **Q4 2023:** Investment banking fees were $1.1 billion, representing a 7% year-over-year growth despite an overall fee pool decline of 8%. The bank maintained the number three position for the full year in investment banking.\n*   **Q3 2024:** Investment banking fees grew 18% year-over-year to $1.4 billion, driven by debt capital markets (leveraged finance and investment grade).\n*   **Q4 2024:** Investment banking fees were $1.7 billion, growing 44% year-over-year, led by mergers and acquisitions, with strength in debt capital markets (leverage finance) and equity capital markets. For the full year of 2024, Global Banking generated $8.1 billion in earnings, aided by a rebound in investment banking fees expected to continue into 2025.\n\n**Goldman Sachs (GS)**\n*   **2023:** The company maintained and strengthened leadership positions across investment banking and generated record total financing revenues across its businesses.\n*   **Q4 2024:** While specific investment banking fee figures are not explicitly detailed in the provided text, the context notes that Asset & Wealth Management revenues rose 16% year-over-year for 2024, with management fees reaching a record $2.8 billion in Q4.",
+ "latency_seconds": 265.39,
+ "generated_at": "2026-09-07T10:58:52Z"
+}

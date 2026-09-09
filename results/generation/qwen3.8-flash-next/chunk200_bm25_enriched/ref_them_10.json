@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25_enriched",
+ "question_id": "ref_them_10",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "AXP_2023_Q4_prepared_remarks_200_012",
+  "WFC_2024_Q4_qa_200_002",
+  "AXP_2024_Q1_qa_200_024",
+  "COF_2024_Q1_qa_200_003",
+  "JPM_2024_Q3_prepared_remarks_200_004"
+ ],
+ "raw_response": "Based on the provided context, banks made the following statements regarding credit card growth and credit performance in 2023 and 2024:\n\n**American Express (AXP)**\n*   **Growth:** In Q4 2023, loans and card member receivables grew 13% year-over-year. The company expected this elevated growth to moderate throughout 2024 but still grow modestly faster than billings. By Q1 2024, the ability for charge card members to revolve balances was identified as the fastest-growing segment of their balances.\n*   **Credit Performance:** AXP reported strong, best-in-class credit metrics attributed to high customer quality and risk management. However, write-off and delinquency rates continued to tick up in Q4 2023. In Q1 2024, the company noted that credit performance for its revolving service (attached to premium charge cards) was the best among their lending products.\n\n**Wells Fargo (WFC)**\n*   **Growth & Profitability:** As of Q4 2024, Wells Fargo stated they were still in \"early days\" regarding the profitability of new card products launched approximately 3.5 years prior. The earliest vintages were just beginning to mature and become more profitable as upfront acquisition costs waned.\n\n**JPMorgan Chase (JPM)**\n*   **Growth:** In Q3 2024, Card Services revenue rose 11% year-over-year due to higher net interest income from increased revolving balances. Card outstandings were up 11%, driven by strong account acquisition and the continued normalization of revolve.\n*   **Credit Performance:** Credit costs in Q3 2024 were $2.8 billion, reflecting net charge-offs of $1.9 billion (up $520 million year-over-year) and a net reserve build of $876 million predominantly from higher revolving balances.\n\n**Capital One (COF)**\n*   **Growth:** In Q1 2024, the company mentioned seeing good growth opportunities in the card business but did not provide specific metrics on credit performance or growth rates in the provided text.",
+ "latency_seconds": 181.12,
+ "generated_at": "2026-09-07T10:50:46Z"
+}

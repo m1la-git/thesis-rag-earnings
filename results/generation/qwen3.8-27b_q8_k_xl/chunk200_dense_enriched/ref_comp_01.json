@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense_enriched",
+ "question_id": "ref_comp_01",
+ "category": "comparative",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "GS_2023_Q3_qa_200_011",
+  "GS_2024_Q2_qa_200_020",
+  "GS_2023_Q3_prepared_remarks_200_005",
+  "C_2024_Q1_qa_200_021",
+  "C_2023_Q2_prepared_remarks_200_008"
+ ],
+ "raw_response": "Based on the provided context, Goldman Sachs characterized the Basel III Endgame as \"fluid\" and noted that if implemented as proposed, it would have varying effects across different businesses, with certain activities meaningfully impacting end users. In contrast, Citi described the situation by stating that the proposal had not yet been finalized or put into place, emphasizing that they were waiting to see how it evolved alongside the CCAR process before making further capital decisions.",
+ "latency_seconds": 231.51,
+ "generated_at": "2026-09-05T22:12:12Z"
+}

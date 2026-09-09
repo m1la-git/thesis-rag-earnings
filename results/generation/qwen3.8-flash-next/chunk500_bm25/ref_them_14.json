@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25",
+ "question_id": "ref_them_14",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "STT_2024_Q4_qa_500_003",
+  "BAC_2024_Q3_prepared_remarks_500_001",
+  "BK_2023_Q4_qa_500_001",
+  "JPM_2024_Q4_prepared_remarks_500_005",
+  "BAC_2024_Q1_prepared_remarks_500_001"
+ ],
+ "raw_response": "Based on the provided context, here is what banks reported regarding investment banking revenue and fees:\n\n*   **Bank of America (Q1 2024):** Investment banking saw a \"nice rebound,\" delivering nearly $1.6 billion in fees, which represented a 35% growth from the first quarter of 2023. This performance was attributed to market share growth and investments in middle-market investment banking teams.\n*   **JPMorgan Chase (Q4 2024):** The company reported that 2024 was \"another year of record revenue and net income.\"",
+ "latency_seconds": 273.26,
+ "generated_at": "2026-09-07T11:46:51Z"
+}

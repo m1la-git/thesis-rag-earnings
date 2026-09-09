@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense",
+ "question_id": "ref_them_07",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "FITB_2023_Q2_prepared_remarks_500_001",
+  "PNC_2023_Q2_prepared_remarks_500_002",
+  "BAC_2023_Q4_prepared_remarks_500_002",
+  "WFC_2023_Q3_prepared_remarks_500_006",
+  "MTB_2023_Q1_prepared_remarks_500_007"
+ ],
+ "raw_response": "Based on the provided context, banks described deposit trends in the second quarter of 2023 as follows:\n\n*   **Fifth Third Bancorp (FITB):** Total period-end deposits increased 1% sequentially and 2% year-over-year. The bank attributed this outperformance to multiyear strategies including expanding distribution in Southeast markets, launching innovative operational deposit solutions (such as Momentum banking), and focusing on primary household growth. They noted that their de novo branches were producing at 200% to 300% of plan for deposits.\n*   **PNC Financial Services:** Deposits declined 2% on both a spot and average basis linked quarter due to quantitative tightening, increased spending activity, and consumer tax payments. There was a continued mix shift from non-interest bearing to interest-bearing accounts, driven primarily by commercial deposits.\n*   **Bank of America (BAC):** While the specific Q2 data is not detailed in the excerpt, the bank noted that total average deposits remained 35% higher than in Q4 2019 and ended 2023 with only $7 billion less than year-end 2022 levels, outperforming the industry.\n*   **Wells Fargo (WFC):** Average deposits declined 5% from a year ago, driven by outflows in consumer and wealth businesses due to continued spending and reallocation into higher-yielding alternatives. Commercial Banking deposits also declined, while Corporate and Investment Banking deposits stabilized. The pace of cost increases slowed, but non-interest-bearing deposit percentages decreased modestly.",
+ "latency_seconds": 210.53,
+ "generated_at": "2026-09-07T11:50:39Z"
+}

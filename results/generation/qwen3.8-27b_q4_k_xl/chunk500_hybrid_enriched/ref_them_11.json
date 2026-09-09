@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid_enriched",
+ "question_id": "ref_them_11",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "USB_2023_Q4_qa_500_005",
+  "COF_2023_Q4_qa_500_008",
+  "BAC_2024_Q4_prepared_remarks_500_008",
+  "BAC_2023_Q4_prepared_remarks_500_011",
+  "FITB_2023_Q4_qa_500_011"
+ ],
+ "raw_response": "Based on the provided context, banks characterized their net charge-off (NCO) levels and direction as follows:\n\n*   **U.S. Bancorp:** Expected NCOs to continue normalizing in 2024, with credit card losses moving closer to pre-pandemic levels but still rising slightly. The company projected a full-year 2024 net charge-off rate in the mid-50s (basis points).\n*   **Capital One:** Declared that NCOs were leveling off and stabilizing at approximately 15% above 2019 levels, following a trend where delinquencies had stabilized. They noted that while there is month-to-month volatility, the overall trajectory was flat compared to pre-pandemic benchmarks.\n*   **Bank of America:** Reported Q4 2023 NCOs of $1.2 billion (a 45 basis point ratio), driven by normalizing credit card losses and commercial real estate/industrial losses. For 2024, they expected the net charge-off ratio to be in the range of 50 to 60 basis points, assuming no significant changes in GDP or employment. By Q4 2024, NCOs had improved modestly to just under $1.5 billion (a 54 basis point ratio), with consumer losses stable and commercial real estate office losses declining.\n*   **Fifth Third Bancorp:** Characterized the charge-off outlook for 2024 as \"fairly benign,\" expecting a range of 35 to 45 basis points. They noted that trends were episodic rather than systemic, with minimal issues in commercial real estate and C&I sectors similar to 2023 levels.",
+ "latency_seconds": 508.55,
+ "generated_at": "2026-09-05T15:09:33Z"
+}

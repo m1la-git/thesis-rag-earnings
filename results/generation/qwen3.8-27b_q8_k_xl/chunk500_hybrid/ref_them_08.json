@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid",
+ "question_id": "ref_them_08",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BLK_2023_Q4_prepared_remarks_500_006",
+  "BLK_2024_Q3_prepared_remarks_500_007",
+  "BLK_2023_Q3_prepared_remarks_500_001",
+  "MS_2023_Q1_prepared_remarks_500_004",
+  "BLK_2023_Q4_prepared_remarks_500_012"
+ ],
+ "raw_response": "Based on the provided context, BlackRock described its 2023 performance as follows:\n\n*   **Net Inflows:** Clients awarded BlackRock with $289 billion of net new assets in 2023. The firm noted that flows and organic base fee growth accelerated at the end of the year, generating $96 billion of total net inflows in the fourth quarter alone. Specific segments included $32 billion in institutional net inflows (led by active strategies), $79 billion in cash management net inflows, and $14 billion in private markets net inflows. Retail clients saw net outflows of $8 billion for the full year, primarily due to allocations away from rate-sensitive strategies, though this was partially offset by record $12 billion in net inflows into Aperio.\n*   **AUM:** BlackRock’s cash and liquidity business AUM grew 14% (over $90 billion) year-over-year. Additionally, Aperio’s AUM grew 95% to $80 billion since its acquisition. The firm stated it maintained positive organic base fee growth despite a market backdrop where most of the industry experienced outflows.\n*   **Client Investment Assets:** BlackRock described client momentum as strong, noting that clients were actively engaging and consolidating business with fewer managers. The firm highlighted that when investors were ready to put money back to work after de-risking in 2023, they did so with BlackRock, leading to new record flows for client assets and organic base growth at or above targets.\n\nThe provided context does not contain information regarding how other firms (such as Morgan Stanley) described their momentum in net inflows, AUM, and client investment assets specifically during 2023; the Morgan Stanley data provided is from Q1 2023 but focuses on quarterly results rather than a full-year 2023 summary of momentum.",
+ "latency_seconds": 611.5,
+ "generated_at": "2026-09-06T00:00:07Z"
+}

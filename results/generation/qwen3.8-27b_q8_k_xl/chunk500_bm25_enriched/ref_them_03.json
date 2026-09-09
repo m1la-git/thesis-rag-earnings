@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25_enriched",
+ "question_id": "ref_them_03",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "MTB_2023_Q2_qa_500_005",
+  "USB_2023_Q1_qa_500_009",
+  "BK_2024_Q1_qa_500_022",
+  "WFC_2023_Q1_prepared_remarks_500_001",
+  "WFC_2023_Q3_prepared_remarks_500_005"
+ ],
+ "raw_response": "During 2023, bank executives provided the following insights regarding office and commercial real estate (CRE) credit exposure and allowances:\n\n*   **M&T Bank:** The primary driver for an increase in the allowance was a change in the Commercial Real Estate macro variable within their model, which shifted from negative 5% to 11%. This resulted in increased allowances specifically for office loans, while allowances decreased for hotel and multifamily segments.\n*   **U.S. Bancorp:** Management noted that they have not taken on significant CRE office exposure in recent years due to a conservative approach, resulting in limited overall exposure. However, they identified the office sector as an area of focus due to changing tenant and sponsor behaviors, which could accelerate industry pressures.\n*   **Bank of New York Mellon (BNY):** Executives stated that the bank is not particularly invested in the commercial real estate space. They viewed CRE refinancing risks as highly correlated with the shape of the Treasury curve rather than short-term funding rates, noting that owners typically look further out on the yield curve to lock in funding.\n*   **Wells Fargo:** The bank reported $32.2 billion in office loans (3% of total loans), which declined 3% from the second quarter. They highlighted high vacancy rates and a weak office market. Consequently, nonperforming assets increased by 17% in Q3, driven largely by a $1.3 billion increase in office nonaccrual loans. The allowance for credit losses increased by $333 million in Q3, primarily to cover commercial real estate office loans. Wells Fargo also noted that CRE teams were actively monitoring and derisking the portfolio by reducing exposures.",
+ "latency_seconds": 173.11,
+ "generated_at": "2026-09-05T22:55:13Z"
+}

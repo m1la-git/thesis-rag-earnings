@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid",
+ "question_id": "ref_them_03",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "WFC_2024_Q2_prepared_remarks_500_006",
+  "WFC_2023_Q1_prepared_remarks_500_005",
+  "WFC_2023_Q4_prepared_remarks_500_004",
+  "USB_2023_Q1_qa_500_009",
+  "MTB_2023_Q2_qa_500_005"
+ ],
+ "raw_response": "During 2023, bank executives described their commercial real estate (CRE) office portfolios as facing significant stress due to weak market fundamentals, lower demand, higher financing costs, and challenging capital markets. Key points regarding credit exposure and allowances included:\n\n*   **Exposure Management:** Banks actively worked to derisk their office exposures. Wells Fargo noted that commitments declined by 5% from a year ago in Q1 2023, with approximately 12% of the portfolio being owner-occupied and nearly one-third having recourse to a guarantor. U.S. Bancorp stated it had been very conservative in adding CRE office loans over many years and did not have a large exposure, though it acknowledged industry-wide pressure from tenant and sponsor behavior changes.\n*   **Credit Performance:** Wells Fargo reported that while losses had not yet translated into meaningful loss content as of Q1 2023, they expected more stress over time. By Q4 2023, Wells Fargo confirmed that losses started to materialize in the office portfolio, driven by borrower performance issues and lower appraisals resulting from properties or loans being sold at a loss. These losses were described as uneven and episodic.\n*   **Allowance for Credit Losses:** Wells Fargo substantially built reserves for its CRE office portfolio throughout 2023 as criticized and nonperforming assets increased. In Q1 2023, the allowance for credit losses increased by $643 million, primarily reflecting an increase for commercial real estate loans (especially office) and credit card model loans. By Q4 2023, Wells Fargo’s allowance coverage for its CRE office portfolio remained relatively stable at approximately 11%. Meanwhile, M&T Bank noted that changes in the commercial real estate macro variable within their model drove a significant increase in their allowance during Q2 2023, with specific increases made to the office segment while decreases occurred in hotel and multifamily segments.",
+ "latency_seconds": 375.62,
+ "generated_at": "2026-09-05T23:56:12Z"
+}

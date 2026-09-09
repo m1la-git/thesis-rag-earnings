@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25_enriched",
+ "question_id": "ref_them_10",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "COF_2024_Q4_qa_500_017",
+  "COF_2024_Q4_prepared_remarks_500_003",
+  "AXP_2023_Q4_prepared_remarks_500_005",
+  "AXP_2023_Q1_prepared_remarks_500_004",
+  "COF_2024_Q3_prepared_remarks_500_003"
+ ],
+ "raw_response": "Based on the provided context, here is what Capital One (COF) and American Express (AXP) said regarding credit card growth and credit performance:\n\n**Capital One (COF)**\n*   **Growth:** Overall purchase volume growth was driven by an expanding branded card customer base (both consumer and small business). While spend per customer in the consumer business remained largely flat through 2023 and the first half of 2024, it began to pick up midway through 2024 and grew further in Q4 2024. Marketing efforts focused on premium benefits and differentiated experiences contributed to strong new account growth.\n*   **Credit Performance:** The company reported stability in the performance of recent originations (\"vintage over vintage\"), with risk levels remaining mostly stable over time. The overall front book of new origination vintages continued to perform in line with pre-pandemic levels. In Q4 2024, the charge-off rate increased sequentially by 45 basis points, while the 30-plus delinquency rate remained flat compared to the linked quarter.\n\n**American Express (AXP)**\n*   **Growth:** Spending volumes and billings grew, supporting revenue guidance. In Q1 2023, loan balances grew 25% year-over-year, primarily driven by existing customers rebuilding balances. The company expected loan balance growth to moderate through 2023 but remain elevated compared to pre-pandemic levels.\n*   **Credit Performance:** American Express maintained \"best-in-class\" credit metrics attributed to a high-quality customer base and disciplined risk management. Write-off and delinquency rates continued to tick up as expected in Q1 2023 and Q4 2023, but remained below pre-pandemic levels. The company anticipated these rates would continue to increase modestly through 2024 while remaining strong. Reserve builds were recorded in both quarters due to rising delinquency rates and loan balance growth.",
+ "latency_seconds": 232.58,
+ "generated_at": "2026-09-07T11:21:22Z"
+}

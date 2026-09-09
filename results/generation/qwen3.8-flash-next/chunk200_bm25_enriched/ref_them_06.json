@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_bm25_enriched",
+ "question_id": "ref_them_06",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "MS_2024_Q4_qa_200_036",
+  "COF_2024_Q2_prepared_remarks_200_012",
+  "BAC_2023_Q2_qa_200_039",
+  "GS_2024_Q2_qa_200_011",
+  "GS_2023_Q4_qa_200_023"
+ ],
+ "raw_response": "Based on the provided context, the following efficiency ratio levels and targets were discussed:\n\n*   **Morgan Stanley:** Stated a long-term goal of a **70%** efficiency ratio.\n*   **Capital One (COF):** Expected the full-year 2024 operating efficiency ratio to be **modestly down** compared to 2023, noting that the end of the Walmart partnership would have a positive impact on this metric.\n*   **Bank of America (BAC):** Noted that net interest income helps push the efficiency ratio back down and described their line-of-business efficiency ratios as best-in-class, though they did not specify a numerical target in the provided text.\n*   **Goldman Sachs (GS):** Reported a year-to-date efficiency ratio of **63.8%** (described elsewhere in the same chunk as 64%) for 2024, which was nearly 10 points better than the prior year. The firm stated it is \"laser focused\" on driving towards a target of **60%**.",
+ "latency_seconds": 127.47,
+ "generated_at": "2026-09-07T10:49:52Z"
+}

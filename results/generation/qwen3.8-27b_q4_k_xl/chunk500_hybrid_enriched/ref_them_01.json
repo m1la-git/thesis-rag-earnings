@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid_enriched",
+ "question_id": "ref_them_01",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BK_2024_Q4_prepared_remarks_500_006",
+  "C_2023_Q4_prepared_remarks_500_005",
+  "BAC_2024_Q4_prepared_remarks_500_007",
+  "WFC_2024_Q1_prepared_remarks_500_005",
+  "WFC_2023_Q4_prepared_remarks_500_009"
+ ],
+ "raw_response": "Based on the provided context, banks reported the impact of the FDIC special assessment as follows:\n\n*   **Bank of America (BAC):** In Q4 2023, the bank recorded a large FDIC special assessment charge that significantly impacted expenses. In Q4 2024, expenses were partially offset by a roughly $300 million release of prior period accruals related to this assessment.\n*   **Citigroup (C):** In Q4 2023, the bank recorded an FDIC special assessment of approximately $1.7 billion related to regional bank failures in March. This charge impacted expenses in \"all other\" and contributed to a reported net loss for the quarter.\n*   **Wells Fargo (WFC):** The bank reported that its 2023 non-interest expense included a $1.9 billion FDIC special assessment. Excluding this item, 2023 expenses would have been $53.6 billion. Additionally, in Q1 2024, the bank noted that its full-year 2024 non-interest expense guidance remained unchanged even when excluding the expense for the FDIC special assessment recorded in the first quarter.\n*   **BlackRock (BK):** In Q4 2023, expenses were up on a reported basis primarily reflecting the FDIC special assessment. Excluding notable items (which included this assessment), expenses were up only 1%.\n\nIn general, for late 2023, the assessment was reported as a significant one-time expense that increased total reported costs and reduced margins or earnings per share. In early 2024, some banks noted releases of accruals or excluded the item from their core expense growth comparisons to show underlying performance.",
+ "latency_seconds": 251.64,
+ "generated_at": "2026-09-05T15:05:17Z"
+}

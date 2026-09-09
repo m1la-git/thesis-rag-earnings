@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense_enriched",
+ "question_id": "ref_them_10",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "JPM_2024_Q4_prepared_remarks_500_004",
+  "BAC_2023_Q4_prepared_remarks_500_001",
+  "BAC_2023_Q4_prepared_remarks_500_002",
+  "WFC_2024_Q4_prepared_remarks_500_002",
+  "COF_2024_Q4_qa_500_017"
+ ],
+ "raw_response": "Based on the provided context, here is what the banks said regarding credit card growth and credit performance for 2023 and 2024:\n\n**JPMorgan Chase (2024 Outlook)**\n*   **Growth:** The bank expects healthy card loan growth in 2025, but at a pace lower than the 12% growth seen in 2024. This slowdown is attributed to tailwinds from revolve normalization being largely behind them.\n*   **Credit Performance:** The expected 2025 card net charge-off rate is approximately 3.6%, which is in line with previous guidance.\n\n**Bank of America (2023 Review)**\n*   **Growth/Activity:** Spending growth slowed significantly during 2023, dropping from a 9–10% year-over-year growth rate in early 2023 to a 4–5% growth rate by the end of the year. This lower growth rate is consistent with a 2% GDP environment and lower inflation.\n*   **Credit Performance:** Consumers were described as borrowing responsibly, with balance sheets generally in good shape despite higher interest rates. While net charge-offs moved higher through the year off historic lows, they still compared favorably against historic averages.\n\n**Wells Fargo (2024 Review)**\n*   **Growth:** The bank opened over 2.4 million new credit card accounts in 2024 while maintaining credit standards. Credit card spend increased by more than $17 billion year-over-year.\n*   **Credit Performance:** The context notes that the bank maintained its credit standards during this period of growth but does not provide specific net charge-off rates or delinquency metrics for 2024 in the provided text.\n\n**Capital One (2023–2024 Review)**\n*   **Growth:** Overall purchase volume growth was driven by an expanding branded card customer base (consumer and small business). Spend per customer remained largely flat through 2023 and the first half of 2024 but began to pick up midway through 2024, growing further in Q4.\n*   **Credit Performance:** Recent originations have shown stability in performance. Vintage-over-vintage risk levels have been mostly stable over time, and new origination vintages continue to perform in line with pre-pandemic levels.",
+ "latency_seconds": 568.94,
+ "generated_at": "2026-09-05T14:58:16Z"
+}

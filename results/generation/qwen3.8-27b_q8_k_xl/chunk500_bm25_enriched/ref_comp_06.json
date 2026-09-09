@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25_enriched",
+ "question_id": "ref_comp_06",
+ "category": "comparative",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "FITB_2023_Q1_prepared_remarks_500_000",
+  "FITB_2023_Q4_prepared_remarks_500_002",
+  "BK_2024_Q2_qa_500_013",
+  "BK_2023_Q4_prepared_remarks_500_001",
+  "BAC_2023_Q2_prepared_remarks_500_000"
+ ],
+ "raw_response": "Based on the provided context, only **Fifth Third** described its operating leverage and revenue growth for the first quarter of 2023. The text states that Fifth Third generated nine points of year-over-year positive operating leverage driven by an 18% increase in revenue.\n\nThe provided context does not contain information regarding Bank of America’s operating leverage or revenue growth specifically for the **first** quarter of 2023; it only contains prepared remarks from their second quarter 2023 earnings call, which references \"second quarter results\" and \"first halves net income.\"",
+ "latency_seconds": 283.16,
+ "generated_at": "2026-09-05T22:57:03Z"
+}

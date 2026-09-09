@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid",
+ "question_id": "ref_them_11",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "COF_2023_Q4_qa_500_008",
+  "BAC_2023_Q4_prepared_remarks_500_002",
+  "USB_2023_Q4_qa_500_005",
+  "FITB_2024_Q2_prepared_remarks_500_006",
+  "COF_2024_Q3_prepared_remarks_500_004"
+ ],
+ "raw_response": "Based on the provided context, banks characterized their net charge-off levels and directions as follows:\n\n**Capital One (COF)**\n*   **2023:** Net charge-offs were leveling off and stabilizing. In the fourth quarter of 2023, net charge-offs were about 15% above 2018 levels. The company concluded that charge-offs were stabilizing at approximately 15% above 2019 levels.\n*   **2024:** For Commercial Banking in Q3 2024, the annualized net charge-off rate increased by 7 basis points from the previous quarter to 0.22%. In the auto business, charge-offs were described as \"strong and stable.\"\n\n**Bank of America (BAC)**\n*   **2023:** Net charge-offs moved higher throughout the year off historic lows but remained at levels that compared very favorably against historical averages.\n\n**U.S. Bank (USB)**\n*   **2023/2024 Outlook:** Credit quality was generally stable, though some idiosyncratic loans entered non-performing status. Net charge-offs were expected to continue normalizing, with credit card charge-offs moving closer to pre-pandemic levels but continuing to rise slightly. The full-year 2024 net charge-off rate was projected to be in the mid-50s basis points range.\n\n**Fifth Third Bancorp (FITB)**\n*   **2024:** The full-year 2024 net charge-off outlook remained in the 35 to 45 basis points range.",
+ "latency_seconds": 310.34,
+ "generated_at": "2026-09-07T11:57:28Z"
+}

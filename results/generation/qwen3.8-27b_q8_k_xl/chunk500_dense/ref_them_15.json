@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense",
+ "question_id": "ref_them_15",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "WFC_2023_Q4_prepared_remarks_500_009",
+  "C_2023_Q4_prepared_remarks_500_007",
+  "COF_2023_Q4_prepared_remarks_500_006",
+  "BAC_2023_Q4_prepared_remarks_500_001",
+  "BAC_2023_Q4_prepared_remarks_500_002"
+ ],
+ "raw_response": "Based on the provided context, only Citigroup (C) disclosed specific figures for technology spending in 2023. The bank stated it invested over **$12 billion** in technology in 2023. This investment was part of a broader transformation effort where roughly 30% of investments over the last three years were in technology, with the remainder related to non-tech employees and consultants. In 2023, Citigroup noted a shift from consulting expenses toward technology and compensation as it moved deeper into execution.\n\nRegarding General & Administrative (G&A) or total expense changes:\n*   **Citigroup:** Full-year expenses for 2023 were **$54.3 billion** (excluding the FDIC special assessment and divestiture-related impacts). Expense growth was driven by transformation and business-led investments, volume-related expenses, and investments in risk/controls and technology, partially offset by productivity savings.\n*   **Wells Fargo:** Reported non-interest expense of **$55.6 billion** in 2023 (including a $1.9 billion FDIC special assessment). Excluding this item, expenses were **$53.6 billion**. For 2024, Wells Fargo expects approximately **$2.7 billion** in gross expense reductions due to efficiency initiatives and anticipates severance expenses will be roughly $1.3 billion lower than the prior year.\n*   **Bank of America:** Did not provide a specific dollar amount for total technology spend or total G&A expenses in the provided text, though it noted that operating leverage was achieved as quarterly expense levels were driven lower throughout 2023 while growth investments continued.\n\nThe context does not contain specific technology spending figures for Wells Fargo or Bank of America, nor does it provide a consolidated \"banks\" figure.",
+ "latency_seconds": 646.31,
+ "generated_at": "2026-09-05T23:49:43Z"
+}

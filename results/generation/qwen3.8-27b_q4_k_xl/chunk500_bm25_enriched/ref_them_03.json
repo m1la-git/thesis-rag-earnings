@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25_enriched",
+ "question_id": "ref_them_03",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "MTB_2023_Q2_qa_500_005",
+  "USB_2023_Q1_qa_500_009",
+  "BK_2024_Q1_qa_500_022",
+  "WFC_2023_Q1_prepared_remarks_500_001",
+  "WFC_2023_Q3_prepared_remarks_500_005"
+ ],
+ "raw_response": "During 2023, bank executives provided the following insights regarding office and commercial real estate (CRE) credit exposure and allowances:\n\n*   **M&T Bank:** The primary driver for an increase in the allowance for credit losses was a change in the Commercial Real Estate macro variable within their model, which shifted from negative 5% to 11%. While overall CRE allowances increased due to office loans, there were decreases in hotel and multifamily segments.\n*   **U.S. Bancorp:** The bank noted that it has not had large exposures to CRE office for many years due to conservative underwriting. However, management identified the office sector as a key area of focus due to tenant behavior changes and sponsor activity causing industry pressure. They stated they were monitoring this closely despite their limited exposure.\n*   **Bank of America:** Executives described the commercial real estate refinancing risk as highly correlated with the shape of the Treasury curve, noting that owners are looking further out on the yield curve (around the 10-year point) to lock in funding rather than relying on short-term Fed funds rates. They characterized this as a \"2025 refinancing story.\"\n*   **Wells Fargo:** The bank reported $32.2 billion in office loans, representing 3% of total loans and down 3% from the previous quarter. Commercial real estate nonaccrual loans increased by $1.3 billion, driven specifically by office loans. Consequently, the allowance for credit losses increased by $333 million in Q3 primarily to cover commercial real estate office loans. The bank noted that vacancy rates remained high and the office market was weak, leading their CRE teams to focus on monitoring and derisking the portfolio by reducing exposures.",
+ "latency_seconds": 189.14,
+ "generated_at": "2026-09-05T14:42:28Z"
+}

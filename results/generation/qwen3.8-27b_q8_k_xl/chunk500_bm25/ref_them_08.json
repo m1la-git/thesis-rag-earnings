@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25",
+ "question_id": "ref_them_08",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BLK_2023_Q4_prepared_remarks_500_006",
+  "BLK_2024_Q3_prepared_remarks_500_007",
+  "BLK_2023_Q4_prepared_remarks_500_013",
+  "BLK_2023_Q3_prepared_remarks_500_001",
+  "BLK_2024_Q1_prepared_remarks_500_006"
+ ],
+ "raw_response": "During 2023, BlackRock described its momentum as strong, driven by clients consolidating business with fewer managers and utilizing the firm’s integrated platform. Key highlights include:\n\n*   **Net Inflows:** Clients entrusted BlackRock with $193 billion in total net inflows during the first nine months of 2023, representing 3% annualized organic asset growth. For the full year, institutional clients generated $32 billion in net inflows (led by $87 billion in active net inflows), while retail saw net outflows of $8 billion primarily due to shifts away from rate-sensitive strategies. The cash management platform recorded $79 billion in net inflows for 2023, and ETFs generated industry-leading net inflows of $186 billion.\n*   **AUM Growth:** Assets under management grew by over $1 trillion since the start of 2021, with more than $300 billion added in the last 12 months leading into late 2023. By the end of Q3 2023, AUM reached $9.1 trillion, which was $1.1 trillion higher than a year prior. The cash and liquidity business saw year-end AUM increase by 14% (over $90 billion) year-on-year.\n*   **Client Investment Assets:** Institutional clients used highly liquid instruments to re-risk portfolios, resulting in $28 billion of net inflows into precision exposures in Q4 2023. Demand for private markets remained strong with $14 billion in net inflows into illiquid strategies. Additionally, the Aperio business saw record net inflows of $12 billion in 2023, growing its AUM by 95% since acquisition to $80 billion.",
+ "latency_seconds": 353.47,
+ "generated_at": "2026-09-05T23:37:21Z"
+}

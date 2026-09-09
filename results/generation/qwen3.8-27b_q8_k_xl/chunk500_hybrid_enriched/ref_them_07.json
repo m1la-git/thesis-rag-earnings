@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid_enriched",
+ "question_id": "ref_them_07",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "FITB_2023_Q2_prepared_remarks_500_001",
+  "FITB_2023_Q3_qa_500_000",
+  "FITB_2023_Q1_prepared_remarks_500_005",
+  "WFC_2023_Q3_prepared_remarks_500_006",
+  "FITB_2023_Q1_prepared_remarks_500_001"
+ ],
+ "raw_response": "In the second quarter of 2023, Fifth Third Bank reported that its total period-end deposits increased by 1% sequentially and 2% year-over-year. This performance outpaced the broader banking sector, which saw a 5% decline in deposits over the same period. The bank attributed this growth to multiyear strategies including expanding distribution in Southeast markets (adding over 70 de novo branches since 2019), launching innovative deposit-oriented solutions like Momentum Banking and treasury management offerings, and focusing on primary household growth. Specifically, Fifth Third achieved 3% year-over-year net household growth in consumer banking and added a record number of new middle-market commercial relationships, up 30% from 2022.\n\nIn contrast, Wells Fargo noted that its average deposits declined by 5% from the prior year, driven primarily by outflows in consumer and wealth businesses as customers reallocated cash to higher-yielding alternatives. While Commercial Banking deposits also declined, they stabilized in Corporate and Investment Banking.",
+ "latency_seconds": 368.67,
+ "generated_at": "2026-09-05T23:19:07Z"
+}

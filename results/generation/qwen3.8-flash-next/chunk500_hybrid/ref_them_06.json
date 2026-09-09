@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid",
+ "question_id": "ref_them_06",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "COF_2023_Q4_prepared_remarks_500_006",
+  "COF_2024_Q3_prepared_remarks_500_004",
+  "FITB_2024_Q2_prepared_remarks_500_006",
+  "STT_2023_Q4_prepared_remarks_500_004",
+  "COF_2024_Q2_prepared_remarks_500_004"
+ ],
+ "raw_response": "Based on the provided context, the following efficiency ratio levels and targets were discussed:\n\n**Capital One (COF)**\n*   **2023 Actual:** The annual operating efficiency ratio, net of adjustments, was 43.5%.\n*   **2024 Year-to-Date (through September):** The year-to-date operating efficiency ratio, net of adjustments, was 41.7%.\n*   **2024 Targets/Guidance:**\n    *   Initially guided for the full-year 2024 annual operating efficiency ratio, net of adjustments, to be flat to modestly down compared to 2023 (assuming the CFPB late fee rule took effect in October).\n    *   Later updated guidance expects the full-year 2024 annual operating efficiency ratio, net of adjustments, to be in the low 42s. This update reflects that the company is no longer assuming the CFPB late fee rule will be implemented in 2024 and accounts for the end of revenue sharing related to the Walmart partnership.\n\n**Fifth Third Bancorp (FITB)**\n*   **2024 Target:** The outlook projects an efficiency ratio of around 57% for the full year 2024.",
+ "latency_seconds": 225.53,
+ "generated_at": "2026-09-07T11:56:03Z"
+}

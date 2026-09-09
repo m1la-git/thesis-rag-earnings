@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense",
+ "question_id": "ref_comp_10",
+ "category": "comparative",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "FITB_2023_Q4_prepared_remarks_500_001",
+  "PNC_2023_Q4_prepared_remarks_500_003",
+  "FITB_2023_Q2_prepared_remarks_500_002",
+  "FITB_2024_Q3_prepared_remarks_500_006",
+  "PNC_2023_Q2_prepared_remarks_500_003"
+ ],
+ "raw_response": "PNC reported that its Accumulated Other Comprehensive Income (AOCI) improved by $2.6 billion in the fourth quarter of 2023 due to lower interest rates, which contributed to an increase in tangible book value. PNC expects continued meaningful improvement to tangible book value from AOCI accretion as lower-rate securities and swaps roll off.\n\nFifth Third highlighted that its tangible book value per share grew nearly 30% during the fourth quarter of 2023 due to strong earnings and a rally in interest rates. To manage capital volatility, Fifth Third moved $12.6 billion of securities from available-for-sale (AFS) to held-to-maturity (HTM), expecting this action to de-risk potential AOCI volatility to capital by about 30% if market rates rise again.",
+ "latency_seconds": 309.38,
+ "generated_at": "2026-09-07T11:52:18Z"
+}

@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense_enriched",
+ "question_id": "ref_them_01",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BAC_2024_Q1_prepared_remarks_200_020",
+  "BAC_2024_Q4_prepared_remarks_200_018",
+  "WFC_2024_Q2_qa_200_015",
+  "FITB_2023_Q1_prepared_remarks_200_016",
+  "BAC_2023_Q4_prepared_remarks_200_026"
+ ],
+ "raw_response": "Based on the provided context, banks reported the impact of the FDIC special assessment and related expense changes as follows:\n\n*   **Bank of America (Q4 2023):** Reported $16.8 billion in total expenses, which included a large FDIC special assessment charge. Excluding this charge, expenses increased compared to prior periods, partially offset by a roughly $300 million release of prior period accruals for the special assessment.\n*   **Bank of America (Q4 2023 Outlook for Q1 2024):** Noted that they began 2023 with a $125 million lift in quarterly FDIC expense. They projected Q1 2024 expenses to be around $16.4 billion, which included elevated payroll tax and other costs but did not explicitly restate the special assessment impact for that specific quarter in this segment.\n*   **Bank of America (Q1 2024):** Reported total expenses of $17.2 billion including the FDIC assessment. Adjusted for the assessment, expenses were $16.5 billion. The increase over Q4 2023 was driven by seasonal payroll tax, higher revenue-related costs, and merit increases.\n*   **Wells Fargo (H1 2024):** Attributed part of the increase in their expense guide to FDIC expenses seen during the period, alongside remediations and increased variable expenses.",
+ "latency_seconds": 142.11,
+ "generated_at": "2026-09-05T14:17:00Z"
+}

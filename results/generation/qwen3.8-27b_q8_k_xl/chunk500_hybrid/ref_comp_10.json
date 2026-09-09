@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid",
+ "question_id": "ref_comp_10",
+ "category": "comparative",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "FITB_2023_Q4_prepared_remarks_500_001",
+  "FITB_2024_Q3_prepared_remarks_500_006",
+  "PNC_2023_Q2_prepared_remarks_500_003",
+  "PNC_2023_Q4_prepared_remarks_500_003",
+  "PNC_2023_Q4_prepared_remarks_500_001"
+ ],
+ "raw_response": "Based on the provided context, PNC and Fifth Third treated Accumulated Other Comprehensive Income (AOCI) in the following ways regarding their capital and tangible book value per share (TBVPS) during 2023:\n\n**PNC:**\n*   **Q2 2023:** AOCI increased by $400 million due to higher-than-expected interest rates. Despite this negative impact, PNC reported that its tangible book value still increased by 1% to $77.80 compared to March 31. The company noted that as lower-rate securities and swaps roll off, they expect AOCI accretion to meaningfully improve TBVPS.\n*   **Q4 2023:** AOCI improved by $2.6 billion (reaching negative $7.7 billion at quarter-end) primarily due to favorable interest rate movements. This improvement contributed to tangible book value increasing to $85.08 per common share, which was up 9% linked quarter and 18% year-over-year. PNC continued to emphasize that AOCI accretion would drive further TBVPS improvements as lower-rate assets roll off.\n\n**Fifth Third:**\n*   **Q4 2023:** Fifth Third highlighted a \"significant rally in interest rates\" in December, which contributed to tangible book value per share growing nearly 30% during the fourth quarter. To manage future AOCI volatility, the bank moved $12.6 billion of securities (roughly one-quarter of its Available-for-Sale portfolio) to held-to-maturity at the beginning of January 2024. This action was expected to de-risk potential AOCI volatility to capital by about 30% if market rates rose again. The company also noted that achieving full Category 1 LCR compliance and completing an RWA diet accreted nearly 50 basis points to CET1, putting them on pace for a 10.5% CET1 ratio by mid-2024.",
+ "latency_seconds": 780.66,
+ "generated_at": "2026-09-06T00:02:57Z"
+}

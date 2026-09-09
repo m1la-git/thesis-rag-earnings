@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense",
+ "question_id": "ref_them_11",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "COF_2023_Q4_prepared_remarks_500_005",
+  "COF_2024_Q3_prepared_remarks_500_004",
+  "COF_2023_Q4_qa_500_008",
+  "MTB_2023_Q4_prepared_remarks_500_004",
+  "C_2024_Q4_qa_500_003"
+ ],
+ "raw_response": "Based on the provided context, banks characterized their net charge-off (NCO) levels and direction as follows:\n\n**Capital One Financial (COF)**\n*   **2023:** In Q4 2023, management stated that auto delinquency and charge-off rates had been tracking normal seasonal patterns since the first half of the year. By the end of the quarter, they declared that charge-offs were \"leveling off\" or stabilizing. They noted that Q4 net charge-offs were approximately 15% above 2018 levels (a benchmark for a stable pre-pandemic year) and projected that NCOs would stabilize at about 15% above 2019 levels heading into 2024.\n*   **2024:** In Q3 2024, the company reported that consumer credit trends remained stable. While specific full-year 2024 NCO figures were not explicitly detailed in the prepared remarks provided, the context indicates a continuation of stability following the 2023 leveling off.\n\n**Citigroup (C)**\n*   **2024:** In Q4 2024, management indicated that net credit losses (NCL) for branded cards were expected to be at the high end of their guidance range (creeping up toward 4% from 3.64%). For retail services, NCLs were already at the high end of the guidance range (6.28%, within a 5.75%–6.25% range). They acknowledged seasonality in quarterly cadence but expected full-year rates to remain near these higher levels.\n\n**M&T Bank (MTB)**\n*   **2023:** In Q4 2023, net charge-offs totaled $148 million or 44 basis points, which was an increase of 15 basis points over the linked quarter. This rise was largely driven by specific office-related and commercial & industrial (C&I) charge-offs. Despite the increase in NCOs, non-accrual loans had trended down for consecutive quarters since Q1 2023.",
+ "latency_seconds": 527.22,
+ "generated_at": "2026-09-05T23:47:44Z"
+}

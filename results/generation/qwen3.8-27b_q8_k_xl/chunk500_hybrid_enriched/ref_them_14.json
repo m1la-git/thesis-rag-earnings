@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid_enriched",
+ "question_id": "ref_them_14",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BAC_2023_Q4_prepared_remarks_500_004",
+  "WFC_2024_Q3_prepared_remarks_500_007",
+  "BAC_2024_Q4_prepared_remarks_500_010",
+  "BAC_2024_Q2_prepared_remarks_500_011",
+  "BAC_2024_Q3_prepared_remarks_500_001"
+ ],
+ "raw_response": "Based on the provided context, here is what Bank of America reported regarding investment banking revenue and fees for 2023 and 2024:\n\n**2023:**\n*   **Global Markets Revenue:** The company reported 7% year-over-year revenue growth in global markets, described as the strongest performance in many years. This was driven by strong team performance and digital tools enabling activity at lower costs.\n*   **Commercial and Business Banking:** While not strictly investment banking fees, the bank noted it added roughly 2,500 new commercial and business banking clients, more than double the number added in 2022, capitalizing on a multi-year build of relationship management teams including mid-market investment banking.\n\n**2024:**\n*   **Q2 2024:** Investment banking fees grew 29% year-over-year to nearly $1.6 billion, led by debt capital markets fees (mostly leveraged finance and investment grade). The bank maintained its number three global position in investment banking fees.\n*   **Q3 2024:** The context notes \"healthy revenue growth\" in the global markets business but does not provide specific fee figures for this quarter. It mentions that NII troughed in Q2 and grew 2% in Q3, with expectations for further growth in Q4.\n*   **Q4 2024:** Investment banking fees were $1.7 billion, growing 44% year-over-year, led by mergers and acquisitions, strength in debt capital markets (leverage finance), and equity capital markets fees. The bank finished the year maintaining its number three investment banking fee position.\n*   **Full Year 2024:** Global Banking generated $8.1 billion in earnings (30% of company earnings) with a pretax margin of 26%. The business saw a \"nice rebound\" in investment banking fees throughout 2024, which the bank expects to continue into 2025.\n\n*Note: The provided context includes information from Wells Fargo regarding Corporate Investment Banking revenue (down 5% year-over-year in Q3 2024 due to higher deposit costs and lower loan balances), but specific investment banking fee details for Wells Fargo are not broken out separately from broader banking or markets revenues in the text.*",
+ "latency_seconds": 776.11,
+ "generated_at": "2026-09-05T23:25:55Z"
+}

@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid",
+ "question_id": "ref_them_11",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "FITB_2024_Q2_prepared_remarks_200_016",
+  "FITB_2023_Q4_qa_200_028",
+  "JPM_2023_Q4_prepared_remarks_200_014",
+  "BAC_2024_Q4_prepared_remarks_200_021",
+  "COF_2023_Q4_qa_200_021"
+ ],
+ "raw_response": "Based on the provided context, banks characterized their net charge-off levels and direction as follows:\n\n*   **Fifth Third Bancorp (FITB):** For full year 2024, the net charge-off outlook was in the range of 35 to 45 basis points. Management described the overall charge-off outlook for 2024 as \"fairly benign\" and noted that credit trends were similar to those seen in 2023, which were characterized as \"a little bit more episodic.\" There were no significant geographic or product-specific trends identified.\n*   **JPMorgan Chase (JPM):** The bank projected the 2024 card net charge-off rate to be below 3.5%, consistent with previous Investor Day guidance.\n*   **Bank of America (BAC):** While primarily discussing Q4 results and 2025 outlooks, the context notes that consumer losses had been stable in a range of $1 billion to $1.1 billion over recent quarters, and commercial losses declined due to lower commercial real estate office losses. The net charge-off ratio for the quarter was 54 basis points.\n*   **Capital One (COF):** In Q4 2023, net charge-offs were approximately 15% above 2018 levels. Looking ahead into 2024, the bank concluded that net charge-offs were stabilizing at about 15% above 2019 levels, with typical month-to-month volatility and seasonality expected.",
+ "latency_seconds": 203.17,
+ "generated_at": "2026-09-03T11:47:45Z"
+}

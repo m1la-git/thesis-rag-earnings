@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25",
+ "question_id": "ref_comp_08",
+ "category": "comparative",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "FITB_2023_Q1_prepared_remarks_500_000",
+  "MTB_2024_Q3_prepared_remarks_500_001",
+  "MTB_2023_Q3_prepared_remarks_500_002",
+  "FITB_2023_Q3_prepared_remarks_500_000",
+  "FITB_2023_Q4_prepared_remarks_500_001"
+ ],
+ "raw_response": "Based on the provided context, there is no information describing how Fifth Third described its tangible book value per share specifically for the third quarter of 2023. The Fifth Third Q3 2023 transcript discusses earnings per share, return on tangible common equity, and efficiency ratios, but does not mention tangible book value per share for that period (the Q4 2023 transcript mentions a nearly 30% growth in the fourth quarter).\n\nFor M&T Bank, the third quarter of 2023 prepared remarks state that **tangible book value per share increased 3%** compared to the end of June.",
+ "latency_seconds": 285.26,
+ "generated_at": "2026-09-07T11:47:03Z"
+}

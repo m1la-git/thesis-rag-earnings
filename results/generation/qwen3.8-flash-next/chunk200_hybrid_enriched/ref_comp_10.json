@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid_enriched",
+ "question_id": "ref_comp_10",
+ "category": "comparative",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "PNC_2023_Q2_prepared_remarks_200_008",
+  "PNC_2024_Q2_prepared_remarks_200_005",
+  "FITB_2023_Q3_qa_200_006",
+  "PNC_2023_Q4_prepared_remarks_200_004",
+  "PNC_2023_Q3_prepared_remarks_200_003"
+ ],
+ "raw_response": "Based on the provided context, there is no information regarding how Fifth Third (FITB) treated AOCI in its descriptions of capital or tangible book value per share. The FITB excerpt only mentions that the \"AOCI mark\" was weighing on the stock and discusses potential accretion from the burn-down of AOCI, but does not describe the accounting treatment for capital or TBV metrics.\n\nRegarding PNC, the context indicates that PNC reported tangible book value (TBV) per common share while acknowledging the negative impact of Accumulated Other Comprehensive Income (AOCI). Specifically:\n*   In Q2 2023, PNC noted that despite an AOCI impact, TBV increased to $77.80.\n*   In Q3 2023, PNC stated that while AOCI was negative $10.3 billion (reflecting higher interest rates), TBV increased to $78.16 because retained earnings growth exceeded the negative impact of AOCI.\n*   In Q4 2023, PNC reported that as AOCI improved by $2.6 billion due to favorable rate movements, TBV increased to $85.08 per common share.\n\nPNC also discussed the potential inclusion of AOCI in future capital ratios (CET1) under Basel III end-game rules, noting how it would impact their estimated ratios, but reported current TBV and CET1 figures that appear to exclude or adjust for these unrealized losses in the manner described above.",
+ "latency_seconds": 272.22,
+ "generated_at": "2026-09-07T10:58:59Z"
+}

@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25_enriched",
+ "question_id": "ref_them_02",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "JPM_2023_Q3_prepared_remarks_500_002",
+  "MS_2023_Q2_qa_500_000",
+  "JPM_2023_Q3_prepared_remarks_500_001",
+  "MS_2023_Q2_qa_500_006",
+  "GS_2024_Q2_qa_500_008"
+ ],
+ "raw_response": "Based on the provided context, bank executives characterized the uncertainty surrounding the Basel III endgame proposal in several ways:\n\n*   **JPMorgan Chase** described the proposed increases as \"overcalibrated\" and noted that the absence of detailed analysis supporting a 25% increase in capital requirements was \"disconcerting.\" They argued that the proposals compounded existing issues, such as the GSIB surcharge and operational risk overlaps, leading to an estimated 45% increase in capital requirements relative to 2017 levels.\n*   **Morgan Stanley** acknowledged significant speculation regarding the rules but noted that the actual implementation details were still pending. Management emphasized that regulators wanted to hear industry comments and that the top G-SIB banks are already well-capitalized, as evidenced by recent CCAR results. They expressed caution due to the broader banking environment, including regional bank failures, rather than solely focusing on Basel III.\n*   **Goldman Sachs** highlighted lingering uncertainty regarding both the \"quantum and timing\" of the proposal's resolution. Management noted that while there was favorable momentum in press reports and regulator comments, they were maintaining a wider-than-normal capital cushion (90 bps above normal) to signal flexibility and support shareholder returns while managing this regulatory risk.\n\nRegarding capital actions:\n*   **JPMorgan Chase** stated that the pace of share buybacks would likely remain \"modest\" in light of the proposal, though they intended to reassess the trajectory as circumstances evolved.\n*   **Morgan Stanley** indicated a cautious approach, noting they ended the quarter with a 15.5% CET1 ratio partly due to general environmental caution (including bank failures) rather than strictly for Basel III compliance, while maintaining flexibility around Risk-Weighted Assets (RWAs).\n*   **Goldman Sachs** explicitly stated that their elevated capital buffer was designed to support clients and return capital to shareholders while maintaining a prudent margin against the uncertainty of future regulatory input.",
+ "latency_seconds": 197.99,
+ "generated_at": "2026-09-05T22:55:38Z"
+}

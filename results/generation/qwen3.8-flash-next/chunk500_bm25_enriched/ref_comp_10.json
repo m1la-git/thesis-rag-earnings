@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25_enriched",
+ "question_id": "ref_comp_10",
+ "category": "comparative",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "FITB_2023_Q3_qa_500_002",
+  "PNC_2023_Q2_prepared_remarks_500_003",
+  "PNC_2023_Q4_prepared_remarks_500_001",
+  "PNC_2024_Q3_prepared_remarks_500_001",
+  "PNC_2023_Q2_prepared_remarks_500_001"
+ ],
+ "raw_response": "PNC reported that its tangible book value per share was directly impacted by changes in Accumulated Other Comprehensive Income (AOCI). In Q2 2023, PNC noted that while AOCI increased by $400 million due to higher rates, tangible book value still rose 1% linked quarter. By Q4 2023, PNC reported a $2.6 billion improvement in AOCI (moving from negative $9.5 billion in Q2 to negative $7.7 billion), which drove a 9% increase in tangible book value per share to $85.08.\n\nFifth Third described the impact of AOCI as an \"erosion\" on tangible book value per share due to marks on Available-for-Sale (AFS) securities, but emphasized that this is manageable from a regulatory capital perspective. Fifth Third stated that they continue to accrete CET1 to ensure sufficient regulatory capital for the eventual full phase-in of AOCI impacts, which are modeled to reduce CET1 by about 125 basis points by Q3 2028. They also noted that if rates fall, they would report significant tangible book value accretion from AOCI recovery.",
+ "latency_seconds": 290.67,
+ "generated_at": "2026-09-07T11:22:20Z"
+}

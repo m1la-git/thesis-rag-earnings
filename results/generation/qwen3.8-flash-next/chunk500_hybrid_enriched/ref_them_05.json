@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid_enriched",
+ "question_id": "ref_them_05",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BLK_2023_Q4_prepared_remarks_500_005",
+  "FITB_2024_Q4_prepared_remarks_500_001",
+  "STT_2023_Q4_prepared_remarks_500_004",
+  "C_2024_Q3_prepared_remarks_500_006",
+  "USB_2023_Q4_qa_500_012"
+ ],
+ "raw_response": "Based on the provided context, only Citigroup (C) reported specific figures for capital returned via dividends and share repurchases in the third quarter of 2024. Citigroup returned **$2.1 billion** through common dividends and share repurchases during that period. The other companies mentioned (BlackRock, Fifth Third, State Street, U.S. Bancorp) provided full-year or multi-quarter figures but did not specify amounts for Q3 2024 alone.",
+ "latency_seconds": 139.33,
+ "generated_at": "2026-09-07T11:30:41Z"
+}

@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid_enriched",
+ "question_id": "ref_them_08",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "BLK_2023_Q4_prepared_remarks_500_006",
+  "MS_2023_Q1_prepared_remarks_500_004",
+  "BLK_2024_Q3_prepared_remarks_500_007",
+  "BLK_2023_Q3_prepared_remarks_500_001",
+  "MS_2023_Q4_prepared_remarks_500_009"
+ ],
+ "raw_response": "During 2023, BlackRock described strong momentum in client engagement and asset growth, noting that clients entrusted the firm with $193 billion in total net inflows for the first nine months of the year. This represented a 3% annualized organic asset growth rate. By the end of the third quarter, BlackRock managed $9.1 trillion in assets, which was $1.1 trillion higher than the previous year. The firm highlighted that client momentum remained strong despite specific outflows, such as a single client index redemption and market-related ETF outflows, attributing this to clients consolidating business with fewer managers and utilizing BlackRock’s platform for investment, technology, and portfolio servicing. For the full year 2023, BlackRock reported $32 billion in net inflows from its institutional business and $79 billion in net inflows into its cash management platform, with year-end AUM up 14% or over $90 billion year-on-year in that segment. Additionally, demand for private markets remained strong with $14 billion in net inflows into illiquid strategies.\n\nMorgan Stanley described its momentum as driven by a strategy to migrate assets from workplace channels to adviser-led relationships. In the first quarter of 2023, adviser-led flows reached $28 billion, double the level seen in the same period the previous year. Although total AUM ended at $1.4 trillion with long-term net outflows of $2.4 billion due to lower asset values and prior outflows, the firm noted strength in alternatives and solutions, particularly in private credit and customized portfolios. By the fourth quarter of 2023, Morgan Stanley’s AUM increased year-over-year to $1.5 trillion, supported by higher asset values, despite long-term net outflows of approximately $7 billion driven by headwinds in active equity growth strategies. The firm also reported that client migration was up 25% year-over-year and that it grew client relationships by over 600,000 across the franchise during the year.",
+ "latency_seconds": 519.53,
+ "generated_at": "2026-09-05T15:09:44Z"
+}

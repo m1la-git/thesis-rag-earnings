@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25",
+ "question_id": "ref_them_10",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "COF_2024_Q4_qa_500_017",
+  "COF_2024_Q4_prepared_remarks_500_003",
+  "AXP_2023_Q1_prepared_remarks_500_004",
+  "COF_2024_Q3_prepared_remarks_500_003",
+  "AXP_2023_Q4_prepared_remarks_500_005"
+ ],
+ "raw_response": "Based on the provided context, here is what the banks said regarding credit card growth and credit performance for 2023 and 2024:\n\n**Capital One (COF)**\n*   **Growth:** In Q4 2024, purchase volume growth was driven by an expanding branded card customer base (consumer and small business) and strength in originations at the higher end of the market. While spend per customer in the consumer business remained largely flat through 2023 and the first half of 2024, it began to pick up midway through 2024 and grew further in Q4.\n*   **Credit Performance:** Recent originations have shown stability in performance, with risk levels remaining mostly stable vintage over vintage. The overall front book of new origination vintages continues to perform in line with pre-pandemic levels. In Q3 2024, the pace of year-over-year increases in charge-off and delinquency rates had been steadily declining for several quarters.\n\n**American Express (AXP)**\n*   **Growth:** In Q1 2023, loan balances grew 25% year-over-year, primarily driven by existing customers rebuilding balances. The company expected this growth rate to moderate through 2023 but remain elevated compared to pre-pandemic levels. By Q4 2023, total revenues were up 11% year-over-year, with discount revenue growing 5% in the quarter and 9% for the full year.\n*   **Credit Performance:** American Express reported \"best-in-class\" credit metrics attributed to high customer credit quality and disciplined growth. In Q1 2023, write-off and delinquency rates were below pre-pandemic levels but continued to move up as expected; the company anticipated these rates would increase over time in 2023 while remaining below pre-pandemic levels. By Q4 2023, write-off and delinquency rates had ticked up modestly, with expectations for further modest increases in 2024. The reserve rate at the end of Q4 2023 was approximately 10 basis points below pre-pandemic (day-one CECL) levels.",
+ "latency_seconds": 587.67,
+ "generated_at": "2026-09-03T12:22:03Z"
+}

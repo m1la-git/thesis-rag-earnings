@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid_enriched",
+ "question_id": "ref_them_07",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "FITB_2023_Q2_prepared_remarks_500_001",
+  "FITB_2023_Q3_qa_500_000",
+  "FITB_2023_Q1_prepared_remarks_500_005",
+  "WFC_2023_Q3_prepared_remarks_500_006",
+  "FITB_2023_Q1_prepared_remarks_500_001"
+ ],
+ "raw_response": "Based on the provided context, Fifth Third Bancorp (FITB) described its deposit performance in the second quarter of 2023 as outperforming the sector. Specifically, Fifth Third's total period-end deposits increased 1% sequentially and 2% year-over-year, contrasting with a 5% decline for the broader industry over the same period. The bank attributed this growth to deliberate multiyear strategies, including expanding distribution in Southeast markets (adding over 70 de novo branches since 2019), launching innovative operational deposit solutions like Momentum banking and treasury management offerings, and sustained focus on primary household growth. Both commercial banking and consumer segments generated period-end deposit growth, with the bank noting that its new branches were outperforming original business cases for deposit production.\n\nRegarding the broader industry environment in the second quarter of 2023, Fifth Third noted that deposits remained a key focus for the entire sector due to increased competition following the failures of Silicon Valley Bank and Signature Bank. The bank stated it would not match irrational pricing competition that prioritized headline growth over profitability.",
+ "latency_seconds": 219.0,
+ "generated_at": "2026-09-07T11:32:01Z"
+}

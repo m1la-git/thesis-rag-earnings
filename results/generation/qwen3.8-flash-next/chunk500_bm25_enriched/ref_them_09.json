@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_bm25_enriched",
+ "question_id": "ref_them_09",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "MTB_2024_Q1_prepared_remarks_500_001",
+  "HBAN_2023_Q2_prepared_remarks_500_004",
+  "USB_2023_Q3_qa_500_008",
+  "BAC_2024_Q4_prepared_remarks_500_001",
+  "AXP_2023_Q1_prepared_remarks_500_005"
+ ],
+ "raw_response": "Based on the provided context, here are the reported net interest margins (NIM) for the specified periods:\n\n*   **M&T Bank (Q1 2024):** Reported a NIM of **3.52%**, which was down 9 basis points from the linked quarter.\n*   **Huntington Bancshares (Q2 2023 Outlook):** Anticipated a NIM of approximately **3%** by Q4 2023, with outlooks indicating NIM would be stable to rising during 2024.\n\nThe provided context does not contain information regarding adjusted net interest margin levels for these banks or other institutions in 2023 and 2024.",
+ "latency_seconds": 205.94,
+ "generated_at": "2026-09-07T11:20:55Z"
+}

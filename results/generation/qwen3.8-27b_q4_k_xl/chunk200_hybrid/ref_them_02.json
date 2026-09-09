@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_hybrid",
+ "question_id": "ref_them_02",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "MS_2023_Q2_qa_200_001",
+  "JPM_2023_Q3_prepared_remarks_200_007",
+  "JPM_2023_Q3_prepared_remarks_200_006",
+  "GS_2024_Q2_qa_200_020",
+  "PNC_2023_Q3_prepared_remarks_200_012"
+ ],
+ "raw_response": "Banks characterized the uncertainty surrounding the Basel III Endgame as significant, noting that while there was favorable momentum and public comments from regulators suggesting potential changes, both the quantum (magnitude) and timing of its resolution remained unclear. They described the current proposal as \"overcalibrated,\" arguing it would lead to unnecessary increases in capital requirements—such as a 45% increase for JPMorgan Chase relative to 2017 levels—and exacerbate procyclicality while discouraging scale and diversification.\n\nThis uncertainty directly affected their capital actions:\n*   **JPMorgan Chase** stated they would continue to engage forcefully during the comment period, highlighting that the proposal could significantly impact credit pricing and availability if implemented as written.\n*   **Goldman Sachs** indicated it was operating at the wider end of its capital range (running with 90 bps of cushion above normal) specifically to signal flexibility and address the remaining uncertainty regarding the Basel III Endgame.\n*   **PNC Financial Services** placed its share repurchase activity on pause due to the \"fluidity\" of the capital proposals, stating it would continue to evaluate the potential impact before resuming buybacks.",
+ "latency_seconds": 81.56,
+ "generated_at": "2026-09-03T11:45:44Z"
+}

@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_hybrid",
+ "question_id": "ref_them_15",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "C_2023_Q4_prepared_remarks_500_007",
+  "BLK_2024_Q1_prepared_remarks_500_003",
+  "BLK_2023_Q3_prepared_remarks_500_003",
+  "BAC_2023_Q4_prepared_remarks_500_002",
+  "BLK_2024_Q1_prepared_remarks_500_002"
+ ],
+ "raw_response": "Based on the provided context, here is the information regarding technology spending and General & Administrative (G&A) expenses:\n\n**Bank of America (BAC)**\n*   **Technology Spend:** The text does not specify a total dollar amount for Bank of America’s technology spend in 2023 or 2024. It notes that expense growth was driven by investments in risk, controls, and technology, but no specific figure is provided.\n*   **G&A/Expense Changes:** In 2023, full-year expenses were $54.3 billion (excluding FDIC special assessment and divestiture impacts), which included roughly $780 million in restructuring costs and approximately $730 million in severance. The bank achieved 170 basis points of operating leverage in 2023 as quarterly expense levels were driven lower throughout the year despite continued growth investments.\n\n**BlackRock (BLK)**\n*   **Technology Spend:** BlackRock does not provide a specific dollar amount for total technology spend in 2023 or 2024, but it identifies technology as one of its primary areas of investment within G&A. In Q1 2024, G&A expense increased 6% year-over-year due to the timing of technology investment spend in the prior year (Q4 2023).\n*   **G&A/Expense Changes:**\n    *   **2023 Outlook:** BlackRock expected full-year 2023 core G&A to fall on the low end of its guidance for a mid- to high-single-digit percentage increase. Q4 2023 core G&A reflected seasonal increases in marketing and planned technology investment spend.\n    *   **2024 Outlook:** BlackRock expects a low to mid-single-digits percentage increase in 2024 core G&A expense (excluding global infrastructure partners and related transaction costs). In Q1 2024, total expense increased 8% year-over-year, with G&A up 6%.\n\n**Note on Citigroup (C)**\n*   The context labeled \"C_2023_Q4_prepared_remarks\" states that the firm invested over **$12 billion in technology in 2023**. It notes a shift from consulting expenses to technology and compensation as execution deepened. Full-year 2023 expenses were $54.3 billion (excluding FDIC special assessment and divestiture impacts), including roughly $780 million in restructuring costs and approximately $730 million in severance. Expense growth was driven by transformation, business-led investments, volume-related expenses, and investments in risk/controls/technology, partially offset by productivity savings.",
+ "latency_seconds": 783.7,
+ "generated_at": "2026-09-06T00:03:00Z"
+}

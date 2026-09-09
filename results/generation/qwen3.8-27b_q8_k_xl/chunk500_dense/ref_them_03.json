@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense",
+ "question_id": "ref_them_03",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "WFC_2023_Q3_prepared_remarks_500_006",
+  "WFC_2024_Q2_prepared_remarks_500_006",
+  "WFC_2023_Q1_prepared_remarks_500_005",
+  "WFC_2024_Q1_prepared_remarks_500_006",
+  "MTB_2023_Q4_prepared_remarks_500_004"
+ ],
+ "raw_response": "During 2023, banks reported increasing stress in their commercial real estate (CRE) office portfolios due to lower demand, higher financing costs, and challenging capital market conditions. Key points regarding credit exposure and allowances include:\n\n*   **Exposure Management:** Banks actively worked to derisk their office exposures. Wells Fargo noted that its office commitments declined by 5% from a year ago in Q1 2023 and further reduced loan balances by 9% from a year ago by Q2 2024 (referencing the ongoing trend). The portfolio was described as geographically diverse, with approximately 12% being owner-occupied and nearly one-third having recourse to a guarantor.\n*   **Loss Expectations:** While meaningful loss content had not yet materialized in early 2023, banks expected higher losses over time. Wells Fargo highlighted that CRE office losses were \"lumpy\" but generally in line with expectations as they worked with clients.\n*   **Allowance Coverage:**\n    *   In Q1 2023, Wells Fargo increased its allowance for credit losses by $643 million, primarily driven by commercial real estate loans (especially office) and credit card model loans.\n    *   By the end of Q3 2023, Wells Fargo’s coverage ratio for its CIB commercial real estate office portfolio had increased from 8.8% at the end of Q2 to 10.8%.\n    *   In subsequent quarters (Q1 and Q2 2024), this coverage ratio remained relatively stable at approximately 11%.\n*   **Other Banks:** M&T Bank reported that its allowance-to-loan ratio ended 2023 at 1.59%, with a $77 million build in Q4 2023 driven by commercial real estate values and higher interest rates contributing to modest deterioration in loan performance.",
+ "latency_seconds": 337.31,
+ "generated_at": "2026-09-05T23:44:34Z"
+}

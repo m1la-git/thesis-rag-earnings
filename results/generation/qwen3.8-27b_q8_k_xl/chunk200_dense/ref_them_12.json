@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense",
+ "question_id": "ref_them_12",
+ "category": "thematic",
+ "model": "qwen3.8-27b@q8_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "C_2023_Q4_prepared_remarks_200_010",
+  "FITB_2023_Q4_prepared_remarks_200_008",
+  "GS_2024_Q4_qa_200_032",
+  "BK_2023_Q4_qa_200_001",
+  "WFC_2023_Q4_prepared_remarks_200_006"
+ ],
+ "raw_response": "Based on the provided context, firms discussed their wealth management businesses and related investments in the following ways:\n\n*   **Bank of New York Mellon (BNY):** The company stated that 2024 would be a turning point allowing it to completely focus on the performance of its five businesses, including wealth management, as well as its transformation.\n*   **Goldman Sachs:** Management noted good year-over-year growth in wealth for both the full year and the fourth quarter. They expressed confidence in continuing to grow Asset & Wealth Management (AWM) management and other fees at a high-single-digit rate over the next several years, citing optionality to raise and grow management fees across asset and wealth management subsegments.\n*   **Bank of America:** The firm highlighted that it is making significant investments in its wealth management segment, noting that they are \"beginning to see green shoots\" from these efforts. This was part of a broader strategy of investing in all segments to drive efficiency and growth following 2023 being described as a foundational year for planning and investment.",
+ "latency_seconds": 256.7,
+ "generated_at": "2026-09-05T22:37:34Z"
+}

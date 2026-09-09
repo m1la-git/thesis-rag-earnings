@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk200_dense",
+ "question_id": "ref_them_08",
+ "category": "thematic",
+ "model": "qwen3.8-flash-next",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "MS_2023_Q1_prepared_remarks_200_011",
+  "BLK_2024_Q3_prepared_remarks_200_017",
+  "STT_2024_Q1_prepared_remarks_200_007",
+  "MS_2023_Q4_prepared_remarks_200_023",
+  "BLK_2023_Q4_prepared_remarks_200_015"
+ ],
+ "raw_response": "Based on the provided context, firms described momentum in net inflows, AUM, and client investment assets during 2023 as follows:\n\n**Morgan Stanley (MS)**\n*   **Client Investment Assets:** The firm reported that adviser-led flows originating from workplace relationships reached $28 billion in Q1 2023 alone, which was double the amount seen in the same quarter of the previous year. This compared to approximately $50 billion annually over the past three years. In Q4 2023, client migration to the adviser-led channel was up 25% year-over-year despite economic headwinds.\n*   **AUM:** Total AUM ended at $1.4 trillion in Q1 2023 and increased year-over-year to $1.5 trillion by the end of 2023, supported by higher asset values.\n*   **Net Inflows/Outflows:** The firm experienced long-term net outflows rather than inflows during this period. Long-term net outflows were $2.4 billion in Q1 2023 and approximately $7 billion for the full year of 2023, driven by headwinds in active equity growth strategies.\n\n**BlackRock (BLK)**\n*   **Net Inflows:** For the full year of 2023, BlackRock’s institutional business generated net inflows of $32 billion, led by active net inflows of $87 billion. However, retail net outflows were $8 billion for the full year, primarily due to allocations out of rising rate-sensitive strategies. Index net outflows were $55 billion, driven by redemptions from low-fee equity strategies.\n*   **AUM:** Specific AUM figures for the end of 2023 are not explicitly stated in the provided text (the Q4 2023 excerpt focuses on flows), though it notes that Aperio AUM grew 95% since acquisition to $80 billion by the end of 2023.",
+ "latency_seconds": 143.14,
+ "generated_at": "2026-09-07T11:08:50Z"
+}

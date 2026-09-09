@@ -1,0 +1,19 @@
+{
+ "condition_id": "chunk500_dense_enriched",
+ "question_id": "ref_comp_09",
+ "category": "comparative",
+ "model": "qwen3.8-27b@q4_k_xl",
+ "temperature": 0,
+ "seed": 20260831,
+ "prompt_hash": "1c5452a56777e861",
+ "retrieved_chunk_ids": [
+  "JPM_2024_Q4_qa_500_010",
+  "MTB_2024_Q4_prepared_remarks_500_007",
+  "MTB_2024_Q4_prepared_remarks_500_006",
+  "MTB_2023_Q1_prepared_remarks_500_006",
+  "MTB_2023_Q4_prepared_remarks_500_006"
+ ],
+ "raw_response": "Based on the provided context, M&T Bank expected full-year average loan and lease balances to be between $137 billion and $139 billion in 2025, reflecting continued growth in commercial & industrial (C&I) and consumer loans with more modest growth in residential mortgages. In contrast, JPMorgan’s commentary focused on specific drivers for potential inflection points rather than a total balance range; they identified acquisition finance as the primary area where loan growth might meaningfully increase if the M&A environment picks up, while noting that card loan growth and revolve normalization were significant tailwinds in 2024 but are expected to decelerate in 2025.",
+ "latency_seconds": 707.73,
+ "generated_at": "2026-09-05T15:00:34Z"
+}
