@@ -1,0 +1,49 @@
+reading_number,stratum,model,condition_id,arm,question_id,category,case,outcome,coverage_at_5,coverage_group,check3_flagged
+1,S4,qwen3.8-27b@q8_k_xl,chunk200_bm25_enriched,enriched,ref_them_02,thematic,C,answered_grounded_correct,0.5,partial (some but not all),True
+2,S2,qwen3.8-27b@q8_k_xl,chunk200_bm25_enriched,enriched,ref_them_10,thematic,B,answered_grounded_offtarget,0,,
+3,S4,qwen3.8-27b@q8_k_xl,chunk500_dense_enriched,enriched,ref_them_04,thematic,C,answered_grounded_correct,0.5,partial (some but not all),True
+4,S5,qwen3.8-27b@q8_k_xl,chunk200_bm25_enriched,enriched,ref_fact_05,factual,C,answered_grounded_correct,1,single (1 anchor),False
+5,S2,qwen3.8-27b@q8_k_xl,chunk200_bm25,text_only,ref_them_08,thematic,B,answered_grounded_offtarget,0,,
+6,S2,qwen3.8-27b@q8_k_xl,chunk500_dense,text_only,ref_them_08,thematic,B,answered_grounded_offtarget,0,,
+7,S4,qwen3.8-27b@q8_k_xl,chunk500_hybrid_enriched,enriched,ref_them_04,thematic,C,answered_grounded_correct,0.5,partial (some but not all),True
+8,S2,qwen3.8-27b@q8_k_xl,chunk200_bm25,text_only,ref_them_01,thematic,B,answered_grounded_offtarget,0,,
+9,S2,qwen3.8-27b@q8_k_xl,chunk500_bm25_enriched,enriched,ref_them_15,thematic,B,answered_grounded_offtarget,0,,
+10,S1,qwen3.8-27b@q8_k_xl,chunk500_dense_enriched,enriched,ref_them_15,thematic,B,answered_ungrounded,0,,
+11,S1,qwen3.8-27b@q8_k_xl,chunk500_bm25_enriched,enriched,ref_unans_01,unanswerable,A,answered_ungrounded,,,
+12,S3,qwen3.8-27b@q8_k_xl,chunk200_bm25,text_only,ref_comp_08,comparative,C,abstained,0.5,partial (some but not all),
+13,S4,qwen3.8-27b@q8_k_xl,chunk200_bm25,text_only,ref_them_04,thematic,C,answered_grounded_correct,0.5,partial (some but not all),True
+14,S2,qwen3.8-27b@q8_k_xl,chunk200_dense,text_only,ref_them_12,thematic,B,answered_grounded_offtarget,0,,
+15,S2,qwen3.8-27b@q8_k_xl,chunk500_dense_enriched,enriched,ref_comp_01,comparative,B,answered_grounded_offtarget,0,,
+16,S5,qwen3.8-27b@q8_k_xl,chunk500_dense_enriched,enriched,ref_fact_09,factual,C,answered_grounded_correct,1,single (1 anchor),False
+17,S1,qwen3.8-27b@q8_k_xl,chunk200_hybrid,text_only,ref_them_12,thematic,B,answered_ungrounded,0,,
+18,S3,qwen3.8-27b@q8_k_xl,chunk200_dense_enriched,enriched,ref_comp_07,comparative,C,abstained,0.5,partial (some but not all),
+19,S3,qwen3.8-27b@q8_k_xl,chunk200_dense_enriched,enriched,ref_comp_12,comparative,C,abstained,0.5,partial (some but not all),
+20,S2,qwen3.8-27b@q8_k_xl,chunk200_hybrid,text_only,ref_comp_01,comparative,B,answered_grounded_offtarget,0,,
+21,S2,qwen3.8-27b@q8_k_xl,chunk500_dense,text_only,ref_them_06,thematic,B,answered_grounded_offtarget,0,,
+22,S2,qwen3.8-27b@q8_k_xl,chunk500_hybrid_enriched,enriched,ref_them_10,thematic,B,answered_grounded_offtarget,0,,
+23,S2,qwen3.8-27b@q8_k_xl,chunk500_bm25_enriched,enriched,ref_them_09,thematic,B,answered_grounded_offtarget,0,,
+24,S5,qwen3.8-27b@q8_k_xl,chunk200_hybrid_enriched,enriched,ref_fact_01,factual,C,answered_grounded_correct,1,single (1 anchor),False
+25,S3,qwen3.8-27b@q8_k_xl,chunk200_bm25_enriched,enriched,ref_fact_14,factual,C,abstained,1,single (1 anchor),
+26,S1,qwen3.8-27b@q8_k_xl,chunk200_bm25_enriched,enriched,ref_unans_01,unanswerable,A,answered_ungrounded,,,
+27,S1,qwen3.8-27b@q8_k_xl,chunk500_bm25,text_only,ref_unans_01,unanswerable,A,answered_ungrounded,,,
+28,S1,qwen3.8-27b@q8_k_xl,chunk200_hybrid_enriched,enriched,ref_them_09,thematic,B,answered_ungrounded,0,,
+29,S1,qwen3.8-27b@q8_k_xl,chunk500_hybrid_enriched,enriched,ref_them_09,thematic,B,answered_ungrounded,0,,
+30,S4,qwen3.8-27b@q8_k_xl,chunk500_bm25,text_only,ref_comp_10,comparative,C,answered_grounded_correct,0.5,partial (some but not all),True
+31,S4,qwen3.8-27b@q8_k_xl,chunk200_hybrid,text_only,ref_them_04,thematic,C,answered_grounded_correct,0.5,partial (some but not all),True
+32,S4,qwen3.8-27b@q8_k_xl,chunk200_dense_enriched,enriched,ref_them_07,thematic,C,answered_grounded_correct,0.5,partial (some but not all),True
+33,S3,qwen3.8-27b@q8_k_xl,chunk500_hybrid,text_only,ref_comp_06,comparative,C,abstained,0.5,partial (some but not all),
+34,S3,qwen3.8-27b@q8_k_xl,chunk200_bm25_enriched,enriched,ref_comp_08,comparative,C,abstained,0.5,partial (some but not all),
+35,S2,qwen3.8-27b@q8_k_xl,chunk200_dense,text_only,ref_them_08,thematic,B,answered_grounded_offtarget,0,,
+36,S3,qwen3.8-27b@q8_k_xl,chunk500_hybrid_enriched,enriched,ref_comp_08,comparative,C,abstained,0.5,partial (some but not all),
+37,S4,qwen3.8-27b@q8_k_xl,chunk500_dense,text_only,ref_them_02,thematic,C,answered_grounded_correct,0.5,partial (some but not all),True
+38,S1,qwen3.8-27b@q8_k_xl,chunk200_bm25,text_only,ref_unans_01,unanswerable,A,answered_ungrounded,,,
+39,S1,qwen3.8-27b@q8_k_xl,chunk200_dense,text_only,ref_unans_01,unanswerable,A,answered_grounded_offtarget,,,
+40,S1,qwen3.8-27b@q8_k_xl,chunk200_dense_enriched,enriched,ref_comp_01,comparative,C,answered_ungrounded,0.5,partial (some but not all),
+41,S2,qwen3.8-27b@q8_k_xl,chunk500_dense_enriched,enriched,ref_them_08,thematic,B,answered_grounded_offtarget,0,,
+42,S3,qwen3.8-27b@q8_k_xl,chunk500_dense_enriched,enriched,ref_comp_12,comparative,C,abstained,0.5,partial (some but not all),
+43,S5,qwen3.8-27b@q8_k_xl,chunk500_hybrid_enriched,enriched,ref_fact_03,factual,C,answered_grounded_correct,1,single (1 anchor),False
+44,S2,qwen3.8-27b@q8_k_xl,chunk200_bm25_enriched,enriched,ref_them_04,thematic,B,answered_grounded_offtarget,0,,
+45,S2,qwen3.8-27b@q8_k_xl,chunk500_hybrid,text_only,ref_them_11,thematic,B,answered_grounded_offtarget,0,,
+46,S2,qwen3.8-27b@q8_k_xl,chunk200_hybrid_enriched,enriched,ref_them_05,thematic,B,answered_grounded_offtarget,0,,
+47,S3,qwen3.8-27b@q8_k_xl,chunk500_bm25_enriched,enriched,ref_comp_02,comparative,C,abstained,0.5,partial (some but not all),
+48,S3,qwen3.8-27b@q8_k_xl,chunk500_dense,text_only,ref_comp_06,comparative,C,abstained,0.5,partial (some but not all),

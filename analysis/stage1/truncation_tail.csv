@@ -1,0 +1,149 @@
+chunk_size,question_id,category,anchor,occurrences_corpus,occurrences_in_tail,occurrences_partially_in_tail,occurrences_own_transcripts,occurrences_own_in_tail,fully_lost_to_index
+200,ref_fact_01,factual,"custody and our administration of $48.8 trillion were up 5% year-over-year, and assets under management",1,0,0,1,0,False
+200,ref_fact_02,factual,"raising our full year EPS guidance to $13.75 to $14.05,",1,0,0,1,0,False
+200,ref_fact_03,factual,"$638 million, benefiting from the completion of previously",1,0,0,1,0,False
+200,ref_fact_04,factual,"management fees were $457 million, down 12% year-on-year,",1,0,0,1,0,False
+200,ref_fact_05,factual,"quarter, as you said, first, we had the effect of Walmart, the $826 million build",1,0,0,1,0,False
+200,ref_fact_06,factual,"expenses to be approximately $53.5 billion to $53.8 billion, down from $54.3 billion,",1,0,0,1,0,False
+200,ref_fact_07,factual,deposits moved from 210 basis points in the third quarter to 194 basis points,1,0,0,1,0,False
+200,ref_them_01,thematic,a $289 million accrual for our current estimate of the FDIC,1,0,0,1,0,False
+200,ref_them_01,thematic,"Q1, which included $700 million for the FDIC",1,0,0,1,0,False
+200,ref_them_01,thematic,"up 20% year-over-year on a reported basis, primarily reflecting the FDIC",1,0,0,1,0,False
+200,ref_them_02,thematic,"capital, while uncertainty about the Basel III Endgame prevails, our capital position remains very robust",1,0,0,1,0,False
+200,ref_them_02,thematic,pace of buybacks will likely remain modest in light of the Basel III,1,0,0,1,0,False
+200,ref_them_03,thematic,"decreased by $37 million, primarily driven by the charge-offs of office real-estate loans",1,0,0,1,0,False
+200,ref_them_03,thematic,"CRE comprises less than 2% of total loans, and the majority are suburban",1,0,0,1,0,False
+200,ref_them_04,thematic,170 basis points of operating leverage in 2023 as heightened quarterly expense levels were driven,1,0,0,1,0,False
+200,ref_them_04,thematic,"operating leverage this quarter as expenses decreased 4%, driven by actions taken to right size",1,0,0,1,0,False
+200,ref_them_05,thematic,capital distributions includes $2 billion in common dividends and the repurchase of $3.5 billion,1,0,0,1,0,False
+200,ref_them_05,thematic,"returned $2.1 billion in the form of common dividends and share repurchases,",1,0,0,1,0,False
+200,ref_them_06,thematic,"an adjusted efficiency ratio of 59% and a seasonally challenged quarter, which is a six",1,0,0,1,0,False
+200,ref_them_06,thematic,"annual operating efficiency ratio, net of adjustments to be modestly down compared to the 43.5%",1,0,0,1,0,False
+200,ref_them_07,thematic,"during the quarter, increasing by $2.7 billion or 1.9%",1,0,0,1,0,False
+200,ref_them_07,thematic,total period-end deposits increased 1% sequentially and increased 2% year-over-year as compared to a 5%,1,0,0,1,0,False
+200,ref_comp_01,comparative,"taking a more conservative posture around that, just given some of the uncertainty around Basel",1,0,0,1,0,False
+200,ref_comp_01,comparative,"how the Basel III endgame proposal could evolve, but that hasn't",1,0,0,1,0,False
+200,ref_comp_02,comparative,"charge-offs increased $191 million versus the fourth quarter, driven by commercial real estate losses",1,0,0,1,0,False
+200,ref_comp_02,comparative,the office portfolio by about $500 million over the course of the last,1,0,0,1,0,False
+200,ref_comp_03,comparative,still projects an efficiency ratio of around 57%,1,0,0,1,0,False
+200,ref_comp_03,comparative,year-to-date efficiency ratio at 63.8% is nearly 10 points better,1,0,0,1,0,False
+200,ref_comp_04,comparative,growth continued at a robust pace increasing by $8.3 billion or 5.6%,1,0,0,1,0,False
+200,ref_comp_04,comparative,retail deposits nearly 16% year-over-year and gained meaningful,1,0,0,1,0,False
+200,ref_comp_06,comparative,"our seventh straight quarter of operating leverage, led by a 13% year-over-year",1,0,0,1,0,False
+200,ref_comp_06,comparative,nine points of year-over-year positive operating leverage driven by an 18% increase,1,0,0,1,0,False
+200,ref_fact_08,factual,BlackRock with an industry-leading $190 billion of net inflows in the first half,1,0,0,1,0,False
+200,ref_fact_09,factual,"average loans and leases were $133.5 billion during the second quarter, up $1.5 billion compared",1,0,0,1,0,False
+200,ref_fact_10,factual,"AOCI was a negative $10.3 billion compared to a negative $9.5 billion at June 30,",1,0,0,1,0,False
+200,ref_fact_11,factual,"Slide 6, fee income represented over 40% of total net revenue",1,0,0,1,0,False
+200,ref_fact_12,factual,"our strong fee-based revenue growth, up 15% from a year ago, largely offset",1,0,0,1,0,False
+200,ref_fact_13,factual,revenue of $1.5 billion was up 11% year-on-year or down 7% excluding bridge book markdowns,1,0,0,1,0,False
+200,ref_fact_14,factual,"over $30 billion in active equity net inflows, while our average AUM has grown",1,0,0,1,0,False
+200,ref_them_08,thematic,"the first quarter, BlackRock generated total net inflows of $110 billion, representing 5% annualized organic",1,0,0,1,0,False
+200,ref_them_08,thematic,"21% year-on-year, driven by market performance and strong net inflows as we continue to capture",1,0,0,1,0,False
+200,ref_them_08,thematic,"you're flagging, in the first half of the year, here we've seen $830 billion increase",1,0,0,1,0,False
+200,ref_them_09,thematic,"interest margin of 2.84%, declined 8 basis points reflecting the increased funding costs, I",1,0,0,1,0,False
+200,ref_them_09,thematic,"quarter net interest margin was 6.69%, 21 basis points higher than last quarter and 11",1,0,0,1,0,False
+200,ref_them_09,thematic,net interest margin improved 3 basis points compared,1,0,0,1,0,False
+200,ref_them_10,thematic,"card net charge-off rate rose 12 basis points to 2.72% in Q3, and it remains",1,0,0,1,0,False
+200,ref_them_10,thematic,think it's -- you saw the card growth rate was about 1% or so versus,1,0,0,1,0,False
+200,ref_them_10,thematic,"product offerings continue to drive strong credit card spend, up approximately $5 billion or 14%",1,0,0,1,0,False
+200,ref_them_11,thematic,$127 million in the second quarter compared to $70 million in this year's,1,0,0,1,0,False
+200,ref_them_11,thematic,expectation that net charge-offs in the second-half of 2024 will be lower than the first-half,1,0,0,1,0,False
+200,ref_them_11,thematic,anticipate approaching 60 basis points here in the back half of the year is kind of how we're thinking,1,0,0,1,0,False
+200,ref_them_12,thematic,"wealth management business, revenue decreased by 5%, driven by lower net interest revenue and changes",1,0,0,1,0,False
+200,ref_them_12,thematic,"keep investing through the cycle on the funnel and wealth,",1,0,0,1,0,False
+200,ref_them_13,thematic,"ETFs, Assets Under Custody/Administration, were up over 20% year-over-year and the number of funds serviced",1,0,0,1,0,False
+200,ref_them_13,thematic,"strong momentum in ETF servicing with AUC/A of over $2 trillion, up more than 50%",1,0,0,1,0,False
+200,ref_them_13,thematic,"$2.7 trillion was up more than 70% year-on-year, and the number of funds serviced",1,0,0,1,0,False
+200,ref_them_14,thematic,"fourth quarter, investment banking fees of $1.7 billion fell 12% year-over-year, driven by a decline",1,0,0,1,0,False
+200,ref_them_14,thematic,"muted IPO market, investment banking fees are up 44%, that's driven by investment-grade debt issuance",1,0,0,1,0,False
+200,ref_them_14,thematic,"grew investment banking fees 18% year-over-year sales and trading revenue increased 12% year-over-year and aggregate,",1,0,0,1,0,False
+200,ref_them_15,thematic,"themes, technology spend was $3 billion in the quarter, up 13%, primarily driven by change",1,0,0,1,0,False
+200,ref_them_15,thematic,increased our technology initiatives and expect to spend nearly $4 billion on technology initiatives,1,0,0,1,0,False
+200,ref_them_15,thematic,"up 7% year-over-year, primarily due to the timing of technology spend in the prior year",1,0,0,1,0,False
+200,ref_comp_07,comparative,"we began executing on staff reductions, which will reduce our 2024 expenses by $325 million",1,0,0,1,0,False
+200,ref_comp_07,comparative,"core basis, we expect full year 2024 expenses to be flat",1,0,0,1,0,False
+200,ref_comp_08,comparative,return on tangible common equity was 17.41% and tangible book value per share increased 3%,1,0,0,1,0,False
+200,ref_comp_08,comparative,"book value per share, excluding AOCI, increased 10% compared to the year",1,0,0,1,0,False
+200,ref_comp_09,comparative,average total loans of approximately $136 billion with growth in C&I and consumer and lower,1,0,0,1,0,False
+200,ref_comp_09,comparative,"card loan growth again this year, but below the 12% pace we saw in 2024",1,0,0,1,0,False
+200,ref_comp_10,comparative,"Category 3 institution, we don't include AOCI in our CET1 ratio, but I understand why",1,0,0,1,0,False
+200,ref_comp_10,comparative,"book value per share, excluding AOCI, increased 11% compared to the year",1,0,0,1,0,False
+200,ref_comp_11,comparative,"a reported basis, primarily reflecting the goodwill impairment associated with our investment management reporting unit",1,0,0,1,0,False
+200,ref_comp_11,comparative,"$1.28 billion in the third quarter of this year, down $15 million",1,0,0,1,0,False
+200,ref_comp_12,comparative,"income declined by $139 million or 4%, and our net interest margin was 2.57%,",1,0,0,1,0,False
+200,ref_comp_12,comparative,"quarter net interest margin was 6.7%, 1 basis point higher than last quarter and 22",1,0,0,1,0,False
+500,ref_fact_01,factual,"custody and our administration of $48.8 trillion were up 5% year-over-year, and assets under management",1,0,0,1,0,False
+500,ref_fact_02,factual,"raising our full year EPS guidance to $13.75 to $14.05,",1,0,0,1,0,False
+500,ref_fact_03,factual,"$638 million, benefiting from the completion of previously",1,0,0,1,0,False
+500,ref_fact_04,factual,"management fees were $457 million, down 12% year-on-year,",1,0,0,1,0,False
+500,ref_fact_05,factual,"quarter, as you said, first, we had the effect of Walmart, the $826 million build",1,0,0,1,0,False
+500,ref_fact_06,factual,"expenses to be approximately $53.5 billion to $53.8 billion, down from $54.3 billion,",1,0,0,1,0,False
+500,ref_fact_07,factual,deposits moved from 210 basis points in the third quarter to 194 basis points,1,0,0,1,0,False
+500,ref_them_01,thematic,a $289 million accrual for our current estimate of the FDIC,1,0,0,1,0,False
+500,ref_them_01,thematic,"Q1, which included $700 million for the FDIC",1,0,0,1,0,False
+500,ref_them_01,thematic,"up 20% year-over-year on a reported basis, primarily reflecting the FDIC",1,0,0,1,0,False
+500,ref_them_02,thematic,"capital, while uncertainty about the Basel III Endgame prevails, our capital position remains very robust",1,0,0,1,0,False
+500,ref_them_02,thematic,pace of buybacks will likely remain modest in light of the Basel III,1,0,0,1,0,False
+500,ref_them_03,thematic,"decreased by $37 million, primarily driven by the charge-offs of office real-estate loans",1,0,0,1,0,False
+500,ref_them_03,thematic,"CRE comprises less than 2% of total loans, and the majority are suburban",1,0,0,1,0,False
+500,ref_them_04,thematic,170 basis points of operating leverage in 2023 as heightened quarterly expense levels were driven,1,0,0,1,0,False
+500,ref_them_04,thematic,"operating leverage this quarter as expenses decreased 4%, driven by actions taken to right size",1,0,0,1,0,False
+500,ref_them_05,thematic,capital distributions includes $2 billion in common dividends and the repurchase of $3.5 billion,1,0,0,1,0,False
+500,ref_them_05,thematic,"returned $2.1 billion in the form of common dividends and share repurchases,",1,0,0,1,0,False
+500,ref_them_06,thematic,"an adjusted efficiency ratio of 59% and a seasonally challenged quarter, which is a six",1,0,0,1,0,False
+500,ref_them_06,thematic,"annual operating efficiency ratio, net of adjustments to be modestly down compared to the 43.5%",1,0,0,1,0,False
+500,ref_them_07,thematic,"during the quarter, increasing by $2.7 billion or 1.9%",1,0,0,1,0,False
+500,ref_them_07,thematic,total period-end deposits increased 1% sequentially and increased 2% year-over-year as compared to a 5%,1,0,0,1,0,False
+500,ref_comp_01,comparative,"taking a more conservative posture around that, just given some of the uncertainty around Basel",1,0,0,1,0,False
+500,ref_comp_01,comparative,"how the Basel III endgame proposal could evolve, but that hasn't",1,0,0,1,0,False
+500,ref_comp_02,comparative,"charge-offs increased $191 million versus the fourth quarter, driven by commercial real estate losses",1,0,0,1,0,False
+500,ref_comp_02,comparative,the office portfolio by about $500 million over the course of the last,1,0,0,1,0,False
+500,ref_comp_03,comparative,still projects an efficiency ratio of around 57%,1,0,0,1,0,False
+500,ref_comp_03,comparative,year-to-date efficiency ratio at 63.8% is nearly 10 points better,1,0,0,1,0,False
+500,ref_comp_04,comparative,growth continued at a robust pace increasing by $8.3 billion or 5.6%,1,0,0,1,0,False
+500,ref_comp_04,comparative,retail deposits nearly 16% year-over-year and gained meaningful,1,0,0,1,0,False
+500,ref_comp_06,comparative,"our seventh straight quarter of operating leverage, led by a 13% year-over-year",1,1,1,1,1,True
+500,ref_comp_06,comparative,nine points of year-over-year positive operating leverage driven by an 18% increase,1,0,0,1,0,False
+500,ref_fact_08,factual,BlackRock with an industry-leading $190 billion of net inflows in the first half,1,0,0,1,0,False
+500,ref_fact_09,factual,"average loans and leases were $133.5 billion during the second quarter, up $1.5 billion compared",1,0,0,1,0,False
+500,ref_fact_10,factual,"AOCI was a negative $10.3 billion compared to a negative $9.5 billion at June 30,",1,0,0,1,0,False
+500,ref_fact_11,factual,"Slide 6, fee income represented over 40% of total net revenue",1,0,0,1,0,False
+500,ref_fact_12,factual,"our strong fee-based revenue growth, up 15% from a year ago, largely offset",1,0,0,1,0,False
+500,ref_fact_13,factual,revenue of $1.5 billion was up 11% year-on-year or down 7% excluding bridge book markdowns,1,0,0,1,0,False
+500,ref_fact_14,factual,"over $30 billion in active equity net inflows, while our average AUM has grown",1,0,0,1,0,False
+500,ref_them_08,thematic,"the first quarter, BlackRock generated total net inflows of $110 billion, representing 5% annualized organic",1,0,0,1,0,False
+500,ref_them_08,thematic,"21% year-on-year, driven by market performance and strong net inflows as we continue to capture",1,0,0,1,0,False
+500,ref_them_08,thematic,"you're flagging, in the first half of the year, here we've seen $830 billion increase",1,0,0,1,0,False
+500,ref_them_09,thematic,"interest margin of 2.84%, declined 8 basis points reflecting the increased funding costs, I",1,0,0,1,0,False
+500,ref_them_09,thematic,"quarter net interest margin was 6.69%, 21 basis points higher than last quarter and 11",1,0,0,1,0,False
+500,ref_them_09,thematic,net interest margin improved 3 basis points compared,1,0,0,1,0,False
+500,ref_them_10,thematic,"card net charge-off rate rose 12 basis points to 2.72% in Q3, and it remains",1,0,0,1,0,False
+500,ref_them_10,thematic,think it's -- you saw the card growth rate was about 1% or so versus,1,0,0,1,0,False
+500,ref_them_10,thematic,"product offerings continue to drive strong credit card spend, up approximately $5 billion or 14%",1,0,0,1,0,False
+500,ref_them_11,thematic,$127 million in the second quarter compared to $70 million in this year's,1,0,0,1,0,False
+500,ref_them_11,thematic,expectation that net charge-offs in the second-half of 2024 will be lower than the first-half,1,0,0,1,0,False
+500,ref_them_11,thematic,anticipate approaching 60 basis points here in the back half of the year is kind of how we're thinking,1,0,0,1,0,False
+500,ref_them_12,thematic,"wealth management business, revenue decreased by 5%, driven by lower net interest revenue and changes",1,0,0,1,0,False
+500,ref_them_12,thematic,"keep investing through the cycle on the funnel and wealth,",1,0,0,1,0,False
+500,ref_them_13,thematic,"ETFs, Assets Under Custody/Administration, were up over 20% year-over-year and the number of funds serviced",1,0,0,1,0,False
+500,ref_them_13,thematic,"strong momentum in ETF servicing with AUC/A of over $2 trillion, up more than 50%",1,0,0,1,0,False
+500,ref_them_13,thematic,"$2.7 trillion was up more than 70% year-on-year, and the number of funds serviced",1,0,0,1,0,False
+500,ref_them_14,thematic,"fourth quarter, investment banking fees of $1.7 billion fell 12% year-over-year, driven by a decline",1,0,0,1,0,False
+500,ref_them_14,thematic,"muted IPO market, investment banking fees are up 44%, that's driven by investment-grade debt issuance",1,0,0,1,0,False
+500,ref_them_14,thematic,"grew investment banking fees 18% year-over-year sales and trading revenue increased 12% year-over-year and aggregate,",1,0,0,1,0,False
+500,ref_them_15,thematic,"themes, technology spend was $3 billion in the quarter, up 13%, primarily driven by change",1,0,0,1,0,False
+500,ref_them_15,thematic,increased our technology initiatives and expect to spend nearly $4 billion on technology initiatives,1,0,0,1,0,False
+500,ref_them_15,thematic,"up 7% year-over-year, primarily due to the timing of technology spend in the prior year",1,0,0,1,0,False
+500,ref_comp_07,comparative,"we began executing on staff reductions, which will reduce our 2024 expenses by $325 million",1,0,0,1,0,False
+500,ref_comp_07,comparative,"core basis, we expect full year 2024 expenses to be flat",1,0,0,1,0,False
+500,ref_comp_08,comparative,return on tangible common equity was 17.41% and tangible book value per share increased 3%,1,0,0,1,0,False
+500,ref_comp_08,comparative,"book value per share, excluding AOCI, increased 10% compared to the year",1,0,0,1,0,False
+500,ref_comp_09,comparative,average total loans of approximately $136 billion with growth in C&I and consumer and lower,1,0,0,1,0,False
+500,ref_comp_09,comparative,"card loan growth again this year, but below the 12% pace we saw in 2024",1,0,0,1,0,False
+500,ref_comp_10,comparative,"Category 3 institution, we don't include AOCI in our CET1 ratio, but I understand why",1,0,0,1,0,False
+500,ref_comp_10,comparative,"book value per share, excluding AOCI, increased 11% compared to the year",1,0,0,1,0,False
+500,ref_comp_11,comparative,"a reported basis, primarily reflecting the goodwill impairment associated with our investment management reporting unit",1,0,0,1,0,False
+500,ref_comp_11,comparative,"$1.28 billion in the third quarter of this year, down $15 million",1,0,0,1,0,False
+500,ref_comp_12,comparative,"income declined by $139 million or 4%, and our net interest margin was 2.57%,",1,0,0,1,0,False
+500,ref_comp_12,comparative,"quarter net interest margin was 6.7%, 1 basis point higher than last quarter and 22",1,0,0,1,0,False

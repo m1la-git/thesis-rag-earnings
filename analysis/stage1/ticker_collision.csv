@@ -1,0 +1,17 @@
+ticker,company,bm25_token,survives_tokenization,token_len,body_occurrences,n_distinct_companies_in_body,companies_in_body,flags,chunk_df_200,n_chunks_200,bm25_idf_200,predicted_enriched_df_200,predicted_enriched_idf_200,chunk_df_500,n_chunks_500,bm25_idf_500,predicted_enriched_df_500,predicted_enriched_idf_500
+C,Citigroup Inc.,c,True,1,213,13,BAC;BK;COF;FITB;GS;HBAN;JPM;MS;MTB;PNC;STT;USB;WFC,single_letter;common_english_word;appears_in_multiple_companies,161,7918,3.8719,825,2.1509,148,3239,3.0358,419,1.9056
+PNC,"The PNC Financial Services Group, Inc.",pnc,True,3,88,1,PNC,-,55,7918,4.9536,413,2.8987,44,3239,4.274,171,2.8844
+MS,Morgan Stanley,ms,True,2,15,4,AXP;C;GS;MS,common_english_word;appears_in_multiple_companies,15,7918,6.2342,497,2.7025,15,3239,5.3377,209,2.6718
+MTB,M&T Bank Corporation,mtb,True,3,8,1,MTB,-,8,7918,6.8359,483,2.733,8,3239,5.9406,196,2.7401
+USB,U.S. Bancorp,usb,True,3,8,1,USB,-,7,7918,6.9612,416,2.8911,6,3239,6.2095,172,2.8782
+GS,"The Goldman Sachs Group, Inc.",gs,True,2,8,1,GS,common_english_word,6,7918,7.1044,481,2.7374,6,3239,6.2095,199,2.724
+BK,The Bank of New York Mellon Corporation,bk,True,2,4,1,BK,common_english_word,4,7918,7.4724,612,2.479,4,3239,6.5779,248,2.4881
+JPM,JPMorgan Chase & Co.,jpm,True,3,4,1,JPM,-,4,7918,7.4724,442,2.8271,4,3239,6.5779,181,2.8244
+BAC,Bank of America Corporation,bac,True,3,1,1,BAC,-,1,7918,8.5714,657,2.4019,1,3239,7.6774,267,2.408
+FITB,Fifth Third Bancorp,fitb,True,4,1,1,FITB,-,1,7918,8.5714,481,2.7374,1,3239,7.6774,196,2.7401
+AXP,American Express Company,axp,True,3,0,0,,-,0,7918,OOV,422,2.876,0,3239,OOV,174,2.866
+BLK,"BlackRock, Inc.",blk,True,3,0,0,,-,0,7918,OOV,468,2.7665,0,3239,OOV,191,2.7675
+COF,Capital One Financial Corporation,cof,True,3,0,0,,-,0,7918,OOV,378,2.9918,0,3239,OOV,157,2.9741
+HBAN,Huntington Bancshares Incorporated,hban,True,4,0,0,,-,0,7918,OOV,459,2.7871,0,3239,OOV,188,2.7843
+STT,State Street Corporation,stt,True,3,0,0,,-,0,7918,OOV,538,2.6178,0,3239,OOV,219,2.6218
+WFC,Wells Fargo & Company,wfc,True,3,0,0,,-,0,7918,OOV,520,2.6542,0,3239,OOV,213,2.6515

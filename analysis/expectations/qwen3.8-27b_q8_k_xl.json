@@ -1,0 +1,52 @@
+{
+  "model": "qwen3.8-27b@q8_k_xl",
+  "_note": "Pinned figures for this generator. Transcribed from the documents written by the FIRST RUN under analysis/qwen3.8-27b_q8_k_xl/ -- not recomputed, and the scripts were not re-run to obtain them. Same shape as the q4 set. b_textonly_only is non-empty here, unlike the q4 set; it is pinned as observed and is not an error state.",
+  "check3_enriched": {
+    "text_only_gate": [10, 31],
+    "figures": {
+      "enriched Case C answered_grounded_correct": [10, 78],
+      "intersection text_only": [5, 24],
+      "intersection enriched": [7, 29],
+      "strictly matched text_only": [4, 22],
+      "strictly matched enriched": [7, 22],
+      "strategy dense text_only": [2, 8],
+      "strategy dense enriched": [5, 31],
+      "strategy bm25 text_only": [4, 11],
+      "strategy bm25 enriched": [2, 16],
+      "strategy hybrid text_only": [4, 12],
+      "strategy hybrid enriched": [3, 31]
+    }
+  },
+  "matched_conversion": {
+    "figures": {
+      "b pooled (correct under text_only only)": 2,
+      "b factual": 0,
+      "b thematic": 1,
+      "b comparative": 1,
+      "intersection n": 38,
+      "intersection correct, text_only": 24,
+      "intersection correct, enriched": 29,
+      "observation-level McNemar c (enriched-only wins)": 7,
+      "observation-level McNemar p": 0.1797,
+      "question-level distinct questions": 13,
+      "question-level b": 0,
+      "question-level c": 2,
+      "question-level McNemar p": 0.5
+    },
+    "membership": {
+      "b_textonly_only": [
+        "chunk500_dense|ref_them_02",
+        "chunk500_hybrid|ref_comp_08"
+      ],
+      "c_enriched_only": [
+        "chunk200_bm25|ref_comp_06",
+        "chunk200_hybrid|ref_comp_06",
+        "chunk200_hybrid|ref_comp_11",
+        "chunk500_bm25|ref_comp_06",
+        "chunk500_dense|ref_comp_06",
+        "chunk500_dense|ref_comp_11",
+        "chunk500_hybrid|ref_comp_06"
+      ]
+    }
+  }
+}

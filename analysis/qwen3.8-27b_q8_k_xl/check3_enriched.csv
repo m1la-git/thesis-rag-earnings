@@ -1,0 +1,110 @@
+model,condition_id,question_id,case,outcome,n_substantive_claims,n_offtarget_only_claims,flagged,offtarget_only_claims,newly_promoted
+qwen3.8-27b@q8_k_xl,chunk200_bm25,ref_fact_01,C,answered_grounded_correct,2,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_bm25,ref_fact_05,C,answered_grounded_correct,1,0,False,,True
+qwen3.8-27b@q8_k_xl,chunk200_bm25,ref_fact_09,C,answered_grounded_correct,2,0,False,,True
+qwen3.8-27b@q8_k_xl,chunk200_bm25,ref_them_02,C,answered_grounded_correct,4,1,True,90 -> GS_2024_Q2,False
+qwen3.8-27b@q8_k_xl,chunk200_bm25,ref_them_04,C,answered_grounded_correct,2,1,True,900 -> USB_2023_Q3,False
+qwen3.8-27b@q8_k_xl,chunk200_dense,ref_fact_09,C,answered_grounded_correct,2,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_dense,ref_fact_12,C,answered_grounded_correct,1,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_dense,ref_them_04,C,answered_grounded_correct,1,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_dense,ref_them_15,C,answered_grounded_correct,10,7,True,"1.1 -> BAC_2023_Q4,WFC_2023_Q4; 52.6 -> WFC_2023_Q4; 1.3 -> WFC_2023_Q4; 700 -> WFC_2023_Q4; 6 -> BAC_2023_Q4,BLK_2024_Q1,WFC_2023_Q4; 12 -> BAC_2023_Q4,BLK_2024_Q1; 8 -> BAC_2023_Q4,BLK_2024_Q1",True
+qwen3.8-27b@q8_k_xl,chunk200_hybrid,ref_fact_01,C,answered_grounded_correct,2,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_hybrid,ref_fact_05,C,answered_grounded_correct,1,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_hybrid,ref_fact_09,C,answered_grounded_correct,2,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_hybrid,ref_fact_12,C,answered_grounded_correct,1,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_hybrid,ref_them_04,C,answered_grounded_correct,6,5,True,"10 -> BK_2024_Q4; 968 -> BK_2024_Q4; 200 -> USB_2024_Q3,USB_2024_Q4; 30 -> USB_2024_Q3; 190 -> USB_2024_Q4",False
+qwen3.8-27b@q8_k_xl,chunk200_hybrid,ref_them_06,C,answered_grounded_correct,6,4,True,57 -> FITB_2024_Q2; 43.54 -> COF_2023_Q4; 99 -> COF_2023_Q4; 65 -> GS_2023_Q4,False
+qwen3.8-27b@q8_k_xl,chunk500_bm25,ref_comp_08,C,answered_grounded_correct,0,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk500_bm25,ref_comp_10,C,answered_grounded_correct,14,10,True,"77.80 -> PNC_2023_Q2; 7.6 -> HBAN_2023_Q1; 9.55 -> HBAN_2023_Q1; 13 -> HBAN_2023_Q1; 7.27 -> HBAN_2023_Q1; 9.23 -> HBAN_2023_Q1; 125 -> FITB_2023_Q3; 2028 -> FITB_2023_Q3; 30 -> FITB_2023_Q4,PNC_2023_Q2; 12.6 -> FITB_2023_Q4",False
+qwen3.8-27b@q8_k_xl,chunk500_bm25,ref_fact_05,C,answered_grounded_correct,1,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk500_bm25,ref_fact_07,C,answered_grounded_correct,2,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk500_bm25,ref_fact_08,C,answered_grounded_correct,1,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk500_bm25,ref_them_02,C,answered_grounded_correct,5,2,True,90 -> GS_2024_Q2; 15.5 -> MS_2023_Q2,False
+qwen3.8-27b@q8_k_xl,chunk500_dense,ref_fact_10,C,answered_grounded_correct,2,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk500_dense,ref_them_02,C,answered_grounded_correct,4,2,True,90 -> GS_2024_Q2; 2027 -> USB_2024_Q3,False
+qwen3.8-27b@q8_k_xl,chunk500_dense,ref_them_04,C,answered_grounded_correct,1,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk500_dense,ref_them_07,C,answered_grounded_correct,1,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk500_hybrid,ref_comp_08,C,answered_grounded_correct,0,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk500_hybrid,ref_fact_01,C,answered_grounded_correct,2,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk500_hybrid,ref_fact_07,C,answered_grounded_correct,2,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk500_hybrid,ref_them_02,C,answered_grounded_correct,1,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk500_hybrid,ref_them_04,C,answered_grounded_correct,3,2,True,190 -> USB_2024_Q4; 200 -> USB_2024_Q4,True
+qwen3.8-27b@q8_k_xl,chunk500_hybrid,ref_them_06,C,answered_grounded_correct,5,2,True,57 -> FITB_2024_Q2; 100 -> STT_2023_Q4,False
+qwen3.8-27b@q8_k_xl,chunk200_bm25_enriched,ref_comp_06,C,answered_grounded_correct,1,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_bm25_enriched,ref_fact_01,C,answered_grounded_correct,2,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_bm25_enriched,ref_fact_02,C,answered_grounded_correct,2,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_bm25_enriched,ref_fact_03,C,answered_grounded_correct,1,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_bm25_enriched,ref_fact_05,C,answered_grounded_correct,1,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_bm25_enriched,ref_fact_09,C,answered_grounded_correct,2,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_bm25_enriched,ref_fact_11,C,answered_grounded_correct,1,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_bm25_enriched,ref_them_02,C,answered_grounded_correct,3,1,True,90 -> GS_2024_Q2,False
+qwen3.8-27b@q8_k_xl,chunk200_dense_enriched,ref_comp_06,C,answered_grounded_correct,3,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_dense_enriched,ref_comp_11,C,answered_grounded_correct,4,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_dense_enriched,ref_fact_01,C,answered_grounded_correct,2,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_dense_enriched,ref_fact_02,C,answered_grounded_correct,2,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_dense_enriched,ref_fact_03,C,answered_grounded_correct,1,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_dense_enriched,ref_fact_04,C,answered_grounded_correct,2,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_dense_enriched,ref_fact_05,C,answered_grounded_correct,1,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_dense_enriched,ref_fact_07,C,answered_grounded_correct,3,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_dense_enriched,ref_fact_09,C,answered_grounded_correct,2,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_dense_enriched,ref_fact_10,C,answered_grounded_correct,3,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_dense_enriched,ref_fact_11,C,answered_grounded_correct,1,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_dense_enriched,ref_fact_12,C,answered_grounded_correct,1,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_dense_enriched,ref_fact_13,C,answered_grounded_correct,3,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_dense_enriched,ref_them_04,C,answered_grounded_correct,2,1,True,30 -> USB_2024_Q3,False
+qwen3.8-27b@q8_k_xl,chunk200_dense_enriched,ref_them_07,C,answered_grounded_correct,5,1,True,274 -> BAC_2023_Q2,False
+qwen3.8-27b@q8_k_xl,chunk200_dense_enriched,ref_them_13,C,answered_grounded_correct,5,2,True,2.8 -> BK_2024_Q4; 60 -> BK_2024_Q4,False
+qwen3.8-27b@q8_k_xl,chunk200_hybrid_enriched,ref_comp_06,C,answered_grounded_correct,2,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_hybrid_enriched,ref_comp_07,C,answered_grounded_correct,2,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_hybrid_enriched,ref_comp_11,C,answered_grounded_correct,4,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_hybrid_enriched,ref_fact_01,C,answered_grounded_correct,2,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_hybrid_enriched,ref_fact_02,C,answered_grounded_correct,2,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_hybrid_enriched,ref_fact_03,C,answered_grounded_correct,1,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_hybrid_enriched,ref_fact_04,C,answered_grounded_correct,2,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_hybrid_enriched,ref_fact_05,C,answered_grounded_correct,1,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_hybrid_enriched,ref_fact_07,C,answered_grounded_correct,2,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_hybrid_enriched,ref_fact_09,C,answered_grounded_correct,2,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_hybrid_enriched,ref_fact_10,C,answered_grounded_correct,3,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_hybrid_enriched,ref_fact_11,C,answered_grounded_correct,1,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_hybrid_enriched,ref_fact_12,C,answered_grounded_correct,1,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_hybrid_enriched,ref_fact_13,C,answered_grounded_correct,3,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_hybrid_enriched,ref_them_02,C,answered_grounded_correct,2,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_hybrid_enriched,ref_them_04,C,answered_grounded_correct,1,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk200_hybrid_enriched,ref_them_13,C,answered_grounded_correct,2,2,True,2.8 -> BK_2024_Q4; 60 -> BK_2024_Q4,False
+qwen3.8-27b@q8_k_xl,chunk500_bm25_enriched,ref_comp_06,C,answered_grounded_correct,1,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk500_bm25_enriched,ref_fact_01,C,answered_grounded_correct,2,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk500_bm25_enriched,ref_fact_02,C,answered_grounded_correct,2,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk500_bm25_enriched,ref_fact_03,C,answered_grounded_correct,1,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk500_bm25_enriched,ref_fact_05,C,answered_grounded_correct,1,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk500_bm25_enriched,ref_fact_07,C,answered_grounded_correct,2,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk500_bm25_enriched,ref_fact_13,C,answered_grounded_correct,3,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk500_bm25_enriched,ref_them_02,C,answered_grounded_correct,5,2,True,90 -> GS_2024_Q2; 15.5 -> MS_2023_Q2,False
+qwen3.8-27b@q8_k_xl,chunk500_dense_enriched,ref_comp_06,C,answered_grounded_correct,4,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk500_dense_enriched,ref_comp_11,C,answered_grounded_correct,4,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk500_dense_enriched,ref_fact_01,C,answered_grounded_correct,2,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk500_dense_enriched,ref_fact_02,C,answered_grounded_correct,2,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk500_dense_enriched,ref_fact_03,C,answered_grounded_correct,1,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk500_dense_enriched,ref_fact_04,C,answered_grounded_correct,2,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk500_dense_enriched,ref_fact_07,C,answered_grounded_correct,2,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk500_dense_enriched,ref_fact_09,C,answered_grounded_correct,2,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk500_dense_enriched,ref_fact_10,C,answered_grounded_correct,2,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk500_dense_enriched,ref_fact_11,C,answered_grounded_correct,1,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk500_dense_enriched,ref_fact_12,C,answered_grounded_correct,1,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk500_dense_enriched,ref_fact_13,C,answered_grounded_correct,3,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk500_dense_enriched,ref_them_04,C,answered_grounded_correct,2,1,True,"30 -> BAC_2023_Q2,USB_2024_Q3",False
+qwen3.8-27b@q8_k_xl,chunk500_dense_enriched,ref_them_05,C,answered_grounded_correct,2,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk500_dense_enriched,ref_them_07,C,answered_grounded_correct,5,4,True,"33 -> BAC_2023_Q2; 490 -> BAC_2023_Q2; 500 -> BAC_2023_Q2; 40 -> BAC_2023_Q2,PNC_2023_Q2",False
+qwen3.8-27b@q8_k_xl,chunk500_hybrid_enriched,ref_comp_06,C,answered_grounded_correct,3,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk500_hybrid_enriched,ref_fact_01,C,answered_grounded_correct,2,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk500_hybrid_enriched,ref_fact_02,C,answered_grounded_correct,2,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk500_hybrid_enriched,ref_fact_03,C,answered_grounded_correct,1,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk500_hybrid_enriched,ref_fact_04,C,answered_grounded_correct,2,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk500_hybrid_enriched,ref_fact_05,C,answered_grounded_correct,1,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk500_hybrid_enriched,ref_fact_07,C,answered_grounded_correct,2,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk500_hybrid_enriched,ref_fact_09,C,answered_grounded_correct,2,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk500_hybrid_enriched,ref_fact_10,C,answered_grounded_correct,2,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk500_hybrid_enriched,ref_fact_11,C,answered_grounded_correct,1,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk500_hybrid_enriched,ref_fact_13,C,answered_grounded_correct,3,0,False,,False
+qwen3.8-27b@q8_k_xl,chunk500_hybrid_enriched,ref_them_02,C,answered_grounded_correct,3,1,True,90 -> GS_2024_Q2,False
+qwen3.8-27b@q8_k_xl,chunk500_hybrid_enriched,ref_them_04,C,answered_grounded_correct,4,3,True,"190 -> USB_2024_Q4; 200 -> MTB_2024_Q3,USB_2024_Q4; 150 -> MTB_2024_Q3",False
+qwen3.8-27b@q8_k_xl,chunk500_hybrid_enriched,ref_them_07,C,answered_grounded_correct,4,0,False,,False

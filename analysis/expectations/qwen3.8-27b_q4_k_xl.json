@@ -1,0 +1,85 @@
+{
+  "model": "qwen3.8-27b@q4_k_xl",
+  "_note": "Pinned figures for this generator. Transcribed from the literals that were hardcoded in the scripts before the analysis/ model-scoping migration; the values are unchanged. b/c membership was added by that migration (a pinned count with an unpinned population is exactly the failure mode it exists to close) and is compared as a SET.",
+  "check3_enriched": {
+    "text_only_gate": [
+      9,
+      30
+    ],
+    "figures": {
+      "enriched Case C answered_grounded_correct": [
+        11,
+        79
+      ],
+      "intersection text_only": [
+        4,
+        23
+      ],
+      "intersection enriched": [
+        7,
+        30
+      ],
+      "strictly matched text_only": [
+        4,
+        23
+      ],
+      "strictly matched enriched": [
+        6,
+        23
+      ],
+      "strategy dense text_only": [
+        2,
+        8
+      ],
+      "strategy dense enriched": [
+        6,
+        32
+      ],
+      "strategy bm25 text_only": [
+        3,
+        10
+      ],
+      "strategy bm25 enriched": [
+        2,
+        16
+      ],
+      "strategy hybrid text_only": [
+        4,
+        12
+      ],
+      "strategy hybrid enriched": [
+        3,
+        31
+      ]
+    }
+  },
+  "matched_conversion": {
+    "figures": {
+      "b pooled (correct under text_only only)": 0,
+      "b factual": 0,
+      "b thematic": 0,
+      "b comparative": 0,
+      "intersection n": 38,
+      "intersection correct, text_only": 23,
+      "intersection correct, enriched": 30,
+      "observation-level McNemar c (enriched-only wins)": 7,
+      "observation-level McNemar p": 0.0156,
+      "question-level distinct questions": 13,
+      "question-level b": 0,
+      "question-level c": 2,
+      "question-level McNemar p": 0.5
+    },
+    "membership": {
+      "b_textonly_only": [],
+      "c_enriched_only": [
+        "chunk200_bm25|ref_comp_06",
+        "chunk200_hybrid|ref_comp_06",
+        "chunk200_hybrid|ref_comp_11",
+        "chunk500_bm25|ref_comp_06",
+        "chunk500_bm25|ref_them_02",
+        "chunk500_dense|ref_comp_06",
+        "chunk500_dense|ref_comp_11"
+      ]
+    }
+  }
+}
