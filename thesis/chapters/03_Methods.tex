@@ -1,0 +1,372 @@
+\chapter{Methods}
+
+\section{Research Design}
+
+The study is a fully crossed factorial experiment over retrieval configuration.
+It crosses \thesisNumChunkSizes{} chunk sizes (\thesisChunkSizeSmall{} and
+\thesisChunkSizeLarge{} tokens), \thesisNumStrategies{} retrieval strategies
+(dense, BM25, and hybrid) and \thesisNumRepresentations{} indexing
+representations (text-only and metadata-enriched), giving \thesisNumConditions{}
+conditions. All \thesisNumQuestions{} benchmark questions ran through every
+condition, producing \thesisNumGenerations{} generations. Implementation detail
+for several sections is given in the appendix, which follows the order of this
+chapter.
+
+Differences between conditions are attributed to the three factors because the
+following were held constant: the corpus, the questions, the prompt template,
+the generator model, \thesisTopK{} retrieved chunks, the embedding model, the
+random seed, and the decoding temperature. None varies in the grid.
+
+\subsection{Hypotheses}
+
+H1 to H3 are stated in Theory, each closing its own derivation. H1 is
+non-directional. H2 is non-directional at the level tested, since the
+design compares three specific strategies on this corpus, not the paradigms they
+instantiate.
+H3 is directional: company identity and period distinguish the right passage
+from a near-identical wrong one, and are absent from the string the retriever
+sees. Every test in this work is two-sided, including the test of H3, the one
+directional hypothesis. A two-sided test spends part of its power on an outcome
+the theory does not predict, so H3 is held to a stricter standard than it
+requires.
+
+Whether better retrieval yields more grounded, on-target answers is examined in
+Results as an exploratory question rather than as a hypothesis. At these
+discordant-pair counts it could not be tested: the exact test's smallest
+attainable \emph{p} value sits above any conventional threshold, and most
+answer-stage comparisons had no discordant pair.
+
+\subsection{Independent and Dependent Variables}
+
+The independent variables are the three factors above. Retrieval quality was
+measured by anchor coverage@5 and MRR@5, scored against gold anchors, and answer
+behavior by a ground-truth case crossed with a mechanically derived outcome.
+Anchor coverage@5 is deliberately not called Recall@5: it is the fraction of a
+question's own gold anchors found in the top \thesisTopK{}, and the standard
+name would invite the standard semantics.
+
+\section{Corpus}
+
+The corpus came from \thesisCorpusDataset{} \parencite{kurry2025}, S\&P~500
+earnings call transcripts under the MIT License, at revision
+\thesisCorpusRevision{}. It covers \thesisNumCompanies{} large-capitalization
+United States banks over \thesisNumQuarters{} quarters, 2023 Q1 to 2024 Q4:
+\thesisNumTranscripts{} transcripts, every company present throughout.
+
+The sector was chosen for the property the design stresses. Competitors reporting
+on the same quarters discuss the same topics in near-identical language, so
+telling a passage from a plausible wrong one turns on company and period. Where
+documents differ in subject matter, content terms alone tell them apart.
+
+The corpus was frozen before benchmark annotation began. Gold anchors are
+verbatim substrings of the transcripts, so an upstream revision leaving the
+identifier list intact would invalidate every anchor silently. A digest check
+guards against this (appendix).
+
+\section{Preprocessing and Chunking}
+
+Each transcript was divided into two sections, prepared remarks and
+question-and-answer, from the per-turn speaker array.
+A heuristic located the boundary from the operator's conventional phrasing; no
+structural marker was used. The rule was checked across all
+\thesisNumTranscripts{} transcripts; that check is documented in the
+implementation rather than recorded as an artifact. Each chunk inherits the
+section, speaker, and transcript metadata of its record.
+
+Chunks were built as non-overlapping fixed-size token windows, at
+\thesisChunkSizeSmall{} and \thesisChunkSizeLarge{} tokens. Token counts were
+measured with the embedding model's own tokenizer, that of
+\texttt{BAAI/bge-small-en-v1.5} \parencite{baai2023}, so that a chunk's nominal
+length matches what the encoder actually consumes. Windows were cut within a
+section, so no chunk spans the boundary between prepared remarks and
+question-and-answer.
+
+Chunk boundaries are identical across the two indexing representations; only the
+string handed to the retrievers differed. Any difference between the
+representations is therefore attributable to what was indexed. A chunk identifier refers to the same text only within
+one chunk size.
+
+\section{Indexing Representation}
+
+\subsection{The Two Representations}
+
+The third factor controls what string the retrievers index. Under text-only
+indexing, the indexed string is the raw chunk text; under metadata-enriched
+indexing, it is a single metadata line (the prefix), a blank line, and then that
+same chunk text. The line was generated from one template:
+
+\begin{quote}
+\ttfamily
+\{company\} (\{ticker\}) \{quarter\_prose\} \{year\} \\
+Q\{quarter\} \{year\} \{section\}
+\end{quote}
+
+\noindent
+The template was fixed before any enriched retrieval ran (appendix).
+
+\subsection{Invariants}
+
+Anchor matching always runs against the raw chunk text and never against the
+enriched string, so template text could not count as evidence. Both retrievers
+receive the identical string, so indexing representation is not confounded with
+retrieval strategy. The enriched string serves indexing only and never reaches
+the generator.
+
+A \thesisChunkSizeLarge{}-token chunk plus the prefix overruns the encoder's
+content budget, so the text was truncated when the index was built, keeping
+both retrievers on one string (appendix). Truncation can make a chunk harder to retrieve but
+does not change how it is scored, since anchor matching runs against the raw
+chunk text.
+
+\section{Retrieval}
+
+Dense retrieval embedded chunks and queries with
+\texttt{BAAI/bge-small-en-v1.5} \parencite{baai2023} and stored the vectors in a
+FAISS index. Queries carried the instruction prefix the model's authors document
+\parencite{baai2023}, \texttt{Represent this sentence for searching relevant
+passages:}. Passages were embedded without it.
+
+Sparse retrieval used BM25 \parencite{robertson2009}, through the \texttt{BM25Okapi}
+implementation of \texttt{rank\_bm25}, over the same indexed string. The
+tokenizer lowercased the text and split it on alphanumeric runs, so every ticker
+survived as a token.
+
+The hybrid strategy combined the two ranked lists by reciprocal rank fusion
+\parencite{cormack2009}. It scores a chunk by summing, over both rankings,
+the reciprocal of \thesisRrfK{} plus its rank. Each retriever ranked the
+entire chunk set, so fusion saw both complete orderings before the fused list
+was cut to \thesisTopK{}. Fusion operates on ranks, so the retrievers' score
+scales are never compared.
+
+Retrieval ran against the whole corpus. Every chunk of all
+\thesisNumTranscripts{} transcripts was a candidate for every question.
+Retrieval quality is therefore measured on a
+deliberately hard task, so the absolute figures support comparison between
+conditions, not an absolute estimate.
+
+\section{Benchmark}
+
+\subsection{Composition and Authorship}
+
+The benchmark holds \thesisNumQuestions{} questions carrying
+\thesisNumGoldAnchors{} gold anchors. Of these questions,
+\thesisNumQuestionsFactual{} are factual, \thesisNumQuestionsThematic{} thematic, \thesisNumQuestionsComparative{}
+comparative, and \thesisNumQuestionsUnanswerable{} unanswerable; the unanswerable
+questions carry none.
+
+For the unanswerable questions, absence of an answer was proven:
+their search terms were re-counted at build time, and one planned question was
+dropped when its bank's name appeared 15 times.
+
+Candidates were generated by a large language model
+operating over the frozen corpus under progressively formalized rule
+constraints, with each iteration reviewed by the researcher and the defects that
+review identified driving the next rule. The researcher did not author each
+question independently from a first reading of the transcripts. What the
+researcher authored is the rule set, the review at each iteration, and the
+accept-or-reject decision on every item and every anchor. No model decided what
+entered the benchmark.
+
+\subsection{Gold Anchors Rather Than Chunk Identifiers}
+
+A gold anchor is a short verbatim string lifted from the source transcript. A
+retrieved chunk counts as a hit when it contains that string as a substring.
+Chunk identifiers were rejected because an identifier is not stable across chunk
+size: the 47th chunk at one size is different text from the 47th at the other.
+
+In eight items, an anchor's margin left an essential term outside any valid
+span, and the question was permitted to name it. This raised question-to-passage
+lexical overlap in those items and may have favored the lexical retrievers.
+
+\section{Measures}
+
+\subsection{Retrieval Quality}
+
+Write $A_q$ for the gold anchors of question $q$ and $\mathrm{rank}(a)$ for the
+one-indexed position of the first of the top $k = \thesisTopK{}$ retrieved
+chunks containing anchor $a$ verbatim, undefined when no chunk does. An anchor's
+presence is checked against the raw chunk text, never the indexed string, which
+under enrichment carries a metadata line the transcript does not.
+
+\[
+  \mathrm{coverage@5}(q)
+  = \frac{\bigl|\{ a \in A_q : \mathrm{rank}(a) \text{ defined} \}\bigr|}
+         {\lvert A_q \rvert}
+  \qquad
+  \mathrm{MRR@5}(q) = \frac{1}{\lvert A_q \rvert} \sum_{a \in A_q} c(a)
+\]
+
+\noindent
+with $c(a) = 1/\mathrm{rank}(a)$ when that rank is defined and zero otherwise.
+Partial retrieval therefore earns partial credit but never full credit.
+
+MRR@5 keeps a standard name for a non-standard quantity. Reciprocal rank is
+conventionally averaged \emph{across queries}, one per query. Here the inner
+mean is taken \emph{within} a question, across its own anchors. The two
+definitions coincide only when a question has one anchor.
+
+Unanswerable items carry no anchors and are excluded rather than scored zero, so
+every coverage and rank figure has \thesisNumQuestionsScored{} as its
+denominator, not \thesisNumQuestions{}.
+
+\subsection{Answer Classification}
+
+Answers were classified on two axes: a ground-truth case, set by retrieval, and
+an outcome, set by the generator's response. Outcomes are reported per case. Case~A holds the \thesisNumQuestionsUnanswerable{} unanswerable items.
+Case~B holds answerable questions whose coverage is zero, and Case~C answerable
+questions whose coverage is above zero, where at least one anchor reached the
+context.
+
+\emph{Abstained} is assigned when the canonical refusal sentence appears
+anywhere in the response as a complete sentence, matched byte for byte and
+case-sensitively. Otherwise, every numeric claim is checked against the
+retrieved text. The response is \emph{answered, grounded, on target} when every
+claim appears there verbatim and a supporting chunk belongs to the question's
+own transcripts. It is \emph{answered, grounded, off target} when no supporting
+chunk belongs to them, and \emph{answered, ungrounded} when any claim traces to
+nothing retrieved. A Case~C record that is answered, grounded, and on target is said to
+have \emph{converted}.
+
+The labels do not show two steps of the grounding check. A bare year or quarter the
+question itself supplies is excluded before checking. Where an answer makes no
+numeric claim, grounding instead requires a run of six consecutive words shared
+with some retrieved chunk, and an answer with no such run counts as ungrounded.
+
+Grounding is a verbatim-substring proxy, likelier to flag a faithful answer than
+to pass a fabricated one. The off-target label describes what retrieval
+returned, not answer quality.
+
+\subsection{Manual Faithfulness Review}
+
+A packet of \thesisNumReviewItems{} records was drawn from the
+\thesisNumGenerations{} generations by a seeded mechanical rule, seed 20260906,
+over five disjoint strata. The records were read in a blind, shuffled order. One
+stratum is a census of every ungrounded record, so a finding about those records
+describes their whole population. The other strata are samples, and a
+proportion within them is a rate within the sample. A single reviewer read every
+record, so no inter-rater statistic exists.
+
+\section{Generation}
+
+\subsection{Model and Decoding}
+
+Every answer this work reports was produced by \thesisQeightModel{} \parencite{qwen3.8-27b}, a
+27-billion-parameter dense model run locally through LM Studio. The generator is
+a held-constant factor: one model, one build, and one set of decoding settings
+produced all \thesisQeightNumRecords{} records. The build is identified by
+weight file and repository \parencite{unsloth-qwen3.8-27b-gguf}, but no digest
+of those weights is recorded. A reader can therefore fetch the build but cannot
+verify that it is the file that ran, which is weaker provenance than the corpus
+carries.
+
+Each call was stateless. Three decoding settings were sent with every request:
+temperature 0, seed 20260831, and reasoning effort \texttt{none}. They were
+confirmed from a capture of the request body actually sent. The key and value caches were quantized to \texttt{q8\_0}.
+
+A further generator arm exists, a full run of the grid under a different
+generator, and it is not a result: \thesisFlashRobustnessModel{}
+\parencite{qwen3.8-flash-next} is a robustness check, reported as such in the
+chapters that follow.
+
+\subsection{Prompt and Abstention}
+
+The system prompt was fixed before any condition ran and is reproduced in full,
+with the format of the user turn (appendix). It
+instructs the model to answer only from the retrieved context and, where the
+context is insufficient, to respond with one exact canonical sentence and
+nothing else. Every record carries a hash of the prompt that produced it, and
+all \thesisQeightNumRecords{} records carry the same hash.
+
+One record in \thesisQeightNumRecords{} states the canonical sentence after a
+connective, so the case-sensitive test does not fire, and the record is labeled
+a Case~B off-target answer. The defect was found after the results existed and
+is reported rather than corrected.
+
+\section{Analysis}
+
+\subsection{Descriptive Statistics}
+
+The unit of observation is a question under one condition, which gives 480
+observations: \thesisNumQuestionsScored{} questions in each of
+\thesisNumConditions{} conditions. Ten variables enter: the design factors and
+question category as indicators, the anchor count, chunk-size sensitivity, and
+the two outcomes. Coefficients are Pearson throughout: point-biserial for one
+dichotomous variable against a continuous one, phi for two dichotomous.
+
+{\centering\noindent Insert Table \ref{tab:descriptives} about here\par}
+
+\subsection{Inferential Tests}
+
+Every test is paired: each question ran through every condition, so each
+question's own difficulty cancels out of the comparison.
+
+\subsubsection{Stage 1}
+
+Retrieval quality was compared with the two-sided paired Wilcoxon signed-rank
+test \parencite{wilcoxon1945}. A comparison in which every question tied is
+untestable and consumes no Holm rank. The effect size is
+$r = z / \sqrt{n_{\neq 0}}$ over non-tied pairs, reported only when there are
+10 or more; its direction comes from the win and loss counts (appendix).
+
+Holm correction \parencite{holm1979} applies within each family. Family 1
+compares each metadata-enriched condition with its matched text-only
+counterpart, six pairs in all. Families 2 and 3 hold all pairwise comparisons
+within each representation, 15 pairs each. Each family is corrected separately
+for each metric, so a claim that names no metric is wrong about at least one of
+them. Question categories form separate families.
+
+\subsubsection{Stage 2}
+
+Generation outcomes are binary at the level of a matched pair, so they were
+compared with McNemar's test \parencite{mcnemar1947} in its \emph{exact} binomial
+form. This is a two-sided binomial test on the larger discordant count against
+$n = b + c$ trials at a null probability of .50. With four discordant pairs the
+smallest attainable \emph{p} value is .125, so a floor that recurs in the
+results reflects the test's granularity.
+
+The unit of analysis is the question. A question contributes up to
+\thesisNumConditions{} observations that are not independent, so an exact
+binomial over observations would reject the null too readily. Collapsing to one
+observation per question removes the dependence, and the question-level test is
+the one quoted.
+
+Where two conditions produced identical outcomes on every question, there are no
+discordant pairs and no \emph{p} value exists. This held for most comparisons
+across the full answer-stage grid, and the testable count is given beside the
+total wherever such comparisons are reported.
+
+One convention governs every null result reported in this thesis:
+
+\begin{quote}
+A test that does not reject the null does not by itself bound the size of an
+effect that may exist here, because no confidence interval accompanies these
+tests and, at the informative-pair counts these data commonly produce, the
+smallest attainable \emph{p} value can exceed any conventional threshold
+whatever the effect. Such a result is reported as a failure to detect a
+difference at this sample size, never as evidence that the conditions are
+equivalent, and every statement of one carries the sample size and the power
+limitation that produced it.
+\end{quote}
+
+An informative pair is one that can move the test: for McNemar the
+discordant pairs, for the signed-rank test the pairs whose difference is not
+zero.
+Unlike nearly all pooled retrieval comparisons, many within one question
+category have an uncorrected smallest attainable \emph{p} value above .05 and
+could not reject whatever the effect; corrected attainability depends on the
+family, and the analysis record lists each.
+
+The research questions, the corpus, the benchmark, the retrieval measures, and
+two of the three manipulated factors, chunk size and retrieval strategy, were
+fixed before any condition was run. The third factor, indexing representation,
+was added after the six conditions that vary only the first two had been run,
+which is why those six form one half of the grid unchanged. No part of this
+work was pre-registered. The pipeline is logged, pinned, and re-runnable
+(appendix).
+
+Finally, where an analysis in this work other than the tests of the three
+hypotheses was not pre-specified, it is reported as descriptive rather than
+confirmatory, labeled as such at the point of use, and no hypothesis is
+accepted or rejected on it. Checks of the corpus, the index, and the instrument, including the manual
+review's reading of the outcome labels, are not analyses in this sense and fall
+outside the rule.

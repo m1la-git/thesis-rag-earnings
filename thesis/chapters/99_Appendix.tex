@@ -1,0 +1,162 @@
+\chapter{Appendix}
+
+\section{Corpus Freeze and Revision}
+
+A committed manifest records the pinned revision and two SHA-256 digests per
+transcript, over the raw and the structured content. Verification recomputed
+both digests, failing on any divergence, and the check remains available and
+can be repeated.
+
+The corpus was pinned to a single revision of the source dataset, cited in
+abbreviated form in Methods. The full identifier, as recorded in the corpus
+manifest alongside the per-transcript digests, is:
+
+\begin{quote}
+\texttt{f3ded372da8d18dc6ad98955c4558e34b5fe6d45}
+\end{quote}
+
+\section{Indexing Representation}
+
+The template was fixed before any enriched retrieval ran. The format and the
+first enriched run are recorded in a single commit, so the repository cannot
+establish that order; it rests on a working log kept outside the repository, a
+limitation rather than an oversight.
+
+The six text-only conditions were not re-run: their indexed string is
+byte-identical to what the earlier code indexed, asserted by unit tests and
+checked against the committed artifacts.
+
+Of the 512 tokens the encoder accepts, two are delimiters, leaving
+\thesisMaxContentTokens{} for content, which a \thesisChunkSizeLarge{}-token
+chunk plus the prefix overruns. The encoder truncates at its limit; BM25 does
+not truncate at all. Without a cut at build time, the two retrievers would have
+been given one string and consumed different amounts of it, so the text was
+truncated when the index was built.
+
+\section{System Prompt}
+
+The system prompt, fixed before any condition ran, reads in full:
+
+\begin{lstlisting}[breaklines=true]
+You are answering questions about earnings call transcripts using ONLY the context chunks provided below.
+
+Rules:
+- Base your answer strictly on the provided context. Do not use any outside knowledge about the companies, markets, or events involved.
+- If the context does not contain enough information to answer the question, respond with exactly this sentence and nothing else: "The provided context does not contain enough information to answer this question."
+- Give a direct, concise answer. Do not show your reasoning or chain of thought, and do not cite or reference chunk IDs in your answer.
+\end{lstlisting}
+
+A digest of the prompt should be taken from the source, not from this page,
+because typesetting can change the bytes without changing the prompt.
+
+The user turn opened with \texttt{Context:}, followed by the retrieved chunks,
+each preceded by its identifier, and then \texttt{Question:}. The metadata line
+never appeared in this turn, so the text before the model was identical under
+both representations.
+
+\section{Statistical Implementation}
+
+Stage~1 tests ran through \texttt{paired\_wilcoxon} in
+\texttt{rebuild\_statistics}, which calls
+\texttt{scipy.stats.\allowbreak{}wilcoxon} two-sided, with
+\texttt{zero\_method} set to \texttt{"wilcox"}. The
+\texttt{method} argument is not passed, so scipy 1.18.0's default resolves per
+comparison: with a zero among the paired differences it uses exhaustive
+permutation at 13 or fewer paired observations and the tie-corrected normal
+approximation above that. Zeros are present in every testable comparison here,
+so the classic exact branch is never reached and scope size alone decides. The
+comparative scope rests on permutation; the factual, thematic, and pooled scopes
+rest on the approximation. No result reported as significant rests on a
+permutation \emph{p} value. Recomputed with an exact sign-flip permutation of the
+same statistic, all \thesisExactNumSigReported{} results reported as significant
+remain so; the closest, BM25 at 200 tokens on MRR@5, moves from \emph{p} =
+\thesisExactBmSmallMrrHolmReported{} to \thesisExactBmSmallMrrHolmExact{}. The
+exact test would make \thesisExactNumSigGained{} further comparisons significant,
+all between conditions that differ in both chunk size and strategy and so
+isolate neither factor; one of them supplies the minimum
+Table~\ref{tab:stage1-tests} reports for the factual block of Family~3 on
+MRR@5.
+
+In the effect size, $z$ is the textbook approximation carrying neither a tie
+nor a continuity correction. The sign of $r$ is an artifact of the statistic: a
+two-sided call returns the smaller signed-rank sum, always at or below the null
+mean, so every \emph{r} here is negative whatever the outcome. The descriptive
+table's Pearson correlations are unaffected and keep real signs.
+
+Stage~2 tests ran through \texttt{matched\_conversion.\allowbreak{}pooled\_mcnemar}. The two
+stages define an untestable comparison differently: in Stage~1 every question
+ties, in Stage~2 there is no discordant pair.
+
+Both tests share the property the null convention turns on, that pairs
+carrying no information bound the smallest attainable \emph{p} whatever the
+effect, so the convention holds for either without naming one.
+
+\section{Reproducibility}
+
+Library versions are pinned, seeds are fixed, and generation ran at temperature
+0, though the seed buys best-effort determinism rather than a guarantee. Every
+run logs its resolved configuration, the chunks retrieved, the answer generated,
+and every metric computed, and the configuration is cross-checked against the
+code when a run starts. These measures make the pipeline auditable and
+re-runnable, not independently replicated.
+
+\section{Use of Generative AI}
+
+I used generative AI tools as assistance at the four points listed in
+Table~\ref{tab:genai-use}. The language
+models run as generators in the experiment are its object rather than
+assistance; they are described under Methods and are not listed here.
+
+\begin{singlespace}
+\noindent
+\begin{minipage}{\textwidth}
+\renewcommand{\thetable}{A\arabic{table}}%
+\renewcommand{\theHtable}{A\arabic{table}}%
+\setcounter{table}{0}%
+\captionof{table}{Use of Generative AI Tools}
+\label{tab:genai-use}
+\small
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{0.13\textwidth}
+  >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X
+  >{\raggedright\arraybackslash}X@{}}
+\toprule
+Use & What the tool did & What I did & How it was checked \\
+\midrule
+Code and analysis scripts
+& Claude Code assisted in writing the experiment's code and analysis scripts.
+& I designed the experiment and specified what the code had to do: the
+variables and their settings, the corpus, and the measures.
+& Unit tests; analysis validators pinned to a development baseline; a re-run of
+three retrieval conditions compared byte for byte with the committed results;
+and a check that every generated table matches the results files. \\
+Benchmark candidates
+& Claude Opus 5, through Claude Code, generated candidate questions and gold
+anchors over the frozen corpus in multiple recorded passes, from my prompts and
+under rules I wrote.
+& I wrote the prompts and the rule set, reviewed each pass, and made the
+accept-or-reject decision on every item and every anchor. I did not write each
+question from a first reading of the transcripts.
+& Build-time checks: every anchor is verbatim in its transcript and contained
+in a single chunk at both chunk sizes, and the absence of an answer was
+re-counted for every unanswerable item. No model decided what entered the
+benchmark. \\
+Source verification
+& Claude Fable 5.1, run outside the repository, read
+the cited sources in full text, located the passage for each claim, and
+returned a verdict.
+& I verified the same sources in parallel and decided what is cited and for
+what.
+& Claims that a source did not support were reworded or dropped, and page
+locators follow each source's printed pagination or, for the two arXiv preprints
+that have none, the pages of arXiv version 1, which their reference entries pin. \\
+Chapter drafting
+& Claude Code drafted the chapter skeletons and assisted with drafting.
+& The text is my own rewrite.
+& Claims were checked against my citation ledger and the analysis artifacts
+before I accepted them; figures come from macros generated from the results
+files, and when the text was shortened, a script confirmed that every number,
+citation, and page locator was unchanged. \\
+\bottomrule
+\end{tabularx}
+\end{minipage}
+\end{singlespace}

@@ -1,0 +1,29 @@
+\chapter*{Abstract}
+
+\noindent
+A retrieval-augmented generation system can answer only from the passages its
+retriever finds. On earnings call transcripts the same companies discuss the same
+topics in similar language every quarter, so the hard part is finding the right
+passage rather than a near-identical wrong one. Three retrieval-design choices were crossed over a fixed corpus,
+question set, prompt, and generator: chunk size, retrieval strategy, and
+indexing representation, meaning whether each passage is indexed as raw text
+alone or with the company and quarter it comes from. Retrieval
+and answers were scored separately. Chunk size made no detectable difference,
+and retrieval strategy made none until metadata was indexed, while indexing
+representation moved retrieval substantially. The first two had nothing to
+work with: what tells these documents apart is the company and the quarter,
+which never reached the text the retriever searched. Better retrieval did not
+carry through: no difference in answer outcomes between conditions was
+detectable, a failure to detect one at this sample size rather than evidence
+that the conditions answer alike. Every answer the
+automatic grounding check called ungrounded was read, and some of it was
+faithful text the check could not recognize: such a check errs in a predictable
+direction. When the retrieved context cannot support an answer,
+abstaining is correct, and an evaluation should reward it. Effort spent on
+how a collection is cut up and searched can miss what distinguishes its
+documents, which already sits in their metadata.
+
+\vspace{1em}
+\noindent
+\textit{\textbf{Keywords: }retrieval-augmented generation; indexing
+representation; chunk size; earnings call transcripts; abstention}

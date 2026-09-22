@@ -1,0 +1,249 @@
+\chapter{Results}
+
+\section{Descriptive Statistics}
+
+\subsection{Retrieval Outcomes Across Conditions}
+
+{\centering\noindent Insert Table \ref{tab:retrieval-metrics} about here\par}
+
+{\centering\noindent Insert Figure \ref{fig:coverage} about here\par}
+
+The two representations separate on anchor coverage@5 and overlap on MRR@5
+(Table~\ref{tab:retrieval-metrics}). On coverage@5 the six text-only and the six
+enriched conditions occupy disjoint ranges, .038 apart. On MRR@5, enriched
+BM25 at 500 tokens falls below two text-only conditions, hybrid retrieval at
+200 and at 500 tokens.
+
+The source table marks these pooled values as not comparable across question
+categories, whose achievable ceilings differ.
+
+\subsection{Bivariate Associations}
+
+Table~\ref{tab:descriptives} (not pre-specified) summarizes 480 observations,
+one question under one condition, and carries no significance markers, for the
+reasons given in its note. Indexing representation correlated .27 with
+coverage@5 and .25 with MRR@5. The largest coefficients with either outcome belong
+to no design factor: the number of gold anchors correlated $-$.41 with coverage@5 and
+$-$.36 with MRR@5.
+
+\section{Retrieval Quality}
+
+\subsection{H1: Chunk Size}
+
+H1: Chunk size affects retrieval quality, measured as anchor coverage@5 and
+MRR@5.
+
+{\centering\noindent Insert Table \ref{tab:stage1-tests} about here\par}
+
+Chunk size was tested in two families, once within text-only and once within
+metadata-enriched, on the three pairs per family that differ in size alone:
+dense, BM25, and hybrid at \thesisChunkSizeSmall{} against
+\thesisChunkSizeLarge{} tokens (Table~\ref{tab:stage1-tests}). H1 was not
+supported. No such pair reached significance in either family, on either
+metric, in any scope, pooled or per category: every testable comparison
+returned a Holm-adjusted \emph{p} of exactly 1.000. Chunk size also carried the
+smallest coefficients in Table~\ref{tab:descriptives}, $-$.02 with coverage@5
+and .00 with MRR@5.
+
+\subsection{H2: Retrieval Strategy}
+
+H2: Retrieval strategy affects retrieval quality.
+
+Strategy was tested in the same two families as chunk size, so H2 is not an
+independent second test; six pairs per family differ in strategy alone, three
+at each chunk size. H2 was not supported within text-only on either metric, nor
+within metadata-enriched on coverage@5. It was supported within
+metadata-enriched on MRR@5, where BM25 at \thesisChunkSizeLarge{} tokens lost to
+both dense and hybrid retrieval at the same size (Table~\ref{tab:stage1-tests}).
+
+The MRR@5 result is pooled and reproduces in no question category. Three
+strategy-only comparisons, each dense against hybrid on coverage@5, had every
+question tied and could not be tested.
+
+\subsection{H3: Indexing Representation}
+
+H3: Enriching the indexed string with document metadata improves retrieval
+quality.
+
+All six Family 1 pairs differ in representation alone, holding chunk size and
+retrieval strategy fixed.
+
+The H3 verdict differs by retrieval strategy (Table~\ref{tab:stage1-tests}).
+For dense and hybrid, at both chunk sizes and on both metrics, it was supported, the enriched condition
+winning in each pair. For BM25 at \thesisChunkSizeSmall{} tokens it was
+supported on MRR@5 and not on coverage@5: enrichment surfaced no additional
+anchors there but reordered those already retrieved. For BM25 at
+\thesisChunkSizeLarge{} tokens H3 was not supported on either metric.
+
+Indexing representation is the only manipulated variable in
+Table~\ref{tab:descriptives} carrying a non-trivial coefficient. H3 was tested pooled and its verdict is the
+pooled one; the effect is not evenly spread across question categories, which
+is examined below.
+
+\subsection{Post Hoc: Where the H3 Effect Sits}
+
+The breakdown by category was not pre-specified as a test of H3, so it is
+descriptive and no hypothesis is accepted or rejected on it. The three
+categories hold
+\thesisNumQuestionsFactual{} factual, \thesisNumQuestionsThematic{} thematic, and
+\thesisNumQuestionsComparative{} comparative questions, the
+\thesisNumQuestionsScored{} retrieval-scored items between them, each block
+corrected within itself per metric.
+
+Among factual questions the effect was present: enrichment was significant in
+the same four Family~1 pairs as the pooled coverage result, dense and hybrid at
+both chunk sizes, on both metrics, enrichment winning in each
+(Table~\ref{tab:stage1-tests}). Factual coverage@5 ran from .071 to .286
+without enrichment and from .429 to .786 with it, the largest movement in the
+study.
+
+Thematic questions showed no detectable movement, both arms near floor:
+coverage@5 ran from .033 to .100 without enrichment and from .033 to .133
+with it, and no thematic comparison approached significance.
+
+For comparative questions the pattern pointed the right way without surviving
+correction. Three raw \emph{p} values fell below .05, exact permutation values
+of 1/32 and 1/64 as the appendix describes, and Holm correction at family size six,
+on 11 questions, removed each.
+
+Families~2 and 3 were null in every category block on both metrics, so the
+pooled MRR@5 result of Family~3 reproduces in no category.
+
+\section{Answer Behavior}
+
+\subsection{The Case Partition}
+
+Every generation fell into one of three cases, fixed by retrieval before any
+answer was produced: Case A, unanswerable from the corpus; Case B, with no gold
+anchor in the top \thesisTopK{}; and Case C, with at least one. Case B was the
+majority, at 61.7\%.
+
+\subsection{Outcomes by Case}
+
+{\centering\noindent Insert Table \ref{tab:case-outcome} about here\par}
+
+{\centering\noindent Insert Figure \ref{fig:case-outcome} about here\par}
+
+Outcomes are read per case (Table~\ref{tab:case-outcome}), and nothing in this
+subsection was pre-specified. No Case A record can be grounded and on target,
+since unanswerable items carry no transcript identifiers. In Case C, pooled over all \thesisNumConditions{}
+conditions, \thesisQeightCaseCAnsweredGroundedCorrect{} of \thesisQeightCaseC{}
+records (\thesisQeightCaseCConversionPct{}) converted.
+
+No difference in outcomes between conditions was detectable. Over the six
+text-only conditions, pooled, 65 of 120 pairwise comparisons were testable and none
+survived Holm correction; the smallest raw \emph{p} among them was .219, and
+every adjusted value was 1.000. Across all three families, pooled and by
+category, 415 of 1152 comparisons
+were testable, the other 737 having no discordant pair, and the smallest raw
+\emph{p} was .125, adjusted to .750; .125 is the exact test's floor at four
+discordant pairs, as Methods describes.
+
+\subsection{Conversion on Matched Items}
+
+The matched-subset comparison, which was not pre-specified, asks whether the
+pooled difference between the representations reflects a change in the
+population compared rather than in behavior within it. It covers the items in
+Case C under both representations: 38 matched items, 76 observations,
+from 13 distinct questions. Conversion rose from 24 of the 38 items (63.2\%) under
+text-only to 29 of 38 (76.3\%) under metadata-enriched,
+two items converting under text-only alone and seven under metadata-enriched
+alone. Neither the question-level test Methods specifies (\emph{p} = .500)
+nor the item-level test (\emph{p} = .180) is significant, so no
+statistically supported claim that enrichment improves Case C conversion on
+comparable items follows, and the Methods caveat applies.
+
+\section{Failure Modes}
+
+The coverage split, the manual review's grouping of generator behaviors, and
+Check 3 were not pre-specified, and none involves a test.
+
+\subsection{Coverage Split}
+
+The coverage split breaks Case C conversion down by the share of an item's gold
+anchors that was retrieved (Table~\ref{tab:coverage-split}). Its figures have
+no reference values to be validated against and are reported as computed and
+unchecked.
+
+{\centering\noindent Insert Table \ref{tab:coverage-split} about here\par}
+
+Case C requires only one anchor, so a comparative item holding one of its two
+is in Case C although what was retrieved cannot support the comparison.
+
+At partial coverage, thematic observations mostly converted and comparative
+observations mostly abstained.
+
+\subsection{Manual Faithfulness Review}
+
+The review read \thesisNumReviewItems{} generations of the reported arm, from 25
+questions (Table~\ref{tab:review-categories}). A proportion over the packet is a
+rate within that sample, except where a stratum was taken whole.
+
+{\centering\noindent Insert Table \ref{tab:review-categories} about here\par}
+
+All eight P2 items are comparative and in Case C. The one abstention read as
+over-conservative, on a comparative item under enriched BM25 at 200 tokens, had
+both sides in its context and is outside P2.
+
+Every record labeled ungrounded was read, because its stratum was taken whole:
+\thesisQeightAnsweredUngrounded{} of the arm's \thesisQeightNumRecords{}
+records (1.7\%), a census rather than a sample. Four read as faithful, their
+labels traced to I1 twice and to I2 and I3 once each. Four, all in P1, should
+have abstained: each answered the single unanswerable item that drew answers,
+once under each BM25 condition. One, under enriched hybrid retrieval at 200
+tokens, was unfaithful. The reading thus confirms a failure in 5 of the arm's
+\thesisQeightNumRecords{} records (0.9\%), all among those labeled ungrounded,
+which is not the arm's rate of unfaithful answers, since P1 also reaches records
+under other labels. In the
+other direction, one reviewed record labeled grounded and on target, under
+BM25 at 200 tokens, attributes one bank's
+remarks to a company that appears in none of its retrieved chunks and nowhere
+in the corpus.
+I4, unlike the census, rests on a sample: 17 off-target records drawn from the
+grid's \thesisQeightAnsweredGroundedOfftarget{}, of which 12 read as faithful, a
+proportion that is not extrapolated to all
+\thesisQeightAnsweredGroundedOfftarget{}.
+
+Check 3, an automatic diagnostic, flags a record labeled grounded and on target
+when a substantive figure in it is supported only by chunks from outside the
+question's own transcripts. Every Check 3 figure is a lower bound, not a
+measurement: its population is Case C records so labeled, which hold only 2 of
+the 12 P1 items. One is \texttt{ref\_comp\_10} under BM25 at 500 tokens,
+whose answer gives Huntington's first-quarter capital figures as Fifth Third's;
+the outcome label read it as grounded and on target, every figure being present
+in the retrieved text, and Check 3 flagged it. Its counts on the matched subset,
+given in the note to Table~\ref{tab:review-categories}, are evidence in neither
+direction at that size, and untested.
+
+\section{Robustness Check}
+
+The robustness check, which was not pre-specified, asks whether the Stage 2
+conclusions survive a generator that shares almost nothing with the reported
+one, and covers one open-weights model family and no other.
+\thesisFlashRobustnessModel{} \parencite{qwen3.8-flash-next} produced
+\thesisFlashRobustnessNumRecords{} records over the same \thesisNumConditions{}
+conditions, at temperature 0, on the same seed and the same prompt hash. The
+two generators differ in architecture, parameter count, attention design, an
+n-gram embedding table, and KV cache precision at once, the last forced by the
+runtime, and the reported arm was not re-run to match; no result here is
+attributed to any one difference. Stage 1 was not re-run, so every retrieval
+result above serves this arm unchanged.
+
+{\centering\noindent Insert Table \ref{tab:robustness} about here\par}
+
+Outcome labels largely agreed between the reported arm and this one
+(Table~\ref{tab:robustness}). The five unanswerable disagreements all come from
+\texttt{ref\_unans\_01}, the
+single unanswerable item that drew answers from the reported arm, across five
+conditions.
+
+The Case C and coverage-split results replicate on this maximally different
+generator, on denominators Stage 1 fixes. On the matched subset, at question
+level, the conservative test, three of the 13 questions were discordant,
+\emph{p} = .250. That value is the floor at three discordant questions: all
+three ran the same way and the test still could not reach significance.
+
+No manual review was carried out on this arm, and neither the generator
+behaviors nor the attribution check was computed for it. Both are readings of
+the reported arm's answer text and do not transfer to answers another model
+wrote, so the absence is deliberate rather than a gap.

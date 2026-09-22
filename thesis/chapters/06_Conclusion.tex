@@ -1,0 +1,30 @@
+\chapter{Conclusion}
+
+Chunk size produced no detectable difference and retrieval strategy none without
+enrichment, while indexing representation moved retrieval substantially, unevenly
+across strategies, and with losers as well as gains: some questions retrieved
+under text-only were lost under enrichment.
+
+The nulls for chunk size and retrieval strategy have one cause: across
+near-identical calls, the company and the quarter reached the retrievers only
+where a transcript's own words named them, and neither choice, as varied here,
+could supply them.
+
+Retrieval improved substantially with enrichment, but no difference in the
+reported arm's answer outcomes between conditions was detectable.
+
+What an evaluation rewards has to be read against what was retrieved. When the
+context cannot support an answer, abstaining is the correct response, and for a
+conjunctive question that holds even when part of its evidence was retrieved.
+Correct abstention is a target to design an evaluation around, not a shortfall
+to minimize, and a scheme that counts it as a failure misjudges the system it
+scores. An automatic grounding check is likewise an instrument with a direction
+of error: a substantial share of what it called ungrounded was faithful text it
+could not read.
+
+For teams retrieving over documents that differ mainly in entity and period, the
+place to start is the identity metadata they already hold, put into the string
+the retriever indexes. The gain to expect falls on questions that name one
+company; where a question names none, nothing was detectable here. A
+retrieval-augmented system's answers are bounded by what
+its retriever finds, and its retriever by what it is given to index.

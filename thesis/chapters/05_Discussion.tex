@@ -1,0 +1,262 @@
+\chapter{Discussion}
+
+\section{Summary of Findings}
+
+Of the three retrieval-design factors, indexing representation moved retrieval
+quality substantially, while chunk size produced no detectable difference and
+retrieval strategy none without enrichment. The enrichment effect was not
+uniform: it held for dense and hybrid retrieval at both chunk sizes on both
+metrics but for BM25 only at the smaller chunk size and only on MRR@5, and
+across question types it was present among factual questions, each naming one
+company. Downstream, the better retrieval produced no detectable change in the
+reported arm's answer behavior.
+
+\section{Theoretical Contributions}
+
+\subsection{Retrieval Design Is Dominated by What Enters the Index}
+
+Chunk size produced no detectable difference, and neither did retrieval
+strategy without enrichment. These are the two choices a retrieval design
+usually turns on, and both nulls trace to one cause: what entered the indexed
+string. Each chunk carried its transcript's company and period as metadata, but
+by construction neither entered the text-only indexed string (Methods). Across
+\thesisNumCompanies{} banks' near-identical calls over \thesisNumQuarters{}
+quarters, identity reached the retrievers only where a transcript's own words
+named it. It was missing from the search space rather than under-weighted by
+the ranker, so neither chunk size nor retrieval strategy, as varied here, could
+supply it. Where documents
+differ in subject matter, content terms already discriminate and the effect
+should be expected to shrink.
+
+Results places the effect where this mechanism predicts: in factual questions,
+each naming one company, and not in thematic questions, which name none. The
+thematic null is a floor effect, consistent with the mechanism rather than
+confirmation of it, and no evidence that identity metadata is irrelevant to
+thematic retrieval.
+
+Enrichment also displaced anchors: some questions retrieved one under text-only and
+none under any enriched condition. They were marginal in
+the baseline, most scoring in only one of the six text-only conditions, and their
+anchors' chunks were still ranked in the enriched index, out of the top five;
+for the anchors that moved, truncation does not explain the loss.
+Identity in the prefix competes with content terms for the same top five, so
+enrichment reallocates ranking capacity toward identity and away from content.
+It is no free improvement: net positive here, uneven, with BM25 gaining least
+(Figure~\ref{fig:coverage}), and with losers.
+
+H3 corroborates the improvement \textcite[9]{yousuf2026} report on a corpus
+outside the structured collections to which they expect it to carry
+\parencite[13]{yousuf2026}: spoken transcripts that follow no template. Here
+enrichment was crossed with chunk size and retrieval strategy, and followed
+through to the answers. The split BM25 verdict and the displaced questions
+qualify that corroboration without contradicting it.
+
+\subsection{Retrieval Gains Did Not Reach the Answers}
+
+Retrieval improved substantially with enrichment, and the reported arm's answer
+outcomes did not follow: no difference in outcomes between conditions was
+detectable. As with the retrieval nulls above, that failure to detect a
+difference, at this sample size, is not evidence that the conditions answered
+alike.
+
+Two readings fit the result, and the design does not choose between them. The
+generator may already have been handling what it was given, the additional
+retrieved anchors falling in questions it would have abstained on either way.
+Or the outcome classification, a four-way mechanical label, may be too coarse
+to register the change. The second is the stronger reading, because the
+instrument's limits are visible in the comparison itself. Over the six text-only conditions
+only 65 of 120 pairwise comparisons were testable, the rest having identical
+outcomes on every matched question, and within Case C each of those pairs
+matched very few questions. The instrument, not the phenomenon, may be the
+binding constraint.
+
+Part of what is counted as a failure to convert may not be one. Case C
+membership turns on any single anchor, so some items counted as unconverted were
+ones where abstention was the correct response, which the next subsection takes
+up.
+
+\subsection{Partial Context Must Be Read Against the Question's Evidence
+Requirement}
+
+This is a contribution to benchmark design and evaluation: nothing in the
+argument depends on which generator ran. Question
+types differ in how much of their evidence they require. A thematic question is
+disjunctive, any subset of its anchors supporting an answer, whereas a
+comparative question is conjunctive, needing the anchors of both its companies.
+Case C membership, however, turns on any single anchor, so a comparative item
+holding one of its two anchors is in Case C although what was retrieved cannot
+support the comparison. Abstention on such an item is the correct response, and
+the scheme records it as a failure to convert. The error lies in the membership
+rule, not in the generator and not in the answer.
+
+The coverage split shows the difference is observed: at
+partial coverage, disjunctive thematic observations mostly converted and
+conjunctive comparative ones mostly abstained. The breakdown is descriptive,
+computed, and unchecked. It does not make the downstream null an artifact; it
+shows that some of what was counted as non-conversion was correct behavior,
+without saying how much.
+
+This is where the information processing account set out in Theory applies:
+effectiveness depends on a match between what a task requires and what is
+supplied \parencite[619, 622]{tushman1978}, and partial coverage met the
+disjunctive requirement and fell short of the conjunctive one. The reading concerns the questions' requirements alone; it does
+not test the theory, and no step is taken from a retrieval-design change to a
+change in information processing capacity.
+
+A partial-context threshold therefore has to depend on the question's evidence
+requirement. Most benchmarks leave that requirement unrecorded, so even an
+evaluator who wants to cannot apply the distinction. This is the gap: a
+benchmark should carry the evidence requirement as a field, the way this one
+carries question category.
+
+\subsection{Automatic Grounding Checks Mislabel Faithful Text}
+
+Every record the reported arm labeled ungrounded was read, because that stratum
+was taken whole, so the finding is a census: the one claim of the manual review
+resting on a full population. Of those
+\thesisQeightAnsweredUngrounded{} records, four, nearly half, read as faithful.
+Their labels trace to instrument findings I1 to I3. A year read correctly from
+the context is verified as though it were a quantity; a figure the answer
+computes and marks as computed has nothing verbatim to match; and a faithful
+paraphrase shares no verbatim run with its source long enough to match.
+
+These misreadings run in one direction: a verbatim-substring grounding proxy
+penalizes answers that paraphrase, normalize, or derive, which are the behaviors
+a good answer exhibits. An evaluation using
+such a proxy measures copying as much as faithfulness, and should report the
+direction of that bias rather than presenting the proxy's output as a
+faithfulness rate.
+
+A narrower point follows from I4: a thematic question about banks generally can
+be answered accurately, well attributed, and fully responsive, while carrying the
+off-target label. Those records came from a stratified draw, so they are no
+estimate for the arm.
+
+\section{Practical Contributions}
+
+\subsection{For Systems Retrieving Over Near-Identical Documents}
+
+The audience is teams retrieving over document sets whose members are
+structurally alike and differ mainly in entity and period: earnings calls,
+filings, contracts, incident reports, clinical notes. They should put the
+identity metadata they already hold into the indexed string. The cost is a
+short fixed prefix on every chunk, small beside re-chunking a corpus or
+standing up a second retriever, where tuning effort usually goes.
+
+The advice holds under three conditions: the metadata must discriminate, since
+where documents differ in subject matter it can be dead weight; every prefixed
+token consumes the encoder's content budget; and identity competes with content
+for ranking capacity, so expect named losers as well as gains.
+
+Expect the gain where a question names one company. Where questions name none,
+both arms sat near floor here, so no difference was detectable either way, and
+where a question needs both sides of a comparison, retrieving one side leaves it
+unanswerable, which is a property of the question rather than of the index.
+
+The token budget is an engineering trap: a prefix pushes the larger chunks past
+the encoder's limit, and without a cut the encoder would drop the tail while the
+lexical retriever indexed the whole string, giving identical bytes but different
+content. Anyone adding a prefix must truncate at build time, or the retrievers
+stop seeing the same string.
+
+\subsection{For Evaluating Retrieval-Augmented Systems}
+
+Three evaluation practices transfer. First, separate retrieval failure from
+generation failure before scoring: most generations here fell in Case B, where
+no gold anchor reached the top \thesisTopK{}, so a pooled ``hallucination rate''
+would be mostly a retrieval statistic.
+
+Second, annotate verbatim anchors, which, unlike chunk identifiers, stay stable
+across chunk size (Methods), so one annotation scores all
+\thesisNumConditions{} conditions.
+
+Third, treat an automatic faithfulness proxy as an instrument with an error
+rate that runs both ways: the census above reads faithful text under an
+ungrounded label, and the misattribution reported in Results carries a grounded
+and on-target one.
+
+\section{Limitations and Future Research}
+
+\subsection{Limitations}
+
+The benchmark's rules select evidence: cleanly chunk-contained anchors, unique
+values, prepared remarks over question-and-answer, management over analyst
+speech, and, in eight items, question-to-passage overlap (Methods). Absolute retrieval scores are therefore likely
+optimistic relative to a benchmark drawn without these rules; relative
+comparisons between conditions remain informative, since every condition faced
+the same questions. No claim is made about section effects. Two authoring gaps
+were found after the benchmark was frozen, so neither can be repaired. The gold
+anchor of \texttt{ref\_fact\_14} does not answer its own question, so the item
+cannot score a correct answer as correct. It is one of the
+\thesisNumQuestionsScored{} scored in every condition, and only I5 in
+Table~\ref{tab:review-categories} turns on it alone.
+And the difficulty annotation has a documented principle but no operational
+rule, so it is usable as a label rather than a reproducible measure, and no analysis is keyed on it.
+The first gap is a wrong value in one item; the second, a plausible value on
+every item whose derivation cannot be audited.
+
+The three hypothesis tests rest on only \thesisNumQuestionsScored{}
+retrieval-scored questions, and in the reported arm many Stage 2 comparisons
+were untestable outright, both conditions producing identical outcomes on every
+matched question. The category breakdown's blocks differ in size,
+\thesisNumQuestionsFactual{} factual,
+\thesisNumQuestionsThematic{} thematic, and \thesisNumQuestionsComparative{}
+comparative, and in achievable range: factual coverage@5 reached .786,
+thematic never exceeded .133. The thematic null is a floor effect, and the
+comparative result pointed the right way without surviving correction.
+
+The Stage 1 test is itself contested in information retrieval evaluation.
+\textcite{smucker2007} and \textcite{urbano2019} both conclude that the Wilcoxon
+signed-rank test should be discontinued there and recommend randomization or
+permutation tests instead, \textcite{smucker2007} because it is a simplified
+variant of the randomization test. The objection is to the statistic, not to how
+its \emph{p} value is computed, and every Stage 1 comparison here uses that
+statistic, including every result reported as significant. \textcite{urbano2019}
+keep the test legitimate where the paired differences are symmetric about zero,
+which is the null under which \textcite{wilcoxon1945} introduced it, so the Stage
+1 results stand only as far as that assumption holds for these data. The Stage 2
+test is not exposed in the same way: on binary outcomes, the exact binomial form
+used there coincides with a randomization test on the paired differences.
+
+Grounding verifies that a number appears somewhere in the retrieved text, not
+that it is attached to the right company, quarter, or metric in the answer's own
+sentence. Per-claim attribution checking was out of scope, and the manual
+review covers it on a subset only.
+
+The results are conditioned on a single open-weights generator, and the
+robustness check covers one open-weights model family and no other. Its second
+model differs on several dimensions at once, so no difference can be attributed
+to one of them.
+
+The scope is narrow: \thesisNumCompanies{} United States banks over
+\thesisNumQuarters{} quarters, one embedding model, one prompt, and a fixed
+top~\thesisTopK{}, with a single annotator and no inter-annotator agreement. In
+the enriched larger-chunk cell, build-time truncation reduced retrievability but
+not scorability: anchor matching ran on raw text, never truncated.
+
+\subsection{Future Research}
+
+Exactly one enrichment format was tested, so which of its fields carry the
+effect, whether a shorter prefix would retain it, and how prefix length trades
+against the displacement described above remain unanswered. Varying the format
+is the most direct follow-up.
+
+The central claim is scoped to document sets that are alike. Running the same
+grid over a corpus whose documents differ in subject matter would establish
+where the effect disappears, and a null there would strengthen rather than
+weaken the mechanism. The category split offers only a within-study hint at
+that boundary, post hoc and confounded with a floor effect, which is precisely
+why the between-corpus version is worth running. Cross-company retrieval remains
+open beneath it: questions naming no company sat at floor in both arms, and the
+comparative result pointed the right way without surviving correction, so what
+would lift either is untested.
+
+The census of ungrounded records shows how often a verbatim proxy misread
+faithful text under that label in the reported arm. A faithfulness check that
+tolerates paraphrase, normalization, and derivation, evaluated against that
+census, would be the next instrument.
+
+Conditioning Case C membership on the question's evidence requirement, rather
+than on any single anchor, is a small and testable change to the scoring that
+follows directly from the partial-context argument; testing it needs a
+benchmark that records the requirement.

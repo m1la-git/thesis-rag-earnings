@@ -1,0 +1,219 @@
+\chapter{Theory}
+
+\section{Information Processing Requirements}
+
+Organizational information processing theory provides the frame through which
+this thesis reads the task a retrieval system performs. The theory starts from
+uncertainty, which \textcite[615]{tushman1978} treat as the difference between
+the information required to complete a task and the information already
+possessed. The tasks of organizational subunits vary in how uncertain they are,
+and so in their information processing requirements. As work-related
+uncertainty rises, so does the need for information, and with it the need for
+capacity to process that information \parencite[615--616]{tushman1978}.
+Requirements and capacity meet in the theory's central proposition: an
+organization is more effective when the information processing capacity of its
+structure matches the requirements it faces, and a mismatch in either direction
+lowers performance. \textcite[619--620, 622]{tushman1978} present this
+proposition as a hypothesis that remains to be fully tested, not as an
+established result.
+
+Structure supplies that capacity through coordination mechanisms.
+\textcite[618]{tushman1978} order these mechanisms by their information
+processing capacity, from rules and programs at the low end to formal
+information systems and lateral relations at the high end. A technical system is
+one means by which an organization raises its information processing capacity
+\parencite[618]{tushman1978}. \textcite[29, 36]{galbraith1974} describes the
+choice an organization faces as task uncertainty increases. The organization must either
+reduce the amount of information it has to process or increase its capacity to
+process it, and if it makes no conscious choice, reduced performance standards
+follow automatically. Galbraith counts this lowering of performance standards
+as the first strategy, and its cost shows up as overrun
+schedules and budgets. For technology specifically, \textcite[65]{huber1990}
+proposes that the use of advanced information technologies makes information
+more available and more quickly retrieved. This proposition concerns
+accessibility alone. Huber offers it, like his theory as a whole, as a
+claim that still needs empirical investigation
+\parencite[47, 67]{huber1990}.
+
+In this thesis, the theory applies to the questions, not to the retriever.
+Questions put to earnings call transcripts differ in their evidence
+requirements: in what evidence an answer requires, and in where that evidence
+sits. If effectiveness depends on a match between requirements and capacity, a
+retrieval mechanism that treats every question as having the same evidence
+requirement fails on some questions, however well it retrieves. The application
+goes no further, because none of the sources above varies anything within a
+technology: \textcite[67]{huber1990} states his propositions in general terms
+and asks that hypotheses specify the particular technology, since even subtle
+differences may count, and \textcite[622]{tushman1978} leave mechanisms other
+than structure to future research. They provide no step from a change in chunk
+size, retrieval strategy, or indexing representation to a change in information
+processing capacity, so the hypotheses derived below, H1 to H3, rest on
+retrieval mechanisms instead, because they concern properties of the retrieval
+stage rather than of the organization. Where the theory does bear is on the
+evaluation: whether a retrieved context suffices depends on what its question
+requires of it, so a scheme that treats every question alike mismatches
+requirement and capacity -- the reading the Discussion develops from the
+partial-context result.
+
+\section{Retrieval-Augmented Generation}
+
+Retrieval-augmented generation pairs a retriever with a generator. The retriever
+returns the passages it ranks highest for a question, and the generator produces
+an answer conditioned on the question and those passages \parencite{lewis2020}.
+An answer can therefore draw only on what was retrieved.
+\textcite[1, 4]{kobeissi2026} formalize the generator as a function of the query
+and the retrieved chunks alone. They argue that retrieval quality is the main
+determinant of whether an answer is supported by the right context.
+
+Two kinds of error follow from that structure: retrieval can fail to supply the
+evidence an answer needs, or generation can misuse evidence it was given.
+\textcite{kobeissi2026} argue that an answer-level score cannot separate the two,
+since a wrong answer may come from either. Evaluation frameworks for these
+systems accordingly score the retrieved context and the answer as distinct
+properties \parencite{es2024,saad-falcon2024}.
+
+On the generation side, the property at stake is faithfulness. Both frameworks
+measure it as the grounding of an answer in the retrieved context. RAGAs asks
+whether the claims an answer makes can be inferred from that context
+\parencite{es2024}; ARES asks whether the answer adds nothing beyond it and
+contradicts nothing in it \parencite{saad-falcon2024}. Defined this way,
+faithfulness means grounding in the retrieved text, not factual truth, and this
+thesis uses the term in that sense. Both frameworks assess it automatically, with
+language-model judges \parencite{es2024,saad-falcon2024}.
+
+The same definition fixes what a correct response is when the context cannot
+support an answer. \textcite{muhamed2026} build their RefusalBench evaluation
+around selective refusal: abstaining when defects in the provided context prevent
+a reliable answer. RefusalBench scores an answer to such an instance as an error,
+and a refusal over a minor, resolvable defect as a false refusal. When the
+retrieved context cannot support an answer, abstaining is the correct behavior, and an
+evaluation of answer quality has to credit it.
+
+\section{Retrieval Design}
+
+\subsection{Chunk Size}
+
+The question of how much text should form a retrieval unit predates
+retrieval-augmented generation. Research on passage retrieval treated the
+definition and size of a passage as an open problem \parencite{callan1994}.
+\textcite{kaszkiel1997} compared units ranging from paragraphs and sections to
+fixed-length windows, and found no passage length that is always best.
+
+In that work, unit size brings both an advantage and a cost. Smaller units dilute
+evidence less: evidence concentrated in one region of a long document is not
+averaged together with the unrelated text around it, which is why both studies
+scored passages rather than whole documents \parencite{callan1994,kaszkiel1997}.
+\textcite{callan1994} argues that small units also carry a cost. A block of
+relevant text can be split across two of them, and a short passage matches fewer
+of the terms in a long query. Both studies ranked documents by the passages they
+contained; neither returned passages as retrieval units. Both measured length
+in words, so they frame the question for this thesis without settling it.
+
+Since the evidence supports both of the sizes compared here,
+\thesisChunkSizeSmall{} and \thesisChunkSizeLarge{} tokens, the hypothesis
+takes no direction. Retrieval quality is measured over the top five retrieved
+chunks, by anchor coverage@5, the share of a question's gold anchors retrieved,
+and MRR@5, the mean reciprocal rank of those anchors.
+
+\begin{quote}
+\textbf{H1:} Chunk size affects retrieval quality, measured as anchor coverage@5
+and MRR@5.
+\end{quote}
+
+\subsection{Retrieval Strategy}
+
+Lexical retrieval is represented here by BM25. As the best-known instance of the
+probabilistic relevance framework, BM25 scores a document by weighting the query
+terms it contains, so a term the document lacks contributes nothing
+\parencite{robertson2009}. Dense retrieval encodes the question and each passage
+independently and ranks passages by the dot product of their vectors
+\parencite{karpukhin2020}.
+
+Lexical and dense retrieval fail in different places. \textcite{karpukhin2020}
+argue that they are complementary: term matching is sensitive to selective
+keywords but poor at handling lexical variation, while dense retrieval captures
+meaning but may miss rarely occurring key phrases. Reciprocal rank fusion
+combines separate rankings into one. For each document, it sums the reciprocal
+of a constant plus the document's rank in each ranking \parencite{cormack2009}.
+
+The sources here do not settle whether any of these approaches is generally best.
+Across a heterogeneous set of zero-shot retrieval tasks, BM25 remained a robust
+baseline and no single approach consistently outperformed the others
+\parencite{thakur2021}. That comparison included no fused system; the hybrid
+strategy here fuses the dense and BM25 rankings by reciprocal rank fusion. The
+hypothesis takes no direction.
+
+\begin{quote}
+\textbf{H2:} Retrieval strategy affects retrieval quality.
+\end{quote}
+
+\subsection{Indexing Representation}
+
+A retriever can rank a passage only by the string it indexes. Metadata stored
+with a passage but absent from that string, such as the company and period a
+transcript belongs to, is invisible to lexical and dense retrieval alike,
+however faithfully it is recorded.
+
+In collections whose documents repeat one another, that absence matters.
+\textcite[2]{yousuf2026} describe regulatory filings that reuse language across
+companies and years: chunk-level semantic embeddings often cannot separate a
+passage from its near-duplicates, and the metadata that would tell them apart is
+usually applied only to filter results after retrieval. They instead serialize
+structured fields into a header and concatenate it with the chunk text before
+encoding \parencite[5]{yousuf2026}. They report that metadata-aware
+representations of this kind improved on a plain-text baseline
+\parencite[9]{yousuf2026}. In their field-level ablation, company and year
+provide the strongest disambiguating signal, while removing section titles
+yields only a modest drop at the chunk level and none at the document level
+\parencite[12]{yousuf2026}. They present their work as, to their knowledge,
+\enquote{the first systematic study showing that metadata signals significantly
+improve retrieval on RAG systems} \parencite[3]{yousuf2026}.
+
+The manipulation belongs to the line of document expansion, which enriches what
+is indexed for a document instead of the query. In that line of work,
+model-predicted queries are appended to the document \parencite{nogueira2019}.
+The prefix here prepends recorded metadata from a fixed template, and its direct
+precedent is the metadata-as-text construction above \parencite[5]{yousuf2026}.
+The format differs: their header labels each field and is embedded by a dense
+encoder only \parencite[5]{yousuf2026}; the prefix here carries no field
+labels and is indexed by BM25 as well as by the dense encoder.
+
+The hypothesis below therefore seeks corroboration, not a first test of an
+untried mechanism, and extends their study where it stops. Their
+chunking is fixed and their retrieval dense only \parencite[7--8]{yousuf2026},
+while here indexing representation is crossed with both chunk size and retrieval
+strategy. They report retrieval metrics alone and leave the evaluation of
+generation quality to future work \parencite[8, 13]{yousuf2026}; this thesis
+follows retrieval through to the answers. They also expect the benefit to carry
+to other structured corpora, naming scientific articles, legal records, and
+technical manuals \parencite[13]{yousuf2026}. Earnings call transcripts are
+spoken and follow no template, so they lie outside that expectation. The same
+banks discuss the same topics quarter after quarter, so the reasoning above
+gives the hypothesis a direction.
+
+\begin{quote}
+\textbf{H3:} Enriching the indexed string with document metadata improves
+retrieval quality.
+\end{quote}
+
+\section{From Retrieval to Answers}
+
+Because an answer can draw only on what was retrieved, retrieval affects answers
+through whether it supplies each question's evidence.
+Where that evidence was retrieved, a faithful answer becomes possible. Where it
+was not, abstention is the correct response. Evaluation frameworks for these
+systems score the retrieved context and the answer for the same question
+\parencite{es2024,saad-falcon2024}. \textcite{kobeissi2026} measure both stages
+on one set of questions. None of these sources tests the link between the stages
+question by question \parencite{es2024,saad-falcon2024,kobeissi2026}.
+
+\textcite{yang2018} build a question-answering dataset around questions that
+require information from more than one document to answer. The same retrieved
+context can therefore be enough for one question and not for another: whether it
+suffices depends on the question asked. Sufficiency is a property of a question
+and a context together, not of the context alone.
+
+{\centering\noindent Insert Figure \ref{fig:research-model} about here\par}
+
+Figure~\ref{fig:research-model} sets out the research model: the three factors,
+the hypothesis on each, and the answer stage examined beyond them.

@@ -1,0 +1,92 @@
+\chapter[Introduction]{How Retrieval Design Affects Answer Quality in
+RAG-Based Question Answering Over Earnings Call Transcripts}
+
+A retrieval-augmented generation (RAG) system answers a question from the
+passages its retriever
+returns, conditioning a language model on them rather than on what the model
+holds in its parameters alone \parencite{lewis2020}. An answer can reach no
+further than what the retriever found: \textcite[1]{kobeissi2026}, in an arXiv
+preprint, argue that
+retrieval quality is the main determinant of whether an answer rests on the
+right context. Anyone who builds such a system over a document collection has to
+decide how to cut the documents into chunks, how to search them, and what text to
+index for each chunk. Each of those decisions shapes what the retriever can
+find.
+
+Earnings call transcripts put that problem in a sharp form. The same companies
+discuss the same topics in similar language quarter after quarter, so the
+passage that answers a question and a near-identical passage from another
+company or another quarter can be hard to tell apart. Financial disclosure text,
+such as annual filings, has served as a corpus for textual analysis
+\parencite{loughran2011}. None of the sources read for this thesis establishes
+call transcripts as a corpus, and the one among them whose questions include
+call items reports its method performing weakest on exactly those items
+\parencite[8--9]{kobeissi2026}.
+
+The accounts that relate information processing requirements to capacity also
+drew a line around technical means of meeting them, and earnings call
+transcripts sit on the far side of it. \textcite{tushman1978} observe that tasks
+differ in the information processing they require (p.~615) and propose that an
+organization is effective when the information processing capacity of its
+structure matches those requirements (pp.~619, 622). \textcite[29, 36]{galbraith1974} adds that
+as task uncertainty rises, an organization must either reduce the information it
+has to process or raise its capacity to process it, and that without a
+deliberate choice its performance standards fall, visible as overrun schedules
+and budgets. Yet \textcite[618, 621]{tushman1978} assign formal information
+systems to quantifiable information and lateral relations to the less
+quantifiable, and Galbraith's investment in vertical information systems carries
+the equivalent caveat \parencite[32]{galbraith1974}. Work on metadata-aware
+retrieval draws a similar line, expecting its benefit to carry to other
+structured corpora such as scientific articles, legal records, and technical
+manuals \parencite[13]{yousuf2026}. Earnings call transcripts fall into neither
+category: they are spoken, follow no template, and are qualitative. The older
+caveat describes what machines could do when it was written. Text of this kind
+has become machine-processable, and that is what makes the question of this
+thesis askable.
+
+That same line of work establishes the effect of what a retriever indexes.
+\textcite[5, 9]{yousuf2026}, also an arXiv preprint, serialize structured
+metadata into a header placed
+before each chunk's text and report that metadata-aware representations improve
+on a plain-text baseline, with their chunking fixed, their retrieval dense only,
+and answers not measured \parencite[7--8, 13]{yousuf2026}. Whether retrieving a
+question's evidence changes what the answer does with it is untested question by
+question in the evaluation work this thesis draws on
+\parencite{kobeissi2026,es2024,saad-falcon2024}.
+
+The goal of this thesis is to establish which retrieval design choices change
+what a retrieval-augmented system retrieves and what it answers, when they are
+varied against a fixed corpus, benchmark, prompt, and generator. Three factors
+are fully crossed: chunk size, retrieval strategy, and indexing representation.
+
+The thesis contributes to two discussions. The first is the information
+processing account of fit between what a task requires and what a mechanism can
+supply, developed by \textcite{tushman1978} and \textcite{galbraith1974}, which
+frames the questions this thesis asks of a retrieval system. The second is the
+study of metadata-aware retrieval, in which \textcite{yousuf2026} examine the
+text a retriever indexes.
+
+The thesis makes four contributions. First, a controlled comparison of chunk
+size, retrieval strategy, and indexing representation within one design, so that
+the effect of what is indexed is measured beside the other two. Second, evidence
+on whether retrieval gains reach answer behavior on the same questions. Third,
+an argument that whether partial retrieved context suffices depends on the
+question's evidence requirement, so an evaluation that ignores it can score a
+correct abstention as a failure. Fourth, evidence on how an automatic grounding
+check reads faithful text, from the full population of answers it labeled
+ungrounded.
+
+The practical audience is teams building retrieval over document collections
+whose members are structurally alike and differ mainly in entity and period,
+such as earnings calls and filings. What makes such a collection worth querying
+is comparison across its entities and periods, and the near-identity that gives
+those comparisons their value is what makes retrieval hard. For them
+the thesis offers a basis for deciding where tuning effort is best spent, and
+evidence about a design choice that is cheap to change. For those who evaluate
+such systems, it offers practices for keeping a failure to retrieve apart from a
+failure to use what was retrieved.
+
+These contributions rest on a frozen corpus of earnings call transcripts, a
+benchmark whose answers are anchored in verbatim passages so that one set of
+anchors serves every condition, and a two-stage measurement that scores
+retrieval before it scores answers.

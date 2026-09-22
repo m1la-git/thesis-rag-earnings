@@ -1,0 +1,677 @@
+@software{baai2023,
+  title = {{{bge-small-en-v1.5}}},
+  author = {{BAAI}},
+  date = {2023},
+  url = {https://huggingface.co/BAAI/bge-small-en-v1.5},
+  urldate = {2026-09-14},
+  abstract = {Model card for bge-small-en-v1.5, an open-source English text embedding model developed by the Beijing Academy of Artificial Intelligence (BAAI). Designed for semantic search and Retrieval-Augmented Generation (RAG) tasks, mapping text into a 384-dimensional dense vector space. Requires the query prefix: "Represent this sentence for searching relevant passages:".},
+  organization = {Beijing Academy of Artificial Intelligence},
+  titleaddon = {Computer software}
+}
+
+@inproceedings{callan1994,
+  title = {Passage-Level Evidence in Document Retrieval},
+  booktitle = {Proceedings of the 17th {{Annual International ACM SIGIR Conference}} on {{Research}} and {{Development}} in {{Information Retrieval}}},
+  author = {Callan, James P.},
+  editor = {Croft, W. Bruce and family=Rijsbergen, given=C. J., prefix=van, useprefix=true},
+  date = {1994},
+  series = {{{SIGIR}} '94},
+  pages = {302--310},
+  publisher = {Springer-Verlag},
+  location = {Berlin, Heidelberg},
+  doi = {10.1007/978-1-4471-2099-5_31},
+  isbn = {978-0-387-19889-7}
+}
+
+@inproceedings{chen2021,
+  title = {{{FinQA}}: {{A}} Dataset of Numerical Reasoning over Financial Data},
+  shorttitle = {{{FinQA}}},
+  booktitle = {Proceedings of the 2021 {{Conference}} on {{Empirical Methods}} in {{Natural Language Processing}}},
+  author = {Chen, Zhiyu and Chen, Wenhu and Smiley, Charese and Shah, Sameena and Borova, Iana and Langdon, Dylan and Moussa, Reema and Beane, Matt and Huang, Ting-Hao and Routledge, Bryan and Wang, William Yang},
+  editor = {Moens, Marie-Francine and Huang, Xuanjing and Specia, Lucia and Yih, Scott Wen-tau},
+  date = {2021-11},
+  pages = {3697--3711},
+  publisher = {Association for Computational Linguistics},
+  location = {Online and Punta Cana, Dominican Republic},
+  doi = {10.18653/v1/2021.emnlp-main.300},
+  url = {https://aclanthology.org/2021.emnlp-main.300/},
+  urldate = {2026-09-13},
+  abstract = {The sheer volume of financial statements makes it difficult for humans to access and analyze a business's financials. Robust numerical reasoning likewise faces unique challenges in this domain. In this work, we focus on answering deep questions over financial data, aiming to automate the analysis of a large corpus of financial documents. In contrast to existing tasks on general domain, the finance domain includes complex numerical reasoning and understanding of heterogeneous representations. To facilitate analytical progress, we propose a new large-scale dataset, FinQA, with Question-Answering pairs over Financial reports, written by financial experts. We also annotate the gold reasoning programs to ensure full explainability. We further introduce baselines and conduct comprehensive experiments in our dataset. The results demonstrate that popular, large, pre-trained models fall far short of expert humans in acquiring finance knowledge and in complex multi-step numerical reasoning on that knowledge. Our dataset – the first of its kind – should therefore enable significant, new community research into complex application domains. The dataset and code are publicly available at https://github.com/czyssrs/FinQA.},
+  eventtitle = {{{EMNLP}} 2021}
+}
+
+@inproceedings{chen2022,
+  title = {{{ConvFinQA}}: {{Exploring}} the Chain of Numerical Reasoning in Conversational Finance Question Answering},
+  shorttitle = {{{ConvFinQA}}},
+  booktitle = {Proceedings of the 2022 {{Conference}} on {{Empirical Methods}} in {{Natural Language Processing}}},
+  author = {Chen, Zhiyu and Li, Shiyang and Smiley, Charese and Ma, Zhiqiang and Shah, Sameena and Wang, William Yang},
+  editor = {Goldberg, Yoav and Kozareva, Zornitsa and Zhang, Yue},
+  date = {2022-12},
+  pages = {6279--6292},
+  publisher = {Association for Computational Linguistics},
+  location = {Abu Dhabi, United Arab Emirates},
+  doi = {10.18653/v1/2022.emnlp-main.421},
+  url = {https://aclanthology.org/2022.emnlp-main.421/},
+  urldate = {2026-09-13},
+  abstract = {With the recent advance in large pre-trained language models, researchers have achieved record performances in NLP tasks that mostly focus on language pattern matching. The community is experiencing the shift of the challenge from how to model language to the imitation of complex reasoning abilities like human beings. In this work, we investigate the application domain of finance that involves real-world, complex numerical reasoning. We propose a new large-scale dataset, ConvFinQA, aiming to study the chain of numerical reasoning in conversational question answering. Our dataset poses great challenge in modeling long-range, complex numerical reasoning paths in real-world conversations. We conduct comprehensive experiments and analyses with both the neural symbolic methods and the prompting-based methods, to provide insights into the reasoning mechanisms of these two divisions. We believe our new dataset should serve as a valuable resource to push forward the exploration of real-world, complex reasoning tasks as the next research focus. Our dataset and code is publicly available at https://github.com/czyssrs/ConvFinQA.},
+  eventtitle = {{{EMNLP}} 2022}
+}
+
+@online{choi2025,
+  title = {{{FinDER}}: {{Financial}} Dataset for Question Answering and Evaluating Retrieval-Augmented Generation},
+  shorttitle = {{{FinDER}}},
+  author = {Choi, Chanyeol and Kwon, Jihoon and Ha, Jaeseon and Choi, Hojun and Kim, Chaewoon and Lee, Yongjae and Sohn, Jy-yong and Lopez-Lira, Alejandro},
+  date = {2025-09-03},
+  eprint = {2504.15800},
+  eprinttype = {arXiv},
+  eprintclass = {cs.IR},
+  doi = {10.48550/arXiv.2504.15800},
+  url = {http://arxiv.org/abs/2504.15800},
+  urldate = {2026-09-12},
+  abstract = {In the fast-paced financial domain, accurate and up-to-date information is critical to addressing ever-evolving market conditions. Retrieving this information correctly is essential in financial Question-Answering (QA), since many language models struggle with factual accuracy in this domain. We present FinDER, an expert-generated dataset tailored for Retrieval-Augmented Generation (RAG) in finance. Unlike existing QA datasets that provide predefined contexts and rely on relatively clear and straightforward queries, FinDER focuses on annotating search-relevant evidence by domain experts, offering 5,703 query-evidence-answer triplets derived from real-world financial inquiries. These queries frequently include abbreviations, acronyms, and concise expressions, capturing the brevity and ambiguity common in the realistic search behavior of professionals. By challenging models to retrieve relevant information from large corpora rather than relying on readily determined contexts, FinDER offers a more realistic benchmark for evaluating RAG systems. We further present a comprehensive evaluation of multiple state-of-the-art retrieval models and Large Language Models, showcasing challenges derived from a realistic benchmark to drive future research on truthful and precise RAG in the financial domain.},
+  pubstate = {prepublished},
+  keywords = {Computer Science - Information Retrieval}
+}
+
+@inproceedings{cormack2009,
+  title = {Reciprocal Rank Fusion Outperforms {{Condorcet}} and Individual Rank Learning Methods},
+  booktitle = {Proceedings of the 32nd International {{ACM SIGIR}} Conference on {{Research}} and Development in Information Retrieval},
+  author = {Cormack, Gordon V. and Clarke, Charles L A and Buettcher, Stefan},
+  date = {2009-07-19},
+  series = {{{SIGIR}} '09},
+  pages = {758--759},
+  publisher = {Association for Computing Machinery},
+  location = {New York, NY, USA},
+  doi = {10.1145/1571941.1572114},
+  url = {https://dl.acm.org/doi/10.1145/1571941.1572114},
+  urldate = {2026-09-12},
+  abstract = {Reciprocal Rank Fusion (RRF), a simple method for combining the document rankings from multiple IR systems, consistently yields better results than any individual system, and better results than the standard method Condorcet Fuse. This result is demonstrated by using RRF to combine the results of several TREC experiments, and to build a meta-learner that ranks the LETOR 3 dataset better than any previously reported method},
+  isbn = {978-1-60558-483-6}
+}
+
+@inproceedings{es2024,
+  title = {{{RAGAs}}: {{Automated}} Evaluation of Retrieval Augmented Generation},
+  shorttitle = {{{RAGAs}}},
+  booktitle = {Proceedings of the 18th {{Conference}} of the {{European Chapter}} of the {{Association}} for {{Computational Linguistics}}: {{System Demonstrations}}},
+  author = {Es, Shahul and James, Jithin and Espinosa Anke, Luis and Schockaert, Steven},
+  editor = {Aletras, Nikolaos and De Clercq, Orphee},
+  date = {2024},
+  pages = {150--158},
+  publisher = {Association for Computational Linguistics},
+  location = {St. Julians, Malta},
+  doi = {10.18653/v1/2024.eacl-demo.16},
+  url = {https://aclanthology.org/2024.eacl-demo.16/},
+  urldate = {2026-09-13},
+  abstract = {We introduce RAGAs (Retrieval Augmented Generation Assessment), a framework for reference-free evaluation of Retrieval Augmented Generation (RAG) pipelines. RAGAs is available at [https://github.com/explodinggradients/ragas]. RAG systems are composed of a retrieval and an LLM based generation module. They provide LLMs with knowledge from a reference textual database, enabling them to act as a natural language layer between a user and textual databases, thus reducing the risk of hallucinations. Evaluating RAG architectures is challenging due to several dimensions to consider: the ability of the retrieval system to identify relevant and focused context passages, the ability of the LLM to exploit such passages faithfully, and the quality of the generation itself. With RAGAs, we introduce a suite of metrics that can evaluate these different dimensions without relying on ground truth human annotations. We posit that such a framework can contribute crucially to faster evaluation cycles of RAG architectures, which is especially important given the fast adoption of LLMs.}
+}
+
+@article{galbraith1974,
+  title = {Organization Design: {{An}} Information Processing View},
+  shorttitle = {Organization Design},
+  author = {Galbraith, Jay R.},
+  date = {1974},
+  journaltitle = {Interfaces},
+  volume = {4},
+  number = {3},
+  pages = {28--36},
+  publisher = {INFORMS},
+  issn = {0092-2102},
+  doi = {10.1287/inte.4.3.28}
+}
+
+@online{gao2024,
+  title = {Retrieval-Augmented Generation for Large Language Models: {{A}} Survey},
+  shorttitle = {Retrieval-Augmented Generation for Large Language Models},
+  author = {Gao, Yunfan and Xiong, Yun and Gao, Xinyu and Jia, Kangxiang and Pan, Jinliu and Bi, Yuxi and Dai, Yi and Sun, Jiawei and Wang, Meng and Wang, Haofen},
+  date = {2024-03-27},
+  eprint = {2312.10997},
+  eprinttype = {arXiv},
+  eprintclass = {cs.CL},
+  doi = {10.48550/arXiv.2312.10997},
+  url = {http://arxiv.org/abs/2312.10997},
+  urldate = {2026-09-12},
+  abstract = {Large Language Models (LLMs) showcase impressive capabilities but encounter challenges like hallucination, outdated knowledge, and non-transparent, untraceable reasoning processes. Retrieval-Augmented Generation (RAG) has emerged as a promising solution by incorporating knowledge from external databases. This enhances the accuracy and credibility of the generation, particularly for knowledge-intensive tasks, and allows for continuous knowledge updates and integration of domain-specific information. RAG synergistically merges LLMs' intrinsic knowledge with the vast, dynamic repositories of external databases. This comprehensive review paper offers a detailed examination of the progression of RAG paradigms, encompassing the Naive RAG, the Advanced RAG, and the Modular RAG. It meticulously scrutinizes the tripartite foundation of RAG frameworks, which includes the retrieval, the generation and the augmentation techniques. The paper highlights the state-of-the-art technologies embedded in each of these critical components, providing a profound understanding of the advancements in RAG systems. Furthermore, this paper introduces up-to-date evaluation framework and benchmark. At the end, this article delineates the challenges currently faced and points out prospective avenues for research and development.},
+  pubstate = {prepublished},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Computation and Language}
+}
+
+@online{goel2024,
+  title = {{{HIRO}}: {{Hierarchical}} Information Retrieval Optimization},
+  shorttitle = {{{HIRO}}},
+  author = {Goel, Krish and Chandak, Mahek},
+  date = {2024-09-04},
+  eprint = {2406.09979},
+  eprinttype = {arXiv},
+  eprintclass = {cs.CL},
+  doi = {10.48550/arXiv.2406.09979},
+  url = {http://arxiv.org/abs/2406.09979},
+  urldate = {2026-09-12},
+  abstract = {Retrieval-Augmented Generation (RAG) has revolutionized natural language processing by dynamically integrating external knowledge into Large Language Models (LLMs), addressing their limitation of static training datasets. Recent implementations of RAG leverage hierarchical data structures, which organize documents at various levels of summarization and information density. This complexity, however, can cause LLMs to "choke" on information overload, necessitating more sophisticated querying mechanisms. In this context, we introduce Hierarchical Information Retrieval Optimization (HIRO), a novel querying approach that employs a Depth-First Search (DFS)-based recursive similarity score calculation and branch pruning. This method uniquely minimizes the context delivered to the LLM without informational loss, effectively managing the challenge of excessive data. HIRO's refined approach is validated by a 10.85\% improvement in performance on the NarrativeQA dataset.},
+  pubstate = {prepublished},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Information Retrieval}
+}
+
+@inproceedings{gondhalekar2025,
+  title = {{{MultiFinRAG}}: {{An}} Optimized Multimodal Retrieval-Augmented Generation ({{RAG}}) Framework for Financial Question Answering},
+  shorttitle = {{{MultiFinRAG}}},
+  booktitle = {2025 {{IEEE International Conference}} on {{Big Data}} ({{BigData}})},
+  author = {Gondhalekar, Chinmay and Patel, Urjitkumar and Yeh, Fang-Chun},
+  date = {2025-12-08},
+  eprint = {2506.20821},
+  eprinttype = {arXiv},
+  eprintclass = {cs.CL},
+  pages = {7163--7172},
+  doi = {10.1109/BigData66926.2025.11401444},
+  url = {http://arxiv.org/abs/2506.20821},
+  urldate = {2026-09-12},
+  abstract = {Financial documents--such as 10-Ks, 10-Qs, and investor presentations--span hundreds of pages and combine diverse modalities, including dense narrative text, structured tables, and complex figures. Answering questions over such content often requires joint reasoning across modalities, which strains traditional large language models (LLMs) and retrieval-augmented generation (RAG) pipelines due to token limitations, layout loss, and fragmented cross-modal context. We introduce MultiFinRAG, a retrieval-augmented generation framework purpose-built for financial QA. MultiFinRAG first performs multimodal extraction by grouping table and figure images into batches and sending them to a lightweight, quantized open-source multimodal LLM, which produces both structured JSON outputs and concise textual summaries. These outputs, along with narrative text, are embedded and indexed with modality-aware similarity thresholds for precise retrieval. A tiered fallback strategy then dynamically escalates from text-only to text+table+image contexts when necessary, enabling cross-modal reasoning while reducing irrelevant context. Despite running on commodity hardware, MultiFinRAG achieves 19 percentage points higher accuracy than ChatGPT-4o (free-tier) on complex financial QA tasks involving text, tables, images, and combined multimodal reasoning.},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Computational Engineering Finance and Science}
+}
+
+@article{holm1979,
+  title = {A Simple Sequentially Rejective Multiple Test Procedure},
+  author = {Holm, Sture},
+  date = {1979},
+  journaltitle = {Scandinavian Journal of Statistics},
+  volume = {6},
+  number = {2},
+  eprint = {4615733},
+  eprinttype = {jstor},
+  pages = {65--70},
+  publisher = {[Board of the Foundation of the Scandinavian Journal of Statistics, Wiley]},
+  issn = {0303-6898},
+  doi = {10.2307/4615733},
+  url = {https://www.jstor.org/stable/4615733},
+  urldate = {2026-09-12},
+  abstract = {This paper presents a simple and widely applicable multiple test procedure of the sequentially rejective type, i.e. hypotheses are rejected one at a time until no further rejections can be done. It is shown that the test has a prescribed level of significance protection against error of the first kind for any combination of true hypotheses. The power properties of the test and a number of possible applications are also discussed.}
+}
+
+@article{huber1990,
+  title = {A Theory of the Effects of Advanced Information Technologies on Organizational Design, Intelligence, and Decision Making},
+  author = {Huber, George P.},
+  date = {1990},
+  journaltitle = {The Academy of Management Review},
+  volume = {15},
+  number = {1},
+  eprint = {258105},
+  eprinttype = {jstor},
+  pages = {47--71},
+  publisher = {Academy of Management},
+  issn = {0363-7425},
+  doi = {10.2307/258105},
+  url = {https://www.jstor.org/stable/258105},
+  urldate = {2026-09-14},
+  abstract = {This article sets forth a theory of the effects that computer-assisted communication and decision-aiding technologies have on organizational design, intelligence, and decision making. Several components of the theory are controversial and in need of critical empirical investigation. The article focuses on those technology-prompted changes in organizational design that affect the quality and timeliness of intelligence and decision making, as contrasted with those that affect the production of goods and services.}
+}
+
+@online{islam2023,
+  title = {{{FinanceBench}}: {{A}} New Benchmark for Financial Question Answering},
+  shorttitle = {{{FinanceBench}}},
+  author = {Islam, Pranab and Kannappan, Anand and Kiela, Douwe and Qian, Rebecca and Scherrer, Nino and Vidgen, Bertie},
+  date = {2023-11-20},
+  eprint = {2311.11944},
+  eprinttype = {arXiv},
+  eprintclass = {cs.CL},
+  doi = {10.48550/arXiv.2311.11944},
+  url = {http://arxiv.org/abs/2311.11944},
+  urldate = {2026-09-12},
+  abstract = {FinanceBench is a first-of-its-kind test suite for evaluating the performance of LLMs on open book financial question answering (QA). It comprises 10,231 questions about publicly traded companies, with corresponding answers and evidence strings. The questions in FinanceBench are ecologically valid and cover a diverse set of scenarios. They are intended to be clear-cut and straightforward to answer to serve as a minimum performance standard. We test 16 state of the art model configurations (including GPT-4-Turbo, Llama2 and Claude2, with vector stores and long context prompts) on a sample of 150 cases from FinanceBench, and manually review their answers (n=2,400). The cases are available open-source. We show that existing LLMs have clear limitations for financial QA. Notably, GPT-4-Turbo used with a retrieval system incorrectly answered or refused to answer 81\% of questions. While augmentation techniques such as using longer context window to feed in relevant evidence improve performance, they are unrealistic for enterprise settings due to increased latency and cannot support larger financial documents. We find that all models examined exhibit weaknesses, such as hallucinations, that limit their suitability for use by enterprises.},
+  pubstate = {prepublished},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Computational Engineering Finance and Science,Statistics - Machine Learning}
+}
+
+@article{jarvelin2002,
+  title = {Cumulated Gain-Based Evaluation of {{IR}} Techniques},
+  author = {Järvelin, Kalervo and Kekäläinen, Jaana},
+  date = {2002-10-01},
+  journaltitle = {ACM Transactions on Information Systems (TOIS)},
+  shortjournal = {ACM Trans. Inf. Syst.},
+  volume = {20},
+  number = {4},
+  pages = {422--446},
+  issn = {1046-8188},
+  doi = {10.1145/582415.582418},
+  url = {https://dl.acm.org/doi/10.1145/582415.582418},
+  urldate = {2026-09-12},
+  abstract = {Modern large retrieval environments tend to overwhelm their users by their large output. Since all documents are not of equal relevance to their users, highly relevant documents should be identified and ranked first for presentation. In order to develop IR techniques in this direction, it is necessary to develop evaluation approaches and methods that credit IR methods for their ability to retrieve highly relevant documents. This can be done by extending traditional evaluation methods, that is, recall and precision based on binary relevance judgments, to graded relevance judgments. Alternatively, novel measures based on graded relevance judgments may be developed. This article proposes several novel measures that compute the cumulative gain the user obtains by examining the retrieval result up to a given ranked position. The first one accumulates the relevance scores of retrieved documents along the ranked result list. The second one is similar but applies a discount factor to the relevance scores in order to devaluate late-retrieved documents. The third one computes the relative-to-the-ideal performance of IR techniques, based on the cumulative gain they are able to yield. These novel measures are defined and discussed and their use is demonstrated in a case study using TREC data: sample system run results for 20 queries in TREC-7. As a relevance base we used novel graded relevance judgments on a four-point scale. The test results indicate that the proposed measures credit IR methods for their ability to retrieve highly relevant documents and allow testing of statistical significance of effectiveness differences. The graphs based on the measures also provide insight into the performance IR techniques and allow interpretation, for example, from the user point of view.}
+}
+
+@inproceedings{karpukhin2020,
+  title = {Dense Passage Retrieval for Open-Domain Question Answering},
+  booktitle = {Proceedings of the 2020 {{Conference}} on {{Empirical Methods}} in {{Natural Language Processing}} ({{EMNLP}})},
+  author = {Karpukhin, Vladimir and Oguz, Barlas and Min, Sewon and Lewis, Patrick and Wu, Ledell and Edunov, Sergey and Chen, Danqi and Yih, Wen-tau},
+  editor = {Webber, Bonnie and Cohn, Trevor and He, Yulan and Liu, Yang},
+  date = {2020},
+  pages = {6769--6781},
+  publisher = {Association for Computational Linguistics},
+  location = {Online},
+  doi = {10.18653/v1/2020.emnlp-main.550},
+  url = {https://aclanthology.org/2020.emnlp-main.550/},
+  urldate = {2026-09-12},
+  abstract = {Open-domain question answering relies on efficient passage retrieval to select candidate contexts, where traditional sparse vector space models, such as TF-IDF or BM25, are the de facto method. In this work, we show that retrieval can be practically implemented using dense representations alone, where embeddings are learned from a small number of questions and passages by a simple dual-encoder framework. When evaluated on a wide range of open-domain QA datasets, our dense retriever outperforms a strong Lucene-BM25 system greatly by 9\%-19\% absolute in terms of top-20 passage retrieval accuracy, and helps our end-to-end QA system establish new state-of-the-art on multiple open-domain QA benchmarks.},
+  eventtitle = {{{EMNLP}} 2020}
+}
+
+@article{kaszkiel1997,
+  title = {Passage Retrieval Revisited},
+  author = {Kaszkiel, Marcin and Zobel, Justin},
+  date = {1997-07-01},
+  journaltitle = {ACM SIGIR Forum},
+  volume = {31},
+  number = {SI},
+  pages = {178--185},
+  issn = {0163-5840},
+  doi = {10.1145/278459.258561},
+  url = {https://dl.acm.org/doi/10.1145/278459.258561},
+  urldate = {2026-09-12},
+  abstract = {Ranking based on passages addresses some of the shortcomings of whole-document ranking. It provides convenient units of text to return to the user, avoids the difficulties of comparing documents of different length, and enables identification of short blocks of relevant material amongst otherwise irrelevant text. In this paper we explore the potential of passage retrieval, based on an experimental evaluation of the ability of passages to identify relevant documents. We compare our scheme of arbitrary passage retrieval to several other document retrieval and passage retrieval methods; we show experimentally that, compared to these methods, ranking via fixed-length passages is robust and effective. Our experiments also show that, compared to whole-document ranking, ranking via fixed-length arbitrary passages significantly improves retrieval effectiveness, by 8\% for TREC disks 2 and 4 and by 18\%-37\% for the Federal Register collection.}
+}
+
+@inproceedings{khattab2020,
+  title = {{{ColBERT}}: {{Efficient}} and Effective Passage Search via Contextualized Late Interaction over {{BERT}}},
+  shorttitle = {{{ColBERT}}},
+  booktitle = {Proceedings of the 43rd {{International ACM SIGIR Conference}} on {{Research}} and {{Development}} in {{Information Retrieval}}},
+  author = {Khattab, Omar and Zaharia, Matei},
+  date = {2020-07-25},
+  series = {{{SIGIR}} '20},
+  pages = {39--48},
+  publisher = {Association for Computing Machinery},
+  location = {New York, NY, USA},
+  doi = {10.1145/3397271.3401075},
+  url = {https://dl.acm.org/doi/10.1145/3397271.3401075},
+  urldate = {2026-09-12},
+  abstract = {Recent progress in Natural Language Understanding (NLU) is driving fast-paced advances in Information Retrieval (IR), largely owed to fine-tuning deep language models (LMs) for document ranking. While remarkably effective, the ranking models based on these LMs increase computational cost by orders of magnitude over prior approaches, particularly as they must feed each query-document pair through a massive neural network to compute a single relevance score. To tackle this, we present ColBERT, a novel ranking model that adapts deep LMs (in particular, BERT) for efficient retrieval. ColBERT introduces a late interaction architecture that independently encodes the query and the document using BERT and then employs a cheap yet powerful interaction step that models their fine-grained similarity. By delaying and yet retaining this fine-granular interaction, ColBERT can leverage the expressiveness of deep LMs while simultaneously gaining the ability to pre-compute document representations offline, considerably speeding up query processing. Crucially, ColBERT's pruning-friendly interaction mechanism enables leveraging vector-similarity indexes for end-to-end retrieval directly from millions of documents. We extensively evaluate ColBERT using two recent passage search datasets. Results show that ColBERT's effectiveness is competitive with existing BERT-based models (and outperforms every non-BERT baseline), while executing two orders-of-magnitude faster and requiring up to four orders-of-magnitude fewer FLOPs per query.},
+  isbn = {978-1-4503-8016-4}
+}
+
+@online{kobeissi2026,
+  type = {preprint},
+  title = {Decomposing Retrieval Failures in {{RAG}} for Long-Document Financial Question Answering},
+  author = {Kobeissi, Amine and Langlais, Philippe},
+  date = {2026},
+  eprint = {2602.17981v1},
+  eprinttype = {arXiv},
+  doi = {10.48550/arXiv.2602.17981},
+  url = {http://arxiv.org/abs/2602.17981},
+  urldate = {2026-09-12},
+  abstract = {Retrieval-augmented generation is increasingly used for financial question answering over long regulatory filings, yet reliability depends on retrieving the exact context needed to justify answers in high stakes settings. We study a frequent failure mode in which the correct document is retrieved but the page or chunk that contains the answer is missed, leading the generator to extrapolate from incomplete context. Despite its practical significance, this within-document retrieval failure mode has received limited systematic attention in the Financial Question Answering (QA) literature. We evaluate retrieval at multiple levels of granularity, document, page, and chunk level, and introduce an oracle based analysis to provide empirical upper bounds on retrieval and generative performance. On a 150 question subset of FinanceBench, we reproduce and compare diverse retrieval strategies including dense, sparse, hybrid, and hierarchical methods with reranking and query reformulation. Across methods, gains in document discovery tend to translate into stronger page recall, yet oracle performance still suggests headroom for page and chunk level retrieval. To target this gap, we introduce a domain fine-tuned page scorer that treats pages as an intermediate retrieval unit between documents and chunks. Unlike prior passage-based hierarchical retrieval, we fine-tune a bi-encoder specifically for page-level relevance on financial filings, exploiting the semantic coherence of pages. Overall, our results demonstrate a significant improvement in page recall and chunk retrieval.},
+  pubstate = {prepublished},
+  keywords = {Computer Science - Computation and Language,Computer Science - Information Retrieval}
+}
+
+@online{kreileder2026,
+  title = {Evaluating Chunking Strategies for Retrieval-Augmented Generation on Academic Texts},
+  author = {Kreileder, Valentin J. J. and Reisinger, Johannes and Fischer, Andreas},
+  date = {2026-07-02},
+  eprint = {2607.01852},
+  eprinttype = {arXiv},
+  doi = {10.48550/arXiv.2607.01852},
+  url = {https://arxiv.org/abs/2607.01852v1},
+  urldate = {2026-09-12},
+  abstract = {Retrieval-Augmented Generation (RAG) systems use the question-answering capabilities of Large Language Models (LLMs) to access information outside their parameters. We evaluate if cluster-based semantic chunking improves retrieval and answer quality compared to fixed-size and recursive chunking evaluating on long, structured academic theses using the Retrieval Augmented Generation Assessment (RAGAs) framework. RAGAs based faithfulness shows limited reliability in this setup. Performance on fixed versus document specific questions varied substantially, likely related to the formatting of documents and preprocessing. Under the tested configuration, cluster-based chunking did not outperform simpler strategies.},
+  langid = {english},
+  pubstate = {prepublished}
+}
+
+@dataset{kurry2025,
+  title = {S\&{{P}} 500 Earnings Transcripts Dataset},
+  author = {{kurry}},
+  date = {2025},
+  publisher = {Hugging Face},
+  url = {https://huggingface.co/datasets/kurry/sp500_earnings_transcripts},
+  abstract = {A curated dataset of corporate earnings call transcripts for S\&P 500 constituents hosted on Hugging Face. Designed for natural language processing, financial language modeling, and retrieval-augmented generation (RAG), the dataset provides transcript text alongside metadata such as ticker symbols, fiscal years, quarters, and reporting dates.},
+  titleaddon = {Data set},
+  version = {f3ded372da8d}
+}
+
+@inproceedings{lewis2020,
+  title = {Retrieval-Augmented Generation for Knowledge-Intensive {{NLP}} Tasks},
+  booktitle = {Advances in {{Neural Information Processing Systems}}},
+  author = {Lewis, Patrick and Perez, Ethan and Piktus, Aleksandra and Petroni, Fabio and Karpukhin, Vladimir and Goyal, Naman and Küttler, Heinrich and Lewis, Mike and Yih, Wen-tau and Rocktäschel, Tim and Riedel, Sebastian and Kiela, Douwe},
+  date = {2020},
+  volume = {33},
+  pages = {9459--9474},
+  publisher = {Curran Associates, Inc.},
+  url = {https://proceedings.neurips.cc/paper_files/paper/2020/hash/6b493230-Abstract.html},
+  abstract = {Large pre-trained language models have been shown to store factual knowledge in their parameters, and achieve state-of-the-art results when fine-tuned on downstream NLP tasks. However, their ability to access and precisely manipulate knowledge is still limited, and hence on knowledge-intensive tasks, their performance lags behind task-specific architectures. Additionally, providing provenance for their decisions and updating their world knowledge remain open research problems. Pre-trained models with a differentiable access mechanism to explicit non-parametric memory can overcome this issue, but have so far been only investigated for extractive downstream tasks. We explore a general-purpose fine-tuning recipe for retrieval-augmented generation (RAG) -- models which combine pre-trained parametric and non-parametric memory for language generation. We introduce RAG models where the parametric memory is a pre-trained seq2seq model and the non-parametric memory is a dense vector index of Wikipedia, accessed with a pre-trained neural retriever. We compare two RAG formulations, one which conditions on the same retrieved passages across the whole generated sequence, the other can use different passages per token. We fine-tune and evaluate our models on a wide range of knowledge-intensive NLP tasks and set the state-of-the-art on three open domain QA tasks, outperforming parametric seq2seq models and task-specific retrieve-and-extract architectures. For language generation tasks, we find that RAG models generate more specific, diverse and factual language than a state-of-the-art parametric-only seq2seq baseline.}
+}
+
+@article{loughran2011,
+  title = {When Is a Liability Not a Liability? {{Textual}} Analysis, Dictionaries, and 10-{{Ks}}},
+  shorttitle = {When Is a Liability Not a Liability?},
+  author = {Loughran, Tim and McDonald, Bill},
+  date = {2011},
+  journaltitle = {The Journal of Finance},
+  volume = {66},
+  number = {1},
+  pages = {35--65},
+  issn = {1540-6261},
+  doi = {10.1111/j.1540-6261.2010.01625.x},
+  url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1540-6261.2010.01625.x},
+  urldate = {2026-09-12},
+  abstract = {Previous research uses negative word counts to measure the tone of a text. We show that word lists developed for other disciplines misclassify common words in financial text. In a large sample of 10-Ks during 1994 to 2008, almost three-fourths of the words identified as negative by the widely used Harvard Dictionary are words typically not considered negative in financial contexts. We develop an alternative negative word list, along with five other word lists, that better reflect tone in financial text. We link the word lists to 10-K filing returns, trading volume, return volatility, fraud, material weakness, and unexpected earnings.},
+  langid = {english}
+}
+
+@book{manning2008,
+  title = {Introduction to Information Retrieval},
+  author = {Manning, Christopher D. and Raghavan, Prabhakar and Schütze, Hinrich},
+  date = {2008},
+  publisher = {Cambridge University Press},
+  location = {Cambridge, UK},
+  doi = {10.1017/CBO9780511809071},
+  url = {https://nlp.stanford.edu/IR-book/information-retrieval-book.html},
+  urldate = {2026-09-12}
+}
+
+@article{mcnemar1947,
+  title = {Note on the Sampling Error of the Difference between Correlated Proportions or Percentages},
+  author = {McNemar, Quinn},
+  date = {1947-06-01},
+  journaltitle = {Psychometrika},
+  shortjournal = {Psychometrika},
+  volume = {12},
+  number = {2},
+  pages = {153--157},
+  issn = {1860-0980},
+  doi = {10.1007/BF02295996},
+  url = {https://doi.org/10.1007/BF02295996},
+  urldate = {2026-09-12},
+  abstract = {Two formulas are presented for judging the significance of the difference between correlated proportions. The chi square equivalent of one of the developed formulas is pointed out.},
+  langid = {english},
+  keywords = {Correlate Proportion,Develop Formula,Public Policy,Sampling Error,Statistical Theory}
+}
+
+@inproceedings{muhamed2026,
+  title = {{{RefusalBench}}: {{Generative}} Evaluation of Selective Refusal in Grounded Language Models},
+  shorttitle = {{{RefusalBench}}},
+  booktitle = {Proceedings of the 19th {{Conference}} of the {{European Chapter}} of the {{Association}} for {{Computational Linguistics}} ({{Volume}} 1: {{Long Papers}})},
+  author = {Muhamed, Aashiq and Ribeiro, Leonardo F. R. and Dreyer, Markus and Smith, Virginia and Diab, Mona T.},
+  editor = {Demberg, Vera and Inui, Kentaro and Marquez, Lluís},
+  date = {2026},
+  pages = {6811--6856},
+  publisher = {Association for Computational Linguistics},
+  location = {Rabat, Morocco},
+  doi = {10.18653/v1/2026.eacl-long.321},
+  url = {https://aclanthology.org/2026.eacl-long.321/},
+  urldate = {2026-09-12},
+  abstract = {The ability of language models in RAG systems to selectively refuse to answer based on flawed context is critical for safety, yet remains a significant failure point. Our large-scale study reveals that even frontier models struggle in this setting, with refusal accuracy dropping below 50\% on multi-document tasks, while exhibiting dangerous over-confidence or over-caution. Static benchmarks fail to reliably evaluate this capability, as models exploit dataset-specific artifacts and memorize test instances. We introduce RefusalBench, a generative methodology that programmatically creates diagnostic test cases through controlled linguistic perturbation. Our framework employs 176 distinct perturbation strategies across six categories of informational uncertainty and three intensity levels. Evaluation of over 30 models uncovers systematic failure patterns: refusal comprises separable detection and categorization skills, and neither scale nor extended reasoning improves performance. We find that selective refusal is a trainable, alignment-sensitive capability, offering a clear path for improvement. We release two benchmarks—RefusalBench-NQ (single-document) and RefusalBench-GaRAGe (multi-document), and our complete generation framework to enable continued, dynamic evaluation of this critical capability.},
+  eventtitle = {{{EACL}} 2026},
+  isbn = {979-8-89176-380-7}
+}
+
+@online{nogueira2019,
+  title = {Document Expansion by Query Prediction},
+  author = {Nogueira, Rodrigo and Yang, Wei and Lin, Jimmy and Cho, Kyunghyun},
+  date = {2019},
+  eprint = {1904.08375},
+  eprinttype = {arXiv},
+  doi = {10.48550/arXiv.1904.08375},
+  url = {http://arxiv.org/abs/1904.08375},
+  urldate = {2026-09-12},
+  abstract = {One technique to improve the retrieval effectiveness of a search engine is to expand documents with terms that are related or representative of the documents' content.From the perspective of a question answering system, this might comprise questions the document can potentially answer. Following this observation, we propose a simple method that predicts which queries will be issued for a given document and then expands it with those predictions with a vanilla sequence-to-sequence model, trained using datasets consisting of pairs of query and relevant documents. By combining our method with a highly-effective re-ranking component, we achieve the state of the art in two retrieval tasks. In a latency-critical regime, retrieval results alone (without re-ranking) approach the effectiveness of more computationally expensive neural re-rankers but are much faster.},
+  pubstate = {prepublished},
+  keywords = {Computer Science - Information Retrieval,Computer Science - Machine Learning}
+}
+
+@software{qwen3.8-27b,
+  title = {Qwen3.8-{{27B}}},
+  author = {{Qwen}},
+  date = {2026},
+  publisher = {Hugging Face},
+  url = {https://huggingface.co/Qwen/Qwen3.8-27B},
+  urldate = {2026-09-13},
+  abstract = {Qwen3.8-27B is a 27-billion parameter dense vision-language model built on the Qwen3 architecture. It integrates native multimodal capabilities, flexible reasoning depth control, and a hybrid architecture pairing Gated DeltaNet linear attention with Gated Attention. Supporting a native context window of 262,144 tokens (extensible up to 1,000,000 tokens), it serves as the canonical base model reference for long-context generation and complex analytical tasks.},
+  organization = {Alibaba Cloud},
+  titleaddon = {Large language model}
+}
+
+@software{qwen3.8-flash-next,
+  title = {Qwen3.8-{{Flash-Next}}},
+  author = {{Qwen}},
+  date = {2026},
+  publisher = {Hugging Face},
+  url = {https://huggingface.co/Qwen/Qwen3.8-Flash-Next},
+  urldate = {2026-09-13},
+  abstract = {Qwen3.8-Flash-Next is a sparse Mixture-of-Experts (MoE) model architecture featuring 125B language parameters (6B active per token), 51B n-gram embeddings, and 4B Multi-Token Prediction layers. It introduces Qwen Sparse Attention (QSA) operating on micro-blocks alongside Gated Residual connections to significantly reduce long-context latency across a native 262,144 token context window (extensible to 1M tokens).},
+  organization = {Alibaba Cloud},
+  titleaddon = {Large language model}
+}
+
+@article{robertson2009,
+  title = {The Probabilistic Relevance Framework: {{BM25}} and Beyond},
+  shorttitle = {The Probabilistic Relevance Framework},
+  author = {Robertson, Stephen and Zaragoza, Hugo},
+  date = {2009-09-17},
+  journaltitle = {Foundations and Trends in Information Retrieval},
+  shortjournal = {Foundations and Trends® in Information Retrieval},
+  volume = {3},
+  number = {4},
+  pages = {333--389},
+  doi = {10.1561/1500000019},
+  abstract = {The Probabilistic Relevance Framework (PRF) is a formal framework for document retrieval, grounded in work done in the 1970–1980s, which led to the development of one of the most successful text-retrieval algo¬rithms, BM25. In recent years, research in the PRF has yielded new retrieval models capable of taking into account document meta-data (especially structure and link-graph information). Again, this has led to one of the most successful Web-search and corporate-search algo¬rithms, BM25F. This work presents the PRF from a conceptual point of view, describing the probabilistic modelling assumptions behind the framework and the different ranking algorithms that result from its application: the binary independence model, relevance feedback mod¬els, BM25 and BM25F. It also discusses the relation between the PRF and other statistical models for IR, and covers some related topics, such as the use of non-textual features, and parameter optimisation for models with free parameters.}
+}
+
+@inproceedings{saad-falcon2024,
+  title = {{{ARES}}: {{An}} Automated Evaluation Framework for Retrieval-Augmented Generation Systems},
+  shorttitle = {{{ARES}}},
+  booktitle = {Proceedings of the 2024 {{Conference}} of the {{North American Chapter}} of the {{Association}} for {{Computational Linguistics}}: {{Human Language Technologies}} ({{Volume}} 1: {{Long Papers}})},
+  author = {Saad-Falcon, Jon and Khattab, Omar and Potts, Christopher and Zaharia, Matei},
+  editor = {Duh, Kevin and Gomez, Helena and Bethard, Steven},
+  date = {2024},
+  pages = {338--354},
+  publisher = {Association for Computational Linguistics},
+  location = {Mexico City, Mexico},
+  doi = {10.18653/v1/2024.naacl-long.20},
+  url = {https://aclanthology.org/2024.naacl-long.20/},
+  urldate = {2026-09-13},
+  abstract = {Evaluating retrieval-augmented generation (RAG) systems traditionally relies on hand annotations for input queries, passages to retrieve, and responses to generate. We introduce ARES, an Automated RAG Evaluation System, for evaluating RAG systems along the dimensions of context relevance, answer faithfulness, and answer relevance. By creating its own synthetic training data, ARES finetunes lightweight LM judges to assess the quality of individual RAG components. To mitigate potential prediction errors, ARES utilizes a small set of human-annotated datapoints for prediction-powered inference (PPI). Across eight different knowledge-intensive tasks in KILT, SuperGLUE, and AIS, ARES accurately evaluates RAG systems while using only a few hundred human annotations during evaluation. Furthermore, ARES judges remain effective across domain shifts, proving accurate even after changing the type of queries and/or documents used in the evaluated RAG systems. We make our code and datasets publicly available on Github.},
+  eventtitle = {{{NAACL-HLT}} 2024}
+}
+
+@inproceedings{sarthi2024,
+  title = {{{RAPTOR}}: {{Recursive}} Abstractive Processing for Tree-Organized Retrieval},
+  shorttitle = {{{RAPTOR}}},
+  booktitle = {The {{Twelfth International Conference}} on {{Learning Representations}} ({{ICLR}})},
+  author = {Sarthi, Parth and Abdullah, Salman and Tuli, Aditi and Khanna, Shubh and Goldie, Anna and Manning, Christopher D.},
+  date = {2024},
+  url = {https://proceedings.iclr.cc/paper_files/paper/2024/hash/8a2acd174940dbca361a6398a4f9df91-Abstract-Conference.html},
+  urldate = {2026-09-12},
+  abstract = {Retrieval-augmented language models can better adapt to changes in world state and incorporate long-tail knowledge. However, most existing methods retrieve only short contiguous chunks from a retrieval corpus, limiting holistic understanding of the overall document context. We introduce the novel approach of recursively embedding, clustering, and summarizing chunks of text, constructing a tree with differing levels of summarization from the bottom up. At inference time, our RAPTOR model retrieves from this tree, integrating information across lengthy documents at different levels of abstraction. Controlled experiments show that retrieval with recursive summaries offers significant improvements over traditional retrieval-augmented LMs on several tasks. On question-answering tasks that involve complex, multi-step reasoning, we show state-of-the-art results; for example, by coupling RAPTOR retrieval with the use of GPT-4, we can improve the best performance on the QuALITY benchmark by 20\% in absolute accuracy.},
+  keywords = {Computer Science - Computation and Language,Computer Science - Machine Learning}
+}
+
+@online{sato2026,
+  title = {Learning Evidence Sufficiency Boundaries for Selective Answering in Grounded Multi-Hop {{QA}}},
+  author = {Sato, Haruto and Tanaka, Yuki and Nakamura, Ren and Kobayashi, Aoi and Ito, Mei},
+  date = {2026-09-01},
+  eprint = {2609.01687},
+  eprinttype = {arXiv},
+  eprintclass = {cs.CL},
+  doi = {10.48550/arXiv.2609.01687},
+  url = {http://arxiv.org/abs/2609.01687},
+  urldate = {2026-09-12},
+  abstract = {Grounded question answering systems should answer only when the supplied evidence supports the answer. In multi-hop QA, this requirement is difficult because partial evidence can make an unsupported answer appear plausible. We study selective answering through evidence sufficiency boundaries: for the same question, a model should abstain under unsupported or partially supported context, answer when the context first becomes sufficient, and keep the answer stable when redundant evidence is added. We introduce Evidence Sufficiency Boundary Training, a generation-native training framework that constructs ordered evidence chains and supervises the abstain-to-answer transition directly. The method combines level supervision, a boundary flip margin, post-boundary stability, and answer recall protection. We build evidence chains from HotpotQA, 2WikiMultiHopQA, and MuSiQue, then evaluate models with chain metrics, raw QA utility, and unsupported-answer rates on external non-answerable sets. With Qwen2.5-3B-Instruct and LoRA adaptation, Evidence Sufficiency Boundary Training gives the strongest boundary localization among the tested systems, with flip accuracy of 0.807 compared with 0.781 for a token-level abstention baseline. It also achieves the lowest overall unsupported-answer rate on external non-answerable evaluation, 0.095 compared with 0.101 for the same baseline, while retaining competitive raw QA F1. The results show that grounded selective answering improves when training marks the evidence level where refusal should give way to answering.},
+  pubstate = {prepublished},
+  keywords = {Computer Science - Computation and Language}
+}
+
+@inproceedings{smucker2007,
+  title = {A Comparison of Statistical Significance Tests for Information Retrieval Evaluation},
+  booktitle = {Proceedings of the Sixteenth {{ACM}} Conference on {{Conference}} on Information and Knowledge Management},
+  author = {Smucker, Mark D. and Allan, James and Carterette, Ben},
+  date = {2007-11-06},
+  series = {{{CIKM}} '07},
+  pages = {623--632},
+  publisher = {Association for Computing Machinery},
+  location = {New York, NY, USA},
+  doi = {10.1145/1321440.1321528},
+  url = {https://dl.acm.org/doi/10.1145/1321440.1321528},
+  urldate = {2026-09-12},
+  abstract = {Information retrieval (IR) researchers commonly use three tests of statistical significance: the Student's paired t-test, the Wilcoxon signed rank test, and the sign test. Other researchers have previously proposed using both the bootstrap and Fisher's randomization (permutation) test as non-parametric significance tests for IR but these tests have seen little use. For each of these five tests, we took the ad-hoc retrieval runs submitted to TRECs 3 and 5-8, and for each pair of runs, we measured the statistical significance of the difference in their mean average precision. We discovered that there is little practical difference between the randomization, bootstrap, and t tests. Both the Wilcoxon and sign test have a poor ability to detect significance and have the potential to lead to false detections of significance. The Wilcoxon and sign tests are simplified variants of the randomization test and their use should be discontinued for measuring the significance of a difference between means.},
+  isbn = {978-1-59593-803-9}
+}
+
+@inproceedings{thakur2021,
+  title = {{{BEIR}}: {{A}} Heterogenous Benchmark for Zero-Shot Evaluation of Information Retrieval Models},
+  shorttitle = {{{BEIR}}},
+  booktitle = {Proceedings of the {{Neural Information Processing Systems Track}} on {{Datasets}} and {{Benchmarks}}},
+  author = {Thakur, Nandan and Reimers, Nils and Rücklé, Andreas and Srivastava, Abhishek and Gurevych, Iryna},
+  date = {2021},
+  url = {https://openreview.net/forum?id=wCu6T5xFjeJ},
+  abstract = {Existing neural information retrieval (IR) models have often been studied in homogeneous and narrow settings, which has considerably limited insights into their out-of-distribution (OOD) generalization capabilities. To address this, and to facilitate researchers to broadly evaluate the effectiveness of their models, we introduce Benchmarking-IR (BEIR), a robust and heterogeneous evaluation benchmark for information retrieval. We leverage a careful selection of 18 publicly available datasets from diverse text retrieval tasks and domains and evaluate 10 state-of-the-art retrieval systems including lexical, sparse, dense, late-interaction and re-ranking architectures on the BEIR benchmark. Our results show BM25 is a robust baseline and re-ranking and late-interaction-based models on average achieve the best zero-shot performances, however, at high computational costs. In contrast, dense and sparse-retrieval models are computationally more efficient but often underperform other approaches, highlighting the considerable room for improvement in their generalization capabilities. We hope this framework allows us to better evaluate and understand existing retrieval systems, and contributes to accelerating progress towards better robust and generalizable systems in the future. BEIR is publicly available at https://github.com/UKPLab/beir.},
+  keywords = {Artificial Intelligence (cs.AI),Computation and Language (cs.CL),FOS: Computer and information sciences,Information Retrieval (cs.IR)}
+}
+
+@online{to2025,
+  title = {{{RAG-IT}}: {{Retrieval-augmented}} Instruction Tuning for Automated Financial Analysis -- {{A}} Case Study for the Semiconductor Sector},
+  shorttitle = {{{RAG-IT}}},
+  author = {To, Hai-Thien and Bui, Tien-Cuong and Le, Van-Duc},
+  date = {2025-12-09},
+  eprint = {2412.08179},
+  eprinttype = {arXiv},
+  eprintclass = {q-fin.ST},
+  doi = {10.48550/arXiv.2412.08179},
+  url = {http://arxiv.org/abs/2412.08179},
+  urldate = {2026-09-12},
+  abstract = {Financial analysis relies heavily on the interpretation of earnings reports to assess company performance and guide decision-making. Traditional methods for generating such analyzes require significant financial expertise and are often time-consuming. With the rapid advancement of Large Language Models (LLMs), domain-specific adaptations have emerged for financial tasks such as sentiment analysis and entity recognition. This paper introduces RAG-IT (Retrieval-Augmented Instruction Tuning), a novel framework designed to automate the generation of earnings report analysis through an LLM fine-tuned specifically for the financial domain. Our approach integrates retrieval augmentation with instruction-based fine-tuning to enhance factual accuracy, contextual relevance, and domain adaptability. We construct a sector-specific financial instruction dataset derived from semiconductor industry documents to guide the LLM adaptation to specialized financial reasoning. Using NVIDIA, AMD, and Broadcom as representative companies, our case study demonstrates that RAG-IT substantially improves a general-purpose open-source LLM and achieves performance comparable to commercial systems like GPT-3.5 on financial report generation tasks. This research highlights the potential of retrieval-augmented instruction tuning to streamline and elevate financial analysis automation, advancing the broader field of intelligent financial reporting.},
+  pubstate = {prepublished},
+  keywords = {Computer Science - Artificial Intelligence,Quantitative Finance - Statistical Finance}
+}
+
+@article{tushman1978,
+  title = {Information Processing as an Integrating Concept in Organizational Design},
+  author = {Tushman, Michael L. and Nadler, David A.},
+  date = {1978},
+  journaltitle = {The Academy of Management Review},
+  volume = {3},
+  number = {3},
+  eprint = {257550},
+  eprinttype = {jstor},
+  pages = {613--624},
+  publisher = {Academy of Management},
+  issn = {0363-7425},
+  doi = {10.2307/257550},
+  url = {https://www.jstor.org/stable/257550},
+  urldate = {2026-09-14},
+  abstract = {Concepts of uncertainty and information processing are used to integrate the diverse organization design/structure literatures. This approach more fully explicates the concept of congruence which lies at the heart of contingency ideas. The review suggests a contingency approach to design which develops a feasible set of structural alternatives from which the organization can choose.}
+}
+
+@software{unsloth-qwen3.8-27b-gguf,
+  title = {Qwen3.8-{{27B-GGUF}}},
+  author = {{Unsloth}},
+  date = {2026},
+  publisher = {Hugging Face},
+  url = {https://huggingface.co/unsloth/Qwen3.8-27B-GGUF},
+  urldate = {2026-09-13},
+  abstract = {Quantized GGUF artifact of the Qwen3.8-27B language model optimized by Unsloth for local inference in llama.cpp, LM Studio, and compatible execution engines. This repository provides quantized parameter formats (including Q8\_K\_XL and low-bit variations) designed to minimize VRAM footprints and memory bandwidth requirements during local experimental evaluation while preserving baseline model generation capabilities.},
+  organization = {Hugging Face},
+  titleaddon = {Large language model},
+  version = {UD-Q8\_K\_XL}
+}
+
+@software{unsloth-qwen3.8-flash-next-gguf,
+  title = {Qwen3.8-{{Flash-Next-GGUF}}},
+  author = {{Unsloth}},
+  date = {2026},
+  publisher = {Hugging Face},
+  url = {https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF},
+  urldate = {2026-09-13},
+  abstract = {Quantized GGUF implementation of the Qwen3.8-Flash-Next model provided by Unsloth for local execution and evaluation. It packages the MoE router, n-gram embedding tables, and QSA attention blocks into reduced-precision formats (such as Q8\_0 and Q4\_K\_M) to enable high-throughput local testing on consumer GPU hardware and restricted memory environments.},
+  organization = {Hugging Face},
+  titleaddon = {Large language model},
+  version = {Q8\_0}
+}
+
+@inproceedings{urbano2019,
+  title = {Statistical Significance Testing in Information Retrieval: {{An}} Empirical Analysis of Type {{I}}, Type {{II}} and Type {{III}} Errors},
+  shorttitle = {Statistical Significance Testing in Information Retrieval},
+  booktitle = {Proceedings of the 42nd {{International ACM SIGIR Conference}} on {{Research}} and {{Development}} in {{Information Retrieval}}},
+  author = {Urbano, Julián and Lima, Harlley and Hanjalic, Alan},
+  date = {2019-07-18},
+  eprint = {1905.11096},
+  eprinttype = {arXiv},
+  eprintclass = {cs.IR},
+  pages = {505--514},
+  doi = {10.1145/3331184.3331259},
+  url = {http://arxiv.org/abs/1905.11096},
+  urldate = {2026-09-12},
+  abstract = {Statistical significance testing is widely accepted as a means to assess how well a difference in effectiveness reflects an actual difference between systems, as opposed to random noise because of the selection of topics. According to recent surveys on SIGIR, CIKM, ECIR and TOIS papers, the t-test is the most popular choice among IR researchers. However, previous work has suggested computer intensive tests like the bootstrap or the permutation test, based mainly on theoretical arguments. On empirical grounds, others have suggested non-parametric alternatives such as the Wilcoxon test. Indeed, the question of which tests we should use has accompanied IR and related fields for decades now. Previous theoretical studies on this matter were limited in that we know that test assumptions are not met in IR experiments, and empirical studies were limited in that we do not have the necessary control over the null hypotheses to compute actual Type I and Type II error rates under realistic conditions. Therefore, not only is it unclear which test to use, but also how much trust we should put in them. In contrast to past studies, in this paper we employ a recent simulation methodology from TREC data to go around these limitations. Our study comprises over 500 million p-values computed for a range of tests, systems, effectiveness measures, topic set sizes and effect sizes, and for both the 2-tail and 1-tail cases. Having such a large supply of IR evaluation data with full knowledge of the null hypotheses, we are finally in a position to evaluate how well statistical significance tests really behave with IR data, and make sound recommendations for practitioners.},
+  keywords = {Computer Science - Digital Libraries,Computer Science - Information Retrieval,Computer Science - Machine Learning,Statistics - Applications}
+}
+
+@inproceedings{voorhees2000,
+  title = {The {{TREC-8}} Question Answering Track},
+  booktitle = {Proceedings of the {{Second International Conference}} on {{Language Resources}} and {{Evaluation}} ({{LREC}}'00)},
+  author = {Voorhees, Ellen M. and Tice, Dawn M.},
+  date = {2000-05},
+  url = {http://www.lrec-conf.org/proceedings/lrec2000/pdf/26.pdf},
+  urldate = {2026-09-13},
+  abstract = {Ellen M. Voorhees, Dawn M. Tice. Proceedings of the Second International Conference on Language Resources and Evaluation (LREC’00). 2000.},
+  eventtitle = {Second {{International Conference}} on {{Language Resources}} and {{Evaluation}}},
+  langid = {american}
+}
+
+@article{wilcoxon1945,
+  title = {Individual Comparisons by Ranking Methods},
+  author = {Wilcoxon, Frank},
+  date = {1945},
+  journaltitle = {Biometrics Bulletin},
+  volume = {1},
+  number = {6},
+  eprint = {3001968},
+  eprinttype = {jstor},
+  pages = {80--83},
+  publisher = {[International Biometric Society, Wiley]},
+  issn = {0099-4987},
+  doi = {10.2307/3001968},
+  url = {https://www.jstor.org/stable/3001968},
+  urldate = {2026-09-12}
+}
+
+@online{xiao2023,
+  title = {C-{{Pack}}: {{Packed}} Resources for General {{Chinese}} Embeddings},
+  shorttitle = {C-Pack},
+  author = {Xiao, Shitao and Liu, Zheng and Zhang, Peitian and Muennighoff, Niklas and Lian, Defu and Nie, Jian-Yun},
+  date = {2023-09-14},
+  eprint = {2309.07597},
+  eprinttype = {arXiv},
+  doi = {10.48550/arXiv.2309.07597},
+  url = {https://arxiv.org/abs/2309.07597v5},
+  urldate = {2026-09-12},
+  abstract = {We introduce C-Pack, a package of resources that significantly advance the field of general Chinese embeddings. C-Pack includes three critical resources. 1) C-MTEB is a comprehensive benchmark for Chinese text embeddings covering 6 tasks and 35 datasets. 2) C-MTP is a massive text embedding dataset curated from labeled and unlabeled Chinese corpora for training embedding models. 3) C-TEM is a family of embedding models covering multiple sizes. Our models outperform all prior Chinese text embeddings on C-MTEB by up to +10\% upon the time of the release. We also integrate and optimize the entire suite of training methods for C-TEM. Along with our resources on general Chinese embedding, we release our data and models for English text embeddings. The English models achieve state-of-the-art performance on MTEB benchmark; meanwhile, our released English data is 2 times larger than the Chinese data. All these resources are made publicly available at https://github.com/FlagOpen/FlagEmbedding.},
+  langid = {english},
+  pubstate = {prepublished}
+}
+
+@inproceedings{yang2018,
+  title = {{{HotpotQA}}: {{A}} Dataset for Diverse, Explainable Multi-Hop Question Answering},
+  shorttitle = {{{HotpotQA}}},
+  booktitle = {Proceedings of the 2018 {{Conference}} on {{Empirical Methods}} in {{Natural Language Processing}}},
+  author = {Yang, Zhilin and Qi, Peng and Zhang, Saizheng and Bengio, Yoshua and Cohen, William and Salakhutdinov, Ruslan and Manning, Christopher D.},
+  editor = {Riloff, Ellen and Chiang, David and Hockenmaier, Julia and Tsujii, Jun'ichi},
+  date = {2018},
+  pages = {2369--2380},
+  publisher = {Association for Computational Linguistics},
+  location = {Brussels, Belgium},
+  doi = {10.18653/v1/D18-1259},
+  url = {https://aclanthology.org/D18-1259/},
+  urldate = {2026-09-12},
+  abstract = {Existing question answering (QA) datasets fail to train QA systems to perform complex reasoning and provide explanations for answers. We introduce HotpotQA, a new dataset with 113k Wikipedia-based question-answer pairs with four key features: (1) the questions require finding and reasoning over multiple supporting documents to answer; (2) the questions are diverse and not constrained to any pre-existing knowledge bases or knowledge schemas; (3) we provide sentence-level supporting facts required for reasoning, allowing QA systems to reason with strong supervision and explain the predictions; (4) we offer a new type of factoid comparison questions to test QA systems' ability to extract relevant facts and perform necessary comparison. We show that HotpotQA is challenging for the latest QA systems, and the supporting facts enable models to improve performance and make explainable predictions.},
+  eventtitle = {{{EMNLP}} 2018}
+}
+
+@online{yousuf2026,
+  type = {preprint},
+  title = {Utilizing Metadata for Better Retrieval-Augmented Generation},
+  author = {Yousuf, Raquib Bin and Xu, Shengzhe and Sharma, Mandar and Neeser, Andrew and Latimer, Chris and Ramakrishnan, Naren},
+  date = {2026},
+  eprint = {2601.11863v1},
+  eprinttype = {arXiv},
+  doi = {10.48550/arXiv.2601.11863},
+  url = {http://arxiv.org/abs/2601.11863},
+  urldate = {2026-09-12},
+  abstract = {Retrieval-Augmented Generation systems depend on retrieving semantically relevant document chunks to support accurate, grounded outputs from large language models. In structured and repetitive corpora such as regulatory filings, chunk similarity alone often fails to distinguish between documents with overlapping language. Practitioners often flatten metadata into input text as a heuristic, but the impact and trade-offs of this practice remain poorly understood. We present a systematic study of metadata-aware retrieval strategies, comparing plain-text baselines with approaches that embed metadata directly. Our evaluation spans metadata-as-text (prefix and suffix), a dual-encoder unified embedding that fuses metadata and content in a single index, dual-encoder late-fusion retrieval, and metadata-aware query reformulation. Across multiple retrieval metrics and question types, we find that prefixing and unified embeddings consistently outperform plain-text baselines, with the unified at times exceeding prefixing while being easier to maintain. Beyond empirical comparisons, we analyze embedding space, showing that metadata integration improves effectiveness by increasing intra-document cohesion, reducing inter-document confusion, and widening the separation between relevant and irrelevant chunks. Field-level ablations show that structural cues provide strong disambiguating signals. Our code, evaluation framework, and the RAGMATE-10K dataset are publicly hosted.},
+  pubstate = {prepublished},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Computational Engineering Finance and Science,Computer Science - Information Retrieval}
+}
